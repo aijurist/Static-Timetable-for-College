@@ -1,0 +1,62 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    },
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    },
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1855",
+      "teacher_name": "Mrs. Fowzia Sihana"
+    }
+  ]
+}

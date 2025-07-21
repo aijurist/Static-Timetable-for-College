@@ -1,0 +1,28 @@
+{
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "417",
+      "teacher_name": "Mr. Sathish M"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "417",
+      "teacher_name": "Mr. Sathish M"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "417",
+      "teacher_name": "Mr. Sathish M"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "417",
+      "teacher_name": "Mr. Sathish M"
+    }
+  ]
+}

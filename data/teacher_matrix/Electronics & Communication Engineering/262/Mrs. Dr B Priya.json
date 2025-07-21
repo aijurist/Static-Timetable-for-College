@@ -1,0 +1,40 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "262",
+      "teacher_name": "Mrs. Dr B Priya"
+    }
+  ]
+}

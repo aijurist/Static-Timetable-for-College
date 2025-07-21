@@ -1,0 +1,18 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,16:00,16:50,Digital Logic and Computer Architecture,IT 2.1,C308
+FRIDAY,09:00,09:50,Digital Logic and Computer Architecture,IT 2.1,B218
+WEDNESDAY,16:00,16:50,Digital Logic and Computer Architecture,IT 2.1,A311
+SATURDAY,17:30,19:10,Digital Logic and Computer Architecture,IT 2.1,Livestock Lab
+SATURDAY,15:50,17:30,Digital Logic and Computer Architecture,IT 2.1,Medical Image Processing Lab
+WEDNESDAY,10:00,10:50,Digital Logic and Computer Architecture,IT 2.4,B212
+WEDNESDAY,15:00,15:50,Digital Logic and Computer Architecture,IT 2.4,B212
+THURSDAY,18:00,18:50,Digital Logic and Computer Architecture,IT 2.4,B419
+THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,IT 2.4,Particle Science and Technology Lab
+WEDNESDAY,11:50,13:30,Digital Logic and Computer Architecture,IT 2.4,Microprocessor and Microcontrollers Lab
+THURSDAY,11:00,11:50,Computer Networks,IT 3.2,B219
+SATURDAY,14:00,14:50,Computer Networks,IT 3.2,A103
+FRIDAY,10:00,10:50,Computer Networks,IT 3.2,A309
+FRIDAY,11:50,13:30,Computer Networks,IT 3.2,Electrical Machines II Lab
+FRIDAY,15:50,17:30,Computer Networks,IT 3.2,Power Electronics Lab
+TUESDAY,09:50,11:30,Computer Networks,IT 3.2,JL2
+THURSDAY,11:50,13:30,Computer Networks,IT 3.2,Computer Application in Chemical Engg Lab

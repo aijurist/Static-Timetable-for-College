@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "506",
+      "teacher_name": "Mr. Venkateshwaran N"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "506",
+      "teacher_name": "Mr. Venkateshwaran N"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "506",
+      "teacher_name": "Mr. Venkateshwaran N"
+    }
+  ]
+}

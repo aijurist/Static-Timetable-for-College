@@ -1,0 +1,23 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "558",
+      "teacher_name": "Mr. Eswaran A"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "558",
+      "teacher_name": "Mr. Eswaran A"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "558",
+      "teacher_name": "Mr. Eswaran A"
+    }
+  ]
+}

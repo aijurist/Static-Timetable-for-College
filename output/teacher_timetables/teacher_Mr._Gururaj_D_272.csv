@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,12:00,12:50,Introduction to Python Programming,ECE 2.4,B320
+THURSDAY,15:50,17:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+SATURDAY,15:50,17:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+TUESDAY,08:00,09:40,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+WEDNESDAY,09:50,11:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+WEDNESDAY,12:00,12:50,Digital Signal Processing,ECE 3.4,B222
+TUESDAY,10:00,10:50,Digital Signal Processing,ECE 3.4,B106
+THURSDAY,14:00,14:50,Digital Signal Processing,ECE 3.4,B212
+SATURDAY,17:30,19:10,Digital Signal Processing,ECE 3.4,DSP Lab
+TUESDAY,11:50,13:30,Digital Signal Processing,ECE 3.4,DSP Lab
+THURSDAY,11:50,13:30,Soft Skills – II,ECE 3.1,TLFR2
+SATURDAY,11:50,13:30,Soft Skills – II,ECE 3.1,Computer Application in Chemical Engg Lab

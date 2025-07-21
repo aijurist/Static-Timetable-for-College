@@ -15,21 +15,15 @@ public class TimetableConfig {
             new LocalTime[]{LocalTime.of(11, 0), LocalTime.of(11, 50)},
             new LocalTime[]{LocalTime.of(12, 0), LocalTime.of(12, 50)},
             new LocalTime[]{LocalTime.of(13, 0), LocalTime.of(13, 50)},
-            new LocalTime[]{LocalTime.of(14, 0), LocalTime.of(14, 50)},
-            new LocalTime[]{LocalTime.of(15, 0), LocalTime.of(15, 50)},
-            new LocalTime[]{LocalTime.of(16, 0), LocalTime.of(16, 50)},
-            new LocalTime[]{LocalTime.of(17, 0), LocalTime.of(17, 50)},
-            new LocalTime[]{LocalTime.of(18, 0), LocalTime.of(18, 50)}
+            new LocalTime[]{LocalTime.of(14, 0), LocalTime.of(14, 50)}
     );
 
     // Lab time slots
     public static final List<LocalTime[]> LAB_TIME_SLOTS = List.of(
             new LocalTime[]{LocalTime.of(8, 0), LocalTime.of(9, 40)},
-            new LocalTime[]{LocalTime.of(9, 50), LocalTime.of(11, 30)},
-            new LocalTime[]{LocalTime.of(11, 50), LocalTime.of(13, 30)},
-            new LocalTime[]{LocalTime.of(13, 50), LocalTime.of(15, 30)},
-            new LocalTime[]{LocalTime.of(15, 50), LocalTime.of(17, 30)},
-            new LocalTime[]{LocalTime.of(17, 30), LocalTime.of(19, 10)} 
+            new LocalTime[]{LocalTime.of(10, 00), LocalTime.of(11, 40)},
+            new LocalTime[]{LocalTime.of(11, 50), LocalTime.of(13, 20)},
+            new LocalTime[]{LocalTime.of(13, 20), LocalTime.of(15, 00)}
     );
 
     // Constants

@@ -1,0 +1,23 @@
+{
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "326",
+      "teacher_name": "Mr. A.Nazar Ali"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "326",
+      "teacher_name": "Mr. A.Nazar Ali"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "326",
+      "teacher_name": "Mr. A.Nazar Ali"
+    }
+  ]
+}

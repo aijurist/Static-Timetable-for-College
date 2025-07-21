@@ -1,0 +1,10 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,17:00,17:50,Fundamentals of Data Science,CSE 2.4,A103
+FRIDAY,16:00,16:50,Fundamentals of Data Science,CSE 2.4,B210
+FRIDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.4,B220
+FRIDAY,08:00,09:40,Fundamentals of Data Science,CSE 2.4,TLFR4
+MONDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.4,Physics LAB - 1
+WEDNESDAY,09:00,09:50,Cloud Computing,CSE 4.2,C202
+MONDAY,11:00,11:50,Cloud Computing,CSE 4.2,B422
+MONDAY,11:50,13:30,Cloud Computing,CSE 4.2,Airframe Repair and Aero Engine Lab
+FRIDAY,09:50,11:30,Cloud Computing,CSE 4.2,Vehicle Maintenance Lab

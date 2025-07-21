@@ -1,0 +1,40 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "312",
+      "teacher_name": "Mr. Dr. A. Selvaraj"
+    }
+  ]
+}

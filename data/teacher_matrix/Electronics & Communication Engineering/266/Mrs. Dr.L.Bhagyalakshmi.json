@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "266",
+      "teacher_name": "Mrs. Dr.L.Bhagyalakshmi"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "266",
+      "teacher_name": "Mrs. Dr.L.Bhagyalakshmi"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "266",
+      "teacher_name": "Mrs. Dr.L.Bhagyalakshmi"
+    }
+  ]
+}

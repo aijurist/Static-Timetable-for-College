@@ -1,0 +1,36 @@
+{
+  "tuesday": [
+    {
+      "day": "tuesday",
+      "time_slot": "8:00 - 8:50",
+      "slot_index": 0,
+      "course_instance_id": "665",
+      "course_code": "ME23311",
+      "course_name": "Engineering Thermodynamics",
+      "session_type": "Lecture",
+      "session_number": 2,
+      "teacher_id": 526,
+      "teacher_name": "Mr. Dr. S. Sekar",
+      "staff_code": "ME226",
+      "room_id": 111,
+      "room_number": "TIFAC V03",
+      "block": "A Block",
+      "student_count": 70,
+      "lecture_hours": 3,
+      "tutorial_hours": 1,
+      "schedule_type": "theory",
+      "is_co_scheduled": true,
+      "capacity_info": "Regular: 70 students",
+      "partner_instance_id": null,
+      "group_name": "Mechanical Engineering_S3_G7",
+      "group_index": 7,
+      "department": "Mechanical Engineering",
+      "semester": 3,
+      "day_pattern": "Monday-Friday",
+      "sessionIndex": 2045,
+      "co_schedule_info": "✅ Marked co-scheduled sessions (Lines 5579-5658)",
+      "capacity": 70,
+      "sessionId": "theory_ME23311_Mr. Dr. S. Sekar_988daf5f"
+    }
+  ]
+}

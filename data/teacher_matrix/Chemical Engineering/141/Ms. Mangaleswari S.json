@@ -1,0 +1,40 @@
+{
+  "tuesday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "141",
+      "teacher_name": "Ms. Mangaleswari S"
+    }
+  ]
+}

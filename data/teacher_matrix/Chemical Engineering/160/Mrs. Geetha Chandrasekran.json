@@ -1,0 +1,28 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "160",
+      "teacher_name": "Mrs. Geetha Chandrasekran"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "160",
+      "teacher_name": "Mrs. Geetha Chandrasekran"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "160",
+      "teacher_name": "Mrs. Geetha Chandrasekran"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "160",
+      "teacher_name": "Mrs. Geetha Chandrasekran"
+    }
+  ]
+}

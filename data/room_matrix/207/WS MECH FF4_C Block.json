@@ -1,0 +1,38 @@
+{
+  "monday": [
+    {
+      "day": "monday",
+      "session_name": "L1",
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "course_instance_id": "736",
+      "course_code": "ME23531",
+      "course_code_display": "ME23531 Batch 1",
+      "course_name": "Heat and Mass Transfer",
+      "practical_hours": "2",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar",
+      "staff_code": "ME210",
+      "room_id": "207",
+      "room_number": "WS MECH FF4",
+      "block": "C Block",
+      "capacity": "35",
+      "student_count": "35",
+      "total_students": "70",
+      "is_batched": "1",
+      "batch_info": "Batch 1",
+      "num_batches": "2",
+      "schedule_type": "lab",
+      "group_name": "Mechanical Engineering_S5_G2",
+      "group_index": "2",
+      "department": "Mechanical Engineering",
+      "semester": "5",
+      "day_pattern": "Monday-Friday",
+      "is_co_scheduled": "TRUE",
+      "co_schedule_id": "",
+      "co_schedule_group_size": "1",
+      "co_schedule_partner_teachers": "",
+      "co_schedule_info": "✅ Marked co-scheduled sessions (Lines 5579-5658)",
+      "sessionIndex": "802"
+    }
+  ]
+}

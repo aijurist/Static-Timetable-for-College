@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,15:00,15:50,Cryptography,CSE-CS 2.2,A303
+TUESDAY,16:00,16:50,Cryptography,CSE-CS 2.2,B405
+TUESDAY,10:00,10:50,Cryptography,CSE-CS 2.2,B213
+SATURDAY,11:50,13:30,Cryptography,CSE-CS 2.2,TLGL3
+TUESDAY,11:50,13:30,Cryptography,CSE-CS 2.2,JR1
+WEDNESDAY,10:00,10:50,Ethical Hacking,CSE-CS 3.1,A303
+MONDAY,14:00,14:50,Ethical Hacking,CSE-CS 3.1,B219
+SATURDAY,09:00,09:50,Ethical Hacking,CSE-CS 3.1,B411
+WEDNESDAY,11:50,13:30,Ethical Hacking,CSE-CS 3.1,JL3
+SATURDAY,09:50,11:30,Ethical Hacking,CSE-CS 3.1,Downstream Processing Lab

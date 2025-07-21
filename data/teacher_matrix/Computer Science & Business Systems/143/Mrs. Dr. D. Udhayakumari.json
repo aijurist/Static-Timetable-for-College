@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "143",
+      "teacher_name": "Mrs. Dr. D. Udhayakumari"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "143",
+      "teacher_name": "Mrs. Dr. D. Udhayakumari"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "143",
+      "teacher_name": "Mrs. Dr. D. Udhayakumari"
+    }
+  ]
+}

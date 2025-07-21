@@ -1,0 +1,23 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,16:00,16:50,Computer Architecture,CSE 2.3,B409
+FRIDAY,10:00,10:50,Computer Architecture,CSE 2.3,C301
+THURSDAY,14:00,14:50,Computer Architecture,CSE 2.3,B302
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.2,B402
+TUESDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.2,B321
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.2,C302
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,Microprocessor Lab-2
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,TLFR1
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,Concrete & Survey Lab
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.2,Chemistry Lab
+MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE 2.9,A108
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE 2.9,B107
+THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSE 2.9,A209
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.9,KFL01
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.9,Industrial Automation Lab
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE 2.9,KFR02
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.9,Microprocessor Lab-2
+WEDNESDAY,14:00,14:50,Foundations of Artificial Intelligence,CSE 3.6,B219
+TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE 3.6,C201
+THURSDAY,15:00,15:50,Foundations of Artificial Intelligence,CSE 3.6,A103
+WEDNESDAY,15:50,17:30,Foundations of Artificial Intelligence,CSE 3.6,TLFR1
+MONDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE 3.6,Microbiology Lab

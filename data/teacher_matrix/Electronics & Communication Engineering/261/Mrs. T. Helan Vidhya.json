@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "261",
+      "teacher_name": "Mrs. T. Helan Vidhya"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "261",
+      "teacher_name": "Mrs. T. Helan Vidhya"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "261",
+      "teacher_name": "Mrs. T. Helan Vidhya"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+day,time_range,teacher_id,teacher_name
+monday,5:10 - 6:00 to 6:00 - 6:50,196,Mr. Dr.P.Shanmugam
+monday,1:20 - 2:10 to 2:10 - 3:00,196,Mr. Dr.P.Shanmugam
+monday,3:00 - 3:50,196,Mr. Dr.P.Shanmugam
+monday,12:00 - 12:50,196,Mr. Dr.P.Shanmugam
+fri,1:20 - 2:10 to 2:10 - 3:00,196,Mr. Dr.P.Shanmugam
+fri,12:00 - 12:50,196,Mr. Dr.P.Shanmugam
+tuesday,5:10 - 6:00 to 6:00 - 6:50,196,Mr. Dr.P.Shanmugam
+tuesday,4:00 - 4:50,196,Mr. Dr.P.Shanmugam
+tuesday,10:00 - 10:50,196,Mr. Dr.P.Shanmugam
+tuesday,11:00 - 11:50,196,Mr. Dr.P.Shanmugam
+thur,3:00 - 3:50,196,Mr. Dr.P.Shanmugam
+thur,2:00 - 2:50,196,Mr. Dr.P.Shanmugam
+wed,2:00 - 2:50,196,Mr. Dr.P.Shanmugam

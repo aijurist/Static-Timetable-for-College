@@ -1,0 +1,23 @@
+{
+  "monday": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "118",
+      "teacher_name": "Mrs. Ambigadevi J"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "118",
+      "teacher_name": "Mrs. Ambigadevi J"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "118",
+      "teacher_name": "Mrs. Ambigadevi J"
+    }
+  ]
+}

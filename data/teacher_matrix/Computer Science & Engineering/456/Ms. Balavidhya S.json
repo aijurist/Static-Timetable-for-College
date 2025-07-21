@@ -1,0 +1,26 @@
+{
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "456",
+      "teacher_name": "Ms. Balavidhya S"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "456",
+      "teacher_name": "Ms. Balavidhya S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "456",
+      "teacher_name": "Ms. Balavidhya S"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "456",
+      "teacher_name": "Ms. Balavidhya S"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,CSE 2.6,A108
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.6,B424
+WEDNESDAY,18:00,18:50,Design and Analysis of Algorithms,CSE 2.6,B106
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,CSE 2.6,TLFL4
+MONDAY,08:00,09:40,Design and Analysis of Algorithms,CSE 2.6,Industrial Automation Lab
+FRIDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.6,A311
+THURSDAY,12:00,12:50,Fundamentals of Data Science,CSE 2.6,B211
+FRIDAY,08:00,08:50,Fundamentals of Data Science,CSE 2.6,A205
+MONDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.6,Manufacturing Technology II
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.6,JR3

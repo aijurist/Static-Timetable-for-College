@@ -47,25 +47,25 @@ public class TimetableDataLoader {
     );
 
     private static final Map<String, Map<String, Integer>> DEPARTMENT_DATA = Map.ofEntries(
-            Map.entry("CSE-CS", Map.of("2", 2, "3", 1)),
-            Map.entry("CSE", Map.of("2", 10, "3", 6, "4", 5)),
-            Map.entry("CSBS", Map.of("2", 2, "3", 2, "4", 2)),
-            Map.entry("CSD", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("IT", Map.of("2", 5, "3", 4, "4", 3)),
-            Map.entry("AIML", Map.of("2", 4, "3", 3, "4", 3)),
-            Map.entry("AIDS", Map.of("2", 5, "3", 3, "4", 1)),
-            Map.entry("ECE", Map.of("2", 6, "3", 4, "4", 4)),
-            Map.entry("EEE", Map.of("2", 2, "3", 2, "4", 2)),
-            Map.entry("AERO", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("AUTO", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("MCT", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("MECH", Map.of("2", 2, "3", 2, "4", 3)),
-            Map.entry("BT", Map.of("2", 3, "3", 3, "4", 3)),
-            Map.entry("BME", Map.of("2", 2, "3", 2, "4", 2)),
-            Map.entry("R&A", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("FT", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("CIVIL", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("CHEM", Map.of("2", 1, "3", 1, "4", 1))
+            Map.entry("CSE-CS", Map.of("1", 3)),
+            Map.entry("CSE", Map.of("1", 13)),
+            Map.entry("CSBS", Map.of("1", 2)),
+            Map.entry("CSD", Map.of("1", 1)),
+            Map.entry("IT", Map.of("1", 5)),
+            Map.entry("AIML", Map.of("1", 4)),
+            Map.entry("AIDS", Map.of("1", 6)),
+            Map.entry("ECE", Map.of("1", 8)),
+            Map.entry("EEE", Map.of("1", 2)),
+            Map.entry("AERO", Map.of("1", 1)),
+            Map.entry("AUTO", Map.of("1", 1)),
+            Map.entry("MCT", Map.of("1", 2)),
+            Map.entry("MECH", Map.of("1", 2)),
+            Map.entry("BT", Map.of("1", 3)),
+            Map.entry("BME", Map.of("1", 2)),
+            Map.entry("R&A", Map.of("1", 1)),
+            Map.entry("FT", Map.of("1", 1)),
+            Map.entry("CIVIL", Map.of("1", 1)),
+            Map.entry("CHEM", Map.of("1", 1))
     );
 
     private static class RawDataRecord {
@@ -346,11 +346,21 @@ public class TimetableDataLoader {
                     LESSON_CREATION_LOGGER.info(String.format("Course hours - Lecture: %d, Tutorial: %d, Practical: %d", 
                             course.getLectureHours(), course.getTutorialHours(), course.getPracticalHours()));
 
-                    // Get all teachers who can teach this course (from this department)
+                    // === CHECK: Enough teachers for all sections ===
                     List<String> availableTeacherIds = courseRecords.stream()
                         .map(r -> r.teacherId)
                         .distinct()
                         .collect(Collectors.toList());
+                    int numSections = relevantGroups.size();
+                    int numTeachers = availableTeacherIds.size();
+                    if (numTeachers < numSections) {
+                        throw new RuntimeException(String.format(
+                            "Not enough teachers for course %s (%s) in %s Year %d: %d teachers for %d sections.",
+                            course.getCode(), course.getName(), dept, year, numTeachers, numSections
+                        ));
+                    }
+                    // Get all teachers who can teach this course (from this department)
+                    // (already in availableTeacherIds)
 
                     if (availableTeacherIds.isEmpty()) {
                         LOGGER.warning("No teachers available for course " + courseId);
@@ -594,6 +604,14 @@ public class TimetableDataLoader {
                 }
             }
         }
+        // Sort so D Block rooms come first (for assignment preference)
+        rooms.sort((a, b) -> {
+            boolean aD = "D Block".equalsIgnoreCase(a.getBlock());
+            boolean bD = "D Block".equalsIgnoreCase(b.getBlock());
+            if (aD && !bD) return -1;
+            if (!aD && bD) return 1;
+            return 0;
+        });
         return rooms;
     }
 

@@ -1,0 +1,38 @@
+{
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "366",
+      "teacher_name": "Mr. Dr.V.Sudhakar"
+    }
+  ]
+}

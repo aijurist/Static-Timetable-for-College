@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "9",
+      "teacher_name": "Dr. Surendra Bogadi"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "9",
+      "teacher_name": "Dr. Surendra Bogadi"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "9",
+      "teacher_name": "Dr. Surendra Bogadi"
+    }
+  ]
+}

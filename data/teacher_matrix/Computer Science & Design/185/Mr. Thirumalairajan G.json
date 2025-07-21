@@ -1,0 +1,57 @@
+{
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    },
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "185",
+      "teacher_name": "Mr. Thirumalairajan G"
+    }
+  ]
+}

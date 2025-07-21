@@ -1,0 +1,45 @@
+{
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "10",
+      "teacher_name": "Mr. B Kathiravan"
+    }
+  ]
+}

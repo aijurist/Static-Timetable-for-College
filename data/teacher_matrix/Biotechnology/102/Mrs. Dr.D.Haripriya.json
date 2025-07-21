@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "102",
+      "teacher_name": "Mrs. Dr.D.Haripriya"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "102",
+      "teacher_name": "Mrs. Dr.D.Haripriya"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "102",
+      "teacher_name": "Mrs. Dr.D.Haripriya"
+    }
+  ]
+}

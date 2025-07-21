@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "448",
+      "teacher_name": "Mr. Charles Sagayaraj A C"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "448",
+      "teacher_name": "Mr. Charles Sagayaraj A C"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "448",
+      "teacher_name": "Mr. Charles Sagayaraj A C"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "448",
+      "teacher_name": "Mr. Charles Sagayaraj A C"
+    }
+  ]
+}

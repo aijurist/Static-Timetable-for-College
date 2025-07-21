@@ -1,0 +1,28 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "434",
+      "teacher_name": "Mrs. Anbarasi.V"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "434",
+      "teacher_name": "Mrs. Anbarasi.V"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "434",
+      "teacher_name": "Mrs. Anbarasi.V"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "434",
+      "teacher_name": "Mrs. Anbarasi.V"
+    }
+  ]
+}

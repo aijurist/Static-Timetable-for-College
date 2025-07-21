@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "457",
+      "teacher_name": "Dr. Meenakumari R"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "457",
+      "teacher_name": "Dr. Meenakumari R"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "457",
+      "teacher_name": "Dr. Meenakumari R"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "457",
+      "teacher_name": "Dr. Meenakumari R"
+    }
+  ]
+}

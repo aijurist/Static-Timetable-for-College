@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,14:00,14:50,Theory of Computation,CSE 3.4,A209
+TUESDAY,15:00,15:50,Theory of Computation,CSE 3.4,A309
+MONDAY,16:00,16:50,Theory of Computation,CSE 3.4,B409
+MONDAY,14:00,14:50,Theory of Computation,CSE 3.4,A102
+WEDNESDAY,17:00,17:50,Web Programming,CSE 3.3,A305
+TUESDAY,10:00,10:50,Web Programming,CSE 3.3,B405
+MONDAY,11:00,11:50,Web Programming,CSE 3.3,C201
+FRIDAY,08:00,09:40,Web Programming,CSE 3.3,TLFR2
+THURSDAY,13:50,15:30,Web Programming,CSE 3.3,Airframe Repair and Aero Engine Lab
+MONDAY,11:50,13:30,Web Programming,CSE 3.3,Avionics Lab
+TUESDAY,11:50,13:30,Web Programming,CSE 3.3,Avionics Lab

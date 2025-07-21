@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,12:00,12:50,Operating Systems,CSD 3.1,C301
+THURSDAY,08:00,08:50,Operating Systems,CSD 3.1,B405
+SATURDAY,10:00,10:50,Operating Systems,CSD 3.1,B422
+SATURDAY,11:50,13:30,Operating Systems,CSD 3.1,Networks Lab
+THURSDAY,11:50,13:30,Operating Systems,CSD 3.1,Airframe Repair and Aero Engine Lab
+WEDNESDAY,11:50,13:30,Operating Systems,CSD 3.1,Automotive Components Lab
+THURSDAY,13:50,15:30,Operating Systems,CSD 3.1,JR2
+FRIDAY,18:00,18:50,Foundations of Machine Learning Concepts,CSD 4.1,B426
+WEDNESDAY,08:00,08:50,Foundations of Machine Learning Concepts,CSD 4.1,B402
+WEDNESDAY,09:50,11:30,Foundations of Machine Learning Concepts,CSD 4.1,Airframe Repair and Aero Engine Lab
+TUESDAY,15:50,17:30,Foundations of Machine Learning Concepts,CSD 4.1,Downstream Processing Lab

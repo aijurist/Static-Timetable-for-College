@@ -1,0 +1,33 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "313",
+      "teacher_name": "Mrs. Dr.R.Kalaivani"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "313",
+      "teacher_name": "Mrs. Dr.R.Kalaivani"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "313",
+      "teacher_name": "Mrs. Dr.R.Kalaivani"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "313",
+      "teacher_name": "Mrs. Dr.R.Kalaivani"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "313",
+      "teacher_name": "Mrs. Dr.R.Kalaivani"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "147",
+      "teacher_name": "Mrs. Dr. S. Geetha"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "147",
+      "teacher_name": "Mrs. Dr. S. Geetha"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "147",
+      "teacher_name": "Mrs. Dr. S. Geetha"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "147",
+      "teacher_name": "Mrs. Dr. S. Geetha"
+    }
+  ]
+}

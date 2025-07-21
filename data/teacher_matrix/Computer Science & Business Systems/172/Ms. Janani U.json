@@ -1,0 +1,38 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    },
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    },
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "172",
+      "teacher_name": "Ms. Janani U"
+    }
+  ]
+}

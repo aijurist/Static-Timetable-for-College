@@ -1,0 +1,23 @@
+{
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "162",
+      "teacher_name": "Mrs. Dr.M.Uma Maguesvari"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "162",
+      "teacher_name": "Mrs. Dr.M.Uma Maguesvari"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "162",
+      "teacher_name": "Mrs. Dr.M.Uma Maguesvari"
+    }
+  ]
+}

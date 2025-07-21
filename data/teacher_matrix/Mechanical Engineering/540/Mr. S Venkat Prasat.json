@@ -1,0 +1,40 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "540",
+      "teacher_name": "Mr. S Venkat Prasat"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1862",
+      "teacher_name": "Ebin Joel"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "thur": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "22",
+      "teacher_name": "Mr. Thiyagarajan G"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "22",
+      "teacher_name": "Mr. Thiyagarajan G"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "22",
+      "teacher_name": "Mr. Thiyagarajan G"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "22",
+      "teacher_name": "Mr. Thiyagarajan G"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "22",
+      "teacher_name": "Mr. Thiyagarajan G"
+    }
+  ]
+}

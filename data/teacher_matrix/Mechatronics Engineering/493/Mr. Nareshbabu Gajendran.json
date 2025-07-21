@@ -1,0 +1,65 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "493",
+      "teacher_name": "Mr. Nareshbabu Gajendran"
+    }
+  ]
+}

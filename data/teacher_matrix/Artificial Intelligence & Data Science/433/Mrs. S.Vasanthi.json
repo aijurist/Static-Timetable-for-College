@@ -1,0 +1,30 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "433",
+      "teacher_name": "Mrs. S.Vasanthi"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "433",
+      "teacher_name": "Mrs. S.Vasanthi"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "433",
+      "teacher_name": "Mrs. S.Vasanthi"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "433",
+      "teacher_name": "Mrs. S.Vasanthi"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "286",
+      "teacher_name": "Ms. Dr.S.V.Vinodhini"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "286",
+      "teacher_name": "Ms. Dr.S.V.Vinodhini"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "286",
+      "teacher_name": "Ms. Dr.S.V.Vinodhini"
+    }
+  ]
+}

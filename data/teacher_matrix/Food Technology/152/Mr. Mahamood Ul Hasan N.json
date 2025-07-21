@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "152",
+      "teacher_name": "Mr. Mahamood Ul Hasan N"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "152",
+      "teacher_name": "Mr. Mahamood Ul Hasan N"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "152",
+      "teacher_name": "Mr. Mahamood Ul Hasan N"
+    }
+  ]
+}

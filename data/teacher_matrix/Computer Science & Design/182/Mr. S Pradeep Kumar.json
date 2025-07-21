@@ -1,0 +1,35 @@
+{
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "182",
+      "teacher_name": "Mr. S Pradeep Kumar"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "182",
+      "teacher_name": "Mr. S Pradeep Kumar"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "182",
+      "teacher_name": "Mr. S Pradeep Kumar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "182",
+      "teacher_name": "Mr. S Pradeep Kumar"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "182",
+      "teacher_name": "Mr. S Pradeep Kumar"
+    }
+  ]
+}

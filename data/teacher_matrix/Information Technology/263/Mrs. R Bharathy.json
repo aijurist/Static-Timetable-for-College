@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "263",
+      "teacher_name": "Mrs. R Bharathy"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "263",
+      "teacher_name": "Mrs. R Bharathy"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "263",
+      "teacher_name": "Mrs. R Bharathy"
+    }
+  ]
+}

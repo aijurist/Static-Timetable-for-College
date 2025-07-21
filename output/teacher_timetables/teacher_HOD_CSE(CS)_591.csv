@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,09:00,09:50,Computer Networks,CSE-CS 2.2,B219
+FRIDAY,10:00,10:50,Computer Networks,CSE-CS 2.2,A105
+THURSDAY,16:00,16:50,Computer Networks,CSE-CS 2.2,B404
+FRIDAY,08:00,09:40,Computer Networks,CSE-CS 2.2,Electronic Devices & Circuits Lab
+MONDAY,13:50,15:30,Computer Networks,CSE-CS 2.2,Optical and Microwave Lab
+THURSDAY,11:50,13:30,Computer Networks,CSE-CS 2.2,Heat Transfer Lab
+THURSDAY,09:50,11:30,Computer Networks,CSE-CS 2.2,Electronic Devices & Circuits Lab
+SATURDAY,11:00,11:50,Cryptography,CSE-CS 2.1,A105
+TUESDAY,10:00,10:50,Cryptography,CSE-CS 2.1,C307
+TUESDAY,11:00,11:50,Cryptography,CSE-CS 2.1,A302
+SATURDAY,13:50,15:30,Cryptography,CSE-CS 2.1,Power Electronics Lab
+WEDNESDAY,15:50,17:30,Cryptography,CSE-CS 2.1,Dynamics Lab

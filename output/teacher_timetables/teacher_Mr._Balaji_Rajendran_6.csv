@@ -1,0 +1,16 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,15:00,15:50,NPTEL,AERO 2.1,C202
+TUESDAY,10:00,10:50,NPTEL,AERO 2.1,A210
+TUESDAY,08:00,08:50,NPTEL,AERO 2.1,A310
+WEDNESDAY,12:00,12:50,Aircraft Structures - II,AERO 3.1,B107
+MONDAY,15:00,15:50,Aircraft Structures - II,AERO 3.1,B402
+FRIDAY,11:00,11:50,Aircraft Structures - II,AERO 3.1,B402
+WEDNESDAY,17:30,19:10,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
+THURSDAY,11:50,13:30,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
+THURSDAY,10:00,10:50,Fatigue and Fracture,AERO 4.1,B320
+FRIDAY,15:00,15:50,Fatigue and Fracture,AERO 4.1,B412
+FRIDAY,10:00,10:50,Fatigue and Fracture,AERO 4.1,C308
+MONDAY,17:30,19:10,Aircraft structures lab,AERO 4.1,Microprocessor Lab-1
+TUESDAY,11:50,13:30,Aircraft structures lab,AERO 4.1,Aero CAD Lab
+FRIDAY,08:00,09:40,Aircraft structures lab,AERO 4.1,Metrology & Measurement Lab
+MONDAY,15:50,17:30,Aircraft structures lab,AERO 4.1,LIC Lab

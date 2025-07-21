@@ -1,0 +1,38 @@
+{
+  "monday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "130",
+      "teacher_name": "Mr. G Vijayaraghavan"
+    }
+  ]
+}

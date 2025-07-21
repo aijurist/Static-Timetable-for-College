@@ -1,0 +1,35 @@
+{
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "1813",
+      "teacher_name": "New Faculty Artificial Intelligence & Data Science (NS-NF3)"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "1813",
+      "teacher_name": "New Faculty Artificial Intelligence & Data Science (NS-NF3)"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "1813",
+      "teacher_name": "New Faculty Artificial Intelligence & Data Science (NS-NF3)"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1813",
+      "teacher_name": "New Faculty Artificial Intelligence & Data Science (NS-NF3)"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1813",
+      "teacher_name": "New Faculty Artificial Intelligence & Data Science (NS-NF3)"
+    }
+  ]
+}

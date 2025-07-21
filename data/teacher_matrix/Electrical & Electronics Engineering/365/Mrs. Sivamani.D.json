@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "365",
+      "teacher_name": "Mrs. Sivamani.D"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "365",
+      "teacher_name": "Mrs. Sivamani.D"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "365",
+      "teacher_name": "Mrs. Sivamani.D"
+    }
+  ]
+}

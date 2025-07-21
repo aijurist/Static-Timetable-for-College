@@ -1,0 +1,40 @@
+{
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "299",
+      "teacher_name": "Dr. Jayanthi D"
+    }
+  ]
+}

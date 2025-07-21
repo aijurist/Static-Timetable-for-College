@@ -1,0 +1,28 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "579",
+      "teacher_name": "HOD AUTO"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "579",
+      "teacher_name": "HOD AUTO"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "579",
+      "teacher_name": "HOD AUTO"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "579",
+      "teacher_name": "HOD AUTO"
+    }
+  ]
+}

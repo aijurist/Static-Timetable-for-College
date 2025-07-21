@@ -1,0 +1,28 @@
+{
+  "thur": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "443",
+      "teacher_name": "Dr. Chitra Rameshbabu"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "443",
+      "teacher_name": "Dr. Chitra Rameshbabu"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "443",
+      "teacher_name": "Dr. Chitra Rameshbabu"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "443",
+      "teacher_name": "Dr. Chitra Rameshbabu"
+    }
+  ]
+}

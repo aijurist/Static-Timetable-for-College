@@ -1,0 +1,37 @@
+{
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "163",
+      "teacher_name": "Mrs. Yugasini S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "163",
+      "teacher_name": "Mrs. Yugasini S"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "163",
+      "teacher_name": "Mrs. Yugasini S"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "163",
+      "teacher_name": "Mrs. Yugasini S"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "163",
+      "teacher_name": "Mrs. Yugasini S"
+    }
+  ]
+}

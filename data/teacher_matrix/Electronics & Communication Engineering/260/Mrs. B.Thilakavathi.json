@@ -1,0 +1,42 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "260",
+      "teacher_name": "Mrs. B.Thilakavathi"
+    }
+  ]
+}

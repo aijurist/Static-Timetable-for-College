@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "227",
+      "teacher_name": "Dr. M.Rakesh Kumar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "227",
+      "teacher_name": "Dr. M.Rakesh Kumar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "227",
+      "teacher_name": "Dr. M.Rakesh Kumar"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "227",
+      "teacher_name": "Dr. M.Rakesh Kumar"
+    }
+  ]
+}

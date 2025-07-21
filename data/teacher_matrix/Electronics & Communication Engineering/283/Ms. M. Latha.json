@@ -1,0 +1,60 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "11:50 - 12:30 to 12:30 - 1:20",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:50 - 12:30 to 12:30 - 1:20",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "283",
+      "teacher_name": "Ms. M. Latha"
+    }
+  ]
+}

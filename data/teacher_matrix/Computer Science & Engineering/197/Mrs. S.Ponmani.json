@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "197",
+      "teacher_name": "Mrs. S.Ponmani"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "197",
+      "teacher_name": "Mrs. S.Ponmani"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "197",
+      "teacher_name": "Mrs. S.Ponmani"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "197",
+      "teacher_name": "Mrs. S.Ponmani"
+    }
+  ]
+}

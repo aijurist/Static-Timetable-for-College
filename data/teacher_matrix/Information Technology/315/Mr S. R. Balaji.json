@@ -1,0 +1,33 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "315",
+      "teacher_name": "Mr S. R. Balaji"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "315",
+      "teacher_name": "Mr S. R. Balaji"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "315",
+      "teacher_name": "Mr S. R. Balaji"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "315",
+      "teacher_name": "Mr S. R. Balaji"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "315",
+      "teacher_name": "Mr S. R. Balaji"
+    }
+  ]
+}

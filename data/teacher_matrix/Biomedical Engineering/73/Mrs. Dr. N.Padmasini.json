@@ -1,0 +1,35 @@
+{
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "73",
+      "teacher_name": "Mrs. Dr. N.Padmasini"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "73",
+      "teacher_name": "Mrs. Dr. N.Padmasini"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "73",
+      "teacher_name": "Mrs. Dr. N.Padmasini"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "73",
+      "teacher_name": "Mrs. Dr. N.Padmasini"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "73",
+      "teacher_name": "Mrs. Dr. N.Padmasini"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Day,StartTime,EndTime,Course,Groups,Room
+SATURDAY,11:00,11:50,Computer Networks,AIML 3.1,B405
+FRIDAY,08:00,08:50,Computer Networks,AIML 3.1,C102
+TUESDAY,14:00,14:50,Computer Networks,AIML 3.1,A103
+SATURDAY,11:50,13:30,Computer Networks,AIML 3.1,Manufacturing Technology II
+THURSDAY,11:50,13:30,Computer Networks,AIML 3.1,Particle Science and Technology Lab
+THURSDAY,17:30,19:10,Computer Networks,AIML 3.1,Vehicle Maintenance Lab
+WEDNESDAY,11:50,13:30,Computer Networks,AIML 3.1,TLFR2
+SATURDAY,16:00,16:50,Data Visualization using Python (Professional Elective III),AIML 4.1,B320
+SATURDAY,08:00,08:50,Data Visualization using Python (Professional Elective III),AIML 4.1,C101
+FRIDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),AIML 4.1,JR2
+TUESDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),AIML 4.1,TLFL1
+FRIDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),AIML 4.3,B423
+SATURDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),AIML 4.3,A102
+THURSDAY,13:50,15:30,Data Visualization using Python (Professional Elective III),AIML 4.3,Physics LAB - 1
+WEDNESDAY,13:50,15:30,Data Visualization using Python (Professional Elective III),AIML 4.3,JL1

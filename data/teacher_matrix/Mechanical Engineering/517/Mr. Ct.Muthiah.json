@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "517",
+      "teacher_name": "Mr. Ct.Muthiah"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "517",
+      "teacher_name": "Mr. Ct.Muthiah"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "517",
+      "teacher_name": "Mr. Ct.Muthiah"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "11:50 - 12:30 to 12:30 - 1:20",
+      "teacher_id": "578",
+      "teacher_name": "HOD RA"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "578",
+      "teacher_name": "HOD RA"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "578",
+      "teacher_name": "HOD RA"
+    }
+  ]
+}

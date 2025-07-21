@@ -1,0 +1,35 @@
+{
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "74",
+      "teacher_name": "Mr. Dr.S.Rajkumar"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "74",
+      "teacher_name": "Mr. Dr.S.Rajkumar"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "74",
+      "teacher_name": "Mr. Dr.S.Rajkumar"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "74",
+      "teacher_name": "Mr. Dr.S.Rajkumar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "74",
+      "teacher_name": "Mr. Dr.S.Rajkumar"
+    }
+  ]
+}

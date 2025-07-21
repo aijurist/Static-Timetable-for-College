@@ -1,0 +1,16 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "542",
+      "teacher_name": "Dr. Ramesh G"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "542",
+      "teacher_name": "Dr. Ramesh G"
+    }
+  ]
+}

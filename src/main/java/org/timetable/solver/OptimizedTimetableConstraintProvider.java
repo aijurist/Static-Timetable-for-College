@@ -49,6 +49,10 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 roomConflict(constraintFactory),
                 teacherConflict(constraintFactory),
                 studentGroupConflict(constraintFactory),
+
+                // === NEW: External unavailability constraints ===
+                teacherExternalUnavailability(constraintFactory),
+                roomExternalUnavailability(constraintFactory),
                 
                 // Core lab mapping MUST be enforced (highest priority hard constraint)
                 strictCoreLabMappingEnforcement(constraintFactory),
@@ -81,9 +85,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 
                 // Core lab priority enforcement (prefer lab_1 over lab_2 over lab_3)
                 coreLabPriorityPreference(constraintFactory),
-                
-                // Department block preferences (minimize student travel time)
-                departmentBlockPreference(constraintFactory),
                 
                 // Large lab efficiency - encourage combining batches (DISABLED - only for labs)
                 // largeLab70CapacityBatchCombining(constraintFactory),
@@ -1446,5 +1447,43 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                             return Math.max(10, theoryCount * 5); // Minimum 10, scales with theory count
                         })
                 .asConstraint("Minimum 1 lab session per day");
+    }
+
+    // === NEW: Teacher unavailable due to external matrix ===
+    private Constraint teacherExternalUnavailability(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getTeacher() != null && lesson.getTimeSlot() != null)
+                .filter(lesson -> org.timetable.persistence.ExternalAvailabilityLoader.teacherUnavailable.stream().anyMatch(
+                        slot -> slot.id.equals(lesson.getTeacher().getId())
+                                && slot.day == lesson.getTimeSlot().getDayOfWeek()
+                                && !lesson.getTimeSlot().getStartTime().isAfter(slot.end)
+                                && !lesson.getTimeSlot().getEndTime().isBefore(slot.start)
+                ))
+                .penalize(HardSoftScore.ONE_HARD)
+                .asConstraint("Teacher unavailable (external matrix)");
+    }
+
+    // === NEW: Room unavailable due to external matrix ===
+    private Constraint roomExternalUnavailability(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getRoom() != null && lesson.getTimeSlot() != null)
+                .filter(lesson -> org.timetable.persistence.ExternalAvailabilityLoader.roomUnavailable.stream().anyMatch(
+                        slot -> slot.id.equals(lesson.getRoom().getId())
+                                && slot.day == lesson.getTimeSlot().getDayOfWeek()
+                                && !lesson.getTimeSlot().getStartTime().isAfter(slot.end)
+                                && !lesson.getTimeSlot().getEndTime().isBefore(slot.start)
+                ))
+                .penalize(HardSoftScore.ONE_HARD)
+                .asConstraint("Room unavailable (external matrix)");
+    }
+
+    // === NEW: Prefer D Block for all student groups (theory/tutorial sessions) ===
+    private Constraint preferDBlockForAll(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.requiresTheoryRoom())
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> !"D Block".equalsIgnoreCase(lesson.getRoom().getBlock()))
+                .penalize(HardSoftScore.ONE_SOFT.multiply(5))
+                .asConstraint("Prefer D Block for all student groups (theory/tutorial)");
     }
 }

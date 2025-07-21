@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,09:00,09:50,Deep Learning,AIML 3.1,A204
+THURSDAY,16:00,16:50,Deep Learning,AIML 3.1,B222
+SATURDAY,16:00,16:50,Deep Learning,AIML 3.1,B403
+TUESDAY,15:50,17:30,Deep Learning,AIML 3.1,Embedded System Laboratory(EEE)
+FRIDAY,11:50,13:30,Deep Learning,AIML 3.1,Technical Analysis Lab
+WEDNESDAY,11:00,11:50,Big Data Technology,AIML 4.2,A108
+SATURDAY,10:00,10:50,Big Data Technology,AIML 4.2,A202
+TUESDAY,09:00,09:50,Big Data Technology,AIML 4.2,B405
+TUESDAY,11:50,13:30,Big Data Technology,AIML 4.2,Livestock Lab
+SATURDAY,11:50,13:30,Big Data Technology,AIML 4.2,Electronic Devices & Circuits Lab

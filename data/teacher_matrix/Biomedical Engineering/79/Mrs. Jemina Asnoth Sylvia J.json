@@ -1,0 +1,40 @@
+{
+  "fri": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "79",
+      "teacher_name": "Mrs. Jemina Asnoth Sylvia J"
+    }
+  ]
+}

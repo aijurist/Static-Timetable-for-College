@@ -1,0 +1,16 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "106",
+      "teacher_name": "Mrs. Dr.M.Millicent Mabel"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "106",
+      "teacher_name": "Mrs. Dr.M.Millicent Mabel"
+    }
+  ]
+}

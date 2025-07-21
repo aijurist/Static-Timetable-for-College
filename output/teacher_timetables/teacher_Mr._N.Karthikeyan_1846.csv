@@ -1,0 +1,22 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,14:00,14:50,Database Management Systems,CSE 2.7,B418
+WEDNESDAY,14:00,14:50,Database Management Systems,CSE 2.7,A103
+THURSDAY,11:00,11:50,Database Management Systems,CSE 2.7,C101
+TUESDAY,11:50,13:30,Database Management Systems,CSE 2.7,Physics LAB - 2
+TUESDAY,17:30,19:10,Database Management Systems,CSE 2.7,KFR02
+THURSDAY,11:50,13:30,Database Management Systems,CSE 2.7,Microprocessor and Microcontrollers Lab
+THURSDAY,08:00,09:40,Database Management Systems,CSE 2.7,Aero CAD Lab
+WEDNESDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE 2.3,B220
+WEDNESDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE 2.3,B219
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.3,B220
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.3,Isaac Asimov Laboratory
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.3,Manufacturing Technology I
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE 2.3,Electrical Machines I Lab
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.3,JR1
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.10,B212
+FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.10,A208
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE 2.10,B322
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.10,Medical Image Processing Lab
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.10,Aerodynamics Lab
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.10,Automotive Components Lab
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.10,Avionics Lab

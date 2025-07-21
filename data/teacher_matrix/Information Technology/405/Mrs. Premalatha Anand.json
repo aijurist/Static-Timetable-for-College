@@ -1,0 +1,33 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "405",
+      "teacher_name": "Mrs. Premalatha Anand"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "405",
+      "teacher_name": "Mrs. Premalatha Anand"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "405",
+      "teacher_name": "Mrs. Premalatha Anand"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "405",
+      "teacher_name": "Mrs. Premalatha Anand"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "405",
+      "teacher_name": "Mrs. Premalatha Anand"
+    }
+  ]
+}

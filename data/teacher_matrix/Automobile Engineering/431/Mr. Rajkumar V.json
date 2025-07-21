@@ -1,0 +1,30 @@
+{
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "431",
+      "teacher_name": "Mr. Rajkumar V"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "431",
+      "teacher_name": "Mr. Rajkumar V"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "431",
+      "teacher_name": "Mr. Rajkumar V"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "431",
+      "teacher_name": "Mr. Rajkumar V"
+    }
+  ]
+}

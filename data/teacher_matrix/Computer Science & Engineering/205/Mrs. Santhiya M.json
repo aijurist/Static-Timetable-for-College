@@ -1,0 +1,57 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "205",
+      "teacher_name": "Mrs. Santhiya M"
+    }
+  ]
+}

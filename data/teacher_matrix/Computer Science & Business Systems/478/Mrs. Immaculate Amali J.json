@@ -1,0 +1,16 @@
+{
+  "monday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "478",
+      "teacher_name": "Mrs. Immaculate Amali J"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "478",
+      "teacher_name": "Mrs. Immaculate Amali J"
+    }
+  ]
+}

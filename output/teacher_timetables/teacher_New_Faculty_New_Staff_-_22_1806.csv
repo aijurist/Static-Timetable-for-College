@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+MONDAY,16:00,16:50,Computational Statistics,CSBS 2.1,B404
+FRIDAY,17:00,17:50,Computational Statistics,CSBS 2.1,A103
+MONDAY,17:00,17:50,Computational Statistics,CSBS 2.1,A305
+WEDNESDAY,11:50,13:30,Computational Statistics,CSBS 2.1,JR1
+MONDAY,11:50,13:30,Computational Statistics,CSBS 2.1,Chemistry Lab
+THURSDAY,08:00,08:50,Modern Web Applications,CSBS 4.1,B402
+THURSDAY,09:00,09:50,Modern Web Applications,CSBS 4.1,B419
+MONDAY,11:00,11:50,Modern Web Applications,CSBS 4.1,C307
+TUESDAY,13:50,15:30,Modern Web Applications,CSBS 4.1,Dynamics Lab
+THURSDAY,09:50,11:30,Modern Web Applications,CSBS 4.1,Electrical Machines II Lab

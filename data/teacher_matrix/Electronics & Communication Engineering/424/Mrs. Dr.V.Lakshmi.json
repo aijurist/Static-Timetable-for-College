@@ -1,0 +1,30 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "424",
+      "teacher_name": "Mrs. Dr.V.Lakshmi"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "424",
+      "teacher_name": "Mrs. Dr.V.Lakshmi"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "424",
+      "teacher_name": "Mrs. Dr.V.Lakshmi"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "424",
+      "teacher_name": "Mrs. Dr.V.Lakshmi"
+    }
+  ]
+}

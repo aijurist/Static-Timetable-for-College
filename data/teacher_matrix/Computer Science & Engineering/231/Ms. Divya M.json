@@ -1,0 +1,62 @@
+{
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "231",
+      "teacher_name": "Ms. Divya M"
+    }
+  ]
+}

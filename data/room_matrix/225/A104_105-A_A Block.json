@@ -1,0 +1,36 @@
+{
+  "thur": [
+    {
+      "day": "thur",
+      "time_slot": "8:00 - 8:50",
+      "slot_index": 2,
+      "course_instance_id": "540",
+      "course_code": "BT23331",
+      "course_name": "Analytical Techniques in Biotechnology",
+      "session_type": "Lecture",
+      "session_number": 2,
+      "teacher_id": 116,
+      "teacher_name": "Mrs. Muneeswari Alias Surya S",
+      "staff_code": "BT178",
+      "room_id": 225,
+      "room_number": "A104/105-A",
+      "block": "A Block",
+      "student_count": 70,
+      "lecture_hours": 2,
+      "tutorial_hours": 0,
+      "schedule_type": "theory",
+      "is_co_scheduled": false,
+      "capacity_info": "Regular: 70 students",
+      "partner_instance_id": null,
+      "group_name": "Biotechnology_S3_G2",
+      "group_index": 2,
+      "department": "Biotechnology",
+      "semester": 3,
+      "day_pattern": "Tuesday-Saturday",
+      "sessionIndex": 2838,
+      "co_schedule_info": null,
+      "capacity": 70,
+      "sessionId": "theory_BT23331_Mrs. Muneeswari Alias Surya S_da76b087"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "432",
+      "teacher_name": "Mr. Sathiragavan M"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "432",
+      "teacher_name": "Mr. Sathiragavan M"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "432",
+      "teacher_name": "Mr. Sathiragavan M"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "432",
+      "teacher_name": "Mr. Sathiragavan M"
+    }
+  ]
+}

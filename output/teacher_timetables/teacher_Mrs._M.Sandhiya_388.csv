@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Groups,Room
+SATURDAY,11:00,11:50,Web Programming,IT 3.1,B218
+WEDNESDAY,16:00,16:50,Web Programming,IT 3.1,B424
+SATURDAY,10:00,10:50,Web Programming,IT 3.1,B419
+WEDNESDAY,09:50,11:30,Web Programming,IT 3.1,Thermal Lab 2
+WEDNESDAY,11:50,13:30,Web Programming,IT 3.1,KFL02
+SATURDAY,11:50,13:30,Web Programming,IT 3.1,JR1
+FRIDAY,11:50,13:30,Web Programming,IT 3.1,TLFL3
+THURSDAY,11:00,11:50,Web Programming,IT 3.4,C307
+TUESDAY,16:00,16:50,Web Programming,IT 3.4,A309
+WEDNESDAY,17:00,17:50,Web Programming,IT 3.4,A108
+THURSDAY,11:50,13:30,Web Programming,IT 3.4,Avionics Lab
+SATURDAY,15:50,17:30,Web Programming,IT 3.4,Fluid Mechanics Lab
+FRIDAY,17:30,19:10,Web Programming,IT 3.4,Aircraft Structures Lab
+THURSDAY,08:00,09:40,Web Programming,IT 3.4,JL3

@@ -1,0 +1,62 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    },
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "112",
+      "teacher_name": "Mrs. Dr. G. Carlin Geor Malar"
+    }
+  ]
+}

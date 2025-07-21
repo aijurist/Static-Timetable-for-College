@@ -1,0 +1,33 @@
+{
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "488",
+      "teacher_name": "Ms. Nivethitha S B"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "488",
+      "teacher_name": "Ms. Nivethitha S B"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "488",
+      "teacher_name": "Ms. Nivethitha S B"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "488",
+      "teacher_name": "Ms. Nivethitha S B"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "488",
+      "teacher_name": "Ms. Nivethitha S B"
+    }
+  ]
+}

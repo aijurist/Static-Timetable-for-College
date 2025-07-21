@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Groups,Room
+MONDAY,17:30,19:10,Python Programming for Machine Learning,AERO 2.1,DSP Lab
+TUESDAY,13:50,15:30,Python Programming for Machine Learning,AERO 2.1,DSP Lab
+WEDNESDAY,08:00,09:40,Python Programming for Machine Learning,AERO 2.1,DSP Lab
+MONDAY,15:50,17:30,Python Programming for Machine Learning,AERO 2.1,DSP Lab
+THURSDAY,15:00,15:50,Computational Fluid Dynamics,AERO 4.1,B417
+WEDNESDAY,14:00,14:50,Computational Fluid Dynamics,AERO 4.1,A202
+THURSDAY,11:00,11:50,Computational Fluid Dynamics,AERO 4.1,B212
+FRIDAY,11:50,13:30,Structural And Flow Simulation Laboratory,AERO 4.1,KFR01
+FRIDAY,08:00,09:40,Structural And Flow Simulation Laboratory,AERO 4.1,Aero CAD Lab
+MONDAY,11:50,13:30,Structural And Flow Simulation Laboratory,AERO 4.1,TLFL5
+TUESDAY,17:30,19:10,Structural And Flow Simulation Laboratory,AERO 4.1,Food Microbiology Lab

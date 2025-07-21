@@ -1,0 +1,21 @@
+{
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "477",
+      "teacher_name": "Mr. Dr.M.Balakarthikeyan"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "477",
+      "teacher_name": "Mr. Dr.M.Balakarthikeyan"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "477",
+      "teacher_name": "Mr. Dr.M.Balakarthikeyan"
+    }
+  ]
+}

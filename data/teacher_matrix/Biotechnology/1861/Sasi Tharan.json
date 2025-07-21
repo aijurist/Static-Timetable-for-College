@@ -1,0 +1,38 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1861",
+      "teacher_name": "Sasi Tharan"
+    }
+  ]
+}

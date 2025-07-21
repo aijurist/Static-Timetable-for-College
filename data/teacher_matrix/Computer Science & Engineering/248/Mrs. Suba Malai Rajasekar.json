@@ -1,0 +1,52 @@
+{
+  "monday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    },
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "248",
+      "teacher_name": "Mrs. Suba Malai Rajasekar"
+    }
+  ]
+}

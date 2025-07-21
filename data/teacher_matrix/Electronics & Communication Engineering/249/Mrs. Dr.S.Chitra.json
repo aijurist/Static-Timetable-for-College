@@ -1,0 +1,40 @@
+{
+  "monday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "249",
+      "teacher_name": "Mrs. Dr.S.Chitra"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,AIML 2.2,C202
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,AIML 2.2,B302
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,AIML 2.2,A205
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML 2.2,MEMS Lab
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML 2.2,Soil Mechanics & Highway Lab
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML 2.2,Chemistry Lab
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML 2.2,JL3
+TUESDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML 3.2,Soil Mechanics & Highway Lab
+THURSDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML 3.2,Classroom

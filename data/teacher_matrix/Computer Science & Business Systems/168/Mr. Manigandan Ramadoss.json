@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "168",
+      "teacher_name": "Mr. Manigandan Ramadoss"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "168",
+      "teacher_name": "Mr. Manigandan Ramadoss"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "168",
+      "teacher_name": "Mr. Manigandan Ramadoss"
+    }
+  ]
+}

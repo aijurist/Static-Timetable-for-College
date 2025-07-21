@@ -1,0 +1,23 @@
+{
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "499",
+      "teacher_name": "Mr. Dr. A. Rajkumar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "499",
+      "teacher_name": "Mr. Dr. A. Rajkumar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "499",
+      "teacher_name": "Mr. Dr. A. Rajkumar"
+    }
+  ]
+}

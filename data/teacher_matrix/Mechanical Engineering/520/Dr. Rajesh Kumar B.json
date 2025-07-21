@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "520",
+      "teacher_name": "Dr. Rajesh Kumar B"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "520",
+      "teacher_name": "Dr. Rajesh Kumar B"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "520",
+      "teacher_name": "Dr. Rajesh Kumar B"
+    }
+  ]
+}

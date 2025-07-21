@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "552",
+      "teacher_name": "Mr. J.Venkatamuthukumar"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "552",
+      "teacher_name": "Mr. J.Venkatamuthukumar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "552",
+      "teacher_name": "Mr. J.Venkatamuthukumar"
+    }
+  ]
+}

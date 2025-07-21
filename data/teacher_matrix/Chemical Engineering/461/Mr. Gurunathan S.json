@@ -1,0 +1,30 @@
+{
+  "wed": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "461",
+      "teacher_name": "Mr. Gurunathan S"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "461",
+      "teacher_name": "Mr. Gurunathan S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "461",
+      "teacher_name": "Mr. Gurunathan S"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "461",
+      "teacher_name": "Mr. Gurunathan S"
+    }
+  ]
+}

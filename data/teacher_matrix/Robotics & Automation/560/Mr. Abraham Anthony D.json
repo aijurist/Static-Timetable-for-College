@@ -1,0 +1,28 @@
+{
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "560",
+      "teacher_name": "Mr. Abraham Anthony D"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "560",
+      "teacher_name": "Mr. Abraham Anthony D"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "560",
+      "teacher_name": "Mr. Abraham Anthony D"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "560",
+      "teacher_name": "Mr. Abraham Anthony D"
+    }
+  ]
+}

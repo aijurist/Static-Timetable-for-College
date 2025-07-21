@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "273",
+      "teacher_name": "Mrs. Dr.T.Mariammal"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "273",
+      "teacher_name": "Mrs. Dr.T.Mariammal"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "273",
+      "teacher_name": "Mrs. Dr.T.Mariammal"
+    }
+  ]
+}

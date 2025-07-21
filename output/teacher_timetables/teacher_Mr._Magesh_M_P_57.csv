@@ -1,0 +1,14 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,13:00,13:50,Fundamentals of Machine Learning,AIML 2.4,B401
+TUESDAY,16:00,16:50,Fundamentals of Machine Learning,AIML 2.4,B322
+SATURDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.4,A209
+FRIDAY,11:50,13:30,Fundamentals of Machine Learning,AIML 2.4,JL3
+FRIDAY,13:50,15:30,Fundamentals of Machine Learning,AIML 2.4,Thermal Lab 2
+THURSDAY,10:00,10:50,Information Retrieval (Professional Elective V),AIML 4.1,C302
+THURSDAY,11:00,11:50,Information Retrieval (Professional Elective V),AIML 4.1,C202
+THURSDAY,11:50,13:30,Information Retrieval (Professional Elective V),AIML 4.1,Medical Image Processing Lab
+TUESDAY,11:50,13:30,Information Retrieval (Professional Elective V),AIML 4.1,JR3
+THURSDAY,08:00,08:50,Information Retrieval (Professional Elective V),AIML 4.3,A204
+SATURDAY,15:00,15:50,Information Retrieval (Professional Elective V),AIML 4.3,A204
+SATURDAY,11:50,13:30,Information Retrieval (Professional Elective V),AIML 4.3,TLFR2
+TUESDAY,09:50,11:30,Information Retrieval (Professional Elective V),AIML 4.3,KFL01

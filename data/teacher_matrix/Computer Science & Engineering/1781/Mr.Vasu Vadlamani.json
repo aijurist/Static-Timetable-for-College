@@ -1,0 +1,21 @@
+{
+  "thur": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "1781",
+      "teacher_name": "Mr.Vasu Vadlamani"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1781",
+      "teacher_name": "Mr.Vasu Vadlamani"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1781",
+      "teacher_name": "Mr.Vasu Vadlamani"
+    }
+  ]
+}

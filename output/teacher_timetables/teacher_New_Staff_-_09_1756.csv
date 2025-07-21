@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,09:00,09:50,Web Programming,CSE 3.4,C301
+MONDAY,11:00,11:50,Web Programming,CSE 3.4,B416
+TUESDAY,11:00,11:50,Web Programming,CSE 3.4,B325
+FRIDAY,09:50,11:30,Web Programming,CSE 3.4,Digital Lab-1
+MONDAY,11:50,13:30,Web Programming,CSE 3.4,Bioprocess Lab
+THURSDAY,13:50,15:30,Web Programming,CSE 3.4,Baking Lab
+TUESDAY,11:50,13:30,Web Programming,CSE 3.4,Chemical Reaction Engineering Lab
+MONDAY,10:00,10:50,Computer Networks,CSE 3.4,B321
+FRIDAY,16:00,16:50,Computer Networks,CSE 3.4,A203
+WEDNESDAY,10:00,10:50,Computer Networks,CSE 3.4,B418
+WEDNESDAY,11:50,13:30,Computer Networks,CSE 3.4,TLFL2
+FRIDAY,11:50,13:30,Computer Networks,CSE 3.4,VLSI Lab
+WEDNESDAY,15:50,17:30,Computer Networks,CSE 3.4,Mechatronics Lab
+MONDAY,08:00,09:40,Computer Networks,CSE 3.4,Isaac Asimov Laboratory

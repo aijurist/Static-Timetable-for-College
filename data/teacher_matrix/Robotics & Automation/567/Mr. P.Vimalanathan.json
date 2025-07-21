@@ -1,0 +1,23 @@
+{
+  "tuesday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "567",
+      "teacher_name": "Mr. P.Vimalanathan"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "567",
+      "teacher_name": "Mr. P.Vimalanathan"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "567",
+      "teacher_name": "Mr. P.Vimalanathan"
+    }
+  ]
+}

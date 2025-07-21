@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,12:00,12:50,Design and Analysis of Algorithms,IT 2.4,B424
+TUESDAY,09:00,09:50,Design and Analysis of Algorithms,IT 2.4,B419
+SATURDAY,17:00,17:50,Design and Analysis of Algorithms,IT 2.4,B405
+TUESDAY,09:50,11:30,Design and Analysis of Algorithms,IT 2.4,Microbiology Lab
+FRIDAY,11:50,13:30,Design and Analysis of Algorithms,IT 2.4,MEMS Lab
+THURSDAY,17:00,17:50,Computer Vision,IT 3.3,B412
+WEDNESDAY,09:00,09:50,Computer Vision,IT 3.3,C201
+WEDNESDAY,08:00,08:50,Computer Vision,IT 3.3,B210
+WEDNESDAY,11:50,13:30,Computer Vision,IT 3.3,Livestock Lab
+WEDNESDAY,09:50,11:30,Computer Vision,IT 3.3,Baking Lab

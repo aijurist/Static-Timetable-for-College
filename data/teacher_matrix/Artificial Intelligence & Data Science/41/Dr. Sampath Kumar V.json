@@ -1,0 +1,23 @@
+{
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "41",
+      "teacher_name": "Dr. Sampath Kumar V"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "41",
+      "teacher_name": "Dr. Sampath Kumar V"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "41",
+      "teacher_name": "Dr. Sampath Kumar V"
+    }
+  ]
+}

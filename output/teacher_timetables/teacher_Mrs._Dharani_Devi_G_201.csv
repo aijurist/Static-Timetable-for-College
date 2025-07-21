@@ -1,0 +1,18 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,12:00,12:50,Computer Architecture,CSE 2.2,B422
+FRIDAY,09:00,09:50,Computer Architecture,CSE 2.2,A304
+FRIDAY,16:00,16:50,Computer Architecture,CSE 2.2,B404
+FRIDAY,11:00,11:50,Database Management Systems,CSE 2.1,C201
+TUESDAY,18:00,18:50,Database Management Systems,CSE 2.1,A308
+FRIDAY,10:00,10:50,Database Management Systems,CSE 2.1,B404
+THURSDAY,17:30,19:10,Database Management Systems,CSE 2.1,Chemical Reaction Engineering Lab
+MONDAY,11:50,13:30,Database Management Systems,CSE 2.1,JL1
+WEDNESDAY,08:00,09:40,Database Management Systems,CSE 2.1,Mech CAD Lab
+FRIDAY,11:50,13:30,Database Management Systems,CSE 2.1,TLGL4
+TUESDAY,11:00,11:50,Database Management Systems,CSE 2.10,B222
+THURSDAY,16:00,16:50,Database Management Systems,CSE 2.10,B221
+WEDNESDAY,11:00,11:50,Database Management Systems,CSE 2.10,B404
+MONDAY,15:50,17:30,Database Management Systems,CSE 2.10,Microprocessor Lab-2
+TUESDAY,11:50,13:30,Database Management Systems,CSE 2.10,Heat Transfer Lab
+MONDAY,17:30,19:10,Database Management Systems,CSE 2.10,Industrial Automation Lab
+WEDNESDAY,11:50,13:30,Database Management Systems,CSE 2.10,Technical Analysis Lab

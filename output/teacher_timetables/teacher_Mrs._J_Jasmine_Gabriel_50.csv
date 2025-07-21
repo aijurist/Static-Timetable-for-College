@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,11:00,11:50,Fundamentals of Machine Learning,AIML 2.2,A204
+THURSDAY,15:00,15:50,Fundamentals of Machine Learning,AIML 2.2,C301
+THURSDAY,09:00,09:50,Fundamentals of Machine Learning,AIML 2.2,B107
+TUESDAY,11:50,13:30,Fundamentals of Machine Learning,AIML 2.2,KFL01
+SATURDAY,13:50,15:30,Fundamentals of Machine Learning,AIML 2.2,Embedded System Laboratory(EEE)
+THURSDAY,10:00,10:50,Framework for data and visual Analytics,AIML 3.3,B107
+THURSDAY,11:00,11:50,Framework for data and visual Analytics,AIML 3.3,B221
+TUESDAY,16:00,16:50,Framework for data and visual Analytics,AIML 3.3,C101
+WEDNESDAY,09:50,11:30,Framework for data and visual Analytics,AIML 3.3,Vehicle Maintenance Lab
+THURSDAY,11:50,13:30,Framework for data and visual Analytics,AIML 3.3,Food Chemistry Lab

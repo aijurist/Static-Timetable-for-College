@@ -1,0 +1,28 @@
+{
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "406",
+      "teacher_name": "Mrs. C. Renuga"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "406",
+      "teacher_name": "Mrs. C. Renuga"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "406",
+      "teacher_name": "Mrs. C. Renuga"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "406",
+      "teacher_name": "Mrs. C. Renuga"
+    }
+  ]
+}

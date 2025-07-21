@@ -1,0 +1,26 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "438",
+      "teacher_name": "Mr. Dr. S. Prabhu"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "438",
+      "teacher_name": "Mr. Dr. S. Prabhu"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "438",
+      "teacher_name": "Mr. Dr. S. Prabhu"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "438",
+      "teacher_name": "Mr. Dr. S. Prabhu"
+    }
+  ]
+}

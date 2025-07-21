@@ -1,0 +1,21 @@
+{
+  "wed": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "294",
+      "teacher_name": "Mrs. Dr. V. Geetha Priya"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "294",
+      "teacher_name": "Mrs. Dr. V. Geetha Priya"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "294",
+      "teacher_name": "Mrs. Dr. V. Geetha Priya"
+    }
+  ]
+}

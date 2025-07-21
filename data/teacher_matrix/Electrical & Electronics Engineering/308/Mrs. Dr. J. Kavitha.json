@@ -1,0 +1,23 @@
+{
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "308",
+      "teacher_name": "Mrs. Dr. J. Kavitha"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "308",
+      "teacher_name": "Mrs. Dr. J. Kavitha"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "308",
+      "teacher_name": "Mrs. Dr. J. Kavitha"
+    }
+  ]
+}

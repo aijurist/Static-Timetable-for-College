@@ -1,0 +1,25 @@
+Day,StartTime,EndTime,Course,Groups,Room
+MONDAY,09:00,09:50,Computer Architecture,CSE 2.5,B320
+TUESDAY,10:00,10:50,Computer Architecture,CSE 2.5,B408
+THURSDAY,14:00,14:50,Computer Architecture,CSE 2.5,B405
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.1,B402
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE 2.1,B106
+MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE 2.1,B405
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.1,Microprocessor and Microcontrollers Lab
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.1,Airframe Repair and Aero Engine Lab
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.1,Metrology & Measurement Lab
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.1,KFR01
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.8,A203
+MONDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE 2.8,B422
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.8,C302
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.8,JR1
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.8,TLFL4
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.8,Electrical Machines II Lab
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.8,Food Microbiology Lab
+MONDAY,11:00,11:50,Web Programming,CSE 3.6,B221
+TUESDAY,11:00,11:50,Web Programming,CSE 3.6,A311
+MONDAY,10:00,10:50,Web Programming,CSE 3.6,B412
+FRIDAY,17:30,19:10,Web Programming,CSE 3.6,Power Electronics Lab
+MONDAY,11:50,13:30,Web Programming,CSE 3.6,Industrial Automation Lab
+TUESDAY,11:50,13:30,Web Programming,CSE 3.6,Baking Lab
+FRIDAY,15:50,17:30,Web Programming,CSE 3.6,Electrical Machines II Lab

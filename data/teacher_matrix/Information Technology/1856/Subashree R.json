@@ -1,0 +1,33 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "1856",
+      "teacher_name": "Subashree R"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "1856",
+      "teacher_name": "Subashree R"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1856",
+      "teacher_name": "Subashree R"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1856",
+      "teacher_name": "Subashree R"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "1856",
+      "teacher_name": "Subashree R"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "tuesday": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "577",
+      "teacher_name": "HOD AIML"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "577",
+      "teacher_name": "HOD AIML"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "577",
+      "teacher_name": "HOD AIML"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "577",
+      "teacher_name": "HOD AIML"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "577",
+      "teacher_name": "HOD AIML"
+    }
+  ]
+}

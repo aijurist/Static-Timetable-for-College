@@ -1,0 +1,23 @@
+{
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "338",
+      "teacher_name": "Dr. Dhandayuthapani S"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "338",
+      "teacher_name": "Dr. Dhandayuthapani S"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "338",
+      "teacher_name": "Dr. Dhandayuthapani S"
+    }
+  ]
+}

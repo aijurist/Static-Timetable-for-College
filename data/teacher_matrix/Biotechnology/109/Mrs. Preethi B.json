@@ -1,0 +1,42 @@
+{
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "109",
+      "teacher_name": "Mrs. Preethi B"
+    }
+  ]
+}

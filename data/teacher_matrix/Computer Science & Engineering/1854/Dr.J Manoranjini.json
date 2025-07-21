@@ -1,0 +1,36 @@
+{
+  "tuesday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    },
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1854",
+      "teacher_name": "Dr.J Manoranjini"
+    }
+  ]
+}

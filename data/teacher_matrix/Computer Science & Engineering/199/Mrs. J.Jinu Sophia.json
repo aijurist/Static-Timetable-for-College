@@ -1,0 +1,50 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "199",
+      "teacher_name": "Mrs. J.Jinu Sophia"
+    }
+  ]
+}

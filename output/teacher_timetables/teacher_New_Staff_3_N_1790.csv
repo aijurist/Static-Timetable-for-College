@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE-CS 2.1,B412
+SATURDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE-CS 2.1,B220
+MONDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE-CS 2.1,A102
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-CS 2.1,MEMS Lab
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE-CS 2.1,KFR02
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-CS 2.1,Metrology & Measurement Lab
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-CS 2.1,TLFR2
+SATURDAY,14:00,14:50,Foundations of Artificial Intelligence,CSE-CS 3.1,A304
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,CSE-CS 3.1,A304
+MONDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE-CS 3.1,B418
+SATURDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE-CS 3.1,MEMS Lab
+WEDNESDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE-CS 3.1,KFR03

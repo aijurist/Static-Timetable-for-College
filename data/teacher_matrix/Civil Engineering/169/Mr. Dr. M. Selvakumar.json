@@ -1,0 +1,21 @@
+{
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "169",
+      "teacher_name": "Mr. Dr. M. Selvakumar"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "169",
+      "teacher_name": "Mr. Dr. M. Selvakumar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "169",
+      "teacher_name": "Mr. Dr. M. Selvakumar"
+    }
+  ]
+}

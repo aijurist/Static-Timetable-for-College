@@ -1,0 +1,23 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "131",
+      "teacher_name": "Mr. Dr.T.R.Sundararaman"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "131",
+      "teacher_name": "Mr. Dr.T.R.Sundararaman"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "131",
+      "teacher_name": "Mr. Dr.T.R.Sundararaman"
+    }
+  ]
+}

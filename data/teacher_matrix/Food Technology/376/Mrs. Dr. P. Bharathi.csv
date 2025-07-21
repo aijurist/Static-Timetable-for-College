@@ -1,0 +1,11 @@
+day,time_range,teacher_id,teacher_name
+wed,3:00 - 3:50 to 3:50 - 4:40,376,Mrs. Ms.A.Srimagal
+wed,8:00 - 8:50 to 8:50 - 9:40,376,Mrs. Ms.A.Srimagal
+wed,9:00 - 9:50,376,Mrs. Dr. P. Bharathi
+fri,3:00 - 3:50 to 3:50 - 4:40,376,Mrs. Dr. P. Bharathi
+fri,10:00 - 10:50 to 10:50 - 11:40,376,Mrs. Ms.A.Srimagal
+fri,8:00 - 8:50,376,Mrs. Dr. P. Bharathi
+tuesday,10:00 - 10:50,376,Mrs. Dr. P. Bharathi
+thur,2:00 - 2:50,376,Mrs. Dr. P. Bharathi
+thur,8:00 - 8:50,376,Mrs. Dr. P. Bharathi
+thur,12:00 - 12:50,376,Mrs. Dr. P. Bharathi

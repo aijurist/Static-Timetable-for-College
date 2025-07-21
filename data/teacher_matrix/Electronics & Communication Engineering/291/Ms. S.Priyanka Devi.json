@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "291",
+      "teacher_name": "Ms. S.Priyanka Devi"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "291",
+      "teacher_name": "Ms. S.Priyanka Devi"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "291",
+      "teacher_name": "Ms. S.Priyanka Devi"
+    }
+  ]
+}

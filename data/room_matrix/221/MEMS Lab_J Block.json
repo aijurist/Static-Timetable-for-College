@@ -1,0 +1,38 @@
+{
+  "wed": [
+    {
+      "day": "wed",
+      "session_name": "L2",
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "course_instance_id": "1365",
+      "course_code": "EC23527",
+      "course_code_display": "EC23527",
+      "course_name": "Microfluidics Laboratory",
+      "practical_hours": "2",
+      "teacher_id": "125",
+      "teacher_name": "Ms. Abhilasha Krishnamurthy",
+      "staff_code": "CL17",
+      "room_id": "221",
+      "room_number": "MEMS Lab",
+      "block": "J Block",
+      "capacity": "70",
+      "student_count": "70",
+      "total_students": "70",
+      "is_batched": "0",
+      "batch_info": "",
+      "num_batches": "1",
+      "schedule_type": "lab",
+      "group_name": "Chemical Engineering_S5_G1",
+      "group_index": "1",
+      "department": "Chemical Engineering",
+      "semester": "5",
+      "day_pattern": "Monday-Friday",
+      "is_co_scheduled": "0",
+      "co_schedule_id": "",
+      "co_schedule_group_size": "1",
+      "co_schedule_partner_teachers": "",
+      "co_schedule_info": "Single session",
+      "sessionIndex": "921"
+    }
+  ]
+}

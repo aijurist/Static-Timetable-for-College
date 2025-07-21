@@ -1,0 +1,55 @@
+{
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    },
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "37",
+      "teacher_name": "Mr. Kumaran U"
+    }
+  ]
+}

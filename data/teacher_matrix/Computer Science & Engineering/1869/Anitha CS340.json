@@ -1,0 +1,62 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    },
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "1869",
+      "teacher_name": "Anitha CS340"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "414",
+      "teacher_name": "Mr. V James"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "414",
+      "teacher_name": "Mr. V James"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "414",
+      "teacher_name": "Mr. V James"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "414",
+      "teacher_name": "Mr. V James"
+    }
+  ]
+}

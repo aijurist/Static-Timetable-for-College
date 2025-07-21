@@ -1,0 +1,35 @@
+{
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "378",
+      "teacher_name": "Mrs. Usha S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "378",
+      "teacher_name": "Mrs. Usha S"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "378",
+      "teacher_name": "Mrs. Usha S"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "378",
+      "teacher_name": "Mrs. Usha S"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "378",
+      "teacher_name": "Mrs. Usha S"
+    }
+  ]
+}

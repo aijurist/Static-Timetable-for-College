@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "437",
+      "teacher_name": "Mr. Sriram Sastha"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "437",
+      "teacher_name": "Mr. Sriram Sastha"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "437",
+      "teacher_name": "Mr. Sriram Sastha"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "437",
+      "teacher_name": "Mr. Sriram Sastha"
+    }
+  ]
+}

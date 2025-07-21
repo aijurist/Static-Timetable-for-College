@@ -1,0 +1,10 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,14:00,14:50,Database Management Systems,AIML 2.2,C308
+FRIDAY,12:00,12:50,Database Management Systems,AIML 2.2,B213
+TUESDAY,17:00,17:50,Database Management Systems,AIML 2.2,B425
+THURSDAY,09:50,11:30,Database Management Systems,AIML 2.2,Microbiology Lab
+SATURDAY,11:50,13:30,Database Management Systems,AIML 2.2,Mechatronics Lab
+WEDNESDAY,11:50,13:30,Database Management Systems,AIML 2.2,KFL03
+THURSDAY,11:50,13:30,Database Management Systems,AIML 2.2,KFR02
+WEDNESDAY,15:50,17:30,Build and Deploy Machine Learning Applications,AIML 3.3,Thermal Lab 1
+SATURDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML 3.3,Baking Lab

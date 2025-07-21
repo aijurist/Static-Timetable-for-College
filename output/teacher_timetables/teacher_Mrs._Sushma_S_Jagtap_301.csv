@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,09:00,09:50,Introduction to Python Programming,ECE 2.1,A204
+WEDNESDAY,11:50,13:30,Introduction to Python Programming,ECE 2.1,MCT CAD Lab
+SATURDAY,08:00,09:40,Introduction to Python Programming,ECE 2.1,MCT CAD Lab
+TUESDAY,13:50,15:30,Introduction to Python Programming,ECE 2.1,MCT CAD Lab
+THURSDAY,13:50,15:30,Introduction to Python Programming,ECE 2.1,MCT CAD Lab
+TUESDAY,11:50,13:30,Soft Skills – II,ECE 3.4,KFR03
+FRIDAY,17:30,19:10,Soft Skills – II,ECE 3.4,Vehicle Maintenance Lab
+WEDNESDAY,11:00,11:50,Optical Communication and Networks,ECE 4.3,B210
+TUESDAY,10:00,10:50,Optical Communication and Networks,ECE 4.3,B412
+SATURDAY,11:00,11:50,Optical Communication and Networks,ECE 4.3,A302

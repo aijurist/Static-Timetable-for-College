@@ -1,0 +1,38 @@
+{
+  "monday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "1757",
+      "teacher_name": "New Faculty Computer Science & Engineering (NS-New Staff-5)"
+    }
+  ]
+}

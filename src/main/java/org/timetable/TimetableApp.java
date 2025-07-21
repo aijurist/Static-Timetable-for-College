@@ -22,6 +22,7 @@ import org.timetable.validation.CoreLabMappingEnforcer;
 import org.timetable.validation.ConstraintAnalysisRunner;
 import org.timetable.config.DepartmentBlockConfig;
 import org.timetable.validation.ConstraintViolationAnalyzer;
+import org.timetable.persistence.ExternalAvailabilityLoader;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -69,6 +70,14 @@ public class TimetableApp {
         logger.info("Loaded {} rooms", problem.getRooms().size());
         logger.info("Loaded {} timeslots", problem.getTimeSlots().size());
         logger.info("Created {} lessons to schedule", problem.getLessons().size());
+
+        logger.info("Loading external teacher and room unavailability...");
+        try {
+            ExternalAvailabilityLoader.loadAll("data/teacher_matrix", "data/room_matrix");
+            logger.info("Loaded unavailable slots: {} teacher, {} room", ExternalAvailabilityLoader.teacherUnavailable.size(), ExternalAvailabilityLoader.roomUnavailable.size());
+        } catch (Exception e) {
+            logger.error("Failed to load external unavailability: {}", e.getMessage());
+        }
 
         logger.info("--- Solver Phase ---");
         SolverProperties.logCurrentConfiguration();

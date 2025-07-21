@@ -1,0 +1,26 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "419",
+      "teacher_name": "Mrs. J.Julie"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "419",
+      "teacher_name": "Mrs. J.Julie"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "419",
+      "teacher_name": "Mrs. J.Julie"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "419",
+      "teacher_name": "Mrs. J.Julie"
+    }
+  ]
+}

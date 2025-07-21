@@ -1,0 +1,21 @@
+{
+  "saturday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "1837",
+      "teacher_name": "Suresh kumar S"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "1837",
+      "teacher_name": "Suresh kumar S"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "1837",
+      "teacher_name": "Suresh kumar S"
+    }
+  ]
+}

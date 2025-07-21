@@ -1,0 +1,26 @@
+{
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "441",
+      "teacher_name": "Dr. Ponmana Selvan Arumugam"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "441",
+      "teacher_name": "Dr. Ponmana Selvan Arumugam"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "441",
+      "teacher_name": "Dr. Ponmana Selvan Arumugam"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "441",
+      "teacher_name": "Dr. Ponmana Selvan Arumugam"
+    }
+  ]
+}

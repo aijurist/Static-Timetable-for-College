@@ -1,0 +1,26 @@
+{
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "451",
+      "teacher_name": "Dr. Akshaya A"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "451",
+      "teacher_name": "Dr. Akshaya A"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "451",
+      "teacher_name": "Dr. Akshaya A"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "451",
+      "teacher_name": "Dr. Akshaya A"
+    }
+  ]
+}

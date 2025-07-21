@@ -1,0 +1,30 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "455",
+      "teacher_name": "Mrs. V. Shakila"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "455",
+      "teacher_name": "Mrs. V. Shakila"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "455",
+      "teacher_name": "Mrs. V. Shakila"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "455",
+      "teacher_name": "Mrs. V. Shakila"
+    }
+  ]
+}

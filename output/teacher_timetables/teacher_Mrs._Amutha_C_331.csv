@@ -1,0 +1,17 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,11:50,13:30,IOT for Embedded Applications Laboratory,EEE 2.1,Embedded System Laboratory(EEE)
+TUESDAY,09:50,11:30,IOT for Embedded Applications Laboratory,EEE 2.1,Embedded System Laboratory(EEE)
+WEDNESDAY,11:50,13:30,IOT for Embedded Applications Laboratory,EEE 2.1,Embedded System Laboratory(EEE)
+MONDAY,15:50,17:30,IOT for Embedded Applications Laboratory,EEE 2.1,Embedded System Laboratory(EEE)
+WEDNESDAY,17:30,19:10,IOT for Embedded Applications Laboratory,EEE 2.2,Embedded System Laboratory(EEE)
+FRIDAY,11:50,13:30,IOT for Embedded Applications Laboratory,EEE 2.2,Embedded System Laboratory(EEE)
+WEDNESDAY,15:50,17:30,IOT for Embedded Applications Laboratory,EEE 2.2,Embedded System Laboratory(EEE)
+THURSDAY,17:30,19:10,IOT for Embedded Applications Laboratory,EEE 2.2,Embedded System Laboratory(EEE)
+MONDAY,11:00,11:50,Microprocessors, Microcontrollers and Applications,EEE 3.2,C308
+FRIDAY,09:00,09:50,Microprocessors, Microcontrollers and Applications,EEE 3.2,B415
+FRIDAY,16:00,16:50,Microprocessors, Microcontrollers and Applications,EEE 3.2,B106
+MONDAY,13:50,15:30,Microprocessors, Microcontrollers and Applications,EEE 3.2,Microprocessor and Microcontrollers Lab
+FRIDAY,09:50,11:30,Microprocessors, Microcontrollers and Applications,EEE 3.2,Microprocessor and Microcontrollers Lab
+TUESDAY,15:00,15:50,Fundamentals of Embedded Systems,EEE 4.2,C202
+TUESDAY,08:00,08:50,Fundamentals of Embedded Systems,EEE 4.2,C103
+MONDAY,10:00,10:50,Fundamentals of Embedded Systems,EEE 4.2,A302

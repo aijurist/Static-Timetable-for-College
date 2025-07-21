@@ -28,13 +28,13 @@ if [ ! -f target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar ]; then
     fi
 fi
 
-# Set default parameters
-COURSES_FILE="data/courses/cse_dept_red.csv"
+# Always use first_year_data.csv for course data
+COURSE_DATA="data/courses/first_year_data.csv"
 DATA_DIR="data"
 
 # Override with command line arguments if provided
 if [ ! -z "$1" ]; then
-    COURSES_FILE="$1"
+    COURSE_DATA="$1"
 fi
 
 if [ ! -z "$2" ]; then
@@ -43,4 +43,4 @@ fi
 
 # Run the data load test
 echo "Running the data load test..."
-java -cp target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar org.timetable.DataLoadTest "$COURSES_FILE" "$DATA_DIR" 
+java -cp target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar org.timetable.DataLoadTest "$COURSE_DATA" "$DATA_DIR" 

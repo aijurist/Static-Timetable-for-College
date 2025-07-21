@@ -1,0 +1,21 @@
+{
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "389",
+      "teacher_name": "Mrs. Nithya Bala Sundari S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "389",
+      "teacher_name": "Mrs. Nithya Bala Sundari S"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "389",
+      "teacher_name": "Mrs. Nithya Bala Sundari S"
+    }
+  ]
+}

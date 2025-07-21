@@ -1,0 +1,28 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "485",
+      "teacher_name": "Dr. Ramalakshmi K"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "485",
+      "teacher_name": "Dr. Ramalakshmi K"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "485",
+      "teacher_name": "Dr. Ramalakshmi K"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "485",
+      "teacher_name": "Dr. Ramalakshmi K"
+    }
+  ]
+}

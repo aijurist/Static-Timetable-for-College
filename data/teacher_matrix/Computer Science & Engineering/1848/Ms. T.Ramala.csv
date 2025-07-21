@@ -1,0 +1,11 @@
+day,time_range,teacher_id,teacher_name
+monday,1:20 - 2:10 to 2:10 - 3:00,1848,Ms. T.Ramala
+monday,5:10 - 6:00 to 6:00 - 6:50,1848,Ms. T.Ramala
+monday,12:00 - 12:50,1848,Ms. T.Ramala
+tuesday,5:10 - 6:00 to 6:00 - 6:50,1848,Ms. T.Ramala
+tuesday,10:00 - 10:50,1848,Ms. T.Ramala
+tuesday,11:00 - 11:50,1848,Ms. T.Ramala
+wed,8:00 - 8:50 to 8:50 - 9:40,1848,Ms. T.Ramala
+wed,2:00 - 2:50,1848,Ms. T.Ramala
+thur,2:00 - 2:50,1848,Ms. T.Ramala
+fri,12:00 - 12:50,1848,Ms. T.Ramala

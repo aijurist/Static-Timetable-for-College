@@ -26,13 +26,13 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Set default parameters
-COURSES_FILE="data/courses/cse_dept_red.csv"
+# Always use first_year_data.csv for course data
+COURSE_DATA="data/courses/first_year_data.csv"
 DATA_DIR="data"
 
 # Override with command line arguments if provided
 if [ ! -z "$1" ]; then
-    COURSES_FILE="$1"
+    COURSE_DATA="$1"
 fi
 
 if [ ! -z "$2" ]; then
@@ -41,6 +41,6 @@ fi
 
 # Run the application
 echo "Running the timetable scheduler..."
-echo "Using courses file: $COURSES_FILE"
+echo "Using courses file: $COURSE_DATA"
 echo "Using data directory: $DATA_DIR"
-java -jar target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar "$COURSES_FILE" "$DATA_DIR" 
+java -jar target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar "$COURSE_DATA" "$DATA_DIR" 

@@ -1,0 +1,28 @@
+{
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "430",
+      "teacher_name": "Mrs. Dr. Priya Nair"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "430",
+      "teacher_name": "Mrs. Dr. Priya Nair"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "430",
+      "teacher_name": "Mrs. Dr. Priya Nair"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "430",
+      "teacher_name": "Mrs. Dr. Priya Nair"
+    }
+  ]
+}

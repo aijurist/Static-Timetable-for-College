@@ -1,0 +1,21 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "103",
+      "teacher_name": "Mrs. Dr.Johanna Rajkumar"
+    },
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "103",
+      "teacher_name": "Mrs. Dr.Johanna Rajkumar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "103",
+      "teacher_name": "Mrs. Dr.Johanna Rajkumar"
+    }
+  ]
+}

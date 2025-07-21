@@ -1,0 +1,45 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "289",
+      "teacher_name": "Mr. Senthilraja B"
+    }
+  ]
+}

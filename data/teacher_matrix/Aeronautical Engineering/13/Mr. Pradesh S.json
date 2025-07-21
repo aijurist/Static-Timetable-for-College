@@ -1,0 +1,35 @@
+{
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "13",
+      "teacher_name": "Mr. Pradesh S"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "13",
+      "teacher_name": "Mr. Pradesh S"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "13",
+      "teacher_name": "Mr. Pradesh S"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "13",
+      "teacher_name": "Mr. Pradesh S"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "13",
+      "teacher_name": "Mr. Pradesh S"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "monday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "544",
+      "teacher_name": "Mr. L S Tamizhselvan"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "544",
+      "teacher_name": "Mr. L S Tamizhselvan"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "544",
+      "teacher_name": "Mr. L S Tamizhselvan"
+    }
+  ]
+}

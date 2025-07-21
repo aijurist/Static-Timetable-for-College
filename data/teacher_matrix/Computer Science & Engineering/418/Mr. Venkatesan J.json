@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "418",
+      "teacher_name": "Mr. Venkatesan J"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "418",
+      "teacher_name": "Mr. Venkatesan J"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "418",
+      "teacher_name": "Mr. Venkatesan J"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "418",
+      "teacher_name": "Mr. Venkatesan J"
+    }
+  ]
+}

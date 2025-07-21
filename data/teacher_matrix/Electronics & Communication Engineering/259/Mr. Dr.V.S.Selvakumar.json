@@ -1,0 +1,40 @@
+{
+  "tuesday": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "259",
+      "teacher_name": "Mr. Dr.V.S.Selvakumar"
+    }
+  ]
+}

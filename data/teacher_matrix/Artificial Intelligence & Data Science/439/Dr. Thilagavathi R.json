@@ -1,0 +1,30 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "439",
+      "teacher_name": "Dr. Thilagavathi R"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "439",
+      "teacher_name": "Dr. Thilagavathi R"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "439",
+      "teacher_name": "Dr. Thilagavathi R"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "439",
+      "teacher_name": "Dr. Thilagavathi R"
+    }
+  ]
+}

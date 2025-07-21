@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,16:00,16:50,Fundamentals of Mobile Computing,CSE 3.3,B222
+TUESDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.3,B409
+WEDNESDAY,12:00,12:50,Fundamentals of Mobile Computing,CSE 3.3,B403
+THURSDAY,11:00,11:50,Cloud Computing,CSE 4.1,B211
+MONDAY,11:00,11:50,Cloud Computing,CSE 4.1,B211
+MONDAY,11:50,13:30,Cloud Computing,CSE 4.1,Networks Lab
+WEDNESDAY,09:50,11:30,Cloud Computing,CSE 4.1,Microprocessor Lab-2
+FRIDAY,08:00,08:50,Cloud Computing,CSE 4.5,B219
+FRIDAY,09:00,09:50,Cloud Computing,CSE 4.5,B322
+FRIDAY,11:50,13:30,Cloud Computing,CSE 4.5,Airframe Repair and Aero Engine Lab
+FRIDAY,09:50,11:30,Cloud Computing,CSE 4.5,Computer Application in Chemical Engg Lab

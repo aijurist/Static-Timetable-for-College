@@ -1,0 +1,21 @@
+{
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "75",
+      "teacher_name": "Mr. R.Premkumar"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "75",
+      "teacher_name": "Mr. R.Premkumar"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "75",
+      "teacher_name": "Mr. R.Premkumar"
+    }
+  ]
+}

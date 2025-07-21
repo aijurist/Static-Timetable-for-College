@@ -1,0 +1,23 @@
+Day,StartTime,EndTime,Course,Groups,Room
+WEDNESDAY,18:00,18:50,Design and Analysis of Algorithms,AIML 2.1,C202
+SATURDAY,16:00,16:50,Design and Analysis of Algorithms,AIML 2.1,B219
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,AIML 2.1,B322
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,AIML 2.1,JL3
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,AIML 2.1,Food Chemistry Lab
+SATURDAY,09:00,09:50,Design and Analysis of Algorithms,AIML 2.4,A103
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,AIML 2.4,B218
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,AIML 2.4,B218
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,AIML 2.4,Genetic Engineering Lab
+SATURDAY,11:50,13:30,Design and Analysis of Algorithms,AIML 2.4,Aerodynamics Lab
+WEDNESDAY,11:00,11:50,Recommendation Systems (Professional Elective I),AIML 3.1,C102
+THURSDAY,14:00,14:50,Recommendation Systems (Professional Elective I),AIML 3.1,A208
+WEDNESDAY,11:50,13:30,Recommendation Systems (Professional Elective I),AIML 3.1,KFR01
+SATURDAY,13:50,15:30,Recommendation Systems (Professional Elective I),AIML 3.1,Mechatronics Lab
+WEDNESDAY,10:00,10:50,Recommendation Systems (Professional Elective I),AIML 3.2,B302
+THURSDAY,11:00,11:50,Recommendation Systems (Professional Elective I),AIML 3.2,B222
+TUESDAY,08:00,09:40,Recommendation Systems (Professional Elective I),AIML 3.2,Automotive Components Lab
+THURSDAY,11:50,13:30,Recommendation Systems (Professional Elective I),AIML 3.2,Digital Lab-2
+THURSDAY,17:00,17:50,Recommendation Systems (Professional Elective I),AIML 3.3,A304
+THURSDAY,18:00,18:50,Recommendation Systems (Professional Elective I),AIML 3.3,B401
+FRIDAY,17:30,19:10,Recommendation Systems (Professional Elective I),AIML 3.3,Medical Image Processing Lab
+FRIDAY,15:50,17:30,Recommendation Systems (Professional Elective I),AIML 3.3,KFL02

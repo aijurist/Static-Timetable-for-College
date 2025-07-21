@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1831",
+      "teacher_name": "New Faculty Mathematics (NS-NF-2)"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "1831",
+      "teacher_name": "New Faculty Mathematics (NS-NF-2)"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1831",
+      "teacher_name": "New Faculty Mathematics (NS-NF-2)"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1831",
+      "teacher_name": "New Faculty Mathematics (NS-NF-2)"
+    }
+  ]
+}

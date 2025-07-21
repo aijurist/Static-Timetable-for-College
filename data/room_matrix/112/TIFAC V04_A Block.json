@@ -1,0 +1,36 @@
+{
+  "tuesday": [
+    {
+      "day": "tuesday",
+      "time_slot": "8:00 - 8:50",
+      "slot_index": 0,
+      "course_instance_id": "712",
+      "course_code": "ME19E01",
+      "course_name": "Product Life Cycle Management",
+      "session_type": "Lecture",
+      "session_number": 1,
+      "teacher_id": 527,
+      "teacher_name": "Mr. Dr. S Senthil Murugan",
+      "staff_code": "ME234",
+      "room_id": 112,
+      "room_number": "TIFAC V04",
+      "block": "A Block",
+      "student_count": 70,
+      "lecture_hours": 3,
+      "tutorial_hours": 0,
+      "schedule_type": "theory",
+      "is_co_scheduled": true,
+      "capacity_info": "Regular: 70 students",
+      "partner_instance_id": null,
+      "group_name": "Mechanical Engineering_S7_G7",
+      "group_index": 7,
+      "department": "Mechanical Engineering",
+      "semester": 7,
+      "day_pattern": "Monday-Friday",
+      "sessionIndex": 2026,
+      "co_schedule_info": "✅ Same course co-scheduling (Lines 4277-4281)",
+      "capacity": 70,
+      "sessionId": "theory_ME19E01_Mr. Dr. S Senthil Murugan_49447766"
+    }
+  ]
+}

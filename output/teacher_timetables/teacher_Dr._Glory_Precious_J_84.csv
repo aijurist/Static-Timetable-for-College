@@ -1,0 +1,16 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,10:00,10:50,Pattern Recognition and Neural Networks,BME 3.1,A103
+WEDNESDAY,15:00,15:50,Pattern Recognition and Neural Networks,BME 3.1,A309
+TUESDAY,10:00,10:50,Pattern Recognition and Neural Networks,BME 3.1,B220
+TUESDAY,11:00,11:50,Pattern Recognition and Neural Networks,BME 3.2,C202
+WEDNESDAY,11:00,11:50,Pattern Recognition and Neural Networks,BME 3.2,A203
+FRIDAY,17:00,17:50,Pattern Recognition and Neural Networks,BME 3.2,B402
+WEDNESDAY,09:00,09:50,Hospital Engineering and Management,BME 4.2,B412
+FRIDAY,12:00,12:50,Hospital Engineering and Management,BME 4.2,A208
+FRIDAY,11:00,11:50,Hospital Engineering and Management,BME 4.2,C101
+THURSDAY,08:00,09:40,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation
+THURSDAY,11:50,13:30,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation
+SATURDAY,15:50,17:30,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation
+SATURDAY,17:30,19:10,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation
+THURSDAY,09:50,11:30,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation
+TUESDAY,15:50,17:30,AI-ML-DL in Healthcare,BME 4.1,Electronics and Instrumentation

@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,11:00,11:50,Deep Learning,AIML 3.3,C302
+WEDNESDAY,08:00,08:50,Deep Learning,AIML 3.3,C308
+WEDNESDAY,09:00,09:50,Deep Learning,AIML 3.3,B422
+TUESDAY,11:50,13:30,Deep Learning,AIML 3.3,Automotive Components Lab
+SATURDAY,11:50,13:30,Deep Learning,AIML 3.3,Dynamics Lab
+FRIDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,A102
+WEDNESDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,A109
+THURSDAY,16:00,16:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,A108
+FRIDAY,16:00,16:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,B302
+TUESDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,A210
+THURSDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,B401
+TUESDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,C201
+SATURDAY,17:00,17:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,C301
+FRIDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,B418

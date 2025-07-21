@@ -1,0 +1,57 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    },
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "11:50 - 12:30 to 12:30 - 1:20",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    },
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "522",
+      "teacher_name": "Mr. Dr.S.Kumar"
+    }
+  ]
+}

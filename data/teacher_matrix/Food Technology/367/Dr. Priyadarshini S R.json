@@ -1,0 +1,47 @@
+{
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "367",
+      "teacher_name": "Ms. Divyashree J S"
+    },
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "367",
+      "teacher_name": "Ms. Divyashree J S"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "367",
+      "teacher_name": "Dr. Priyadarshini S R"
+    },
+    {
+      "time_range": "5:10 - 6:00 to 6:00 - 6:50",
+      "teacher_id": "367",
+      "teacher_name": "Dr. Priyadarshini S R"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "367",
+      "teacher_name": "Dr. Priyadarshini S R"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "367",
+      "teacher_name": "Dr. Priyadarshini S R"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "367",
+      "teacher_name": "Dr. Priyadarshini S R"
+    }
+  ]
+}

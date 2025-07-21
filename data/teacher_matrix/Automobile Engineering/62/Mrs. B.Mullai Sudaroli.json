@@ -1,0 +1,28 @@
+{
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50 to 10:50 - 11:40",
+      "teacher_id": "62",
+      "teacher_name": "Mrs. B.Mullai Sudaroli"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "62",
+      "teacher_name": "Mrs. B.Mullai Sudaroli"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "62",
+      "teacher_name": "Mrs. B.Mullai Sudaroli"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "62",
+      "teacher_name": "Mrs. B.Mullai Sudaroli"
+    }
+  ]
+}

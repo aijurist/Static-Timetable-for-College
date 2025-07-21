@@ -1,0 +1,62 @@
+{
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    },
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "238",
+      "teacher_name": "Dr. Balasubramanian V"
+    }
+  ]
+}

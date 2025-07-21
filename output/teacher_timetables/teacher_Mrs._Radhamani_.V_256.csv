@@ -1,0 +1,9 @@
+Day,StartTime,EndTime,Course,Groups,Room
+TUESDAY,11:00,11:50,Digital Signal Processing,ECE 3.1,A210
+WEDNESDAY,13:00,13:50,Digital Signal Processing,ECE 3.1,B320
+SATURDAY,10:00,10:50,Digital Signal Processing,ECE 3.1,B325
+SATURDAY,11:50,13:30,Digital Signal Processing,ECE 3.1,DSP Lab
+WEDNESDAY,13:50,15:30,Digital Signal Processing,ECE 3.1,DSP Lab
+SATURDAY,08:00,08:50,Control System Engineering,ECE 3.1,B403
+THURSDAY,08:00,08:50,Control System Engineering,ECE 3.1,B426
+FRIDAY,15:00,15:50,Control System Engineering,ECE 3.1,B404

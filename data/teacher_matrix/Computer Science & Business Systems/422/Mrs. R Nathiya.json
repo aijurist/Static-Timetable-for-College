@@ -1,0 +1,33 @@
+{
+  "wed": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "422",
+      "teacher_name": "Mrs. R Nathiya"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "422",
+      "teacher_name": "Mrs. R Nathiya"
+    },
+    {
+      "time_range": "12:00 - 12:50",
+      "teacher_id": "422",
+      "teacher_name": "Mrs. R Nathiya"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "422",
+      "teacher_name": "Mrs. R Nathiya"
+    },
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "422",
+      "teacher_name": "Mrs. R Nathiya"
+    }
+  ]
+}

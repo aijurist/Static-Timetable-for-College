@@ -1,0 +1,23 @@
+{
+  "thur": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "317",
+      "teacher_name": "Dr. R Jeevani"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "317",
+      "teacher_name": "Dr. R Jeevani"
+    }
+  ],
+  "monday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "317",
+      "teacher_name": "Dr. R Jeevani"
+    }
+  ]
+}

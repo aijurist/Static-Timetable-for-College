@@ -1,0 +1,21 @@
+{
+  "wed": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "132",
+      "teacher_name": "Mr. Dr. Vincent Joseph Kl"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "132",
+      "teacher_name": "Mr. Dr. Vincent Joseph Kl"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "132",
+      "teacher_name": "Mr. Dr. Vincent Joseph Kl"
+    }
+  ]
+}

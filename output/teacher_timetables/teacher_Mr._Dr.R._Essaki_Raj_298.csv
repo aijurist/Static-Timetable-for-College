@@ -1,0 +1,9 @@
+Day,StartTime,EndTime,Course,Groups,Room
+MONDAY,15:00,15:50,Control Systems,EEE 3.1,B404
+MONDAY,11:00,11:50,Control Systems,EEE 3.1,C101
+MONDAY,10:00,10:50,Control Systems,EEE 3.1,B220
+FRIDAY,11:00,11:50,Renewable Energy Systems,EEE 4.1,B426
+THURSDAY,15:00,15:50,Renewable Energy Systems,EEE 4.1,B218
+FRIDAY,09:00,09:50,Renewable Energy Systems,EEE 4.1,A303
+FRIDAY,11:50,13:30,Renewable Energy Systems,EEE 4.1,Power System Simulation Lab
+THURSDAY,15:50,17:30,Renewable Energy Systems,EEE 4.1,Power System Simulation Lab

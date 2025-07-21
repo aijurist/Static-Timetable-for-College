@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Groups,Room
+THURSDAY,08:00,08:50,Design and Analysis of Algorithms,AIML 2.3,B213
+SATURDAY,17:00,17:50,Design and Analysis of Algorithms,AIML 2.3,A202
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,AIML 2.3,C101
+THURSDAY,11:50,13:30,Design and Analysis of Algorithms,AIML 2.3,KFL01
+THURSDAY,13:50,15:30,Design and Analysis of Algorithms,AIML 2.3,VLSI Lab
+TUESDAY,17:00,17:50,Deep Learning,AIML 3.2,B404
+SATURDAY,11:00,11:50,Deep Learning,AIML 3.2,C301
+FRIDAY,15:00,15:50,Deep Learning,AIML 3.2,A103
+SATURDAY,11:50,13:30,Deep Learning,AIML 3.2,Thermal Lab 1
+TUESDAY,11:50,13:30,Deep Learning,AIML 3.2,TLFR5

@@ -1,0 +1,35 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "7",
+      "teacher_name": "Mr. Nithiyanantham K K"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "7",
+      "teacher_name": "Mr. Nithiyanantham K K"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "7",
+      "teacher_name": "Mr. Nithiyanantham K K"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "7",
+      "teacher_name": "Mr. Nithiyanantham K K"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "2:00 - 2:50",
+      "teacher_id": "7",
+      "teacher_name": "Mr. Nithiyanantham K K"
+    }
+  ]
+}

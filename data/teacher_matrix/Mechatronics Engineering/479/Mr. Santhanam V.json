@@ -1,0 +1,23 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "479",
+      "teacher_name": "Mr. Santhanam V"
+    }
+  ],
+  "saturday": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "479",
+      "teacher_name": "Mr. Santhanam V"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "479",
+      "teacher_name": "Mr. Santhanam V"
+    }
+  ]
+}

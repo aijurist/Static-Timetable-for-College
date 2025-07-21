@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "293",
+      "teacher_name": "Mrs. Tamilarasi M"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "293",
+      "teacher_name": "Mrs. Tamilarasi M"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "293",
+      "teacher_name": "Mrs. Tamilarasi M"
+    }
+  ]
+}

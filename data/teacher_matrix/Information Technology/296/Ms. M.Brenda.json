@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "296",
+      "teacher_name": "Ms. M.Brenda"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "296",
+      "teacher_name": "Ms. M.Brenda"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "296",
+      "teacher_name": "Ms. M.Brenda"
+    }
+  ]
+}

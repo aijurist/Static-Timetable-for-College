@@ -1,0 +1,23 @@
+{
+  "thur": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1746",
+      "teacher_name": "New Faculty Electronics & Communication Engineering (NS-EC223)"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "1746",
+      "teacher_name": "New Faculty Electronics & Communication Engineering (NS-EC223)"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "1746",
+      "teacher_name": "New Faculty Electronics & Communication Engineering (NS-EC223)"
+    }
+  ]
+}

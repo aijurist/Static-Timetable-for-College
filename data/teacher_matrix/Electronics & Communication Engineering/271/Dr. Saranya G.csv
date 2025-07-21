@@ -1,0 +1,12 @@
+day,time_range,teacher_id,teacher_name
+monday,1:20 - 2:10 to 2:10 - 3:00,271,Dr. Saranya G
+monday,8:00 - 8:50 to 8:50 - 9:40,271,Dr. Saranya G
+monday,3:00 - 3:50 to 3:50 - 4:40,271,Dr. Saranya G
+tuesday,3:00 - 3:50 to 3:50 - 4:40,271,Dr. Saranya G
+fri,10:00 - 10:50 to 10:50 - 11:40,271,Dr. Saranya G
+wed,11:50 - 12:30 to 12:30 - 1:20,271,Dr. Saranya G
+wed,3:00 - 3:50 to 3:50 - 4:40,271,Dr. Saranya G
+wed,8:00 - 8:50,271,Dr. Saranya G
+wed,9:00 - 9:50,271,Dr. Saranya G
+thur,11:50 - 12:30 to 12:30 - 1:20,271,Dr. Saranya G
+thur,10:00 - 10:50,271,Dr. Saranya G

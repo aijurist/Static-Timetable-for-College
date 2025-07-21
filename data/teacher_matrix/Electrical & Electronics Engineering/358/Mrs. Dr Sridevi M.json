@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "358",
+      "teacher_name": "Mrs. Dr Sridevi M"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "358",
+      "teacher_name": "Mrs. Dr Sridevi M"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "358",
+      "teacher_name": "Mrs. Dr Sridevi M"
+    }
+  ]
+}

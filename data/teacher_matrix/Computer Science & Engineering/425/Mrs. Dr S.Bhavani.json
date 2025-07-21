@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "425",
+      "teacher_name": "Mrs. Dr S.Bhavani"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "425",
+      "teacher_name": "Mrs. Dr S.Bhavani"
+    },
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "425",
+      "teacher_name": "Mrs. Dr S.Bhavani"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "425",
+      "teacher_name": "Mrs. Dr S.Bhavani"
+    }
+  ]
+}

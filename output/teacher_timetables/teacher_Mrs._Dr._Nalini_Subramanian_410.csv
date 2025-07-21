@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Groups,Room
+FRIDAY,11:00,11:50,Computer Networks,IT 3.3,A110
+FRIDAY,10:00,10:50,Computer Networks,IT 3.3,A108
+SATURDAY,10:00,10:50,Computer Networks,IT 3.3,B411
+THURSDAY,11:50,13:30,Computer Networks,IT 3.3,JR2
+WEDNESDAY,13:50,15:30,Computer Networks,IT 3.3,JL2
+THURSDAY,08:00,09:40,Computer Networks,IT 3.3,Aerodynamics Lab
+THURSDAY,09:50,11:30,Computer Networks,IT 3.3,Manufacturing Technology II
+TUESDAY,09:00,09:50,Cloud and Big Data Analytics,IT 4.2,C307
+TUESDAY,08:00,08:50,Cloud and Big Data Analytics,IT 4.2,C102
+SATURDAY,11:00,11:50,Cloud and Big Data Analytics,IT 4.2,B325
+TUESDAY,09:50,11:30,Cloud and Big Data Analytics,IT 4.2,Embedded System Laboratory (ECE)
+SATURDAY,13:50,15:30,Cloud and Big Data Analytics,IT 4.2,Immunology Lab
+TUESDAY,11:50,13:30,Cloud and Big Data Analytics,IT 4.2,Food Chemistry Lab
+SATURDAY,11:50,13:30,Cloud and Big Data Analytics,IT 4.2,Genetic Engineering Lab

@@ -1,0 +1,35 @@
+{
+  "tuesday": [
+    {
+      "time_range": "8:00 - 8:50 to 8:50 - 9:40",
+      "teacher_id": "329",
+      "teacher_name": "Mr. D Shyam"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "329",
+      "teacher_name": "Mr. D Shyam"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "329",
+      "teacher_name": "Mr. D Shyam"
+    },
+    {
+      "time_range": "11:00 - 11:50",
+      "teacher_id": "329",
+      "teacher_name": "Mr. D Shyam"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "329",
+      "teacher_name": "Mr. D Shyam"
+    }
+  ]
+}

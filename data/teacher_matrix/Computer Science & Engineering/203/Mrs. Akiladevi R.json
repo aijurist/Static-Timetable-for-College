@@ -1,0 +1,28 @@
+{
+  "monday": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "203",
+      "teacher_name": "Mrs. Akiladevi R"
+    }
+  ],
+  "tuesday": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "203",
+      "teacher_name": "Mrs. Akiladevi R"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50",
+      "teacher_id": "203",
+      "teacher_name": "Mrs. Akiladevi R"
+    },
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "203",
+      "teacher_name": "Mrs. Akiladevi R"
+    }
+  ]
+}

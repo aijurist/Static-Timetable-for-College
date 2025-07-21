@@ -1,0 +1,23 @@
+{
+  "wed": [
+    {
+      "time_range": "1:00 - 1:50",
+      "teacher_id": "416",
+      "teacher_name": "Dr. Valarmathie Dinakaran"
+    }
+  ],
+  "thur": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "416",
+      "teacher_name": "Dr. Valarmathie Dinakaran"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "10:00 - 10:50",
+      "teacher_id": "416",
+      "teacher_name": "Dr. Valarmathie Dinakaran"
+    }
+  ]
+}

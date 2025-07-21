@@ -1,0 +1,33 @@
+{
+  "thur": [
+    {
+      "time_range": "3:00 - 3:50 to 3:50 - 4:40",
+      "teacher_id": "383",
+      "teacher_name": "Mrs. Priya Vijay"
+    }
+  ],
+  "fri": [
+    {
+      "time_range": "1:20 - 2:10 to 2:10 - 3:00",
+      "teacher_id": "383",
+      "teacher_name": "Mrs. Priya Vijay"
+    },
+    {
+      "time_range": "9:00 - 9:50",
+      "teacher_id": "383",
+      "teacher_name": "Mrs. Priya Vijay"
+    },
+    {
+      "time_range": "8:00 - 8:50",
+      "teacher_id": "383",
+      "teacher_name": "Mrs. Priya Vijay"
+    }
+  ],
+  "wed": [
+    {
+      "time_range": "4:00 - 4:50",
+      "teacher_id": "383",
+      "teacher_name": "Mrs. Priya Vijay"
+    }
+  ]
+}
