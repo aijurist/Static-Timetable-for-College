@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,10:00,10:50,Fundamentals of Management for Engineers,CIVIL 2.1,B412
-FRIDAY,12:00,12:50,Fundamentals of Management for Engineers,CIVIL 2.1,B321
-THURSDAY,13:00,13:50,Fundamentals of Management for Engineers,CIVIL 2.1,A309
-WEDNESDAY,08:00,08:50,Structural Analysis,CIVIL 3.1,B409
-TUESDAY,09:00,09:50,Structural Analysis,CIVIL 3.1,C302
-TUESDAY,14:00,14:50,Structural Analysis,CIVIL 3.1,B425
-TUESDAY,09:50,11:30,Structural Analysis,CIVIL 3.1,Classroom
-THURSDAY,09:50,11:30,Structural Analysis,CIVIL 3.1,Classroom
+THURSDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,CIVIL 1.1,Machine Shop FF1 - EPL - 1
+THURSDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,CIVIL 1.1,Machine Shop FF1 - EPL - 1
+THURSDAY,15:00,15:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,C101
+THURSDAY,16:00,16:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,D109
+FRIDAY,08:00,09:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
+FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
+FRIDAY,11:50,13:20,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
+FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab

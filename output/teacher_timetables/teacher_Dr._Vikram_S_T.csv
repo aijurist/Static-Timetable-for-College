@@ -1,6 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:00,13:50,Transforms and Statistics,MECH 2.2,B424
-WEDNESDAY,12:00,12:50,Transforms and Statistics,MECH 2.2,A103
-WEDNESDAY,14:00,14:50,Transforms and Statistics,MECH 2.2,A203
-THURSDAY,15:50,17:30,Transforms and Statistics,MECH 2.2,Chemistry Lab
-WEDNESDAY,15:50,17:30,Transforms and Statistics,MECH 2.2,Networks Lab
+THURSDAY,12:00,12:50,Linear Algebra and Calculus,IT 1.4,D205
+SATURDAY,11:00,11:50,Linear Algebra and Calculus,IT 1.4,D205
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,IT 1.4,D209
+THURSDAY,10:00,10:50,Linear Algebra and Calculus,IT 1.4,D210

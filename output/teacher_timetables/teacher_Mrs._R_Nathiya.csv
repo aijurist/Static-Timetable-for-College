@@ -1,6 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,13:00,13:50,Computational Statistics,CSBS 2.1,A110
-THURSDAY,15:00,15:50,Computational Statistics,CSBS 2.1,A203
-WEDNESDAY,09:00,09:50,Computational Statistics,CSBS 2.1,A109
-MONDAY,08:00,09:40,Computational Statistics,CSBS 2.1,KFL01
-TUESDAY,17:30,19:10,Computational Statistics,CSBS 2.1,TLFL2
+TUESDAY,16:00,16:50,Linear Algebra and Calculus,ECE 1.4,D111
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,ECE 1.4,D202
+FRIDAY,12:00,12:50,Linear Algebra and Calculus,ECE 1.4,D110
+FRIDAY,14:00,14:50,Linear Algebra and Calculus,ECE 1.4,D110

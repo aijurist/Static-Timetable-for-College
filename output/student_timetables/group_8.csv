@@ -1,32 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,14:00,14:50,Analog and Digital Communication,Mr. Karthi J,B210
-TUESDAY,15:00,15:50,Analog and Digital Communication,Mr. Karthi J,B320
-TUESDAY,17:00,17:50,Analog and Digital Communication,Mr. Karthi J,B416
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,Ms. Priyanka D,B107
-FRIDAY,18:00,18:50,Design and Analysis of Algorithms,Ms. Priyanka D,C308
-TUESDAY,14:00,14:50,Design and Analysis of Algorithms,Ms. Priyanka D,B425
-SATURDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. Priyanka D,KFL03
-WEDNESDAY,17:30,19:10,Design and Analysis of Algorithms,Ms. Priyanka D,TLGL3
-THURSDAY,10:00,10:50,Fourier series and Number theory,Mr. A. Azhagarasu,A311
-THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. A. Azhagarasu,B302
-THURSDAY,15:00,15:50,Fourier series and Number theory,Mr. A. Azhagarasu,C103
-FRIDAY,17:00,17:50,Fourier series and Number theory,Mr. A. Azhagarasu,B106
-WEDNESDAY,13:00,13:50,Database Management Systems,Mr. Vimalan M,B415
-WEDNESDAY,14:00,14:50,Database Management Systems,Mr. Vimalan M,B325
-FRIDAY,15:00,15:50,Database Management Systems,Mr. Vimalan M,C307
-FRIDAY,11:50,13:30,Database Management Systems,Mr. Vimalan M,TLGL4
-SATURDAY,17:30,19:10,Database Management Systems,Mr. Vimalan M,TLFR4
-WEDNESDAY,15:50,17:30,Database Management Systems,Mr. Vimalan M,TLFR5
-SATURDAY,13:50,15:30,Database Management Systems,Mr. Vimalan M,TLFL5
-TUESDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B401
-TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mrs. Usha S,C102
-SATURDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B402
-SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFR4
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Usha S,JR3
-SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFL3
-TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFR1
-WEDNESDAY,15:00,15:50,Digital Logic and Computer Architecture,Mrs. Padmini S,B222
-FRIDAY,14:00,14:50,Digital Logic and Computer Architecture,Mrs. Padmini S,B410
-THURSDAY,11:00,11:50,Digital Logic and Computer Architecture,Mrs. Padmini S,B210
-WEDNESDAY,17:30,19:10,Digital Logic and Computer Architecture,Mrs. Padmini S,TLFL4
-SATURDAY,15:50,17:30,Digital Logic and Computer Architecture,Mrs. Padmini S,TLFR5
+MONDAY,08:00,08:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
+MONDAY,09:00,09:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
+MONDAY,10:00,10:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
+TUESDAY,13:20,15:00,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
+TUESDAY,15:00,16:40,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
+TUESDAY,10:00,10:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D111
+TUESDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D111
+TUESDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D202
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D203
+MONDAY,13:00,13:50,Technical Communication -I,New Faculty English (NS-NFE-3),D111
+MONDAY,14:00,14:50,Technical Communication -I,New Faculty English (NS-NFE-3),D111
+MONDAY,11:00,11:50,Heritage Of Tamils,Mrs. Sharmila B,D202
+TUESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D203
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D202
+MONDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D202
+FRIDAY,13:00,13:50,Programming using C,ECE-NF2,D110
+FRIDAY,08:00,09:40,Programming using C,ECE-NF2,Food Chemistry Lab
+FRIDAY,10:00,11:40,Programming using C,ECE-NF2,Isaac Asimov Laboratory
+TUESDAY,15:00,16:40,Programming using C,ECE-NF2,Food Chemistry Lab
+TUESDAY,13:20,15:00,Programming using C,ECE-NF2,Food Chemistry Lab
+FRIDAY,15:00,16:40,Programming using C,ECE-NF2,Food Chemistry Lab
+WEDNESDAY,08:00,09:40,Programming using C,ECE-NF2,Food Chemistry Lab
+WEDNESDAY,13:00,13:50,Electron Devices,Mrs. Dr.S.Suganthi,D203
+WEDNESDAY,11:00,11:50,Electron Devices,Mrs. Dr.S.Suganthi,D204
+WEDNESDAY,10:00,10:50,Electron Devices,Mrs. Dr.S.Suganthi,D205
+WEDNESDAY,08:00,09:40,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)
+FRIDAY,08:00,09:40,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)

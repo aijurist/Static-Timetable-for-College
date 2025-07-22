@@ -117,6 +117,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // NEW: Ensure at least one lab session per day
                 minimumLabsPerDay(constraintFactory),
                 
+                // NEW: Ensure balanced daily schedule (both theory and lab)
+                balancedDailySchedule(constraintFactory),
+                
                 // Weekly shift pattern enforcement
                 // studentWeeklyShiftPattern(constraintFactory),
                 
@@ -511,10 +514,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
      * Shift buckets:
      *   0 – Early shift  (first lesson starts before 10:00)  →  8-3 shift
      *   1 – Mid shift    (first lesson starts between 10:00 ‑ 11:59) → 10-5 shift
-     *   2 – Late shift   (first lesson starts at/after 12:00) → 12-7 shift
      * <p>
      * For every week day we only consider the EARLIEST lesson start time when classifying the shift for that day.
-     * The ideal distribution for the five working days is two days in two of the buckets and one day in the remaining bucket (any permutation).
+     * The ideal distribution for the five working days is two days in one bucket and three days in the other bucket.
      * The function returns 0 if the ideal distribution is achieved; otherwise it returns a positive integer representing the magnitude of deviation.
      */
     private static int calculateShiftPenalty(java.util.List<Lesson> lessons) {
@@ -531,30 +533,34 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
             }
         }
         // Count shifts based on earliest appearance per day
-        int[] shiftCounts = new int[3]; // [early, mid, late]
+        int[] shiftCounts = new int[2]; // [early, mid] - only 2 shifts now
         for (java.time.LocalTime start : earliestByDay.values()) {
             int bucket = classifyShift(start);
-            shiftCounts[bucket]++;
+            if (bucket < 2) { // Only consider early and mid shifts
+                shiftCounts[bucket]++;
+            }
         }
-        // Desired pattern after sorting should be [1,2,2]
-        int[] sorted = java.util.Arrays.stream(shiftCounts).sorted().toArray();
-        if (sorted[0] == 1 && sorted[1] == 2 && sorted[2] == 2) {
-            return 0; // perfect match
+        // Desired pattern: 2 days in one shift, 3 days in the other (2-3 or 3-2)
+        int totalDays = shiftCounts[0] + shiftCounts[1];
+        if (totalDays == 5) { // Full week
+            if ((shiftCounts[0] == 2 && shiftCounts[1] == 3) || (shiftCounts[0] == 3 && shiftCounts[1] == 2)) {
+                return 0; // perfect match
+            }
         }
         // Otherwise compute deviation penalty.
         int penalty = 0;
         for (int c : shiftCounts) {
             if (c == 0) {
-                penalty += 2; // missing a shift bucket entirely
-            } else if (c > 2) {
-                penalty += c - 2; // more than 2 days in same shift
+                penalty += 3; // missing a shift bucket entirely
+            } else if (c > 3) {
+                penalty += c - 3; // more than 3 days in same shift
             }
-            // count==1 or 2 is acceptable, so no penalty
+            // count==1, 2, or 3 is acceptable, so no penalty
         }
         return penalty * 10;
     }
 
-    // Helper to map a lesson start time to a shift bucket (0,1,2)
+    // Helper to map a lesson start time to a shift bucket (0,1)
     private static int classifyShift(java.time.LocalTime start) {
         int hour = start.getHour();
         if (hour < 10) {
@@ -562,7 +568,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         } else if (hour < 12) {
             return 1; // 10-5 shift
         } else {
-            return 2; // 12-7 shift
+            return 2; // After 12:00 - not used in 2-shift system
         }
     }
 
@@ -750,15 +756,14 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * Calculates a penalty based on how far a student group's weekly timetable deviates from the desired 2-2-1 shift distribution.
+     * Calculates a penalty based on how far a student group's weekly timetable deviates from the desired 2-3 shift distribution.
      * <p>
      * Shift buckets:
      *   0 – Early shift  (first lesson starts before 10:00)  →  8-3 shift
      *   1 – Mid shift    (first lesson starts between 10:00 ‑ 11:59) → 10-5 shift
-     *   2 – Late shift   (first lesson starts at/after 12:00) → 12-7 shift
      * <p>
      * For every week day we only consider the EARLIEST lesson start time when classifying the shift for that day.
-     * The ideal distribution for the five working days is two days in two of the buckets and one day in the remaining bucket (any permutation).
+     * The ideal distribution for the five working days is two days in one shift and three days in the other shift.
      * The function returns 0 if the ideal distribution is achieved; otherwise it returns a positive integer representing the magnitude of deviation.
      */
     private static int calculateStudentGroupShiftPenalty(java.util.List<Lesson> lessons) {
@@ -930,6 +935,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     
     /**
      * Check if a list of lessons for a student group on a particular day violates lunch break rules
+     * NEW REQUIREMENT: Must have at least one free theory slot between 11:00-14:00 for lunch
      */
     private boolean violatesLunchBreakRule(java.util.List<Lesson> lessons) {
         if (lessons.isEmpty()) return false;
@@ -939,102 +945,110 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter(lesson -> lesson.getTimeSlot() != null)
                 .collect(java.util.stream.Collectors.toList());
         
-        if (scheduledLessons.size() < 2) return false; // Need at least 2 lessons to have a break issue
+        if (scheduledLessons.isEmpty()) return false;
         
         // Sort lessons by start time
         scheduledLessons.sort(java.util.Comparator.comparing(lesson -> lesson.getTimeSlot().getStartTime()));
         
-        // Check if lessons span the lunch period (11:00-14:00) without adequate break
+        // Define lunch period (11:00-14:00)
         java.time.LocalTime lunchPeriodStart = java.time.LocalTime.of(11, 0);
         java.time.LocalTime lunchPeriodEnd = java.time.LocalTime.of(14, 0);
         
-        // Find lessons that overlap with lunch period
-        java.util.List<Lesson> lunchPeriodLessons = scheduledLessons.stream()
-                .filter(lesson -> {
-                    java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
-                    java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
-                    // Lesson overlaps if it starts before 14:00 and ends after 11:00
-                    return lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart);
-                })
-                .collect(java.util.stream.Collectors.toList());
+        // Find all theory slots in the lunch period
+        java.util.Set<java.time.LocalTime> occupiedTheorySlots = new java.util.HashSet<>();
         
-        if (lunchPeriodLessons.size() < 2) return false; // Need overlap to be a problem
-        
-        // Check for continuous scheduling without adequate break
-        for (int i = 0; i < lunchPeriodLessons.size() - 1; i++) {
-            Lesson current = lunchPeriodLessons.get(i);
-            Lesson next = lunchPeriodLessons.get(i + 1);
+        for (Lesson lesson : scheduledLessons) {
+            java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
+            java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
             
-            java.time.LocalTime currentEnd = current.getTimeSlot().getEndTime();
-            java.time.LocalTime nextStart = next.getTimeSlot().getStartTime();
-            
-            // If lessons are back-to-back or have less than 50-minute break during lunch period
-            if (currentEnd.equals(nextStart) || 
-                java.time.Duration.between(currentEnd, nextStart).toMinutes() < 50) {
-                
-                // Check if this gap occurs during critical lunch period (11:50-13:00)
-                java.time.LocalTime criticalLunchStart = java.time.LocalTime.of(11, 50);
-                java.time.LocalTime criticalLunchEnd = java.time.LocalTime.of(13, 0);
-                
-                if ((currentEnd.isAfter(criticalLunchStart) || currentEnd.equals(criticalLunchStart)) &&
-                    (nextStart.isBefore(criticalLunchEnd) || nextStart.equals(criticalLunchEnd))) {
-                    return true; // Violation found
+            // Check if this lesson overlaps with lunch period
+            if (lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart)) {
+                // If it's a theory session, mark the slot as occupied
+                if (lesson.requiresTheoryRoom()) {
+                    occupiedTheorySlots.add(lessonStart);
                 }
             }
         }
         
-        return false;
+        // Define the theory slots in lunch period (11:00, 12:00, 13:00)
+        java.time.LocalTime[] lunchTheorySlots = {
+            java.time.LocalTime.of(11, 0),  // 11:00-11:50
+            java.time.LocalTime.of(12, 0),  // 12:00-12:50  
+            java.time.LocalTime.of(13, 0)   // 13:00-13:50
+        };
+        
+        // Check if ALL theory slots in lunch period are occupied
+        boolean allTheorySlotsOccupied = true;
+        for (java.time.LocalTime slot : lunchTheorySlots) {
+            if (!occupiedTheorySlots.contains(slot)) {
+                allTheorySlotsOccupied = false;
+                break;
+            }
+        }
+        
+        // Violation if all theory slots are occupied (no lunch break)
+        return allTheorySlotsOccupied;
     }
     
     /**
      * Calculate the severity of lunch break violations
+     * NEW: Penalty based on how many theory slots are occupied in lunch period
      */
     private int calculateLunchBreakViolations(java.util.List<Lesson> lessons) {
-        int violations = 0;
-        
-        // Filter and sort lessons
+        // Filter lessons that have time slots assigned
         java.util.List<Lesson> scheduledLessons = lessons.stream()
                 .filter(lesson -> lesson.getTimeSlot() != null)
-                .sorted(java.util.Comparator.comparing(lesson -> lesson.getTimeSlot().getStartTime()))
                 .collect(java.util.stream.Collectors.toList());
         
+        if (scheduledLessons.isEmpty()) return 0;
+        
+        // Define lunch period (11:00-14:00)
         java.time.LocalTime lunchPeriodStart = java.time.LocalTime.of(11, 0);
         java.time.LocalTime lunchPeriodEnd = java.time.LocalTime.of(14, 0);
         
-        // Find lessons in lunch period
-        java.util.List<Lesson> lunchPeriodLessons = scheduledLessons.stream()
-                .filter(lesson -> {
-                    java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
-                    java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
-                    return lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart);
-                })
-                .collect(java.util.stream.Collectors.toList());
+        // Find all theory slots in the lunch period
+        java.util.Set<java.time.LocalTime> occupiedTheorySlots = new java.util.HashSet<>();
         
-        // Calculate violations based on break gaps
-        for (int i = 0; i < lunchPeriodLessons.size() - 1; i++) {
-            Lesson current = lunchPeriodLessons.get(i);
-            Lesson next = lunchPeriodLessons.get(i + 1);
+        for (Lesson lesson : scheduledLessons) {
+            java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
+            java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
             
-            java.time.LocalTime currentEnd = current.getTimeSlot().getEndTime();
-            java.time.LocalTime nextStart = next.getTimeSlot().getStartTime();
-            long breakMinutes = java.time.Duration.between(currentEnd, nextStart).toMinutes();
-            
-            // Critical lunch period check
-            java.time.LocalTime criticalLunchStart = java.time.LocalTime.of(11, 50);
-            java.time.LocalTime criticalLunchEnd = java.time.LocalTime.of(13, 0);
-            
-            if ((currentEnd.isAfter(criticalLunchStart) || currentEnd.equals(criticalLunchStart)) &&
-                (nextStart.isBefore(criticalLunchEnd) || nextStart.equals(criticalLunchEnd))) {
-                
-                if (breakMinutes == 0) {
-                    violations += 10; // Back-to-back classes during lunch - severe violation
-                } else if (breakMinutes < 50) {
-                    violations += (int)(5 + (50 - breakMinutes) / 10); // Graduated penalty
+            // Check if this lesson overlaps with lunch period
+            if (lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart)) {
+                // If it's a theory session, mark the slot as occupied
+                if (lesson.requiresTheoryRoom()) {
+                    occupiedTheorySlots.add(lessonStart);
                 }
             }
         }
         
-        return Math.max(1, violations); // Ensure at least penalty of 1 if violation detected
+        // Define the theory slots in lunch period (11:00, 12:00, 13:00)
+        java.time.LocalTime[] lunchTheorySlots = {
+            java.time.LocalTime.of(11, 0),  // 11:00-11:50
+            java.time.LocalTime.of(12, 0),  // 12:00-12:50  
+            java.time.LocalTime.of(13, 0)   // 13:00-13:50
+        };
+        
+        // Count occupied theory slots
+        int occupiedSlots = 0;
+        for (java.time.LocalTime slot : lunchTheorySlots) {
+            if (occupiedTheorySlots.contains(slot)) {
+                occupiedSlots++;
+            }
+        }
+        
+        // Penalty based on how many theory slots are occupied
+        // 0 occupied = no penalty (perfect lunch break)
+        // 1 occupied = light penalty (acceptable)
+        // 2 occupied = medium penalty (poor lunch break)
+        // 3 occupied = high penalty (no lunch break)
+        switch (occupiedSlots) {
+            case 0: return 0;  // Perfect - no theory classes during lunch
+            case 1: return 5;  // Light penalty - one theory class during lunch
+            case 2: return 15; // Medium penalty - two theory classes during lunch
+            case 3: return 30; // High penalty - all theory slots occupied (no lunch break)
+            default: return 30; // Default high penalty
+        }
     }
     
     /**
@@ -1086,7 +1100,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * SOFT: Enforce strict shift adherence - students should follow 8-3, 10-5, or 12-7 patterns
+     * SOFT: Enforce strict shift adherence - students should follow 8-3 or 10-5 patterns
      * Each day should fit within one of these three shift windows
      */
     private Constraint studentStrictShiftAdherence(ConstraintFactory constraintFactory) {
@@ -1105,7 +1119,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         (studentGroup, day, earliestStart, latestEnd) -> {
                             return calculateShiftViolationPenalty(earliestStart, latestEnd);
                         })
-                .asConstraint("Student strict shift adherence (8-3, 10-5, 12-7)");
+                .asConstraint("Student strict shift adherence (8-3, 10-5)");
     }
 
     /**
@@ -1141,7 +1155,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * SOFT: Enforce weekly shift pattern (2-2-1, 2-1-2, or 1-2-2)
+     * SOFT: Enforce weekly shift pattern (2-3 or 3-2)
      * Students should follow consistent shift patterns across the week
      */
     private Constraint studentWeeklyShiftPattern(ConstraintFactory constraintFactory) {
@@ -1152,7 +1166,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter((studentGroup, lessons) -> calculateWeeklyShiftPatternPenalty(lessons) > 0)
                 .penalize(HardSoftScore.of(0, 80), // High penalty for shift pattern violations
                         (studentGroup, lessons) -> calculateWeeklyShiftPatternPenalty(lessons))
-                .asConstraint("Weekly shift pattern (2-2-1 variations)");
+                .asConstraint("Weekly shift pattern (2-3 variations)");
     }
 
     /**
@@ -1215,7 +1229,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
 
     /**
      * Check if a day's schedule fits within one of the standard shift patterns:
-     * 8-3 (7:30-15:30), 10-5 (9:30-17:30), or 12-7 (11:30-19:30)
+     * 8-3 (7:30-15:30) or 10-5 (9:30-17:30)
      * Allows 30-minute flexibility on each side
      */
     private boolean fitsInStandardShift(java.time.LocalTime earliestStart, java.time.LocalTime latestEnd) {
@@ -1230,16 +1244,11 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         java.time.LocalTime midShiftStart = java.time.LocalTime.of(9, 0);
         java.time.LocalTime midShiftEnd = java.time.LocalTime.of(18, 0);
         
-        // 12-7 shift: 11:30 - 19:30 (flexible: 11:00 - 20:00)
-        java.time.LocalTime lateShiftStart = java.time.LocalTime.of(11, 0);
-        java.time.LocalTime lateShiftEnd = java.time.LocalTime.of(20, 0);
-        
-        // Check if the day fits in any of the three shifts
+        // Check if the day fits in either of the two shifts
         boolean fitsEarlyShift = (!earliestStart.isBefore(earlyShiftStart)) && (!latestEnd.isAfter(earlyShiftEnd));
         boolean fitsMidShift = (!earliestStart.isBefore(midShiftStart)) && (!latestEnd.isAfter(midShiftEnd));
-        boolean fitsLateShift = (!earliestStart.isBefore(lateShiftStart)) && (!latestEnd.isAfter(lateShiftEnd));
         
-        return fitsEarlyShift || fitsMidShift || fitsLateShift;
+        return fitsEarlyShift || fitsMidShift;
     }
 
     /**
@@ -1270,8 +1279,8 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
             penalty += 15; // Discourage very late starts for first class
         }
         
-        // Penalty for ending too late (after 20:00)
-        if (latestEnd.isAfter(java.time.LocalTime.of(20, 0))) {
+        // Penalty for ending too late (after 17:30 - 5pm cutoff)
+        if (latestEnd.isAfter(java.time.LocalTime.of(17, 30))) {
             penalty += 25; // Strong penalty for very late ends
         }
         
@@ -1323,8 +1332,8 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * Calculate weekly shift pattern penalty based on 2-2-1 distribution requirement
-     * Enforces patterns like 2-2-1, 2-1-2, or 1-2-2 (any permutation)
+     * Calculate weekly shift pattern penalty based on 2-3 distribution requirement
+     * Enforces patterns like 2-3 or 3-2
      */
     private int calculateWeeklyShiftPatternPenalty(java.util.List<Lesson> lessons) {
         if (lessons == null || lessons.isEmpty()) return 0;
@@ -1346,35 +1355,36 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         if (earliestByDay.isEmpty()) return 0;
         
         // Classify each day into shift buckets
-        int[] shiftCounts = new int[3]; // [early (8-3), mid (10-5), late (12-7)]
+        int[] shiftCounts = new int[2]; // [early (8-3), mid (10-5)] - only 2 shifts now
         
         for (java.time.LocalTime startTime : earliestByDay.values()) {
             int shiftBucket = classifyStudentShift(startTime);
-            shiftCounts[shiftBucket]++;
+            if (shiftBucket < 2) { // Only consider early and mid shifts
+                shiftCounts[shiftBucket]++;
+            }
         }
         
-        // Check if it matches the desired 2-2-1 pattern
-        // Sort the counts to see if they form [1,2,2] pattern
-        int[] sortedCounts = java.util.Arrays.stream(shiftCounts).sorted().toArray();
-        
-        // Perfect pattern: [1, 2, 2] when sorted
-        if (sortedCounts.length >= 3 && sortedCounts[0] == 1 && sortedCounts[1] == 2 && sortedCounts[2] == 2) {
-            return 0; // Perfect 2-2-1 pattern
+        // Check if it matches the desired 2-3 pattern
+        int totalDays = shiftCounts[0] + shiftCounts[1];
+        if (totalDays == 5) { // Full week
+            if ((shiftCounts[0] == 2 && shiftCounts[1] == 3) || (shiftCounts[0] == 3 && shiftCounts[1] == 2)) {
+                return 0; // Perfect 2-3 pattern
+            }
         }
         
         // Calculate penalty based on deviation from ideal pattern
         int penalty = 0;
         
         // Count total working days
-        int totalDays = java.util.Arrays.stream(shiftCounts).sum();
+        int workingDays = java.util.Arrays.stream(shiftCounts).sum();
         
-        if (totalDays >= 5) { // Only evaluate if we have a full week
-            // Penalize for not having the 2-2-1 distribution
+        if (workingDays >= 5) { // Only evaluate if we have a full week
+            // Penalize for not having the 2-3 distribution
             for (int count : shiftCounts) {
                 if (count == 0) {
                     penalty += 30; // Missing a shift entirely
-                } else if (count > 2) {
-                    penalty += (count - 2) * 20; // Too many days in one shift
+                } else if (count > 3) {
+                    penalty += (count - 3) * 20; // Too many days in one shift
                 } else if (count == 1) {
                     // One day is okay if we have exactly one bucket with 1 day
                     long bucketsWithOneDay = java.util.Arrays.stream(shiftCounts).filter(c -> c == 1).count();
@@ -1390,7 +1400,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
             if (maxCount - minCount > 2) {
                 penalty += 25; // High imbalance penalty
             }
-        } else if (totalDays > 0) {
+        } else if (workingDays > 0) {
             // For partial weeks, lighter penalty based on available data
             penalty = 10; // Light penalty for not having full week data
         }
@@ -1402,7 +1412,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
      * Classify a start time into shift bucket for student scheduling
      * 0 = Early shift (8-3): starts before 10:00
      * 1 = Mid shift (10-5): starts between 10:00-11:59
-     * 2 = Late shift (12-7): starts at/after 12:00
+     * 2 = After 12:00 - not used in 2-shift system
      */
     private int classifyStudentShift(java.time.LocalTime startTime) {
         int hour = startTime.getHour();
@@ -1411,7 +1421,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         } else if (hour < 12) {
             return 1; // Mid shift (10-5)
         } else {
-            return 2; // Late shift (12-7)
+            return 2; // After 12:00 - not used in 2-shift system
         }
     }
 
@@ -1447,6 +1457,55 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                             return Math.max(10, theoryCount * 5); // Minimum 10, scales with theory count
                         })
                 .asConstraint("Minimum 1 lab session per day");
+    }
+
+    /**
+     * SOFT: Ensure balanced daily schedule with both theory and lab sessions
+     * This prevents days with only theory OR only lab sessions, encouraging a balanced mix
+     * where students have both theoretical and practical learning each day
+     */
+    private Constraint balancedDailySchedule(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup,
+                        (Lesson lesson) -> lesson.getTimeSlot().getDayOfWeek(),
+                        toList())
+                .filter((studentGroup, day, lessons) -> {
+                    // Only apply to days with actual classes
+                    if (lessons.size() == 0) return false;
+                    
+                    // Count theory and lab sessions on this day
+                    long theoryCount = lessons.stream()
+                            .filter(lesson -> lesson.requiresTheoryRoom())
+                            .count();
+                    long labCount = lessons.stream()
+                            .filter(lesson -> lesson.requiresLabRoom())
+                            .count();
+                    
+                    // Penalize if day has ONLY theory OR ONLY lab sessions
+                    // (both theoryCount > 0 and labCount > 0 means balanced day)
+                    return (theoryCount > 0 && labCount == 0) || (theoryCount == 0 && labCount > 0);
+                })
+                .penalize(HardSoftScore.of(0, 80), // Higher penalty for unbalanced days
+                        (studentGroup, day, lessons) -> {
+                            // Calculate penalty based on how unbalanced the day is
+                            int theoryCount = (int) lessons.stream()
+                                    .filter(lesson -> lesson.requiresTheoryRoom())
+                                    .count();
+                            int labCount = (int) lessons.stream()
+                                    .filter(lesson -> lesson.requiresLabRoom())
+                                    .count();
+                            
+                            // Higher penalty for more extreme imbalances
+                            int totalClasses = theoryCount + labCount;
+                            int imbalance = Math.abs(theoryCount - labCount);
+                            
+                            // Base penalty of 20, plus additional penalty for more classes
+                            // This encourages balanced distribution even with more classes
+                            return 20 + (totalClasses * 10) + (imbalance * 15);
+                        })
+                .asConstraint("Balanced daily schedule (theory + lab)");
     }
 
     // === NEW: Teacher unavailable due to external matrix ===

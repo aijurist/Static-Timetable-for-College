@@ -11,7 +11,9 @@ import java.util.logging.FileHandler;
 import java.util.logging.SimpleFormatter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.Reader;
 import java.time.DayOfWeek;
 import java.time.LocalTime;
@@ -31,7 +33,7 @@ public class TimetableDataLoader {
             Map.entry("Computer Science & Business Systems", "CSBS"),
             Map.entry("Information Technology", "IT"),
             Map.entry("Artificial Intelligence & Machine Learning", "AIML"),
-            Map.entry("AI & Data Science", "AIDS"),
+            Map.entry("Artificial Intelligence & Data Science", "AIDS"),
             Map.entry("Electronics & Communication Engineering", "ECE"),
             Map.entry("Electrical & Electronics Engineering", "EEE"),
             Map.entry("Aeronautical Engineering", "AERO"),
@@ -76,7 +78,20 @@ public class TimetableDataLoader {
             this.courseId = record.get("course_id");
             this.courseCode = record.get("course_code");
             this.courseName = record.get("course_name");
-            this.courseDept = record.get("course_dept");
+            
+            // Handle both course_dept and student_dept column names
+            String courseDeptValue = null;
+            try {
+                courseDeptValue = record.get("course_dept");
+            } catch (IllegalArgumentException e) {
+                try {
+                    courseDeptValue = record.get("student_dept");
+                } catch (IllegalArgumentException e2) {
+                    courseDeptValue = "Unknown";
+                }
+            }
+            this.courseDept = courseDeptValue;
+            
             this.courseType = record.get("course_type");
             this.teacherId = record.get("teacher_id");
             this.staffCode = record.get("staff_code");
@@ -166,7 +181,7 @@ public class TimetableDataLoader {
 
     private static List<RawDataRecord> loadRawData(String filePath) throws IOException {
         List<RawDataRecord> rawData = new ArrayList<>();
-        Set<Integer> validSemesters = Set.of(3, 5, 7);
+        Set<Integer> validSemesters = Set.of(1, 3, 5, 7); // Include semester 1 for first year
         LOGGER.info("Loading raw data from: " + filePath);
 
         try (Reader reader = new FileReader(filePath);
@@ -229,7 +244,7 @@ public class TimetableDataLoader {
         int groupCounter = 1;
         LOGGER.info("Creating student groups...");
 
-        Map<Integer, Integer> semesterToYear = Map.of(3, 2, 5, 3, 7, 4);
+        Map<Integer, Integer> semesterToYear = Map.of(1, 1, 3, 2, 5, 3, 7, 4); // Include semester 1 -> year 1
 
         Set<Map.Entry<String, Integer>> deptYearPairs = rawData.stream()
                 .map(r -> new AbstractMap.SimpleEntry<>(
@@ -245,15 +260,17 @@ public class TimetableDataLoader {
             // Map full department name to short code
             String deptCode = DEPT_NAME_TO_CODE.getOrDefault(dept, dept);
             
+            LOGGER.info("Processing dept: " + dept + " -> " + deptCode + " for year " + year);
+            
             Map<String, Integer> yearToSections = DEPARTMENT_DATA.get(deptCode);
             if (yearToSections == null) {
-                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ")");
+                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ") - not found in DEPARTMENT_DATA");
                 continue;
             }
             
             Integer sections = yearToSections.get(year.toString());
             if (sections == null || sections == 0) {
-                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ")");
+                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ") - no sections for year " + year);
                 continue;
             }
             
@@ -277,6 +294,7 @@ public class TimetableDataLoader {
     private static List<Lesson> createLessons(List<RawDataRecord> rawData, Map<String, Teacher> teachers, Map<String, Course> courses, List<StudentGroup> studentGroups) {
         List<Lesson> lessons = new ArrayList<>();
         long lessonIdCounter = 1;
+        List<String> teacherShortageReport = new ArrayList<>();
 
         LOGGER.info("Creating lessons and assigning teachers to sections...");
         LOGGER.info("=== LESSON CREATION PROCESS STARTED ===");
@@ -287,6 +305,18 @@ public class TimetableDataLoader {
         // First group by course department
         Map<String, List<RawDataRecord>> deptToRecords = rawData.stream()
             .collect(Collectors.groupingBy(r -> DEPT_NAME_TO_CODE.getOrDefault(r.courseDept, r.courseDept)));
+        
+        // Debug: Log all departments found
+        LOGGER.info("=== DEPARTMENT DEBUG INFO ===");
+        for (Map.Entry<String, List<RawDataRecord>> entry : deptToRecords.entrySet()) {
+            LOGGER.info("Department: " + entry.getKey() + " with " + entry.getValue().size() + " records");
+            // Log first few course dept names to see what we're getting
+            Set<String> courseDepts = entry.getValue().stream()
+                .map(r -> r.courseDept)
+                .limit(3)
+                .collect(Collectors.toSet());
+            LOGGER.info("  Sample course dept names: " + courseDepts);
+        }
 
         // For each department
         for (Map.Entry<String, List<RawDataRecord>> deptEntry : deptToRecords.entrySet()) {
@@ -304,7 +334,7 @@ public class TimetableDataLoader {
             for (Map.Entry<Integer, List<RawDataRecord>> semesterEntry : semesterToRecords.entrySet()) {
                 int semester = semesterEntry.getKey();
                 List<RawDataRecord> semesterRecords = semesterEntry.getValue();
-                int year = semester == 3 ? 2 : semester == 5 ? 3 : 4;
+                int year = semester == 1 ? 1 : semester == 3 ? 2 : semester == 5 ? 3 : 4;
 
                 LOGGER.info(String.format("Processing semester %d (Year %d) for department %s with %d course records", 
                         semester, year, dept, semesterRecords.size()));
@@ -354,10 +384,32 @@ public class TimetableDataLoader {
                     int numSections = relevantGroups.size();
                     int numTeachers = availableTeacherIds.size();
                     if (numTeachers < numSections) {
-                        throw new RuntimeException(String.format(
-                            "Not enough teachers for course %s (%s) in %s Year %d: %d teachers for %d sections.",
-                            course.getCode(), course.getName(), dept, year, numTeachers, numSections
-                        ));
+                        int missingTeachers = numSections - numTeachers;
+                        String shortageEntry = String.format(
+                            "TEACHER SHORTAGE: Course %s (%s) in %s Year %d: %d teachers for %d sections. Creating %d placeholder teachers.",
+                            course.getCode(), course.getName(), dept, year, numTeachers, numSections, missingTeachers
+                        );
+                        teacherShortageReport.add(shortageEntry);
+                        LOGGER.warning(shortageEntry);
+                        
+                        // Create placeholder teachers for the missing slots
+                        for (int i = 1; i <= missingTeachers; i++) {
+                            String placeholderId = dept + "-NF" + i;
+                            String placeholderName = dept + "-NF" + i;
+                            String placeholderEmail = placeholderId.toLowerCase() + "@rajalakshmi.edu.in";
+                            
+                            // Add placeholder teacher to the teachers map
+                            teachers.put(placeholderId, new Teacher(placeholderId, placeholderName, placeholderEmail, TimetableConfig.MAX_TEACHER_HOURS));
+                            
+                            // Add to available teachers list
+                            availableTeacherIds.add(placeholderId);
+                            
+                            LOGGER.info("Created placeholder teacher: " + placeholderName + " (ID: " + placeholderId + ")");
+                        }
+                        
+                        // Update teacher count after creating placeholders
+                        numTeachers = availableTeacherIds.size();
+                        LOGGER.info("After creating placeholders: " + numTeachers + " teachers available for " + numSections + " sections");
                     }
                     // Get all teachers who can teach this course (from this department)
                     // (already in availableTeacherIds)
@@ -560,6 +612,39 @@ public class TimetableDataLoader {
         LESSON_CREATION_LOGGER.info(String.format("Batched lessons (B1/B2): %d", batchedLessons));
         LESSON_CREATION_LOGGER.info(String.format("Non-batched lessons: %d", lessons.size() - batchedLessons));
         LESSON_CREATION_LOGGER.info("=== LESSON CREATION DETAILED LOG COMPLETED ===");
+
+        // Write teacher shortage report to file
+        if (!teacherShortageReport.isEmpty()) {
+            try {
+                String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+                String reportFile = "teacher_shortage_report_" + timestamp + ".txt";
+                
+                try (PrintWriter writer = new PrintWriter(new FileWriter(reportFile))) {
+                    writer.println("=== TEACHER SHORTAGE REPORT ===");
+                    writer.println("Generated at: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+                    writer.println("Total shortages found: " + teacherShortageReport.size());
+                    writer.println();
+                    
+                    for (String entry : teacherShortageReport) {
+                        writer.println(entry);
+                    }
+                    
+                    writer.println();
+                    writer.println("=== SUMMARY ===");
+                    writer.println("Courses with teacher shortages: " + teacherShortageReport.size());
+                    writer.println("These courses were skipped during lesson creation.");
+                    writer.println("Please assign more teachers to these courses before running the timetable solver.");
+                }
+                
+                LOGGER.warning("Teacher shortage report written to: " + reportFile);
+                LOGGER.warning("Found " + teacherShortageReport.size() + " courses with teacher shortages");
+                
+            } catch (IOException e) {
+                LOGGER.severe("Failed to write teacher shortage report: " + e.getMessage());
+            }
+        } else {
+            LOGGER.info("No teacher shortages found - all courses have sufficient teachers!");
+        }
 
         return lessons;
     }

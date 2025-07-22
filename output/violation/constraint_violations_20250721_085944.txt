@@ -1,0 +1,255 @@
+=== CONSTRAINT VIOLATION ANALYSIS REPORT ===
+Generated at: 2025-07-21 08:59:44
+Final Score: -2522init/-52hard/-66026soft
+
+SUMMARY:
+--------
+⚠️ Found 47 total constraint violations
+   🔴 Critical: 13 violations
+   🟠 Hard:     34 violations
+
+DETAILED VIOLATIONS:
+-------------------
+
+[CRITICAL] Teacher Conflict
+  Teacher New Faculty Computer Science & Engineering (NS-New Staff-3) is double-booked: conflicts with lesson L-264
+  Lesson: L-260 | Course: GE23131 | Group: ECE 1.8
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 224
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-88
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: TUESDAY 10:00-10:50 | Room: D111
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-77
+  Lesson: L-53 | Course: GE23131 | Group: EEE 1.1
+  Time: FRIDAY 10:00-11:40 (Lab) | Room: 152
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-78
+  Lesson: L-65 | Course: MC23111 | Group: EEE 1.1
+  Time: SATURDAY 08:00-08:50 | Room: D109
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-86
+  Lesson: L-66 | Course: MC23111 | Group: EEE 1.1
+  Time: SATURDAY 09:00-09:50 | Room: D109
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-89
+  Lesson: L-67 | Course: MC23111 | Group: EEE 1.2
+  Time: SATURDAY 10:00-10:50 | Room: D109
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-87
+  Lesson: L-76 | Course: CY23131 | Group: EEE 1.1
+  Time: SATURDAY 14:00-14:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.4 is double-booked: conflicts with lesson L-285
+  Lesson: L-145 | Course: MA23111 | Group: ECE 1.4
+  Time: TUESDAY 14:00-14:50 | Room: D203
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.6 is double-booked: conflicts with lesson L-294
+  Lesson: L-153 | Course: MA23111 | Group: ECE 1.6
+  Time: MONDAY 10:00-10:50 | Room: D202
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.8 is double-booked: conflicts with lesson L-263
+  Lesson: L-161 | Course: MA23111 | Group: ECE 1.8
+  Time: TUESDAY 10:00-10:50 | Room: D204
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.6 is double-booked: conflicts with lesson L-295
+  Lesson: L-203 | Course: MC23111 | Group: ECE 1.6
+  Time: FRIDAY 10:00-10:50 | Room: D203
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.7 is double-booked: conflicts with lesson L-297
+  Lesson: L-253 | Course: GE23131 | Group: ECE 1.7
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 154
+
+[CRITICAL] Student Group Conflict
+  Student group ECE 1.7 is double-booked: conflicts with lesson L-298
+  Lesson: L-253 | Course: GE23131 | Group: ECE 1.7
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 154
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 10:00-10:50
+  Lesson: L-304 | Course: EC23131 | Group: ECE 1.8
+  Time: FRIDAY 10:00-10:50 | Room: 209
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 09:00-09:50
+  Lesson: L-305 | Course: EC23131 | Group: ECE 1.8
+  Time: MONDAY 09:00-09:50 | Room: 209
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-429 | Course: PH23132 | Group: AIDS 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-445 | Course: PH23132 | Group: AIDS 1.5
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-449 | Course: PH23132 | Group: AIDS 1.6
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-765 | Course: PH23132 | Group: CSE-CS 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-769 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1016 | Course: PH23132 | Group: CSE 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1020 | Course: PH23132 | Group: CSE 1.2
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1024 | Course: PH23132 | Group: CSE 1.3
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1028 | Course: PH23132 | Group: CSE 1.4
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1032 | Course: PH23132 | Group: CSE 1.5
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1040 | Course: PH23132 | Group: CSE 1.7
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1044 | Course: PH23132 | Group: CSE 1.8
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1052 | Course: PH23132 | Group: CSE 1.10
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1056 | Course: PH23132 | Group: CSE 1.11
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1060 | Course: PH23132 | Group: CSE 1.12
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1064 | Course: PH23132 | Group: CSE 1.13
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1300 | Course: PH23132 | Group: AIML 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1304 | Course: PH23132 | Group: AIML 1.2
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1568 | Course: PH23131 | Group: AERO 1.1
+  Time: UNASSIGNED | Room: UNASSIGNED
+
+VIOLATION STATISTICS:
+--------------------
+  Lab Must Be Batched: 31 violations
+  Teacher Conflict: 1 violations
+  Room Capacity: 1 violations
+  Lab in Lab Slot: 2 violations
+  Student Group Conflict: 12 violations

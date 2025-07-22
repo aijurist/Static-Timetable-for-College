@@ -1,32 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,18:00,18:50,Analog and Digital Communication,Ms. M.Brenda,A108
-WEDNESDAY,15:00,15:50,Analog and Digital Communication,Ms. M.Brenda,A309
-WEDNESDAY,14:00,14:50,Analog and Digital Communication,Ms. M.Brenda,B417
-WEDNESDAY,18:00,18:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B320
-SATURDAY,17:00,17:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A108
-TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A103
-WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFR3
-FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL1
-THURSDAY,15:00,15:50,Fourier series and Number theory,Mrs. C. Renuga,B219
-TUESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B408
-SATURDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,A303
-FRIDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,C101
-THURSDAY,14:00,14:50,Database Management Systems,Dr. Shunmuganathan K L,B325
-SATURDAY,11:00,11:50,Database Management Systems,Dr. Shunmuganathan K L,C302
-TUESDAY,10:00,10:50,Database Management Systems,Dr. Shunmuganathan K L,C307
-THURSDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,TLFR5
-FRIDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLFL5
-WEDNESDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLGL3
-THURSDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,KFL01
-THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B408
-SATURDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B415
-FRIDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B322
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR1
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
-SATURDAY,15:00,15:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A211
-TUESDAY,13:00,13:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,C101
-SATURDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B321
-TUESDAY,13:50,15:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFR02
-THURSDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL02
+MONDAY,11:00,11:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
+MONDAY,12:00,12:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
+MONDAY,14:00,14:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
+MONDAY,08:00,09:40,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,Chemistry Lab
+MONDAY,15:00,16:40,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,Chemistry Lab
+MONDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Gurunathan S,D111
+WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Gurunathan S,D110
+WEDNESDAY,11:00,11:50,Linear Algebra and Calculus,Mr. Gurunathan S,D110
+WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Mr. Gurunathan S,D111
+WEDNESDAY,13:00,13:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D202
+WEDNESDAY,14:00,14:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D202
+WEDNESDAY,10:00,10:50,Heritage Of Tamils,Ms. Malathy G,D203
+WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D205
+WEDNESDAY,16:00,16:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D203
+THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D110
+THURSDAY,11:00,11:50,Programming using C,Mrs. T.Jenitha,D110
+THURSDAY,11:50,13:20,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
+THURSDAY,13:20,15:00,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
+THURSDAY,15:00,16:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
+MONDAY,08:00,09:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
+THURSDAY,08:00,09:40,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
+FRIDAY,15:00,16:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
+FRIDAY,09:00,09:50,Electron Devices,Mr. Senthilraja B,D111
+FRIDAY,10:00,10:50,Electron Devices,Mr. Senthilraja B,D111
+FRIDAY,11:00,11:50,Electron Devices,Mr. Senthilraja B,D111
+FRIDAY,11:50,13:20,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)
+FRIDAY,13:20,15:00,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)

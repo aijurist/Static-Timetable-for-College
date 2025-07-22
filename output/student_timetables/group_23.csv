@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,09:00,09:50,Computer Architecture,New Staff - 04,B416
-FRIDAY,15:00,15:50,Computer Architecture,New Staff - 04,B302
-FRIDAY,16:00,16:50,Computer Architecture,New Staff - 04,B106
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,New Staff - 03,B221
-TUESDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 03,A210
-TUESDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,A108
-WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 03,TLGL3
-FRIDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 03,TLFR2
-FRIDAY,14:00,14:50,Fourier series and Number theory,Mr. Sriram Sastha,B320
-WEDNESDAY,13:00,13:50,Fourier series and Number theory,Mr. Sriram Sastha,A205
-THURSDAY,16:00,16:50,Fourier series and Number theory,Mr. Sriram Sastha,B219
-TUESDAY,09:00,09:50,Fourier series and Number theory,Mr. Sriram Sastha,B422
-MONDAY,08:00,08:50,Database Management Systems,Mrs. Sathiyavathi S,B212
-WEDNESDAY,11:00,11:50,Database Management Systems,Mrs. Sathiyavathi S,A310
-TUESDAY,13:00,13:50,Database Management Systems,Mrs. Sathiyavathi S,B415
-MONDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,KFL02
-FRIDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,JL2
-WEDNESDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,JL3
-THURSDAY,14:00,14:50,Database Management Systems,Mrs. Sathiyavathi S,JR3
-THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A203
-WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A205
-TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B416
-FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL4
-MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL3
-THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL03
-WEDNESDAY,16:00,16:50,Fundamentals of Data Science,New Staff - 07,C308
-MONDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,C102
-THURSDAY,17:00,17:50,Fundamentals of Data Science,New Staff - 07,C102
-THURSDAY,13:50,15:30,Fundamentals of Data Science,New Staff - 07,TLFR5
-THURSDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,TLFR3
+THURSDAY,13:00,13:50,Technical Communication -I,Mr. Hastin Fernandez,D204
+THURSDAY,14:00,14:50,Technical Communication -I,Mr. Hastin Fernandez,D205
+THURSDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D209
+THURSDAY,08:00,08:50,Engineering Graphics,Mr. P.Vimalanathan,D210
+THURSDAY,15:00,15:50,Engineering Graphics,Mr. P.Vimalanathan,D210
+THURSDAY,09:00,09:50,Engineering Graphics,Mr. P.Vimalanathan,D211
+THURSDAY,10:00,10:50,Engineering Graphics,Mr. P.Vimalanathan,D211
+THURSDAY,16:00,16:50,Engineering Graphics,Mr. P.Vimalanathan,D210
+FRIDAY,14:00,14:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D205
+FRIDAY,09:00,09:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
+FRIDAY,11:00,11:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
+FRIDAY,12:00,12:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
+FRIDAY,08:00,08:50,Heritage Of Tamils,New Faculty Robotics & Automation (NS-RA NS1),D209
+FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D209
+FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D302
+FRIDAY,16:00,16:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D209
+SATURDAY,12:00,12:50,Introduction To Mechanical Systems,HOD RA,D205
+SATURDAY,13:00,13:50,Introduction To Mechanical Systems,HOD RA,D205
+SATURDAY,16:00,16:50,Introduction To Mechanical Systems,HOD RA,D209
+TUESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electronics)
+WEDNESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electronics)
+SATURDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF1 - EPL - 1
+TUESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF1 - EPL - 1
+TUESDAY,12:00,12:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D210
+WEDNESDAY,16:00,16:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D210
+WEDNESDAY,09:00,09:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D211
+TUESDAY,10:00,11:40,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab
+TUESDAY,13:20,15:00,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab

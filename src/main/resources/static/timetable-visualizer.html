@@ -2054,7 +2054,7 @@
     <div class="tooltip" id="tooltip"></div>
 
     <script>
-        // Theory time slots
+        // Theory time slots (limited to 5pm)
         const THEORY_TIME_SLOTS = [
             { start: "8:00", end: "8:50" },
             { start: "9:00", end: "9:50" },
@@ -2065,18 +2065,16 @@
             { start: "14:00", end: "14:50" },
             { start: "15:00", end: "15:50" },
             { start: "16:00", end: "16:50" },
-            { start: "17:00", end: "17:50" },
-            { start: "18:00", end: "18:50" }
+            { start: "17:00", end: "17:50" }
         ];
 
-        // Lab time slots (2-hour slots)
+        // Lab time slots (2-hour slots, limited to 5pm)
         const LAB_TIME_SLOTS = [
             { start: "8:00", end: "9:40", label: "8:00-9:40" },
-            { start: "9:50", end: "11:30", label: "9:50-11:30" },
-            { start: "11:50", end: "13:30", label: "11:50-13:30" },
-            { start: "13:50", end: "15:30", label: "13:50-15:30" },
-            { start: "15:50", end: "17:30", label: "15:50-17:30" },
-            { start: "17:30", end: "19:10", label: "17:30-19:10" }
+            { start: "10:00", end: "11:40", label: "10:00-11:40" },
+            { start: "11:50", end: "13:20", label: "11:50-13:20" },
+            { start: "13:20", end: "15:00", label: "13:20-15:00" },
+            { start: "15:00", end: "16:40", label: "15:00-16:40" }
         ];
 
         // Six-day schedule configuration (Monday through Saturday)

@@ -1,6 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,11:50,13:30,Digital Logic and Computer Architecture,IT 2.1,TLFL1
-TUESDAY,15:50,17:30,Digital Logic and Computer Architecture,IT 2.2,TLGL3
-THURSDAY,08:00,09:40,Digital Logic and Computer Architecture,IT 2.3,TLFR3
-THURSDAY,11:50,13:30,Digital Logic and Computer Architecture,IT 2.4,TLGL4
-THURSDAY,09:50,11:30,Digital Logic and Computer Architecture,IT 2.5,TLFL5
+FRIDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,IT 1.4,Engineering Practices Lab (Electrical)
+SATURDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,IT 1.4,Engineering Practices Lab (Electrical)

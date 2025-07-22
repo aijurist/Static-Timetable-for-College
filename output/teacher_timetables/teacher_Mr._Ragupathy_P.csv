@@ -1,7 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,08:00,09:40,Wiring Harness Design Engineering,EEE 3.2,Physics LAB - 2
-SATURDAY,17:30,19:10,Wiring Harness Design Engineering,EEE 3.2,Engineering Practices Lab (Electronics)
-FRIDAY,11:50,13:30,Wiring Harness Design Engineering,EEE 3.2,VLSI Lab
-THURSDAY,15:50,17:30,Wiring Harness Design Engineering,EEE 3.2,Microprocessor Lab-1
-WEDNESDAY,11:50,13:30,Wiring Harness Design Engineering,EEE 3.2,Engineering Practices Lab (Electronics)
-THURSDAY,17:30,19:10,Wiring Harness Design Engineering,EEE 3.2,Electronic Devices & Circuits Lab
+SATURDAY,12:00,12:50,Basic Electrical and Electronics Engineering,IT 1.5,D204
+SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,IT 1.5,D204
+SATURDAY,09:00,09:50,Basic Electrical and Electronics Engineering,IT 1.5,D205
+WEDNESDAY,10:00,11:40,Basic Electrical and Electronics Engineering,IT 1.5,Basic Electronics Lab-1
+WEDNESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,IT 1.5,Basic Electronics Lab-1

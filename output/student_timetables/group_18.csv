@@ -1,15 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-FRIDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-WEDNESDAY,10:00,10:50,Cloud Computing,Mrs. Santhiya M,B409
-THURSDAY,16:00,16:50,Cloud Computing,Mrs. Santhiya M,B222
-WEDNESDAY,11:50,13:30,Cloud Computing,Mrs. Santhiya M,KFR01
-MONDAY,11:50,13:30,Cloud Computing,Mrs. Santhiya M,JR2
-FRIDAY,13:00,13:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A202
-FRIDAY,15:00,15:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A303
-MONDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JL2
-THURSDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFR2
+SATURDAY,13:00,13:50,Heritage Of Tamils,Mrs. Dr R Kavitha,D111
+SATURDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mrs. Anto Sheeba J,D203
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mrs. Anto Sheeba J,D204
+SATURDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mrs. Anto Sheeba J,D204
+SATURDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mrs. Anto Sheeba J,Basic Electronics Lab-1
+SATURDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mrs. Anto Sheeba J,Basic Electronics Lab-1
+SATURDAY,14:00,14:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D209
+THURSDAY,11:00,11:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D204
+THURSDAY,12:00,12:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D204
+THURSDAY,14:00,14:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D204
+THURSDAY,15:00,15:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D204
+THURSDAY,16:00,16:50,Engineering Graphics,Mr. Dr P. Muthaimanoj,D204
+THURSDAY,09:00,09:50,Programming using C,New Faculty Information Technology (NS-NS6),D205
+SATURDAY,15:00,16:40,Programming using C,New Faculty Information Technology (NS-NS6),Auto CAD Lab
+FRIDAY,08:00,09:40,Programming using C,New Faculty Information Technology (NS-NS6),Isaac Asimov Laboratory
+FRIDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-NS6),Isaac Asimov Laboratory
+SATURDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-NS6),Auto CAD Lab
+FRIDAY,11:50,13:20,Programming using C,New Faculty Information Technology (NS-NS6),Medical Image Processing Lab
+FRIDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-NS6),Diagnostic and Therapeutic Equipment Lab
+FRIDAY,15:00,15:50,Linear Algebra and Calculus,Dr. V. R. Sunil Kumar,D209
+FRIDAY,16:00,16:50,Linear Algebra and Calculus,Dr. V. R. Sunil Kumar,D204
+THURSDAY,10:00,10:50,Linear Algebra and Calculus,Dr. V. R. Sunil Kumar,D205
+THURSDAY,08:00,08:50,Linear Algebra and Calculus,Dr. V. R. Sunil Kumar,D205
+WEDNESDAY,12:00,12:50,Technical Communication -I,Mrs. Gayathri K,D209
+WEDNESDAY,13:00,13:50,Technical Communication -I,Mrs. Gayathri K,D209
+WEDNESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Ms. M.Brenda,Engineering Practices Lab (Electronics)
+WEDNESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. M.Brenda,Engineering Practices Lab (Electronics)
+WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Mrs. Geetha Chandrasekran,D210
+WEDNESDAY,14:00,14:50,Environmental Science and Engineering,Mrs. Geetha Chandrasekran,D210
+WEDNESDAY,08:00,08:50,Environmental Science and Engineering,Mrs. Geetha Chandrasekran,D210

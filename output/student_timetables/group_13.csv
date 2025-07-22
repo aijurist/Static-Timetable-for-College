@@ -1,18 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,TLFL3
-MONDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,KFL02
-FRIDAY,09:50,11:30,Industry Practices Lab,Ms. Janani M,TLGL3
-TUESDAY,08:00,09:40,Industry Practices Lab,Ms. Janani M,TLFL2
-FRIDAY,15:00,15:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A205
-THURSDAY,14:00,14:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B410
-THURSDAY,12:00,12:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B106
-TUESDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,KFL02
-THURSDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLGL3
-WEDNESDAY,17:30,19:10,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLFR2
-WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLGL4
-TUESDAY,13:00,13:50,Software Testing,Dr. Valarmathie Dinakaran,B106
-TUESDAY,10:00,10:50,Software Testing,Dr. Valarmathie Dinakaran,B107
-MONDAY,16:00,16:50,Software Testing,Dr. Valarmathie Dinakaran,B422
-MONDAY,14:00,14:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A303
-MONDAY,17:00,17:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B423
-TUESDAY,11:00,11:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,C102
+SATURDAY,09:00,09:50,Heritage Of Tamils,Mrs. Dr. B.Lakshmi,D109
+SATURDAY,16:00,16:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D109
+SATURDAY,11:00,11:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
+SATURDAY,12:00,12:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
+SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
+TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
+TUESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
+TUESDAY,11:00,11:50,Technical Communication -I,Dr. Vijayalakshmi M,D203
+TUESDAY,10:00,10:50,Technical Communication -I,Dr. Vijayalakshmi M,D204
+TUESDAY,16:00,16:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D204
+TUESDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D209
+SATURDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D202
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D205
+TUESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D210
+SATURDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D203
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D202
+THURSDAY,14:00,14:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D202
+THURSDAY,12:00,12:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D203
+THURSDAY,08:00,09:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
+THURSDAY,10:00,11:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
+THURSDAY,13:00,13:50,Physics for Information Science,Dr. Mahesh R,D203
+THURSDAY,15:00,15:50,Physics for Information Science,Dr. Mahesh R,D203
+THURSDAY,16:00,16:50,Physics for Information Science,Dr. Mahesh R,D203
+WEDNESDAY,11:50,13:20,Physics for Information Science,Dr. Mahesh R,Physics LAB - 1
+WEDNESDAY,08:00,08:50,Programming using C,Mrs. Selvarani K,D205
+WEDNESDAY,10:00,11:40,Programming using C,Mrs. Selvarani K,Isaac Asimov Laboratory
+WEDNESDAY,13:20,15:00,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
+TUESDAY,13:20,15:00,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
+TUESDAY,11:50,13:20,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
+THURSDAY,08:00,09:40,Programming using C,Mrs. Selvarani K,Medical Image Processing Lab
+WEDNESDAY,15:00,16:40,Programming using C,Mrs. Selvarani K,Medical Image Processing Lab

@@ -1,11 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,CSE 2.2,B320
-FRIDAY,15:00,15:50,Design and Analysis of Algorithms,CSE 2.2,B210
-THURSDAY,15:00,15:50,Design and Analysis of Algorithms,CSE 2.2,B401
-MONDAY,08:00,09:40,Design and Analysis of Algorithms,CSE 2.2,TLFL2
-WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.2,KFR03
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.8,A102
-TUESDAY,18:00,18:50,Design and Analysis of Algorithms,CSE 2.8,B422
-THURSDAY,08:00,08:50,Design and Analysis of Algorithms,CSE 2.8,B401
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.8,KFR02
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.8,TLGL4
+TUESDAY,16:00,16:50,Programming using C,ECE 1.3,D202
+WEDNESDAY,15:00,16:40,Programming using C,ECE 1.3,Auto CAD Lab
+WEDNESDAY,13:20,15:00,Programming using C,ECE 1.3,Food Chemistry Lab
+WEDNESDAY,11:50,13:20,Programming using C,ECE 1.3,Food Chemistry Lab
+MONDAY,10:00,11:40,Programming using C,ECE 1.3,Auto CAD Lab
+WEDNESDAY,10:00,11:40,Programming using C,ECE 1.3,Food Chemistry Lab
+THURSDAY,15:00,16:40,Programming using C,ECE 1.3,Food Chemistry Lab

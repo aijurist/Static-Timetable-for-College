@@ -1,10 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,10:00,10:50,Analog Circuits –I,ECE 2.4,A103
-THURSDAY,12:00,12:50,Analog Circuits –I,ECE 2.4,B210
-THURSDAY,10:00,10:50,Analog Circuits –I,ECE 2.4,A104/105
-TUESDAY,09:50,11:30,Analog and Digital Circuits Laboratory,ECE 2.2,Basic Electronics Lab-1
-WEDNESDAY,17:30,19:10,Analog and Digital Circuits Laboratory,ECE 2.2,Basic Electronics Lab-1
-WEDNESDAY,15:50,17:30,Analog and Digital Circuits Laboratory,ECE 2.2,Basic Electronics Lab-1
-THURSDAY,08:00,09:40,Analog and Digital Circuits Laboratory,ECE 2.2,Basic Electronics Lab-1
-WEDNESDAY,13:50,15:30,Industrial Internship,ECE 3.3,Aerodynamics Lab
-THURSDAY,13:50,15:30,Industrial Internship,ECE 3.3,Microprocessor Lab-2
+TUESDAY,09:00,09:50,Electron Devices,ECE 1.1,D204
+TUESDAY,08:00,08:50,Electron Devices,ECE 1.1,D205
+THURSDAY,08:00,08:50,Electron Devices,ECE 1.1,D111
+THURSDAY,10:00,11:40,Electron Devices,ECE 1.1,Engineering Practices Lab (Electronics)
+THURSDAY,11:50,13:20,Electron Devices,ECE 1.1,Engineering Practices Lab (Electronics)

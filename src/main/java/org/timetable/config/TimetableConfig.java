@@ -15,7 +15,9 @@ public class TimetableConfig {
             new LocalTime[]{LocalTime.of(11, 0), LocalTime.of(11, 50)},
             new LocalTime[]{LocalTime.of(12, 0), LocalTime.of(12, 50)},
             new LocalTime[]{LocalTime.of(13, 0), LocalTime.of(13, 50)},
-            new LocalTime[]{LocalTime.of(14, 0), LocalTime.of(14, 50)}
+            new LocalTime[]{LocalTime.of(14, 0), LocalTime.of(14, 50)},
+            new LocalTime[]{LocalTime.of(15, 0), LocalTime.of(15, 50)},
+            new LocalTime[]{LocalTime.of(16, 0), LocalTime.of(16, 50)}
     );
 
     // Lab time slots
@@ -23,7 +25,8 @@ public class TimetableConfig {
             new LocalTime[]{LocalTime.of(8, 0), LocalTime.of(9, 40)},
             new LocalTime[]{LocalTime.of(10, 00), LocalTime.of(11, 40)},
             new LocalTime[]{LocalTime.of(11, 50), LocalTime.of(13, 20)},
-            new LocalTime[]{LocalTime.of(13, 20), LocalTime.of(15, 00)}
+            new LocalTime[]{LocalTime.of(13, 20), LocalTime.of(15, 00)},
+            new LocalTime[]{LocalTime.of(15, 00), LocalTime.of(16, 40)}
     );
 
     // Constants

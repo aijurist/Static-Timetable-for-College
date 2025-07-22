@@ -1,6 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,15:00,15:50,Measurements and Instrumentation,EEE 2.1,A210
-WEDNESDAY,16:00,16:50,Measurements and Instrumentation,EEE 2.1,C307
-THURSDAY,08:00,08:50,Measurements and Instrumentation,EEE 2.1,B212
-TUESDAY,15:50,17:30,Control and Instrumentation Laboratory,EEE 3.1,Power System Simulation Lab
-SATURDAY,13:50,15:30,Control and Instrumentation Laboratory,EEE 3.1,Power System Simulation Lab
+THURSDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,EEE 1.1,Engineering Practices Lab (Electrical)
+THURSDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,EEE 1.1,Engineering Practices Lab (Electrical)
+SATURDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,AIDS 1.5,Engineering Practices Lab (Electrical)
+THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,AIDS 1.5,Engineering Practices Lab (Electrical)

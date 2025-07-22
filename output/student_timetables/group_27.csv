@@ -1,32 +1,3 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:00,09:50,Computer Architecture,Mrs. Farjana U,B222
-FRIDAY,14:00,14:50,Computer Architecture,Mrs. Farjana U,A303
-TUESDAY,18:00,18:50,Computer Architecture,Mrs. Farjana U,B419
-WEDNESDAY,10:00,10:50,Design and Analysis of Algorithms,Mr. Srinivasan N,C101
-TUESDAY,15:00,15:50,Design and Analysis of Algorithms,Mr. Srinivasan N,A202
-THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Mr. Srinivasan N,A205
-THURSDAY,08:00,09:40,Design and Analysis of Algorithms,Mr. Srinivasan N,TLFL5
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Srinivasan N,TLFL2
-TUESDAY,16:00,16:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,C302
-FRIDAY,13:00,13:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B106
-FRIDAY,09:00,09:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B221
-FRIDAY,10:00,10:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,C307
-MONDAY,13:00,13:50,Database Management Systems,Ms. Sana,A102
-WEDNESDAY,13:00,13:50,Database Management Systems,Ms. Sana,B425
-FRIDAY,15:00,15:50,Database Management Systems,Ms. Sana,C202
-THURSDAY,14:00,14:50,Database Management Systems,Ms. Sana,TLFR1
-WEDNESDAY,13:50,15:30,Database Management Systems,Ms. Sana,TLFL4
-MONDAY,15:50,17:30,Database Management Systems,Ms. Sana,TLFR4
-MONDAY,17:30,19:10,Database Management Systems,Ms. Sana,TLFR3
-THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B416
-THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B405
-FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,A310
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFR5
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFR01
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFL02
-THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFR03
-WEDNESDAY,11:00,11:50,Fundamentals of Data Science,Mr. Srinivasan N,B412
-TUESDAY,14:00,14:50,Fundamentals of Data Science,Mr. Srinivasan N,B423
-TUESDAY,17:00,17:50,Fundamentals of Data Science,Mr. Srinivasan N,A210
-MONDAY,15:50,17:30,Fundamentals of Data Science,Mr. Srinivasan N,TLFR5
-TUESDAY,11:50,13:30,Fundamentals of Data Science,Mr. Srinivasan N,KFL01
+MONDAY,13:00,13:50,Technical Communication -I,Mr. Savier Mut Jabraj A,D202
+MONDAY,12:00,12:50,Technical Communication -I,Mr. Savier Mut Jabraj A,D203

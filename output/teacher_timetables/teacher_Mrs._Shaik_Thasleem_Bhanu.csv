@@ -1,8 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,10:00,10:50,RF and Microwave Engineering,ECE 4.2,B415
-THURSDAY,16:00,16:50,RF and Microwave Engineering,ECE 4.2,B325
-MONDAY,09:00,09:50,RF and Microwave Engineering,ECE 4.2,A310
-THURSDAY,09:50,11:30,Advanced Communication Systems Laboratory,ECE 4.2,Optical and Microwave Lab
-TUESDAY,15:50,17:30,Advanced Communication Systems Laboratory,ECE 4.2,Optical and Microwave Lab
-TUESDAY,17:30,19:10,Advanced Communication Systems Laboratory,ECE 4.2,Optical and Microwave Lab
-MONDAY,11:50,13:30,Advanced Communication Systems Laboratory,ECE 4.2,Optical and Microwave Lab
+WEDNESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electrical)
+WEDNESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electrical)

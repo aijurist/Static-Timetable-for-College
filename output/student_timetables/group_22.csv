@@ -1,27 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,14:00,14:50,Operating Systems,Dr. Gunasekar S,B106
-TUESDAY,15:00,15:50,Operating Systems,Dr. Gunasekar S,A208
-WEDNESDAY,13:00,13:50,Operating Systems,Dr. Gunasekar S,B405
-THURSDAY,09:50,11:30,Operating Systems,Dr. Gunasekar S,TLFR1
-FRIDAY,09:50,11:30,Operating Systems,Dr. Gunasekar S,TLFL4
-SATURDAY,13:50,15:30,Operating Systems,Dr. Gunasekar S,TLGL2
-FRIDAY,08:00,09:40,Operating Systems,Dr. Gunasekar S,TLFL2
-SATURDAY,15:50,17:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-FRIDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-WEDNESDAY,08:00,09:40,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-THURSDAY,13:50,15:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-THURSDAY,16:00,16:50,3D Modelling and Texturing,Mr. S Umamaheswararao,A203
-FRIDAY,14:00,14:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B411
-SATURDAY,13:50,15:30,3D Modelling and Texturing,Mr. S Umamaheswararao,KFR01
-FRIDAY,09:50,11:30,3D Modelling and Texturing,Mr. S Umamaheswararao,TLFL3
-WEDNESDAY,14:00,14:50,Web Programming,Mr. Thirumalairajan G,B410
-WEDNESDAY,10:00,10:50,Web Programming,Mr. Thirumalairajan G,C308
-TUESDAY,13:00,13:50,Web Programming,Mr. Thirumalairajan G,C201
-SATURDAY,17:30,19:10,Web Programming,Mr. Thirumalairajan G,TLGL3
-WEDNESDAY,08:00,09:40,Web Programming,Mr. Thirumalairajan G,JR1
-THURSDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,TLGL2
-SATURDAY,15:50,17:30,Web Programming,Mr. Thirumalairajan G,TLFL2
-WEDNESDAY,11:00,11:50,Graphics and Multimedia,Mr. Vijayakumar R,B222
-TUESDAY,16:00,16:50,Graphics and Multimedia,Mr. Vijayakumar R,A108
-THURSDAY,13:50,15:30,Graphics and Multimedia,Mr. Vijayakumar R,TLFL3
-TUESDAY,09:50,11:30,Graphics and Multimedia,Mr. Vijayakumar R,JR2
+SATURDAY,08:00,08:50,Heritage Of Tamils,Dr. Vijayalakshmi M,D203
+SATURDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D204
+SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D204
+SATURDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D205
+WEDNESDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+WEDNESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+WEDNESDAY,12:00,12:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. R.Dhanaraj,D209
+WEDNESDAY,09:00,09:50,Engineering Graphics,Mr. R.Dhanaraj,D209
+WEDNESDAY,15:00,15:50,Engineering Graphics,Mr. R.Dhanaraj,D210
+SATURDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D209
+SATURDAY,15:00,15:50,Engineering Graphics,Mr. R.Dhanaraj,D209
+WEDNESDAY,16:00,16:50,Programming using C,New Faculty Information Technology (NS-IT NS10),D209
+WEDNESDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),Aircraft Structures Lab
+THURSDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Medical Image Processing Lab
+THURSDAY,15:00,16:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Medical Image Processing Lab
+WEDNESDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Diagnostic and Therapeutic Equipment Lab
+THURSDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),Diagnostic and Therapeutic Equipment Lab
+THURSDAY,11:50,13:20,Programming using C,New Faculty Information Technology (NS-IT NS10),Electronics and Instrumentation
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D210
+THURSDAY,08:00,08:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D209
+SATURDAY,14:00,14:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D210
+SATURDAY,16:00,16:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D205
+FRIDAY,12:00,12:50,Technical Communication -I,Mr. M. Muthumanikandan,D204
+FRIDAY,13:00,13:50,Technical Communication -I,Mr. M. Muthumanikandan,D204
+FRIDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electrical)
+TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electronics)
+TUESDAY,11:00,11:50,Environmental Science and Engineering,Mr. Dr Mohan S,D211
+TUESDAY,14:00,14:50,Environmental Science and Engineering,Mr. Dr Mohan S,D211
+FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr Mohan S,D205

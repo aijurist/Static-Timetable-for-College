@@ -1,6 +1,4 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,08:00,08:50,Electromagnetic Fields,ECE 2.3,B212
-MONDAY,13:00,13:50,Electromagnetic Fields,ECE 2.3,B106
-FRIDAY,14:00,14:50,Electromagnetic Fields,ECE 2.3,A202
-SATURDAY,08:00,09:40,Industrial Internship,ECE 3.2,Electronic Devices & Circuits Lab
-WEDNESDAY,08:00,09:40,Industrial Internship,ECE 3.2,Manufacturing Technology I
+WEDNESDAY,11:00,11:50,Heritage Of Tamils,ECE 1.1,D203
+FRIDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,IT 1.2,Engineering Practices Lab (Electrical)
+TUESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,IT 1.2,Engineering Practices Lab (Electronics)

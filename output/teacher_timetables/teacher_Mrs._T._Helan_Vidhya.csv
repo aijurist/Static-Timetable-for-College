@@ -1,4 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,18:00,18:50,Modern Digital Communication,ECE 3.3,C102
-WEDNESDAY,13:00,13:50,Modern Digital Communication,ECE 3.3,B405
-THURSDAY,11:00,11:50,Modern Digital Communication,ECE 3.3,B220
+MONDAY,09:00,09:50,Electron Devices,ECE 1.4,D204
+MONDAY,08:00,08:50,Electron Devices,ECE 1.4,D204
+THURSDAY,11:00,11:50,Electron Devices,ECE 1.4,D111
+THURSDAY,15:00,16:40,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)
+MONDAY,13:20,15:00,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)

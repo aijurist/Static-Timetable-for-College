@@ -1,31 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,A202
-SATURDAY,14:00,14:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B409
-THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B410
-THURSDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B320
-SATURDAY,11:00,11:50,Database Management Systems,New Staff 4 N,B401
-WEDNESDAY,15:00,15:50,Database Management Systems,New Staff 4 N,B417
-SATURDAY,13:00,13:50,Database Management Systems,New Staff 4 N,A108
-WEDNESDAY,17:30,19:10,Database Management Systems,New Staff 4 N,TLFL1
-WEDNESDAY,15:50,17:30,Database Management Systems,New Staff 4 N,TLGL2
-FRIDAY,15:50,17:30,Database Management Systems,New Staff 4 N,TLGL4
-THURSDAY,17:30,19:10,Database Management Systems,New Staff 4 N,JL1
-TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff 3 N,A309
-TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff 3 N,A305
-FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff 3 N,B213
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFR3
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFL03
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFL01
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLFL2
-SATURDAY,15:00,15:50,Computer Networks,Mrs. Subashri Meenakshi G,C308
-TUESDAY,15:00,15:50,Computer Networks,Mrs. Subashri Meenakshi G,A308
-WEDNESDAY,13:00,13:50,Computer Networks,Mrs. Subashri Meenakshi G,B302
-SATURDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,JL1
-FRIDAY,16:00,16:50,Computer Networks,Mrs. Subashri Meenakshi G,KFR03
-TUESDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLFL3
-THURSDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLGL4
-FRIDAY,14:00,14:50,Cryptography,HOD CSE(CS),B425
-TUESDAY,14:00,14:50,Cryptography,HOD CSE(CS),B320
-THURSDAY,14:00,14:50,Cryptography,HOD CSE(CS),B404
-THURSDAY,17:30,19:10,Cryptography,HOD CSE(CS),TLFR2
-WEDNESDAY,15:50,17:30,Cryptography,HOD CSE(CS),TLFL4
+MONDAY,13:00,13:50,Chemistry For Electronics Engineering,Mrs. P. Ramadevi,D110
+MONDAY,15:00,15:50,Chemistry For Electronics Engineering,Mrs. P. Ramadevi,D110
+MONDAY,16:00,16:50,Chemistry For Electronics Engineering,Mrs. P. Ramadevi,D110
+WEDNESDAY,11:50,13:20,Chemistry For Electronics Engineering,Mrs. P. Ramadevi,Chemistry Lab
+WEDNESDAY,13:20,15:00,Chemistry For Electronics Engineering,Mrs. P. Ramadevi,Chemistry Lab
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,Mrs. Yuvashri P,D111
+WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Mrs. Yuvashri P,D202
+WEDNESDAY,15:00,15:50,Linear Algebra and Calculus,Mrs. Yuvashri P,D203
+WEDNESDAY,16:00,16:50,Linear Algebra and Calculus,Mrs. Yuvashri P,D202
+WEDNESDAY,09:00,09:50,Technical Communication -I,Mrs. Angel P,D202
+WEDNESDAY,11:00,11:50,Technical Communication -I,Mrs. Angel P,D202
+MONDAY,12:00,12:50,Heritage Of Tamils,Mrs. Chitra Devi P,D202
+MONDAY,09:00,09:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D203
+MONDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D203
+MONDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D203
+MONDAY,08:00,08:50,Programming using C,Dr. Madhusudhanan S,D203
+WEDNESDAY,13:20,15:00,Programming using C,Dr. Madhusudhanan S,Isaac Asimov Laboratory
+TUESDAY,08:00,09:40,Programming using C,Dr. Madhusudhanan S,Food Chemistry Lab
+TUESDAY,10:00,11:40,Programming using C,Dr. Madhusudhanan S,Medical Image Processing Lab
+WEDNESDAY,11:50,13:20,Programming using C,Dr. Madhusudhanan S,Isaac Asimov Laboratory
+TUESDAY,11:50,13:20,Programming using C,Dr. Madhusudhanan S,Medical Image Processing Lab
+TUESDAY,13:20,15:00,Programming using C,Dr. Madhusudhanan S,Medical Image Processing Lab
+TUESDAY,15:00,15:50,Electron Devices,Mrs. R Bharathy,D204
+TUESDAY,16:00,16:50,Electron Devices,Mrs. R Bharathy,D203
+THURSDAY,13:00,13:50,Electron Devices,Mrs. R Bharathy,D111
+THURSDAY,08:00,09:40,Electron Devices,Mrs. R Bharathy,Engineering Practices Lab (Electronics)
+FRIDAY,15:00,16:40,Electron Devices,Mrs. R Bharathy,Engineering Practices Lab (Electronics)

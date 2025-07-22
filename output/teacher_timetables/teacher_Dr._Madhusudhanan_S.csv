@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,09:00,09:50,Web Programming,CSE 3.4,A205
-FRIDAY,18:00,18:50,Web Programming,CSE 3.4,C201
-THURSDAY,09:00,09:50,Web Programming,CSE 3.4,C201
-WEDNESDAY,11:50,13:30,Web Programming,CSE 3.4,TLFL3
-THURSDAY,09:50,11:30,Web Programming,CSE 3.4,JL1
-TUESDAY,09:50,11:30,Web Programming,CSE 3.4,TLFR3
-THURSDAY,11:50,13:30,Web Programming,CSE 3.4,TLGL3
+MONDAY,08:00,08:50,Programming using C,ECE 1.7,D203
+WEDNESDAY,13:20,15:00,Programming using C,ECE 1.7,Isaac Asimov Laboratory
+TUESDAY,08:00,09:40,Programming using C,ECE 1.7,Food Chemistry Lab
+TUESDAY,10:00,11:40,Programming using C,ECE 1.7,Medical Image Processing Lab
+WEDNESDAY,11:50,13:20,Programming using C,ECE 1.7,Isaac Asimov Laboratory
+TUESDAY,11:50,13:20,Programming using C,ECE 1.7,Medical Image Processing Lab
+TUESDAY,13:20,15:00,Programming using C,ECE 1.7,Medical Image Processing Lab

@@ -1,32 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,13:00,13:50,Analog and Digital Communication,Mrs. R Bharathy,B320
-TUESDAY,09:00,09:50,Analog and Digital Communication,Mrs. R Bharathy,B320
-SATURDAY,15:00,15:50,Analog and Digital Communication,Mrs. R Bharathy,C201
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. Janani M,B404
-WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. Janani M,B410
-THURSDAY,18:00,18:50,Design and Analysis of Algorithms,Ms. Janani M,B221
-WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Ms. Janani M,JL1
-FRIDAY,08:00,09:40,Design and Analysis of Algorithms,Ms. Janani M,TLFR4
-SATURDAY,11:00,11:50,Fourier series and Number theory,Mr. Venkatesan J,A311
-WEDNESDAY,14:00,14:50,Fourier series and Number theory,Mr. Venkatesan J,A310
-SATURDAY,16:00,16:50,Fourier series and Number theory,Mr. Venkatesan J,B210
-TUESDAY,08:00,08:50,Fourier series and Number theory,Mr. Venkatesan J,A302
-WEDNESDAY,09:00,09:50,Database Management Systems,Mrs. A.P.Aruna Jameela,A205
-WEDNESDAY,08:00,08:50,Database Management Systems,Mrs. A.P.Aruna Jameela,B401
-TUESDAY,14:00,14:50,Database Management Systems,Mrs. A.P.Aruna Jameela,B220
-THURSDAY,15:50,17:30,Database Management Systems,Mrs. A.P.Aruna Jameela,KFR01
-WEDNESDAY,09:50,11:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JR1
-THURSDAY,13:50,15:30,Database Management Systems,Mrs. A.P.Aruna Jameela,TLGL4
-THURSDAY,11:50,13:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JR3
-FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,B423
-SATURDAY,17:00,17:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,C101
-SATURDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,A311
-FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Narayana K E,JR1
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,TLGL3
-FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,JL3
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,KFL03
-FRIDAY,12:00,12:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B221
-TUESDAY,10:00,10:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B218
-SATURDAY,13:00,13:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,C201
-FRIDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR3
-WEDNESDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR5
+FRIDAY,13:00,13:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D109
+FRIDAY,16:00,16:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D109
+FRIDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D110
+FRIDAY,10:00,11:40,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
+TUESDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
+TUESDAY,16:00,16:50,Linear Algebra and Calculus,Mrs. R Nathiya,D111
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,Mrs. R Nathiya,D202
+FRIDAY,12:00,12:50,Linear Algebra and Calculus,Mrs. R Nathiya,D110
+FRIDAY,14:00,14:50,Linear Algebra and Calculus,Mrs. R Nathiya,D110
+TUESDAY,10:00,10:50,Technical Communication -I,Mrs. Renuka B S,D202
+TUESDAY,11:00,11:50,Technical Communication -I,Mrs. Renuka B S,D202
+TUESDAY,15:00,15:50,Heritage Of Tamils,Ms. Raghavi K K,D202
+FRIDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D110
+TUESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D203
+FRIDAY,08:00,08:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D110
+TUESDAY,08:00,08:50,Programming using C,ECE-NF1,D204
+TUESDAY,11:50,13:20,Programming using C,ECE-NF1,Isaac Asimov Laboratory
+MONDAY,15:00,16:40,Programming using C,ECE-NF1,Auto CAD Lab
+MONDAY,13:20,15:00,Programming using C,ECE-NF1,Isaac Asimov Laboratory
+FRIDAY,10:00,11:40,Programming using C,ECE-NF1,Food Chemistry Lab
+MONDAY,11:50,13:20,Programming using C,ECE-NF1,Isaac Asimov Laboratory
+MONDAY,10:00,11:40,Programming using C,ECE-NF1,Isaac Asimov Laboratory
+MONDAY,09:00,09:50,Electron Devices,Mrs. T. Helan Vidhya,D204
+MONDAY,08:00,08:50,Electron Devices,Mrs. T. Helan Vidhya,D204
+THURSDAY,11:00,11:50,Electron Devices,Mrs. T. Helan Vidhya,D111
+THURSDAY,15:00,16:40,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)
+MONDAY,13:20,15:00,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)

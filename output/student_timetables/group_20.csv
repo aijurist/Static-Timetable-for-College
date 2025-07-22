@@ -1,15 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,16:00,16:50,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-MONDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-WEDNESDAY,12:00,12:50,Cloud Computing,Mr. Ayyadurai M,B107
-FRIDAY,10:00,10:50,Cloud Computing,Mr. Ayyadurai M,A303
-FRIDAY,11:50,13:30,Cloud Computing,Mr. Ayyadurai M,TLFL1
-FRIDAY,13:50,15:30,Cloud Computing,Mr. Ayyadurai M,TLGL3
-MONDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A303
-TUESDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A309
-WEDNESDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFR2
-THURSDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLGL4
+THURSDAY,14:00,14:50,Heritage Of Tamils,Dr. Sri Hari. G,D203
+THURSDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
+THURSDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
+THURSDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+TUESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. Ct.Muthiah,D209
+TUESDAY,12:00,12:50,Engineering Graphics,Mr. Ct.Muthiah,D209
+THURSDAY,11:00,11:50,Engineering Graphics,Mr. Ct.Muthiah,D205
+TUESDAY,10:00,10:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,16:00,16:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D211
+THURSDAY,15:00,15:50,Programming using C,IT-NF1,D205
+TUESDAY,13:20,15:00,Programming using C,IT-NF1,Aerodynamics Lab
+SATURDAY,11:50,13:20,Programming using C,IT-NF1,Auto CAD Lab
+SATURDAY,13:20,15:00,Programming using C,IT-NF1,Auto CAD Lab
+THURSDAY,11:50,13:20,Programming using C,IT-NF1,Medical Image Processing Lab
+SATURDAY,15:00,16:40,Programming using C,IT-NF1,Food Chemistry Lab
+SATURDAY,10:00,11:40,Programming using C,IT-NF1,Food Chemistry Lab
+SATURDAY,09:00,09:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D210
+TUESDAY,15:00,15:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D211
+SATURDAY,08:00,08:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D209
+THURSDAY,16:00,16:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D205
+TUESDAY,08:00,08:50,Technical Communication -I,Mrs. Andria Babu,D211
+FRIDAY,08:00,08:50,Technical Communication -I,Mrs. Andria Babu,D204
+FRIDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electrical)
+FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electrical)
+FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D211
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D210
+WEDNESDAY,12:00,12:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D210

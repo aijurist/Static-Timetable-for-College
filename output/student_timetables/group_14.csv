@@ -1,18 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,11:50,13:30,Industry Practices Lab,Mr. Suresh Kumar K,TLFL2
-TUESDAY,11:50,13:30,Industry Practices Lab,Mr. Suresh Kumar K,TLFL5
-WEDNESDAY,09:50,11:30,Industry Practices Lab,Mr. Suresh Kumar K,TLGL4
-FRIDAY,09:50,11:30,Industry Practices Lab,Mr. Suresh Kumar K,TLFL5
-FRIDAY,13:00,13:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,B423
-THURSDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,B213
-WEDNESDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,B412
-TUESDAY,09:50,11:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLFR4
-FRIDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLFL5
-THURSDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,KFL03
-THURSDAY,09:50,11:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLFL5
-MONDAY,10:00,10:50,Software Testing,Mrs. K Indumathi,B404
-TUESDAY,14:00,14:50,Software Testing,Mrs. K Indumathi,A309
-TUESDAY,15:00,15:50,Software Testing,Mrs. K Indumathi,B408
-MONDAY,13:00,13:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A302
-TUESDAY,09:00,09:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,C102
-MONDAY,16:00,16:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,C202
+SATURDAY,10:00,10:50,Heritage Of Tamils,Dr. Sri Hari. G,D109
+SATURDAY,08:00,08:50,Mathematical Foundations for AI,New Faculty Mathematics (NS-NF-3),D110
+SATURDAY,13:00,13:50,Mathematical Foundations for AI,New Faculty Mathematics (NS-NF-3),D110
+SATURDAY,15:00,15:50,Mathematical Foundations for AI,New Faculty Mathematics (NS-NF-3),D110
+SATURDAY,09:00,09:50,Mathematical Foundations for AI,New Faculty Mathematics (NS-NF-3),D111
+TUESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mrs. Anto Sheeba J,Engineering Practices Lab (Electrical)
+TUESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mrs. Anto Sheeba J,Engineering Practices Lab (Electronics)
+TUESDAY,11:00,11:50,Technical Communication -I,New Faculty English (NS-NFE-2),D204
+TUESDAY,12:00,12:50,Technical Communication -I,New Faculty English (NS-NFE-2),D204
+TUESDAY,10:00,10:50,Environmental Science and Engineering,Mrs. P. Ramadevi,D205
+TUESDAY,08:00,08:50,Environmental Science and Engineering,Mrs. P. Ramadevi,D209
+SATURDAY,12:00,12:50,Environmental Science and Engineering,Mrs. P. Ramadevi,D202
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,D209
+SATURDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,D203
+SATURDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,D203
+FRIDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. T. S. Saravanan,D202
+FRIDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mr. T. S. Saravanan,D202
+FRIDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Mr. T. S. Saravanan,D202
+FRIDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Mr. T. S. Saravanan,Basic Electronics Lab-1
+FRIDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. T. S. Saravanan,Basic Electronics Lab-1
+FRIDAY,15:00,15:50,Physics for Information Science,Mr. Vijayanarasimhan K,D204
+FRIDAY,09:00,09:50,Physics for Information Science,Mr. Vijayanarasimhan K,D205
+FRIDAY,16:00,16:50,Physics for Information Science,Mr. Vijayanarasimhan K,D203
+WEDNESDAY,13:20,15:00,Physics for Information Science,Mr. Vijayanarasimhan K,Physics LAB - 1
+WEDNESDAY,11:00,11:50,Programming using C,Mr. Thiyagarajan G,D205
+WEDNESDAY,11:50,13:20,Programming using C,Mr. Thiyagarajan G,Electronics and Instrumentation
+WEDNESDAY,08:00,09:40,Programming using C,Mr. Thiyagarajan G,Medical Image Processing Lab
+TUESDAY,13:20,15:00,Programming using C,Mr. Thiyagarajan G,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,15:00,16:40,Programming using C,Mr. Thiyagarajan G,Medical Image Processing Lab
+FRIDAY,11:50,13:20,Programming using C,Mr. Thiyagarajan G,Isaac Asimov Laboratory
+WEDNESDAY,15:00,16:40,Programming using C,Mr. Thiyagarajan G,Electronics and Instrumentation

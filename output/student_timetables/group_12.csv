@@ -1,30 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,13:00,13:50,Software Construction,Mrs. Subashri Meenakshi G,B408
-WEDNESDAY,18:00,18:50,Software Construction,Mrs. Subashri Meenakshi G,B422
-WEDNESDAY,17:00,17:50,Software Construction,Mrs. Subashri Meenakshi G,C201
-FRIDAY,13:50,15:30,Software Construction,Mrs. Subashri Meenakshi G,TLGL4
-SATURDAY,09:50,11:30,Software Construction,Mrs. Subashri Meenakshi G,TLGL2
-WEDNESDAY,14:00,14:50,Ethical Hacking,Dr. Balasubramanian V,B320
-TUESDAY,14:00,14:50,Ethical Hacking,Dr. Balasubramanian V,C308
-SATURDAY,15:00,15:50,Ethical Hacking,Dr. Balasubramanian V,B418
-TUESDAY,09:50,11:30,Ethical Hacking,Dr. Balasubramanian V,KFR02
-THURSDAY,09:50,11:30,Ethical Hacking,Dr. Balasubramanian V,TLFL1
-TUESDAY,09:00,09:50,Cyber and Digital Forensics,New Staff 4 N,B302
-THURSDAY,15:00,15:50,Cyber and Digital Forensics,New Staff 4 N,B302
-THURSDAY,14:00,14:50,Cyber and Digital Forensics,New Staff 4 N,B416
-TUESDAY,11:50,13:30,Cyber and Digital Forensics,New Staff 4 N,TLFR5
-FRIDAY,17:30,19:10,Cyber and Digital Forensics,New Staff 4 N,KFR03
-FRIDAY,15:50,17:30,Soft Skills – II,New Staff 2 N,TLFR4
-TUESDAY,09:50,11:30,Soft Skills – II,New Staff 2 N,TLFL3
-SATURDAY,14:00,14:50,Web Programming,Ms. R Rupmala,B411
-TUESDAY,08:00,08:50,Web Programming,Ms. R Rupmala,B220
-WEDNESDAY,15:00,15:50,Web Programming,Ms. R Rupmala,A109
-SATURDAY,11:50,13:30,Web Programming,Ms. R Rupmala,JR2
-FRIDAY,17:30,19:10,Web Programming,Ms. R Rupmala,KFL03
-THURSDAY,11:50,13:30,Web Programming,Ms. R Rupmala,KFL02
-FRIDAY,13:50,15:30,Web Programming,Ms. R Rupmala,JR3
-THURSDAY,09:00,09:50,Foundations of Artificial Intelligence,New Staff 3 N,A109
-SATURDAY,16:00,16:50,Foundations of Artificial Intelligence,New Staff 3 N,A205
-WEDNESDAY,16:00,16:50,Foundations of Artificial Intelligence,New Staff 3 N,A102
-SATURDAY,09:50,11:30,Foundations of Artificial Intelligence,New Staff 3 N,KFR03
-WEDNESDAY,11:50,13:30,Foundations of Artificial Intelligence,New Staff 3 N,JR1
+SATURDAY,08:00,08:50,Heritage Of Tamils,Ms. Rajalakshmi B,D109
+SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D109
+SATURDAY,15:00,15:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D109
+SATURDAY,09:00,09:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D110
+SATURDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D110
+SATURDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electrical)
+TUESDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electrical)
+TUESDAY,13:00,13:50,Technical Communication -I,Ms. Manasa K,D202
+TUESDAY,10:00,10:50,Technical Communication -I,Ms. Manasa K,D203
+TUESDAY,11:00,11:50,Environmental Science and Engineering,AIDS-NF1,D205
+TUESDAY,14:00,14:50,Environmental Science and Engineering,AIDS-NF1,D205
+TUESDAY,15:00,15:50,Environmental Science and Engineering,AIDS-NF1,D205
+SATURDAY,11:00,11:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D203
+SATURDAY,16:00,16:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D202
+TUESDAY,16:00,16:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D205
+FRIDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
+FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
+FRIDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
+SATURDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
+FRIDAY,12:00,12:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D203
+FRIDAY,15:00,15:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D203
+FRIDAY,09:00,09:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D204
+WEDNESDAY,10:00,11:40,Physics for Information Science,Dr. Pugazhvadivu Ks,Physics LAB - 1
+WEDNESDAY,08:00,08:50,Programming using C,surendar A,D204
+WEDNESDAY,11:50,13:20,Programming using C,surendar A,Medical Image Processing Lab
+WEDNESDAY,13:20,15:00,Programming using C,surendar A,Medical Image Processing Lab
+TUESDAY,08:00,09:40,Programming using C,surendar A,Isaac Asimov Laboratory
+FRIDAY,10:00,11:40,Programming using C,surendar A,Electronics and Instrumentation
+WEDNESDAY,15:00,16:40,Programming using C,surendar A,Isaac Asimov Laboratory
+THURSDAY,08:00,09:40,Programming using C,surendar A,Isaac Asimov Laboratory

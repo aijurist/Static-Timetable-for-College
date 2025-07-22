@@ -1,30 +1,33 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,18:00,18:50,Principles of Artificial Intelligence,Mr. Sathish M,A305
-THURSDAY,17:00,17:50,Principles of Artificial Intelligence,Mr. Sathish M,A211
-THURSDAY,15:00,15:50,Principles of Artificial Intelligence,Mr. Sathish M,B416
-TUESDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,TLGL2
-MONDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,TLFR4
-FRIDAY,09:50,11:30,Soft Skills – II,Mr. Dr B Muthu Kumar,KFL02
-WEDNESDAY,15:50,17:30,Soft Skills – II,Mr. Dr B Muthu Kumar,KFL02
-MONDAY,14:00,14:50,Web Programming,Mr. Narayana K E,A104/105
-WEDNESDAY,13:00,13:50,Web Programming,Mr. Narayana K E,C302
-TUESDAY,14:00,14:50,Web Programming,Mr. Narayana K E,A104/105
-TUESDAY,15:50,17:30,Web Programming,Mr. Narayana K E,TLFR1
-MONDAY,17:30,19:10,Web Programming,Mr. Narayana K E,KFL01
-TUESDAY,17:30,19:10,Web Programming,Mr. Narayana K E,JL2
-WEDNESDAY,13:50,15:30,Web Programming,Mr. Narayana K E,JR3
-THURSDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B213
-FRIDAY,16:00,16:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,A211
-FRIDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B325
-TUESDAY,15:00,15:50,Computer Vision,Mrs. L.Leena Jenifer,B412
-TUESDAY,13:00,13:50,Computer Vision,Mrs. L.Leena Jenifer,B425
-THURSDAY,14:00,14:50,Computer Vision,Mrs. L.Leena Jenifer,A310
-MONDAY,15:50,17:30,Computer Vision,Mrs. L.Leena Jenifer,JL2
-TUESDAY,15:50,17:30,Computer Vision,Mrs. L.Leena Jenifer,JR1
-THURSDAY,16:00,16:50,Computer Networks,Mrs. Bhalashri Sethuraman,C102
-MONDAY,13:00,13:50,Computer Networks,Mrs. Bhalashri Sethuraman,B213
-FRIDAY,12:00,12:50,Computer Networks,Mrs. Bhalashri Sethuraman,A209
-THURSDAY,11:50,13:30,Computer Networks,Mrs. Bhalashri Sethuraman,JL1
-WEDNESDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,KFL01
-MONDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL1
-FRIDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,JR2
+TUESDAY,13:00,13:50,Linear Algebra and Calculus,Mrs. M. Subha,D109
+TUESDAY,16:00,16:50,Linear Algebra and Calculus,Mrs. M. Subha,D109
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,Mrs. M. Subha,D110
+TUESDAY,10:00,10:50,Linear Algebra and Calculus,Mrs. M. Subha,D110
+WEDNESDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electrical)
+WEDNESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electrical)
+WEDNESDAY,12:00,12:50,Engineering Graphics,Mr. P.Arumugam,D110
+WEDNESDAY,13:00,13:50,Engineering Graphics,Mr. P.Arumugam,D110
+WEDNESDAY,14:00,14:50,Engineering Graphics,Mr. P.Arumugam,D110
+WEDNESDAY,15:00,15:50,Engineering Graphics,Mr. P.Arumugam,D110
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P.Arumugam,D110
+TUESDAY,14:00,14:50,Engineering Graphics,Mr. P.Arumugam,D110
+WEDNESDAY,16:00,16:50,Programming using C,New Faculty Information Technology (NS-IT NS12),D111
+WEDNESDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+THURSDAY,08:00,09:40,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+THURSDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+WEDNESDAY,08:00,09:40,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+THURSDAY,11:50,13:20,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+THURSDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS12),Auto CAD Lab
+THURSDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,D110
+THURSDAY,16:00,16:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,D110
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,D110
+THURSDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+THURSDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+TUESDAY,08:00,08:50,Heritage Of Tamils,Ms. Raghavi K K,D110
+FRIDAY,08:00,08:50,Chemistry For Electronics Engineering,Mr. Dr.Jayakumar S,D109
+FRIDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr.Jayakumar S,D109
+FRIDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. Dr.Jayakumar S,D109
+FRIDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Dr.Jayakumar S,Chemistry Lab
+FRIDAY,13:20,15:00,Chemistry For Electronics Engineering,Mr. Dr.Jayakumar S,Chemistry Lab
+FRIDAY,15:00,15:50,Technical Communication I,Mrs. Shanmugapriya Kumaravelu,D109
+FRIDAY,11:00,11:50,Technical Communication I,Mrs. Shanmugapriya Kumaravelu,D110

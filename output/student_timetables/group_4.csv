@@ -1,30 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,18:00,18:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B417
-MONDAY,13:00,13:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B415
-THURSDAY,13:00,13:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,C302
-WEDNESDAY,08:00,09:40,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFR03
-MONDAY,15:50,17:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFR01
-THURSDAY,13:50,15:30,Soft Skills – II,New Faculty New Staff -18,KFL02
-MONDAY,17:30,19:10,Soft Skills – II,New Faculty New Staff -18,TLFR1
-WEDNESDAY,10:00,10:50,Web Programming,Mrs. M.Sandhiya,B401
-WEDNESDAY,13:00,13:50,Web Programming,Mrs. M.Sandhiya,A204
-WEDNESDAY,11:00,11:50,Web Programming,Mrs. M.Sandhiya,C202
-THURSDAY,17:30,19:10,Web Programming,Mrs. M.Sandhiya,TLFR5
-MONDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,KFR03
-THURSDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,TLGL2
-TUESDAY,11:50,13:30,Web Programming,Mrs. M.Sandhiya,JL1
-FRIDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,A311
-FRIDAY,11:00,11:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B409
-FRIDAY,14:00,14:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B219
-TUESDAY,17:00,17:50,Computer Vision,Mrs. Dr.A.Kalaivani,C301
-TUESDAY,15:00,15:50,Computer Vision,Mrs. Dr.A.Kalaivani,C307
-TUESDAY,14:00,14:50,Computer Vision,Mrs. Dr.A.Kalaivani,A205
-THURSDAY,15:50,17:30,Computer Vision,Mrs. Dr.A.Kalaivani,JL2
-THURSDAY,13:50,15:30,Computer Vision,Mrs. Dr.A.Kalaivani,KFL01
-FRIDAY,13:00,13:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B321
-FRIDAY,16:00,16:50,Computer Networks,Mrs. Dr. Nalini Subramanian,A110
-FRIDAY,17:00,17:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B222
-MONDAY,15:50,17:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFL4
-MONDAY,17:30,19:10,Computer Networks,Mrs. Dr. Nalini Subramanian,KFR03
-MONDAY,13:50,15:30,Computer Networks,Mrs. Dr. Nalini Subramanian,JR1
-THURSDAY,17:30,19:10,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFR3
+MONDAY,08:00,08:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
+MONDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
+MONDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
+MONDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
+MONDAY,13:20,15:00,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
+MONDAY,11:00,11:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
+MONDAY,15:00,15:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
+MONDAY,16:00,16:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
+WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Ms. Balavidhya S,D110
+WEDNESDAY,09:00,09:50,Technical Communication -I,Mrs. Andria Babu,D111
+WEDNESDAY,10:00,10:50,Technical Communication -I,Mrs. Andria Babu,D202
+WEDNESDAY,11:00,11:50,Heritage Of Tamils,Mrs. Indhu Bala B,D203
+WEDNESDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D203
+WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D203
+WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D204
+WEDNESDAY,16:00,16:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),D205
+MONDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
+TUESDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
+TUESDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
+MONDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
+TUESDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Food Chemistry Lab
+TUESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Food Chemistry Lab
+TUESDAY,09:00,09:50,Electron Devices,Mr. G Loganathan,D204
+TUESDAY,08:00,08:50,Electron Devices,Mr. G Loganathan,D205
+THURSDAY,08:00,08:50,Electron Devices,Mr. G Loganathan,D111
+THURSDAY,10:00,11:40,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)
+THURSDAY,11:50,13:20,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)

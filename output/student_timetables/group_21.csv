@@ -1,20 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,12:00,12:50,Introduction to 3D Animation,Mr. S Umamaheswararao,B106
-THURSDAY,16:00,16:50,3D Printing and Design,Dr. K.Vigneshwaran,B405
-THURSDAY,18:00,18:50,3D Printing and Design,Dr. K.Vigneshwaran,A305
-FRIDAY,14:00,14:50,3D Printing and Design,Dr. K.Vigneshwaran,C307
-SATURDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,KSL03
-FRIDAY,15:50,17:30,3D Printing and Design,Dr. K.Vigneshwaran,KFL03
-TUESDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,TLFR4
-TUESDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,JR3
-FRIDAY,13:00,13:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B424
-THURSDAY,17:00,17:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,A302
-SATURDAY,09:50,11:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,JL1
-SATURDAY,08:00,09:40,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFR1
-WEDNESDAY,11:00,11:50,Fundamentals of Video for Engineers,New Staff - 01,B107
-TUESDAY,12:00,12:50,Fundamentals of Video for Engineers,New Staff - 01,A103
-TUESDAY,14:00,14:50,Fundamentals of Video for Engineers,New Staff - 01,A303
-FRIDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,A202
-SATURDAY,14:00,14:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,B416
-TUESDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,KFL02
-THURSDAY,13:50,15:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,JR2
+SATURDAY,09:00,09:50,Heritage Of Tamils,Ms. Rajalakshmi B,D203
+SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D203
+SATURDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D205
+SATURDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D205
+TUESDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+WEDNESDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+WEDNESDAY,13:00,13:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+TUESDAY,13:00,13:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
+WEDNESDAY,14:00,14:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. Dr.S.Kumar,D210
+WEDNESDAY,15:00,15:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. Dr.S.Kumar,D210
+WEDNESDAY,11:00,11:50,Programming using C,Mr. Dr.M.Babu,D209
+SATURDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Isaac Asimov Laboratory
+WEDNESDAY,08:00,09:40,Programming using C,Mr. Dr.M.Babu,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,08:00,09:40,Programming using C,Mr. Dr.M.Babu,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Airframe Repair and Aero Engine Lab
+THURSDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Isaac Asimov Laboratory
+THURSDAY,13:20,15:00,Programming using C,Mr. Dr.M.Babu,Electronics and Instrumentation
+THURSDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Vikram S T,D205
+SATURDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vikram S T,D205
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Vikram S T,D209
+THURSDAY,10:00,10:50,Linear Algebra and Calculus,Dr. Vikram S T,D210
+THURSDAY,11:00,11:50,Technical Communication -I,Mr. Dinakaran S,D210
+TUESDAY,10:00,10:50,Technical Communication -I,Mr. Dinakaran S,D211
+FRIDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
+SATURDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
+FRIDAY,08:00,08:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205
+FRIDAY,12:00,12:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205
+FRIDAY,13:00,13:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205

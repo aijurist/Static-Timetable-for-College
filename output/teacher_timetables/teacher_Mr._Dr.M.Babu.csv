@@ -1,3 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,08:00,09:40,Project Phase I,IT 4.3,JL3
-WEDNESDAY,11:50,13:30,Project Phase I,IT 4.3,JR2
+WEDNESDAY,11:00,11:50,Programming using C,IT 1.4,D209
+SATURDAY,15:00,16:40,Programming using C,IT 1.4,Isaac Asimov Laboratory
+WEDNESDAY,08:00,09:40,Programming using C,IT 1.4,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,08:00,09:40,Programming using C,IT 1.4,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,15:00,16:40,Programming using C,IT 1.4,Airframe Repair and Aero Engine Lab
+THURSDAY,15:00,16:40,Programming using C,IT 1.4,Isaac Asimov Laboratory
+THURSDAY,13:20,15:00,Programming using C,IT 1.4,Electronics and Instrumentation

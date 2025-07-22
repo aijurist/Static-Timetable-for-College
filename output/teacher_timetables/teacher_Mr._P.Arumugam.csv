@@ -1,6 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,11:00,11:50,Strength of Materials,MECH 2.1,B211
-TUESDAY,16:00,16:50,Strength of Materials,MECH 2.1,A302
-WEDNESDAY,10:00,10:50,Strength of Materials,MECH 2.1,A103
-FRIDAY,15:50,17:30,Strength of Materials,MECH 2.1,Strength of Materials Lab
-THURSDAY,08:00,09:40,Strength of Materials,MECH 2.1,Strength of Materials Lab
+WEDNESDAY,12:00,12:50,Engineering Graphics,EEE 1.1,D110
+WEDNESDAY,13:00,13:50,Engineering Graphics,EEE 1.1,D110
+WEDNESDAY,14:00,14:50,Engineering Graphics,EEE 1.1,D110
+WEDNESDAY,15:00,15:50,Engineering Graphics,EEE 1.1,D110
+TUESDAY,11:00,11:50,Engineering Graphics,EEE 1.1,D110
+TUESDAY,14:00,14:50,Engineering Graphics,EEE 1.1,D110

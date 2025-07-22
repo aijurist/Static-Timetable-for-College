@@ -1,6 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,18:00,18:50,Introduction to Python Programming,EEE 2.1,B320
-SATURDAY,09:50,11:30,Introduction to Python Programming,EEE 2.1,MCT CAD Lab
-FRIDAY,11:50,13:30,Introduction to Python Programming,EEE 2.1,MCT CAD Lab
-WEDNESDAY,09:50,11:30,Introduction to Python Programming,EEE 2.1,MCT CAD Lab
-FRIDAY,08:00,09:40,Introduction to Python Programming,EEE 2.1,MCT CAD Lab
+TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,AIDS 1.2,Engineering Practices Lab (Electrical)
+TUESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,AIDS 1.2,Engineering Practices Lab (Electrical)

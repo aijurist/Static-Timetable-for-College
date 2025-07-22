@@ -1,9 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,09:00,09:50,Thermodynamics for Food Technologists,FT 2.1,B416
-WEDNESDAY,15:00,15:50,Thermodynamics for Food Technologists,FT 2.1,A303
-THURSDAY,12:00,12:50,Thermodynamics for Food Technologists,FT 2.1,A202
-WEDNESDAY,13:00,13:50,Heat and Mass Transfer,MECH 3.1,B212
-FRIDAY,15:00,15:50,Heat and Mass Transfer,MECH 3.1,B402
-FRIDAY,08:00,08:50,Heat and Mass Transfer,MECH 3.1,A308
-MONDAY,08:00,09:40,Heat and Mass Transfer,MECH 3.1,Thermal Lab 1
-MONDAY,09:50,11:30,Heat and Mass Transfer,MECH 3.1,Thermal Lab 1
+WEDNESDAY,13:00,13:50,Engineering Graphics,IT 1.4,D205
+TUESDAY,13:00,13:50,Engineering Graphics,IT 1.4,D209
+WEDNESDAY,14:00,14:50,Engineering Graphics,IT 1.4,D209
+TUESDAY,11:00,11:50,Engineering Graphics,IT 1.4,D210
+WEDNESDAY,15:00,15:50,Engineering Graphics,IT 1.4,D209
+WEDNESDAY,10:00,10:50,Engineering Graphics,IT 1.4,D210

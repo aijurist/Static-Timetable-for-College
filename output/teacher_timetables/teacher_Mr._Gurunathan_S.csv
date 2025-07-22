@@ -1,5 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,CHEM 2.1,B218
-TUESDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,CHEM 2.1,B422
-WEDNESDAY,12:00,12:50,Transforms and Applied Partial Differential Equations,CHEM 2.1,B412
-THURSDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,CHEM 2.1,B321
+MONDAY,10:00,10:50,Linear Algebra and Calculus,ECE 1.2,D111
+WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,ECE 1.2,D110
+WEDNESDAY,11:00,11:50,Linear Algebra and Calculus,ECE 1.2,D110
+WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,ECE 1.2,D111

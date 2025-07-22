@@ -1,4 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,13:00,13:50,Environmental Sciences,CSBS 2.1,B418
-MONDAY,11:00,11:50,Environmental Sciences,CSBS 2.1,B107
-FRIDAY,15:00,15:50,Environmental Sciences,CSBS 2.1,B220
+TUESDAY,12:00,12:50,Chemistry For Electronics Engineering,ECE 1.8,D110
+TUESDAY,13:00,13:50,Chemistry For Electronics Engineering,ECE 1.8,D110
+TUESDAY,08:00,08:50,Chemistry For Electronics Engineering,ECE 1.8,D111
+WEDNESDAY,15:00,16:40,Chemistry For Electronics Engineering,ECE 1.8,Chemistry Lab
+THURSDAY,10:00,11:40,Chemistry For Electronics Engineering,ECE 1.8,Chemistry Lab
+FRIDAY,10:00,10:50,Environmental Science and Engineering,R&A 1.1,D209
+FRIDAY,15:00,15:50,Environmental Science and Engineering,R&A 1.1,D302
+FRIDAY,16:00,16:50,Environmental Science and Engineering,R&A 1.1,D209

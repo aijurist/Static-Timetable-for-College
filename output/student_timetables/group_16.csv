@@ -1,15 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-MONDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-FRIDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-MONDAY,08:00,09:40,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-THURSDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-THURSDAY,17:00,17:50,Cloud Computing,Mr. Ayyadurai M,B401
-FRIDAY,17:00,17:50,Cloud Computing,Mr. Ayyadurai M,B402
-THURSDAY,13:50,15:30,Cloud Computing,Mr. Ayyadurai M,TLGL1
-TUESDAY,08:00,09:40,Cloud Computing,Mr. Ayyadurai M,KFR03
-TUESDAY,10:00,10:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B412
-WEDNESDAY,10:00,10:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A211
-TUESDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JR2
-MONDAY,09:50,11:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFL3
+SATURDAY,12:00,12:50,Heritage Of Tamils,Mrs. G.Janet,D109
+SATURDAY,08:00,08:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
+SATURDAY,11:00,11:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
+SATURDAY,15:00,15:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
+SATURDAY,09:00,09:50,Mathematical Foundations for AI,Mrs. J.Julie,D202
+SATURDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+THURSDAY,08:00,08:50,Technical Communication -I,Dr. Rajasree Baskaran,D202
+THURSDAY,09:00,09:50,Technical Communication -I,Dr. Rajasree Baskaran,D202
+THURSDAY,11:00,11:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
+THURSDAY,12:00,12:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
+THURSDAY,15:00,15:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
+THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D203
+SATURDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D204
+THURSDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D202
+SATURDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D204
+FRIDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D202
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D202
+FRIDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+SATURDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+FRIDAY,11:00,11:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
+FRIDAY,13:00,13:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
+FRIDAY,14:00,14:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
+TUESDAY,08:00,09:40,Physics for Information Science,Mr. Dr. G. Saravana Kumar,Physics LAB - 1
+TUESDAY,13:00,13:50,Programming using C,Subramanian E.K,D204
+THURSDAY,13:20,15:00,Programming using C,Subramanian E.K,Isaac Asimov Laboratory
+TUESDAY,15:00,16:40,Programming using C,Subramanian E.K,Diagnostic and Therapeutic Equipment Lab
+WEDNESDAY,10:00,11:40,Programming using C,Subramanian E.K,Medical Image Processing Lab
+WEDNESDAY,13:20,15:00,Programming using C,Subramanian E.K,Diagnostic and Therapeutic Equipment Lab
+WEDNESDAY,15:00,16:40,Programming using C,Subramanian E.K,Aerodynamics Lab
+TUESDAY,15:00,16:40,Programming using C,Subramanian E.K,Aerodynamics Lab

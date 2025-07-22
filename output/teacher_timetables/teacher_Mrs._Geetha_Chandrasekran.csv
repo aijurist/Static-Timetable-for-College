@@ -1,6 +1,4 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,09:00,09:50,Physical and Organic Chemistry,CHEM 2.1,C103
-FRIDAY,08:00,08:50,Physical and Organic Chemistry,CHEM 2.1,A108
-WEDNESDAY,11:00,11:50,Physical and Organic Chemistry,CHEM 2.1,B401
-MONDAY,09:50,11:30,Physical and Organic Chemistry,CHEM 2.1,Chemistry Lab
-MONDAY,08:00,09:40,Physical and Organic Chemistry,CHEM 2.1,Chemistry Lab
+WEDNESDAY,09:00,09:50,Environmental Science and Engineering,IT 1.1,D210
+WEDNESDAY,14:00,14:50,Environmental Science and Engineering,IT 1.1,D210
+WEDNESDAY,08:00,08:50,Environmental Science and Engineering,IT 1.1,D210

@@ -1,9 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Fourier series and Number theory,CSE 2.8,A302
-FRIDAY,15:00,15:50,Fourier series and Number theory,CSE 2.8,B425
-WEDNESDAY,15:00,15:50,Fourier series and Number theory,CSE 2.8,B211
-MONDAY,13:00,13:50,Fourier series and Number theory,CSE 2.8,C302
-SATURDAY,11:00,11:50,Fourier series and Number theory,IT 2.3,A311
-WEDNESDAY,14:00,14:50,Fourier series and Number theory,IT 2.3,A310
-SATURDAY,16:00,16:50,Fourier series and Number theory,IT 2.3,B210
-TUESDAY,08:00,08:50,Fourier series and Number theory,IT 2.3,A302
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,ECE 1.3,D111
+TUESDAY,12:00,12:50,Linear Algebra and Calculus,ECE 1.3,D111
+MONDAY,09:00,09:50,Linear Algebra and Calculus,ECE 1.3,D111
+MONDAY,12:00,12:50,Linear Algebra and Calculus,ECE 1.3,D111

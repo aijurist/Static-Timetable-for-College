@@ -1,4 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,13:00,13:50,Analog and Digital Communication,IT 2.3,B320
-TUESDAY,09:00,09:50,Analog and Digital Communication,IT 2.3,B320
-SATURDAY,15:00,15:50,Analog and Digital Communication,IT 2.3,C201
+TUESDAY,15:00,15:50,Electron Devices,ECE 1.7,D204
+TUESDAY,16:00,16:50,Electron Devices,ECE 1.7,D203
+THURSDAY,13:00,13:50,Electron Devices,ECE 1.7,D111
+THURSDAY,08:00,09:40,Electron Devices,ECE 1.7,Engineering Practices Lab (Electronics)
+FRIDAY,15:00,16:40,Electron Devices,ECE 1.7,Engineering Practices Lab (Electronics)
+FRIDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,IT 1.3,Engineering Practices Lab (Electrical)
+FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,IT 1.3,Engineering Practices Lab (Electrical)

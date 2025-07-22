@@ -3,7 +3,7 @@
 # ==========================================
 # ADVANCED TIMETABLE APPLICATION LAUNCHER
 # ==========================================
-# Enhanced argument parser for department selection
+# Enhanced argument parser for course selection
 # ==========================================
 
 set -e
@@ -11,7 +11,7 @@ set -e
 # Default values
 SOLVER_MINUTES=${SOLVER_MINUTES:-30}
 SOLVER_THREADS=${SOLVER_THREADS:-auto}
-DEPARTMENTS=""
+COURSE_TYPE=""
 CUSTOM_FILES=()
 SHOW_HELP=false
 QUICK_MODE=false
@@ -21,16 +21,14 @@ BENCHMARK_MODE=false
 # Function to show usage
 show_help() {
     cat << EOF
-TIMETABLE SOLVER - Department Selection Tool
+TIMETABLE SOLVER - Course Selection Tool
 
 USAGE:
-    $0 [OPTIONS] [DEPARTMENT_TYPE]
+    $0 [OPTIONS] [COURSE_TYPE]
 
-DEPARTMENT TYPES:
-    core        Run only core departments (ECE, EEE, MECH, BME, AUTO, AERO, MCT, R&A, BT, CHEM, CIVIL, FT)
-    cse         Run only computer science departments (CSE, IT, AIDS, CSBS, CSD, AIML)
-    both        Run both core and computer science departments (default)
-    custom      Use custom CSV files (specify with -f option)
+COURSE TYPES:
+    first-year    Run first year courses (data/courses/first_year_data.csv)
+    custom        Use custom CSV files (specify with -f option)
 
 OPTIONS:
     -m, --minutes MINUTES    Set solver time limit in minutes (default: 30)
@@ -42,13 +40,11 @@ OPTIONS:
     -h, --help              Show this help message
 
 EXAMPLES:
-    $0 core                 # Run only core departments
-    $0 cse                  # Run only CSE departments  
-    $0 both                 # Run both (default)
-    $0 -m 60 core          # Run core departments for 60 minutes
-    $0 -q cse              # Quick 5-minute run for CSE departments
-    $0 -t 8 -m 45 both     # Use 8 threads, solve for 45 minutes
-    $0 -v --quick core     # Verbose logging with quick mode
+    $0 first-year           # Run first year courses
+    $0 -m 60 first-year     # Run first year courses for 60 minutes
+    $0 -q first-year        # Quick 5-minute run for first year courses
+    $0 -t 8 -m 45 first-year # Use 8 threads, solve for 45 minutes
+    $0 -v --quick first-year # Verbose logging with quick mode
     $0 custom -f data/courses/my_custom.csv
     $0 custom -f file1.csv -f file2.csv
 
@@ -116,13 +112,13 @@ while [[ $# -gt 0 ]]; do
                 exit 1
             fi
             ;;
-        core|cse|both|custom)
-            if [[ -n $DEPARTMENTS ]]; then
-                echo "[ERROR] Department type already specified: $DEPARTMENTS"
+        first-year|custom)
+            if [[ -n $COURSE_TYPE ]]; then
+                echo "[ERROR] Course type already specified: $COURSE_TYPE"
                 echo "Use --help for usage information"
                 exit 1
             fi
-            DEPARTMENTS="$1"
+            COURSE_TYPE="$1"
             shift
             ;;
         -*)
@@ -138,30 +134,24 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Set default department type if not specified
-if [[ -z $DEPARTMENTS ]]; then
-    DEPARTMENTS="both"
+# Set default course type if not specified
+if [[ -z $COURSE_TYPE ]]; then
+    COURSE_TYPE="first-year"
 fi
 
-# Validate custom files if custom department type is selected
-if [[ $DEPARTMENTS == "custom" ]]; then
+# Validate custom files if custom course type is selected
+if [[ $COURSE_TYPE == "custom" ]]; then
     if [[ ${#CUSTOM_FILES[@]} -eq 0 ]]; then
-        echo "[ERROR] Custom department type requires at least one file specified with -f option"
+        echo "[ERROR] Custom course type requires at least one file specified with -f option"
         echo "Use --help for usage information"
         exit 1
     fi
     COURSE_FILES=("${CUSTOM_FILES[@]}")
 else
-    # Determine course files based on department type
-    case $DEPARTMENTS in
-        core)
-            COURSE_FILES=("data/courses/core_dept_red.csv")
-            ;;
-        cse)
-            COURSE_FILES=("data/courses/cse_dept_red.csv")
-            ;;
-        both)
-            COURSE_FILES=("data/courses/cse_dept_red.csv" "data/courses/core_dept_red.csv")
+    # Determine course files based on course type
+    case $COURSE_TYPE in
+        first-year)
+            COURSE_FILES=("data/courses/first_year_data.csv")
             ;;
     esac
 fi
@@ -180,7 +170,7 @@ COURSE_FILES_STR=$(IFS=,; echo "${COURSE_FILES[*]}")
 # Display configuration
 echo "=========================================="
 echo "ENHANCED TIMETABLE SOLVER"
-echo "Department type: $DEPARTMENTS"
+echo "Course type    : $COURSE_TYPE"
 echo "Course files   : ${COURSE_FILES_STR}"
 echo "Solver minutes : $SOLVER_MINUTES"
 echo "Solver threads : $SOLVER_THREADS"

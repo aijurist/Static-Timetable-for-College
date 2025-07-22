@@ -1,6 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,18:00,18:50,Mechatronics,MECH 4.3,B418
-FRIDAY,12:00,12:50,Mechatronics,MECH 4.3,B210
-THURSDAY,18:00,18:50,Mechatronics,MECH 4.3,B219
-FRIDAY,08:00,09:40,Mechatronics,MECH 4.3,Mechatronics Lab
-MONDAY,13:50,15:30,Mechatronics,MECH 4.3,Mechatronics Lab
+TUESDAY,16:00,16:50,Engineering Graphics,IT 1.2,D209
+TUESDAY,09:00,09:50,Engineering Graphics,IT 1.2,D210
+TUESDAY,14:00,14:50,Engineering Graphics,IT 1.2,D210
+TUESDAY,15:00,15:50,Engineering Graphics,IT 1.2,D210
+SATURDAY,15:00,15:50,Engineering Graphics,IT 1.2,D205
+SATURDAY,09:00,09:50,Engineering Graphics,IT 1.2,D209

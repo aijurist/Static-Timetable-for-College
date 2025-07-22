@@ -1,4 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,10:00,10:50,Automation in Manufacturing,MECH 4.2,A302
-MONDAY,08:00,08:50,Automation in Manufacturing,MECH 4.2,A202
-TUESDAY,16:00,16:50,Automation in Manufacturing,MECH 4.2,A304
+WEDNESDAY,12:00,12:50,Engineering Graphics,IT 1.5,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,IT 1.5,D209
+WEDNESDAY,09:00,09:50,Engineering Graphics,IT 1.5,D209
+WEDNESDAY,15:00,15:50,Engineering Graphics,IT 1.5,D210
+SATURDAY,10:00,10:50,Engineering Graphics,IT 1.5,D209
+SATURDAY,15:00,15:50,Engineering Graphics,IT 1.5,D209

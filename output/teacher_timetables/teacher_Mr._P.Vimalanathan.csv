@@ -1,6 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,11:50,13:30,Internship,R&A 3.1,Electrical Machines II Lab
-TUESDAY,08:00,09:40,Internship,R&A 3.1,Avionics Lab
-FRIDAY,15:00,15:50,Fundamentals of Management for Engineers,R&A 4.1,B424
-SATURDAY,15:00,15:50,Fundamentals of Management for Engineers,R&A 4.1,B218
-WEDNESDAY,18:00,18:50,Fundamentals of Management for Engineers,R&A 4.1,B107
+THURSDAY,12:00,12:50,Engineering Graphics,R&A 1.1,D209
+THURSDAY,08:00,08:50,Engineering Graphics,R&A 1.1,D210
+THURSDAY,15:00,15:50,Engineering Graphics,R&A 1.1,D210
+THURSDAY,09:00,09:50,Engineering Graphics,R&A 1.1,D211
+THURSDAY,10:00,10:50,Engineering Graphics,R&A 1.1,D211
+THURSDAY,16:00,16:50,Engineering Graphics,R&A 1.1,D210

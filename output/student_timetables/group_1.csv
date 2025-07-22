@@ -1,30 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,15:00,15:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B417
-THURSDAY,17:00,17:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B424
-TUESDAY,14:00,14:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,C103
-THURSDAY,13:50,15:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFR2
-WEDNESDAY,11:50,13:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,JL1
-MONDAY,09:50,11:30,Soft Skills – II,Mr. Dr.S.Subbiah,JL1
-THURSDAY,13:50,15:30,Soft Skills – II,Mr. Dr.S.Subbiah,JL2
-WEDNESDAY,14:00,14:50,Web Programming,Mrs. M.Sandhiya,A202
-FRIDAY,13:00,13:50,Web Programming,Mrs. M.Sandhiya,B402
-FRIDAY,14:00,14:50,Web Programming,Mrs. M.Sandhiya,A309
-FRIDAY,17:30,19:10,Web Programming,Mrs. M.Sandhiya,JL3
-WEDNESDAY,08:00,09:40,Web Programming,Mrs. M.Sandhiya,TLFL3
-MONDAY,09:50,11:30,Web Programming,Mrs. M.Sandhiya,TLGL1
-FRIDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,JL2
-THURSDAY,16:00,16:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,A209
-WEDNESDAY,10:00,10:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B321
-TUESDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,A102
-TUESDAY,10:00,10:50,Computer Vision,Mrs. Dr.A.Kalaivani,A205
-TUESDAY,09:00,09:50,Computer Vision,Mrs. Dr.A.Kalaivani,B426
-THURSDAY,18:00,18:50,Computer Vision,Mrs. Dr.A.Kalaivani,B419
-FRIDAY,15:50,17:30,Computer Vision,Mrs. Dr.A.Kalaivani,TLGL1
-MONDAY,08:00,09:40,Computer Vision,Mrs. Dr.A.Kalaivani,KFL03
-MONDAY,14:00,14:50,Computer Networks,Mr. Dr.S.Subbiah,B405
-MONDAY,12:00,12:50,Computer Networks,Mr. Dr.S.Subbiah,A302
-TUESDAY,11:00,11:50,Computer Networks,Mr. Dr.S.Subbiah,B219
-THURSDAY,11:50,13:30,Computer Networks,Mr. Dr.S.Subbiah,JL2
-MONDAY,08:00,09:40,Computer Networks,Mr. Dr.S.Subbiah,KFR03
-FRIDAY,17:30,19:10,Computer Networks,Mr. Dr.S.Subbiah,TLFL3
-WEDNESDAY,08:00,09:40,Computer Networks,Mr. Dr.S.Subbiah,KFL01
+TUESDAY,08:00,08:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
+TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
+TUESDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
+TUESDAY,11:00,11:50,Heritage Of Tamils,Dr. Rajasree Baskaran,D109
+TUESDAY,12:00,12:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
+TUESDAY,14:00,14:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
+TUESDAY,15:00,15:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
+WEDNESDAY,08:00,09:40,Physics of Materials,Mr. Dr Ragavendran Venkatesan,Physics LAB - 1
+WEDNESDAY,10:00,10:50,Algebra and Calculus,Dr. Thilagavathi R,D109
+WEDNESDAY,12:00,12:50,Algebra and Calculus,Dr. Thilagavathi R,D109
+WEDNESDAY,13:00,13:50,Algebra and Calculus,Dr. Thilagavathi R,D109
+WEDNESDAY,14:00,14:50,Algebra and Calculus,Dr. Thilagavathi R,D109
+WEDNESDAY,15:00,15:50,Technical Communication -I,Dr. Vijayalakshmi M,D109
+WEDNESDAY,16:00,16:50,Technical Communication -I,Dr. Vijayalakshmi M,D109
+THURSDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. Mahamood Ul Hasan N,Machine Shop FF1 - EPL - 1
+THURSDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Mahamood Ul Hasan N,Machine Shop FF1 - EPL - 1
+THURSDAY,10:00,10:50,Building Materials,Mrs. Yugasini S,D109
+THURSDAY,11:00,11:50,Building Materials,Mrs. Yugasini S,D109
+THURSDAY,12:00,12:50,Building Materials,Mrs. Yugasini S,D109
+THURSDAY,15:00,15:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,C101
+THURSDAY,16:00,16:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,D109
+FRIDAY,08:00,09:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
+FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
+FRIDAY,11:50,13:20,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
+FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
