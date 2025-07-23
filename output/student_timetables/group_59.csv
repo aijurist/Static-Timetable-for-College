@@ -1,22 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,14:00,14:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B425
-TUESDAY,08:00,08:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B302
-WEDNESDAY,18:00,18:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B212
-WEDNESDAY,13:50,15:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-THURSDAY,17:30,19:10,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-TUESDAY,11:50,13:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-THURSDAY,15:50,17:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-THURSDAY,13:00,13:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,A303
-THURSDAY,08:00,08:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,A309
-TUESDAY,09:00,09:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,C308
-WEDNESDAY,13:00,13:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B404
-FRIDAY,08:00,08:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B220
-THURSDAY,10:00,10:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,A204
-TUESDAY,13:50,15:30,Chemical Reaction Engineering  lab,Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering Lab
-WEDNESDAY,09:50,11:30,Chemical Reaction Engineering  lab,Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering Lab
-WEDNESDAY,09:00,09:50,Transport Phenomena,Mr. Dr. S. Sivamani,A308
-MONDAY,17:00,17:50,Transport Phenomena,Mr. Dr. S. Sivamani,C307
-FRIDAY,18:00,18:50,Transport Phenomena,Mr. Dr. S. Sivamani,B426
-TUESDAY,17:00,17:50,Transport Phenomena,Mr. Dr. S. Sivamani,A109
-MONDAY,13:50,15:30,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Strength of Materials Lab
-MONDAY,11:50,13:30,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Electrical Machines II Lab
+MONDAY,15:00,15:50,Fundamentals of Computer Science,Mrs. Jayanthi M,C103
+MONDAY,10:00,10:50,Fundamentals of Computer Science,Mrs. Jayanthi M,D109
+WEDNESDAY,13:20,15:00,Fundamentals of Computer Science,Mrs. Jayanthi M,Thermal Lab 1
+FRIDAY,11:50,13:20,Fundamentals of Computer Science,Mrs. Jayanthi M,Airframe Repair and Aero Engine Lab
+THURSDAY,08:00,09:40,Fundamentals of Computer Science,Mrs. Jayanthi M,Microprocessor and Microcontrollers Lab
+FRIDAY,10:00,11:40,Fundamentals of Computer Science,Mrs. Jayanthi M,Networks Lab
+FRIDAY,08:00,08:50,Physics for Computing Science,Mr. Dr S Gobalakrishnan,D705
+THURSDAY,12:00,12:50,Physics for Computing Science,Mr. Dr S Gobalakrishnan,A204
+TUESDAY,16:00,16:50,Physics for Computing Science,Mr. Dr S Gobalakrishnan,A308
+TUESDAY,13:20,15:00,Physics for Computing Science,Mr. Dr S Gobalakrishnan,Physics LAB - 1
+WEDNESDAY,13:20,15:00,Physics for Computing Science,Mr. Dr S Gobalakrishnan,Physics LAB - 2
+THURSDAY,14:00,14:50,Principles of Electrical Engineering,Mrs. Sivamani.D,B405
+MONDAY,09:00,09:50,Principles of Electrical Engineering,Mrs. Sivamani.D,B212
+MONDAY,13:20,15:00,Principles of Electrical Engineering,Mrs. Sivamani.D,Electrical Machines I Lab
+TUESDAY,13:20,15:00,Principles of Electrical Engineering,Mrs. Sivamani.D,Electrical Machines I Lab
+WEDNESDAY,10:00,10:50,Discrete Mathematics,Ms. K Rajaannam,B107
+FRIDAY,14:00,14:50,Discrete Mathematics,Ms. K Rajaannam,B107
+TUESDAY,12:00,12:50,Discrete Mathematics,Ms. K Rajaannam,C308
+WEDNESDAY,09:00,09:50,Discrete Mathematics,Ms. K Rajaannam,A311
+THURSDAY,10:00,10:50,Probability and Calculus,Mrs. C.Shanthini,A311
+TUESDAY,15:00,15:50,Probability and Calculus,Mrs. C.Shanthini,B405
+THURSDAY,15:00,15:50,Probability and Calculus,Mrs. C.Shanthini,C103
+WEDNESDAY,12:00,12:50,Probability and Calculus,Mrs. C.Shanthini,D705
+MONDAY,12:00,12:50,Business Communication and Value Science – I,Mr. Jebaraj Kabriel,B425
+FRIDAY,09:00,09:50,Business Communication and Value Science – I,Mr. Jebaraj Kabriel,D611
+TUESDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mrs. Renuka B S,A311
+FRIDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Renuka B S,B320
+THURSDAY,13:00,13:50,Indian Constitution and Freedom Movement,Mrs. Renuka B S,C103
+MONDAY,16:00,16:50,Technical Communication -I,Mr. Jebaraj Kabriel,A308
+WEDNESDAY,15:00,15:50,Technical Communication -I,Mr. Jebaraj Kabriel,A311
+WEDNESDAY,11:00,11:50,Heritage Of Tamils,Dr. Vijayalakshmi M,B107

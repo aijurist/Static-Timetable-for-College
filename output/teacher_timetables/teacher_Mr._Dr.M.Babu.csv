@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,11:00,11:50,Programming using C,IT 1.4,D209
-SATURDAY,15:00,16:40,Programming using C,IT 1.4,Isaac Asimov Laboratory
-WEDNESDAY,08:00,09:40,Programming using C,IT 1.4,Diagnostic and Therapeutic Equipment Lab
-TUESDAY,08:00,09:40,Programming using C,IT 1.4,Diagnostic and Therapeutic Equipment Lab
-TUESDAY,15:00,16:40,Programming using C,IT 1.4,Airframe Repair and Aero Engine Lab
-THURSDAY,15:00,16:40,Programming using C,IT 1.4,Isaac Asimov Laboratory
-THURSDAY,13:20,15:00,Programming using C,IT 1.4,Electronics and Instrumentation
+TUESDAY,10:00,10:50,Programming using C,IT 1.4,B210
+SATURDAY,16:00,16:50,Programming using C,IT 1.4,A202
+WEDNESDAY,09:00,09:50,Programming using C,IT 1.4,B415
+SATURDAY,10:00,11:40,Programming using C,IT 1.4,TLFL5
+TUESDAY,13:20,15:00,Programming using C,IT 1.4,TLFR2
+FRIDAY,08:00,09:40,Programming using C,IT 1.4,TLFL1
+WEDNESDAY,11:50,13:20,Programming using C,IT 1.4,KFL01

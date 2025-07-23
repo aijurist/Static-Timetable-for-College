@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,16:00,16:50,Computer Architecture,New Staff - 12,C308
-THURSDAY,09:00,09:50,Computer Architecture,New Staff - 12,B322
-THURSDAY,08:00,08:50,Computer Architecture,New Staff - 12,C307
-THURSDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A304
-TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Santhiya M,C201
-THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A108
-FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,JL1
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLGL3
-MONDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,B221
-WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B426
-THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,A309
-TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,B219
-WEDNESDAY,14:00,14:50,Database Management Systems,Dr.J Manoranjini,A102
-TUESDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,A110
-FRIDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,B425
-FRIDAY,11:50,13:30,Database Management Systems,Dr.J Manoranjini,TLFL2
-WEDNESDAY,08:00,09:40,Database Management Systems,Dr.J Manoranjini,TLFR5
-FRIDAY,13:50,15:30,Database Management Systems,Dr.J Manoranjini,TLFL2
-MONDAY,15:50,17:30,Database Management Systems,Dr.J Manoranjini,KFL01
-FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A104/105
-TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,C201
-TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A209
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLGL2
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR1
-WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFL5
-TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR4
-WEDNESDAY,10:00,10:50,Fundamentals of Data Science,Mrs. Aswana Lal,C102
-WEDNESDAY,13:00,13:50,Fundamentals of Data Science,Mrs. Aswana Lal,C101
-THURSDAY,13:00,13:50,Fundamentals of Data Science,Mrs. Aswana Lal,A210
-MONDAY,15:50,17:30,Fundamentals of Data Science,Mrs. Aswana Lal,JL3
-MONDAY,17:30,19:10,Fundamentals of Data Science,Mrs. Aswana Lal,TLGL4
+THURSDAY,11:00,11:50,Linear Algebra and Calculus,Mrs. Arulmozhi Shanmugam,D110
+FRIDAY,15:00,15:50,Linear Algebra and Calculus,Mrs. Arulmozhi Shanmugam,B404
+WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Mrs. Arulmozhi Shanmugam,D109
+TUESDAY,11:00,11:50,Linear Algebra and Calculus,Mrs. Arulmozhi Shanmugam,B302
+MONDAY,14:00,14:50,Technical Communication -I,Mrs. Andria Babu,B219
+WEDNESDAY,11:00,11:50,Technical Communication -I,Mrs. Andria Babu,A203
+FRIDAY,09:00,09:50,Programming using C,New Staff 5 N,D109
+TUESDAY,14:00,14:50,Programming using C,New Staff 5 N,D110
+WEDNESDAY,14:00,14:50,Programming using C,New Staff 5 N,D409
+THURSDAY,11:50,13:20,Programming using C,New Staff 5 N,TLFR2
+WEDNESDAY,11:50,13:20,Programming using C,New Staff 5 N,JR2
+THURSDAY,13:20,15:00,Programming using C,New Staff 5 N,TLFR2
+THURSDAY,15:00,16:40,Programming using C,New Staff 5 N,KFL01
+MONDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,B411
+TUESDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,A210
+MONDAY,13:00,13:50,Indian Constitution and Freedom Movement,Mrs. Chitra Devi P,C301
+MONDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,CSE-CS-NF1,Machine Shop FF3 - EPL - 3
+WEDNESDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,CSE-CS-NF1,Machine Shop FF3 - EPL - 3
+THURSDAY,10:00,10:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),B416
+FRIDAY,08:00,08:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),B416
+FRIDAY,10:00,10:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),C301
+THURSDAY,16:00,16:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electronics Lab-1
+FRIDAY,12:00,12:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electronics Lab-1
+FRIDAY,11:00,11:50,Physics for Information Science,Mrs. Dr R Kavitha,D110
+TUESDAY,15:00,15:50,Physics for Information Science,Mrs. Dr R Kavitha,B219
+WEDNESDAY,09:00,09:50,Physics for Information Science,Mrs. Dr R Kavitha,C301
+TUESDAY,11:50,13:20,Physics for Information Science,Mrs. Dr R Kavitha,Physics LAB - 1
+TUESDAY,09:00,09:50,Heritage Of Tamils,New Faculty English (NS-NFE-2),B416

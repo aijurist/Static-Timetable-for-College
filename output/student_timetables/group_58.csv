@@ -1,31 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,09:40,Bioinformatics Laboratory,Dr. Shanthi M,Electronic Devices & Circuits Lab
-SATURDAY,17:30,19:10,Bioinformatics Laboratory,Dr. Shanthi M,Machine Shop FF3 - EPL - 3
-TUESDAY,13:50,15:30,Bioinformatics Laboratory,Dr. Shanthi M,Digital Lab-2
-THURSDAY,08:00,09:40,Bioinformatics Laboratory,Dr. Shanthi M,Basic Electronics Lab-2
-TUESDAY,11:00,11:50,DOWNSTREAM PROCESSING,Mrs. Dr. K. Sathya,B415
-FRIDAY,10:00,10:50,DOWNSTREAM PROCESSING,Mrs. Dr. K. Sathya,B107
-THURSDAY,18:00,18:50,DOWNSTREAM PROCESSING,Mrs. Dr. K. Sathya,B405
-WEDNESDAY,15:00,15:50,Bioinformatics,Mr. A. Arun,A302
-SATURDAY,09:00,09:50,Bioinformatics,Mr. A. Arun,C101
-WEDNESDAY,12:00,12:50,Bioinformatics,Mr. A. Arun,B302
-THURSDAY,16:00,16:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,B416
-THURSDAY,12:00,12:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,B221
-FRIDAY,14:00,14:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,A308
-FRIDAY,08:00,08:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,C302
-THURSDAY,14:00,14:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,C308
-SATURDAY,12:00,12:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,B426
-WEDNESDAY,18:00,18:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,A303
-SATURDAY,13:00,13:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,B106
-WEDNESDAY,11:00,11:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,A305
-FRIDAY,17:30,19:10,Downstream processing lab,Mrs. N.Premalatha,Downstream Processing Lab
-TUESDAY,08:00,09:40,Downstream processing lab,Mrs. N.Premalatha,Downstream Processing Lab
-FRIDAY,11:50,13:30,Downstream processing lab,Mrs. N.Premalatha,Downstream Processing Lab
-FRIDAY,15:50,17:30,Downstream processing lab,Mrs. N.Premalatha,Downstream Processing Lab
-TUESDAY,17:00,17:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,C102
-TUESDAY,13:00,13:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,A110
-WEDNESDAY,13:00,13:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,B220
-FRIDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr. Sujata Roy,Food Chemistry Lab
-FRIDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr. Sujata Roy,Avionics Lab
-SATURDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr. Sujata Roy,Concrete & Survey Lab
-WEDNESDAY,08:00,09:40,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr. Sujata Roy,LIC Lab
+TUESDAY,13:00,13:50,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),A202
+TUESDAY,14:00,14:50,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),D309
+THURSDAY,13:20,15:00,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),Automotive Components Lab
+THURSDAY,11:50,13:20,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),Automotive Components Lab
+TUESDAY,10:00,11:40,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),KFR01
+FRIDAY,13:20,15:00,Fundamentals of Computer Science,New Faculty Computer Science & Business Systems (NS-NF-2),Vehicle Maintenance Lab
+WEDNESDAY,15:00,15:50,Physics for Computing Science,Mr. M.Anand Raj,B418
+MONDAY,11:00,11:50,Physics for Computing Science,Mr. M.Anand Raj,A110
+TUESDAY,16:00,16:50,Physics for Computing Science,Mr. M.Anand Raj,B426
+FRIDAY,11:50,13:20,Physics for Computing Science,Mr. M.Anand Raj,Physics LAB - 2
+THURSDAY,13:20,15:00,Physics for Computing Science,Mr. M.Anand Raj,Physics LAB - 2
+FRIDAY,15:00,15:50,Principles of Electrical Engineering,Mrs. V.Sivagami,B219
+MONDAY,14:00,14:50,Principles of Electrical Engineering,Mrs. V.Sivagami,B410
+MONDAY,08:00,09:40,Principles of Electrical Engineering,Mrs. V.Sivagami,Electrical Machines I Lab
+WEDNESDAY,08:00,09:40,Principles of Electrical Engineering,Mrs. V.Sivagami,Electrical Machines I Lab
+THURSDAY,10:00,10:50,Discrete Mathematics,CSBS-NF1,C201
+FRIDAY,08:00,08:50,Discrete Mathematics,CSBS-NF1,D410
+THURSDAY,08:00,08:50,Discrete Mathematics,CSBS-NF1,B219
+THURSDAY,09:00,09:50,Discrete Mathematics,CSBS-NF1,B410
+TUESDAY,12:00,12:50,Probability and Calculus,CSBS-NF1,D704
+WEDNESDAY,14:00,14:50,Probability and Calculus,CSBS-NF1,B426
+TUESDAY,09:00,09:50,Probability and Calculus,CSBS-NF1,D410
+WEDNESDAY,13:00,13:50,Probability and Calculus,CSBS-NF1,D309
+MONDAY,10:00,10:50,Business Communication and Value Science – I,Mrs. Sharmila B,B219
+FRIDAY,11:00,11:50,Business Communication and Value Science – I,Mrs. Sharmila B,D310
+MONDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mrs. Andria Babu,B426
+FRIDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Andria Babu,C201
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Andria Babu,D405
+WEDNESDAY,10:00,10:50,Technical Communication -I,Mrs. Sharmila B,D704
+WEDNESDAY,11:00,11:50,Technical Communication -I,Mrs. Sharmila B,A202
+THURSDAY,11:00,11:50,Heritage Of Tamils,New Faculty English (NS-NFE-2),B410

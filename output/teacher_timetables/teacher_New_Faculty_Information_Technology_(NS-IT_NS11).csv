@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,15:00,15:50,Programming using C,EEE 1.2,D109
-THURSDAY,10:00,11:40,Programming using C,EEE 1.2,Food Chemistry Lab
-WEDNESDAY,13:20,15:00,Programming using C,EEE 1.2,Auto CAD Lab
-TUESDAY,08:00,09:40,Programming using C,EEE 1.2,Auto CAD Lab
-WEDNESDAY,11:50,13:20,Programming using C,EEE 1.2,Auto CAD Lab
-TUESDAY,10:00,11:40,Programming using C,EEE 1.2,Auto CAD Lab
-TUESDAY,11:50,13:20,Programming using C,EEE 1.2,Auto CAD Lab
-SATURDAY,10:00,10:50,Programming using C,IT 1.2,D210
-THURSDAY,11:50,13:20,Programming using C,IT 1.2,Isaac Asimov Laboratory
-THURSDAY,13:20,15:00,Programming using C,IT 1.2,Medical Image Processing Lab
-THURSDAY,08:00,09:40,Programming using C,IT 1.2,Electronics and Instrumentation
-FRIDAY,08:00,09:40,Programming using C,IT 1.2,Medical Image Processing Lab
-FRIDAY,13:20,15:00,Programming using C,IT 1.2,Medical Image Processing Lab
-FRIDAY,11:50,13:20,Programming using C,IT 1.2,Electronics and Instrumentation
+TUESDAY,11:00,11:50,Programming using C,EEE 1.2,D405
+FRIDAY,15:00,15:50,Programming using C,EEE 1.2,D109
+WEDNESDAY,09:00,09:50,Programming using C,EEE 1.2,B411
+SATURDAY,13:20,15:00,Programming using C,EEE 1.2,TLFR5
+THURSDAY,13:20,15:00,Programming using C,EEE 1.2,TLFR1
+TUESDAY,15:00,16:40,Programming using C,EEE 1.2,KFL02
+TUESDAY,13:20,15:00,Programming using C,EEE 1.2,JL3
+SATURDAY,10:00,10:50,Programming using C,IT 1.2,D211
+SATURDAY,08:00,08:50,Programming using C,IT 1.2,D211
+THURSDAY,09:00,09:50,Programming using C,IT 1.2,C308
+FRIDAY,13:20,15:00,Programming using C,IT 1.2,TLFR1
+THURSDAY,11:50,13:20,Programming using C,IT 1.2,TLGL3
+WEDNESDAY,11:50,13:20,Programming using C,IT 1.2,TLFR3
+WEDNESDAY,10:00,11:40,Programming using C,IT 1.2,TLFR2

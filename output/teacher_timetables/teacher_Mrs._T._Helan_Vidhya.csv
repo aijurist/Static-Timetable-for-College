@@ -1,6 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,09:00,09:50,Electron Devices,ECE 1.4,D204
-MONDAY,08:00,08:50,Electron Devices,ECE 1.4,D204
-THURSDAY,11:00,11:50,Electron Devices,ECE 1.4,D111
-THURSDAY,15:00,16:40,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)
-MONDAY,13:20,15:00,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)
+MONDAY,11:00,11:50,Electron Devices,ECE 1.4,B410
+THURSDAY,14:00,14:50,Electron Devices,ECE 1.4,B220
+TUESDAY,10:00,10:50,Electron Devices,ECE 1.4,A310
+TUESDAY,13:20,15:00,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)
+MONDAY,08:00,09:40,Electron Devices,ECE 1.4,Engineering Practices Lab (Electronics)

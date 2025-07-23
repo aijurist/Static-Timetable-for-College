@@ -1,5 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,11:00,11:50,Theory of Computation,CSE 3.4,A308
-WEDNESDAY,17:00,17:50,Theory of Computation,CSE 3.4,C301
-SATURDAY,13:00,13:50,Theory of Computation,CSE 3.4,C308
-SATURDAY,09:00,09:50,Theory of Computation,CSE 3.4,A204
+WEDNESDAY,13:00,13:50,Programming using C,CSE 1.12,D205
+THURSDAY,14:00,14:50,Programming using C,CSE 1.12,D205
+WEDNESDAY,14:00,14:50,Programming using C,CSE 1.12,B403
+THURSDAY,10:00,11:40,Programming using C,CSE 1.12,TLGL3
+TUESDAY,11:50,13:20,Programming using C,CSE 1.12,KFR02
+MONDAY,10:00,11:40,Programming using C,CSE 1.12,KFL01
+MONDAY,15:00,16:40,Programming using C,CSE 1.12,KFR01

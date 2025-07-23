@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,14:00,14:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,C202
-MONDAY,14:00,14:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,A204
-FRIDAY,14:00,14:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,C308
-TUESDAY,09:50,11:30,Fundamentals of Machine Learning,New Faculty New  Staff - 28,TLFR5
-THURSDAY,15:50,17:30,Fundamentals of Machine Learning,New Faculty New  Staff - 28,TLFL4
-TUESDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,B408
-FRIDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,B404
-MONDAY,09:00,09:50,Design and Analysis of Algorithms,New Staff - 05,B211
-THURSDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 05,TLFL2
-MONDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 05,TLGL3
-FRIDAY,15:00,15:50,Database Management Systems,AIML  NS2,C301
-WEDNESDAY,16:00,16:50,Database Management Systems,AIML  NS2,B422
-MONDAY,08:00,08:50,Database Management Systems,AIML  NS2,B404
-WEDNESDAY,13:50,15:30,Database Management Systems,AIML  NS2,TLFL3
-TUESDAY,11:50,13:30,Database Management Systems,AIML  NS2,TLFL2
-THURSDAY,17:30,19:10,Database Management Systems,AIML  NS2,KFR03
-MONDAY,11:50,13:30,Database Management Systems,AIML  NS2,TLFL2
-THURSDAY,15:00,15:50,Environmental Science and Engineering,Dr. Mahesh R,B220
-FRIDAY,12:00,12:50,Environmental Science and Engineering,Dr. Mahesh R,B411
-TUESDAY,14:00,14:50,Environmental Science and Engineering,Dr. Mahesh R,B405
-WEDNESDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,B106
-FRIDAY,17:00,17:50,Discrete Mathematics for AI,Mrs. V. Shakila,A303
-TUESDAY,15:00,15:50,Discrete Mathematics for AI,Mrs. V. Shakila,C101
-THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,A203
-FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,B321
-WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,B419
-WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,B422
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,KFR01
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,TLFL5
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,JR2
-TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,TLGL1
+TUESDAY,10:00,10:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,D309
+FRIDAY,12:00,12:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,B107
+TUESDAY,09:00,09:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,A305
+SATURDAY,10:00,11:40,Physics for Information Science,Mrs. Dr Muthupradeepa R,Physics LAB - 1
+WEDNESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Ms. M.Brenda,Engineering Practices Lab (Electronics)
+WEDNESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. M.Brenda,Engineering Practices Lab (Electronics)
+THURSDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mrs. Brindhu Kumari,B402
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mrs. Brindhu Kumari,B402
+TUESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mrs. Brindhu Kumari,D310
+WEDNESDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mrs. Brindhu Kumari,Basic Electronics Lab-1
+WEDNESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mrs. Brindhu Kumari,Basic Electronics Lab-1
+THURSDAY,14:00,14:50,Programming using C,Mrs.Sangeetha Archana J,A305
+FRIDAY,10:00,10:50,Programming using C,Mrs.Sangeetha Archana J,B412
+TUESDAY,11:00,11:50,Programming using C,Mrs.Sangeetha Archana J,B107
+FRIDAY,15:00,16:40,Programming using C,Mrs.Sangeetha Archana J,KFR01
+THURSDAY,08:00,09:40,Programming using C,Mrs.Sangeetha Archana J,TLFR2
+TUESDAY,15:00,16:40,Programming using C,Mrs.Sangeetha Archana J,TLGL3
+SATURDAY,11:50,13:20,Programming using C,Mrs.Sangeetha Archana J,KFR02
+THURSDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D210
+FRIDAY,09:00,09:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D302
+SATURDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D310
+SATURDAY,14:00,14:50,Heritage Of Tamils,Mrs. Chitra Devi P,A311
+THURSDAY,13:00,13:50,Mathematical Foundations for AI,Mr. Sathiragavan M,C302
+THURSDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Sathiragavan M,B107
+FRIDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sathiragavan M,B320
+FRIDAY,11:00,11:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D309
+WEDNESDAY,09:00,09:50,Technical Communication -I,Ms. Malathy G,C302
+TUESDAY,14:00,14:50,Technical Communication -I,Ms. Malathy G,A305

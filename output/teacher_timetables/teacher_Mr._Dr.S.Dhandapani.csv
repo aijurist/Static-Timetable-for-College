@@ -1,12 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,15:50,17:30,Manufacturing Technology Laboratory I,MECH 2.2,Manufacturing Technology I
-WEDNESDAY,17:30,19:10,Manufacturing Technology Laboratory I,MECH 2.2,Manufacturing Technology I
-TUESDAY,10:00,10:50,Non-Destructive Testing and Evaluation,MECH 4.1,A305
-TUESDAY,14:00,14:50,Non-Destructive Testing and Evaluation,MECH 4.1,C307
-WEDNESDAY,15:00,15:50,Non-Destructive Testing and Evaluation,MECH 4.1,A308
-TUESDAY,11:00,11:50,Non-Destructive Testing and Evaluation,MECH 4.2,B424
-THURSDAY,16:00,16:50,Non-Destructive Testing and Evaluation,MECH 4.2,A202
-THURSDAY,18:00,18:50,Non-Destructive Testing and Evaluation,MECH 4.2,B404
-THURSDAY,11:00,11:50,Non-Destructive Testing and Evaluation,MECH 4.3,B418
-WEDNESDAY,14:00,14:50,Non-Destructive Testing and Evaluation,MECH 4.3,B424
-TUESDAY,18:00,18:50,Non-Destructive Testing and Evaluation,MECH 4.3,A110
+THURSDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,CSE 1.7,Machine Shop FF1 - EPL - 1
+MONDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,CSE 1.7,Machine Shop FF1 - EPL - 1

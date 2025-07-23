@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:00,08:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
-MONDAY,09:00,09:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
-MONDAY,10:00,10:50,Chemistry For Electronics Engineering,Suresh kumar S,D110
-TUESDAY,13:20,15:00,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
-TUESDAY,15:00,16:40,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
-TUESDAY,10:00,10:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D111
-TUESDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D111
-TUESDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D202
-TUESDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D203
-MONDAY,13:00,13:50,Technical Communication -I,New Faculty English (NS-NFE-3),D111
-MONDAY,14:00,14:50,Technical Communication -I,New Faculty English (NS-NFE-3),D111
-MONDAY,11:00,11:50,Heritage Of Tamils,Mrs. Sharmila B,D202
-TUESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D203
-MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D202
-MONDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D202
-FRIDAY,13:00,13:50,Programming using C,ECE-NF2,D110
-FRIDAY,08:00,09:40,Programming using C,ECE-NF2,Food Chemistry Lab
-FRIDAY,10:00,11:40,Programming using C,ECE-NF2,Isaac Asimov Laboratory
-TUESDAY,15:00,16:40,Programming using C,ECE-NF2,Food Chemistry Lab
-TUESDAY,13:20,15:00,Programming using C,ECE-NF2,Food Chemistry Lab
-FRIDAY,15:00,16:40,Programming using C,ECE-NF2,Food Chemistry Lab
-WEDNESDAY,08:00,09:40,Programming using C,ECE-NF2,Food Chemistry Lab
-WEDNESDAY,13:00,13:50,Electron Devices,Mrs. Dr.S.Suganthi,D203
-WEDNESDAY,11:00,11:50,Electron Devices,Mrs. Dr.S.Suganthi,D204
-WEDNESDAY,10:00,10:50,Electron Devices,Mrs. Dr.S.Suganthi,D205
-WEDNESDAY,08:00,09:40,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)
-FRIDAY,08:00,09:40,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)
+FRIDAY,11:00,11:50,Chemistry For Electronics Engineering,Suresh kumar S,D409
+MONDAY,15:00,15:50,Chemistry For Electronics Engineering,Suresh kumar S,D511
+FRIDAY,09:00,09:50,Chemistry For Electronics Engineering,Suresh kumar S,B401
+WEDNESDAY,10:00,11:40,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
+THURSDAY,08:00,09:40,Chemistry For Electronics Engineering,Suresh kumar S,Chemistry Lab
+THURSDAY,14:00,14:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,A309
+TUESDAY,08:00,08:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,A309
+FRIDAY,16:00,16:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,D409
+TUESDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vinod Kumar R,B211
+MONDAY,16:00,16:50,Technical Communication -I,New Faculty English (NS-NFE-3),D109
+FRIDAY,14:00,14:50,Technical Communication -I,New Faculty English (NS-NFE-3),B409
+TUESDAY,10:00,10:50,Heritage Of Tamils,Mrs. Sharmila B,B107
+THURSDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D211
+MONDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,D409
+MONDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mrs. G.Janet,B409
+WEDNESDAY,13:00,13:50,Programming using C,ECE-NF2,D109
+TUESDAY,09:00,09:50,Programming using C,ECE-NF2,B403
+WEDNESDAY,15:00,15:50,Programming using C,ECE-NF2,A309
+THURSDAY,08:00,09:40,Programming using C,ECE-NF2,TLFR5
+WEDNESDAY,08:00,09:40,Programming using C,ECE-NF2,TLFL5
+MONDAY,11:50,13:20,Programming using C,ECE-NF2,TLFR2
+TUESDAY,11:50,13:20,Programming using C,ECE-NF2,TLGL2
+THURSDAY,12:00,12:50,Electron Devices,Mrs. Dr.S.Suganthi,B415
+THURSDAY,10:00,10:50,Electron Devices,Mrs. Dr.S.Suganthi,D211
+WEDNESDAY,14:00,14:50,Electron Devices,Mrs. Dr.S.Suganthi,A309
+TUESDAY,11:50,13:20,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)
+FRIDAY,11:50,13:20,Electron Devices,Mrs. Dr.S.Suganthi,Engineering Practices Lab (Electronics)

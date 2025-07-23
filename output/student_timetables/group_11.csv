@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,12:00,12:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D110
-TUESDAY,13:00,13:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D110
-TUESDAY,08:00,08:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D111
-WEDNESDAY,15:00,16:40,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,Chemistry Lab
-THURSDAY,10:00,11:40,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,Chemistry Lab
-THURSDAY,08:00,08:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D110
-WEDNESDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D111
-THURSDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D110
-WEDNESDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D202
-THURSDAY,13:00,13:50,Technical Communication -I,Ms. Malathy G,D110
-THURSDAY,14:00,14:50,Technical Communication -I,Ms. Malathy G,D110
-THURSDAY,12:00,12:50,Heritage Of Tamils,New Faculty English (NS-NFE-3),D111
-WEDNESDAY,09:00,09:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),D203
-WEDNESDAY,10:00,10:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),D204
-WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),D204
-THURSDAY,15:00,15:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),D111
-TUESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Electronics and Instrumentation
-TUESDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Isaac Asimov Laboratory
-MONDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Isaac Asimov Laboratory
-WEDNESDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Food Chemistry Lab
-MONDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Physics LAB - 1
-MONDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),Physics LAB - 1
-MONDAY,11:00,11:50,Electron Devices,Mrs. Sowmiya G,D203
-MONDAY,10:00,10:50,Electron Devices,Mrs. Sowmiya G,D204
-TUESDAY,14:00,14:50,Electron Devices,Mrs. Sowmiya G,D204
-MONDAY,11:50,13:20,Electron Devices,Mrs. Sowmiya G,Engineering Practices Lab (Electronics)
-MONDAY,15:00,16:40,Electron Devices,Mrs. Sowmiya G,Engineering Practices Lab (Electronics)
+TUESDAY,15:00,15:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D703
+WEDNESDAY,14:00,14:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D510
+WEDNESDAY,13:00,13:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,D302
+THURSDAY,13:00,13:50,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,Chemistry Lab
+FRIDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Manigandan Ramadoss,Chemistry Lab
+WEDNESDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,B106
+THURSDAY,08:00,08:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D512
+FRIDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,D204
+TUESDAY,13:00,13:50,Linear Algebra and Calculus,Dr. Chitra Rameshbabu,C307
+TUESDAY,09:00,09:50,Technical Communication -I,Ms. Malathy G,D510
+FRIDAY,15:00,15:50,Technical Communication -I,Ms. Malathy G,B106
+MONDAY,14:00,14:50,Heritage Of Tamils,New Faculty English (NS-NFE-3),A103
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),D512
+MONDAY,08:00,08:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),B106
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-2),A103
+TUESDAY,12:00,12:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),D203
+THURSDAY,14:00,14:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),D211
+TUESDAY,16:00,16:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),A103
+FRIDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),TLGL1
+FRIDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),KFL01
+THURSDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),KSL03
+TUESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-3),KFR02
+THURSDAY,15:00,15:50,Electron Devices,Mrs. Sowmiya G,A203
+MONDAY,12:00,12:50,Electron Devices,Mrs. Sowmiya G,A103
+WEDNESDAY,10:00,10:50,Electron Devices,Mrs. Sowmiya G,D302
+WEDNESDAY,08:00,09:40,Electron Devices,Mrs. Sowmiya G,Engineering Practices Lab (Electronics)
+MONDAY,10:00,11:40,Electron Devices,Mrs. Sowmiya G,Engineering Practices Lab (Electronics)

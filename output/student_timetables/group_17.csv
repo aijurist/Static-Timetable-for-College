@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,13:00,13:50,Heritage Of Tamils,Mrs. Andria Babu,D109
-SATURDAY,16:00,16:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D111
-SATURDAY,10:00,10:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D202
-SATURDAY,11:00,11:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D202
-SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D202
-SATURDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,AIDS-NF1,Engineering Practices Lab (Electronics)
-THURSDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,AIDS-NF1,Engineering Practices Lab (Electrical)
-THURSDAY,14:00,14:50,Technical Communication -I,Mr. Savier Mut Jabraj A,D111
-THURSDAY,10:00,10:50,Technical Communication -I,Mr. Savier Mut Jabraj A,D202
-THURSDAY,13:00,13:50,Environmental Science and Engineering,Suresh kumar S,D202
-THURSDAY,09:00,09:50,Environmental Science and Engineering,Suresh kumar S,D203
-THURSDAY,11:00,11:50,Environmental Science and Engineering,Suresh kumar S,D203
-SATURDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D204
-THURSDAY,08:00,08:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D203
-FRIDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D111
-FRIDAY,08:00,08:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),D203
-FRIDAY,09:00,09:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),D203
-FRIDAY,10:00,10:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),D203
-THURSDAY,15:00,16:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electronics Lab-1
-SATURDAY,08:00,09:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electronics Lab-1
-FRIDAY,11:00,11:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D204
-FRIDAY,14:00,14:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D204
-FRIDAY,15:00,15:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D205
-TUESDAY,10:00,11:40,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,Physics LAB - 1
-TUESDAY,13:00,13:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),D205
-TUESDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Electronics and Instrumentation
-TUESDAY,15:00,16:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Aircraft Structures Lab
-WEDNESDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Electronics and Instrumentation
-WEDNESDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Electronics and Instrumentation
-WEDNESDAY,13:20,15:00,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Aerodynamics Lab
-WEDNESDAY,15:00,16:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),Aircraft Structures Lab
+TUESDAY,10:00,10:50,Heritage Of Tamils,Mrs. Andria Babu,D409
+THURSDAY,12:00,12:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,A104/105
+WEDNESDAY,13:00,13:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D310
+FRIDAY,12:00,12:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,B422
+FRIDAY,16:00,16:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,A102
+SATURDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,AIDS-NF1,Engineering Practices Lab (Electrical)
+WEDNESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,AIDS-NF1,Engineering Practices Lab (Electrical)
+TUESDAY,11:00,11:50,Technical Communication -I,Mr. Savier Mut Jabraj A,A102
+WEDNESDAY,15:00,15:50,Technical Communication -I,Mr. Savier Mut Jabraj A,A102
+THURSDAY,13:00,13:50,Environmental Science and Engineering,Suresh kumar S,D409
+SATURDAY,12:00,12:50,Environmental Science and Engineering,Suresh kumar S,A204
+WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Suresh kumar S,D310
+WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D709
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,D211
+SATURDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Raghavi K K,B422
+FRIDAY,13:00,13:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),D709
+WEDNESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),D310
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),B422
+SATURDAY,15:00,16:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electronics Lab-1
+TUESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electronics Lab-1
+WEDNESDAY,08:00,08:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D705
+THURSDAY,14:00,14:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D612
+THURSDAY,15:00,15:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D211
+FRIDAY,10:00,11:40,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,Physics LAB - 2
+SATURDAY,09:00,09:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),B417
+FRIDAY,15:00,15:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),A304
+SATURDAY,13:00,13:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),B422
+THURSDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),TLFR3
+WEDNESDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),KFR02
+TUESDAY,11:50,13:20,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),TLFL4
+TUESDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF3),JR3

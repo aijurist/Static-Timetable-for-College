@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,12:00,12:50,Heritage Of Tamils,Mrs. G.Janet,D109
-SATURDAY,08:00,08:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
-SATURDAY,11:00,11:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
-SATURDAY,15:00,15:50,Mathematical Foundations for AI,Mrs. J.Julie,D111
-SATURDAY,09:00,09:50,Mathematical Foundations for AI,Mrs. J.Julie,D202
-SATURDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
-THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
-THURSDAY,08:00,08:50,Technical Communication -I,Dr. Rajasree Baskaran,D202
-THURSDAY,09:00,09:50,Technical Communication -I,Dr. Rajasree Baskaran,D202
-THURSDAY,11:00,11:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
-THURSDAY,12:00,12:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
-THURSDAY,15:00,15:50,Environmental Science and Engineering,Mr. M.Anand Raj,D202
-THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D203
-SATURDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D204
-THURSDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D202
-SATURDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D204
-FRIDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D202
-FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D202
-FRIDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
-SATURDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
-FRIDAY,11:00,11:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
-FRIDAY,13:00,13:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
-FRIDAY,14:00,14:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,D203
-TUESDAY,08:00,09:40,Physics for Information Science,Mr. Dr. G. Saravana Kumar,Physics LAB - 1
-TUESDAY,13:00,13:50,Programming using C,Subramanian E.K,D204
-THURSDAY,13:20,15:00,Programming using C,Subramanian E.K,Isaac Asimov Laboratory
-TUESDAY,15:00,16:40,Programming using C,Subramanian E.K,Diagnostic and Therapeutic Equipment Lab
-WEDNESDAY,10:00,11:40,Programming using C,Subramanian E.K,Medical Image Processing Lab
-WEDNESDAY,13:20,15:00,Programming using C,Subramanian E.K,Diagnostic and Therapeutic Equipment Lab
-WEDNESDAY,15:00,16:40,Programming using C,Subramanian E.K,Aerodynamics Lab
-TUESDAY,15:00,16:40,Programming using C,Subramanian E.K,Aerodynamics Lab
+SATURDAY,14:00,14:50,Heritage Of Tamils,Mrs. G.Janet,D402
+TUESDAY,14:00,14:50,Mathematical Foundations for AI,Mrs. J.Julie,D311
+WEDNESDAY,13:00,13:50,Mathematical Foundations for AI,Mrs. J.Julie,D611
+TUESDAY,13:00,13:50,Mathematical Foundations for AI,Mrs. J.Julie,A209
+FRIDAY,10:00,10:50,Mathematical Foundations for AI,Mrs. J.Julie,C308
+TUESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+WEDNESDAY,14:00,14:50,Engineering Practices – Electrical and Electronics,Dr. Dhandayuthapani S,Engineering Practices Lab (Electrical)
+THURSDAY,11:00,11:50,Technical Communication -I,Dr. Rajasree Baskaran,B424
+SATURDAY,13:00,13:50,Technical Communication -I,Dr. Rajasree Baskaran,D512
+SATURDAY,09:00,09:50,Environmental Science and Engineering,Mr. M.Anand Raj,D510
+THURSDAY,16:00,16:50,Environmental Science and Engineering,Mr. M.Anand Raj,B325
+FRIDAY,11:00,11:50,Environmental Science and Engineering,Mr. M.Anand Raj,D611
+WEDNESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. Angel P,B424
+FRIDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Angel P,B410
+THURSDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D611
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,C308
+FRIDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,B107
+TUESDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,D611
+THURSDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+THURSDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+WEDNESDAY,15:00,15:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,A202
+THURSDAY,10:00,10:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,B410
+WEDNESDAY,09:00,09:50,Physics for Information Science,Mr. Dr. G. Saravana Kumar,B417
+WEDNESDAY,10:00,11:40,Physics for Information Science,Mr. Dr. G. Saravana Kumar,Physics LAB - 2
+TUESDAY,12:00,12:50,Programming using C,Subramanian E.K,C307
+THURSDAY,15:00,15:50,Programming using C,Subramanian E.K,B409
+SATURDAY,15:00,15:50,Programming using C,Subramanian E.K,B322
+FRIDAY,11:50,13:20,Programming using C,Subramanian E.K,TLFR2
+THURSDAY,11:50,13:20,Programming using C,Subramanian E.K,TLFL5
+SATURDAY,10:00,11:40,Programming using C,Subramanian E.K,TLGL4
+THURSDAY,13:20,15:00,Programming using C,Subramanian E.K,TLFL3

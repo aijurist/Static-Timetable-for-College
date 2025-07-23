@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,09:00,09:50,Heritage Of Tamils,Mrs. Dr. B.Lakshmi,D109
-SATURDAY,16:00,16:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D109
-SATURDAY,11:00,11:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
-SATURDAY,12:00,12:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
-SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D110
-TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
-TUESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
-TUESDAY,11:00,11:50,Technical Communication -I,Dr. Vijayalakshmi M,D203
-TUESDAY,10:00,10:50,Technical Communication -I,Dr. Vijayalakshmi M,D204
-TUESDAY,16:00,16:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D204
-TUESDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D209
-SATURDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D202
-TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D205
-TUESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D210
-SATURDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,D203
-SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D202
-THURSDAY,14:00,14:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D202
-THURSDAY,12:00,12:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),D203
-THURSDAY,08:00,09:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
-THURSDAY,10:00,11:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
-THURSDAY,13:00,13:50,Physics for Information Science,Dr. Mahesh R,D203
-THURSDAY,15:00,15:50,Physics for Information Science,Dr. Mahesh R,D203
-THURSDAY,16:00,16:50,Physics for Information Science,Dr. Mahesh R,D203
-WEDNESDAY,11:50,13:20,Physics for Information Science,Dr. Mahesh R,Physics LAB - 1
-WEDNESDAY,08:00,08:50,Programming using C,Mrs. Selvarani K,D205
-WEDNESDAY,10:00,11:40,Programming using C,Mrs. Selvarani K,Isaac Asimov Laboratory
-WEDNESDAY,13:20,15:00,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
-TUESDAY,13:20,15:00,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
-TUESDAY,11:50,13:20,Programming using C,Mrs. Selvarani K,Electronics and Instrumentation
-THURSDAY,08:00,09:40,Programming using C,Mrs. Selvarani K,Medical Image Processing Lab
-WEDNESDAY,15:00,16:40,Programming using C,Mrs. Selvarani K,Medical Image Processing Lab
+FRIDAY,11:00,11:50,Heritage Of Tamils,Mrs. Dr. B.Lakshmi,A210
+THURSDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Sriram Sastha,D311
+WEDNESDAY,15:00,15:50,Mathematical Foundations for AI,Mr. Sriram Sastha,C102
+TUESDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Sriram Sastha,A304
+TUESDAY,15:00,15:50,Mathematical Foundations for AI,Mr. Sriram Sastha,B424
+FRIDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
+WEDNESDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Mrs. Aswini A,Engineering Practices Lab (Electrical)
+THURSDAY,16:00,16:50,Technical Communication -I,Dr. Vijayalakshmi M,D311
+WEDNESDAY,10:00,10:50,Technical Communication -I,Dr. Vijayalakshmi M,B302
+FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,B212
+THURSDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,D512
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. Dr.Jayakumar S,C307
+WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,A304
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,B302
+SATURDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mrs. Shanmugapriya Kumaravelu,B212
+TUESDAY,08:00,08:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),A209
+FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),B211
+THURSDAY,11:00,11:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),A210
+WEDNESDAY,08:00,09:40,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
+SATURDAY,09:00,09:50,Basic Electrical and Electronics Engineering,New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electronics Lab-1
+FRIDAY,13:00,13:50,Physics for Information Science,Dr. Mahesh R,B302
+THURSDAY,12:00,12:50,Physics for Information Science,Dr. Mahesh R,B405
+SATURDAY,14:00,14:50,Physics for Information Science,Dr. Mahesh R,D512
+SATURDAY,11:50,13:20,Physics for Information Science,Dr. Mahesh R,Physics LAB - 2
+TUESDAY,11:00,11:50,Programming using C,Mrs. Selvarani K,C307
+SATURDAY,10:00,10:50,Programming using C,Mrs. Selvarani K,C102
+SATURDAY,15:00,15:50,Programming using C,Mrs. Selvarani K,D703
+WEDNESDAY,11:50,13:20,Programming using C,Mrs. Selvarani K,KFL03
+THURSDAY,13:20,15:00,Programming using C,Mrs. Selvarani K,JL1
+FRIDAY,15:00,16:40,Programming using C,Mrs. Selvarani K,TLFL2
+TUESDAY,11:50,13:20,Programming using C,Mrs. Selvarani K,TLFR5

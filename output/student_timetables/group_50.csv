@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,C308
-WEDNESDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,C103
-FRIDAY,08:00,08:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,B404
-MONDAY,12:00,12:50,Computer Organization and Architecture,New Faculty New Staff -20,B320
-MONDAY,17:00,17:50,Computer Organization and Architecture,New Faculty New Staff -20,A308
-THURSDAY,14:00,14:50,Computer Organization and Architecture,New Faculty New Staff -20,B322
-TUESDAY,12:00,12:50,Computational Statistics,Dr. V. R. Sunil Kumar,A308
-THURSDAY,15:00,15:50,Computational Statistics,Dr. V. R. Sunil Kumar,B106
-TUESDAY,18:00,18:50,Computational Statistics,Dr. V. R. Sunil Kumar,C308
-WEDNESDAY,17:30,19:10,Computational Statistics,Dr. V. R. Sunil Kumar,JL2
-WEDNESDAY,15:50,17:30,Computational Statistics,Dr. V. R. Sunil Kumar,KFR01
-FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B425
-MONDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,A104/105
-TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B412
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL1
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,KFR03
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLFR4
-THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL3
-MONDAY,18:00,18:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C307
-TUESDAY,17:00,17:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C201
-FRIDAY,09:00,09:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C307
-FRIDAY,12:00,12:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A202
-MONDAY,16:00,16:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B416
-MONDAY,14:00,14:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A205
-WEDNESDAY,13:50,15:30,Software Engineering,Dr. Manikandan Thirumalaisamy,KFR01
-WEDNESDAY,17:30,19:10,Software Engineering,Dr. Manikandan Thirumalaisamy,JL1
-TUESDAY,15:00,15:50,Database Technology,Mrs. Rajammal K,C102
-FRIDAY,14:00,14:50,Database Technology,Mrs. Rajammal K,B321
-TUESDAY,14:00,14:50,Database Technology,Mrs. Rajammal K,B402
-THURSDAY,17:30,19:10,Database Technology,Mrs. Rajammal K,KFL03
-THURSDAY,15:50,17:30,Database Technology,Mrs. Rajammal K,JR2
+THURSDAY,10:00,10:50,Physics for Information Science,Mr. Senthilkumar K,B405
+SATURDAY,10:00,10:50,Physics for Information Science,Mr. Senthilkumar K,A209
+SATURDAY,15:00,15:50,Physics for Information Science,Mr. Senthilkumar K,D309
+SATURDAY,11:50,13:20,Physics for Information Science,Mr. Senthilkumar K,Physics LAB - 1
+TUESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electronics)
+THURSDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Dr. Dhandayuthapani S,D309
+SATURDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Dr. Dhandayuthapani S,D711
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Dr. Dhandayuthapani S,B426
+THURSDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Dr. Dhandayuthapani S,Basic Electronics Lab-1
+WEDNESDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Dr. Dhandayuthapani S,Basic Electronics Lab-1
+THURSDAY,15:00,15:50,Programming using C,AIML NS3,D711
+TUESDAY,08:00,08:50,Programming using C,AIML NS3,A108
+FRIDAY,14:00,14:50,Programming using C,AIML NS3,B405
+THURSDAY,11:50,13:20,Programming using C,AIML NS3,TLFR5
+FRIDAY,08:00,09:40,Programming using C,AIML NS3,TLGL3
+FRIDAY,10:00,11:40,Programming using C,AIML NS3,TLGL3
+TUESDAY,11:50,13:20,Programming using C,AIML NS3,KFR01
+FRIDAY,13:00,13:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,D205
+WEDNESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,A108
+THURSDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,A209
+FRIDAY,12:00,12:50,Heritage Of Tamils,Mr. Vijayanarasimhan K,D309
+WEDNESDAY,14:00,14:50,Mathematical Foundations for AI,Mrs. J.Julie,B409
+WEDNESDAY,15:00,15:50,Mathematical Foundations for AI,Mrs. J.Julie,B425
+FRIDAY,15:00,15:50,Mathematical Foundations for AI,Mrs. J.Julie,A209
+WEDNESDAY,11:00,11:50,Mathematical Foundations for AI,Mrs. J.Julie,B425
+TUESDAY,15:00,15:50,Technical Communication -I,Mrs. G.Janet,B423
+WEDNESDAY,16:00,16:50,Technical Communication -I,Mrs. G.Janet,A209

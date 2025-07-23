@@ -6,1895 +6,231 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <title>Advanced Timetable Visualizer - 6 Day Schedule</title>
+    <title>Enhanced Timetable Visualizer - 6 Day Schedule</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --theory-color: #60a5fa;
-            --theory-border: #3b82f6;
-            --tutorial-color: #34d399;
-            --tutorial-border: #10b981;
-            --lab-same-color: #a78bfa;
-            --lab-same-border: #8b5cf6;
-            --lab-different-color: #fbbf24;
-            --lab-different-border: #f59e0b;
-            --lab-mixed-color: #f87171;
-            --lab-mixed-border: #ef4444;
-            --lecture-color: #fb7185;
-            --lecture-border: #f43f5e;
-            --header-bg: #1f2937;
-            --cell-bg: #374151;
-            --border-color: #4b5563;
-            --hover-bg: #4b5563;
-            --text-primary: #f9fafb;
-            --text-secondary: #d1d5db;
-            --bg-primary: #111827;
-            --bg-secondary: #1f2937;
+            --theory-color: #60a5fa; --theory-border: #3b82f6;
+            --tutorial-color: #34d399; --tutorial-border: #10b981;
+            --lab-color: #a78bfa; --lab-border: #8b5cf6;
+            --lecture-color: #fb7185; --lecture-border: #f43f5e;
+            --header-bg: #1f2937; --cell-bg: #374151; --border-color: #4b5563;
+            --hover-bg: #4b5563; --text-primary: #f9fafb; --text-secondary: #d1d5db;
+            --bg-primary: #111827; --bg-secondary: #1f2937;
+            --accent-color: #60a5fa; --success-color: #10b981; --warning-color: #f59e0b;
         }
-
-        /* Light theme overrides */
         body.light-theme {
-            --header-bg: #ffffff;
-            --cell-bg: #f9fafb;
-            --border-color: #cbd5e1;
-            --hover-bg: #e2e8f0;
-            --text-primary: #1f2937;
-            --text-secondary: #475569;
-            --bg-primary: #f1f5f9;
-            --bg-secondary: #ffffff;
+            --header-bg: #ffffff; --cell-bg: #f9fafb; --border-color: #cbd5e1;
+            --hover-bg: #e2e8f0; --text-primary: #1f2937; --text-secondary: #475569;
+            --bg-primary: #f1f5f9; --bg-secondary: #ffffff;
         }
-
-        /* Additional light theme component tweaks */
-        body.light-theme .container {
-            background: var(--bg-secondary);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        body { 
+            font-family: 'Roboto', sans-serif; margin: 0; padding: 20px; 
+            background-color: var(--bg-primary); color: var(--text-primary); 
+            touch-action: manipulation; transition: all 0.3s ease;
         }
-
-        body.light-theme .lesson-block {
-            box-shadow: none;
-            border-width: 1px;
+        body.fullscreen { padding: 0; overflow: hidden; }
+        
+        .container { 
+            max-width: 1800px; margin: 0 auto; background: var(--bg-secondary); 
+            padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            border: 1px solid var(--border-color); transition: all 0.3s ease;
         }
-
-        body.light-theme .lesson-block:hover {
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        body.light-theme .timetable {
-            background-color: var(--border-color);
-        }
-
-        body.light-theme .cell {
-            border-color: var(--border-color);
-        }
-
-        body.light-theme .legend {
-            background-color: var(--header-bg);
-            border: 1px solid var(--border-color);
-        }
-
-        body.light-theme .header {
-            background-color: var(--header-bg);
-            color: var(--text-primary);
-        }
-
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            /* Improved touch handling */
-            touch-action: manipulation;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
-
-        .container {
-            max-width: 1800px;
-            margin: 0 auto;
-            background: var(--bg-secondary);
-            padding: 30px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(10px);
-        }
-
-        /* Responsive design for 6-day layout */
-        @media (max-width: 1200px) {
-            .container {
-                max-width: 95%;
-                padding: 15px;
-            }
-            
-            .timetable {
-                font-size: 0.85em;
-            }
-            
-            .lesson-block {
-                padding: 6px;
-                font-size: 0.9em;
-            }
+        .container.fullscreen { 
+            max-width: 100%; height: 100vh; border-radius: 0; 
+            padding: 15px; margin: 0; border: none; display: flex; flex-direction: column;
         }
         
-        @media (max-width: 900px) {
-            .timetable {
-                grid-template-columns: 80px repeat(6, 1fr);
-                font-size: 0.8em;
-            }
-            
-            .lesson-block {
-                padding: 4px;
-                font-size: 0.8em;
-            }
-            
-            .controls {
-                flex-direction: column;
-                gap: 10px;
-            }
-            
-            .control-group {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 5px;
-            }
-            
-            .control-group label {
-                min-width: auto;
-                font-size: 0.9em;
-            }
-        }
-
-        /* Mobile optimizations */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-                font-size: 14px;
-            }
-            
-            .container {
-                padding: 10px;
-                border-radius: 8px;
-            }
-            
-            h1 {
-                font-size: 1.5em;
-                margin-bottom: 15px;
-                text-align: center;
-            }
-            
-            .info-banner {
-                padding: 12px 15px;
-                margin-bottom: 15px;
-            }
-            
-            .info-banner p {
-                font-size: 0.85em;
-            }
-            
-            .controls {
-                flex-direction: column;
-                gap: 8px;
-                margin-bottom: 15px;
-            }
-            
-            .control-group {
-                flex-direction: column;
-                gap: 5px;
-            }
-            
-            .view-toggle {
-                flex-direction: column;
-                border-radius: 6px;
-            }
-            
-            .view-toggle .toggle-btn {
-                border-radius: 0;
-                min-width: auto;
-                padding: 10px 15px;
-                font-size: 0.9em;
-            }
-            
-            .view-toggle .toggle-btn:not(:last-child) {
-                border-right: none;
-                border-bottom: 1px solid var(--border-color);
-            }
-            
-            .view-toggle .toggle-btn:first-child {
-                border-top-left-radius: 6px;
-                border-top-right-radius: 6px;
-            }
-            
-            .view-toggle .toggle-btn:last-child {
-                border-bottom-left-radius: 6px;
-                border-bottom-right-radius: 6px;
-            }
-            
-            select, input[type="text"] {
-                padding: 10px 12px;
-                font-size: 0.9em;
-                min-width: auto;
-                width: 100%;
-            }
-            
-            .timetable {
-                grid-template-columns: 70px repeat(6, 1fr);
-                font-size: 0.7em;
-                gap: 0.5px;
-                border-radius: 6px;
-                margin-bottom: 15px;
-                min-width: 600px; /* Ensure minimum width for readability */
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-            
-            #timetableContainer {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                padding-bottom: 10px;
-            }
-            
-            .header {
-                padding: 8px 4px;
-                font-size: 0.8em;
-                text-align: center;
-            }
-            
-            .time-slot {
-                padding: 6px 2px;
-                font-size: 0.7em;
-            }
-            
-            .cell {
-                min-height: 60px;
-                padding: 2px;
-                gap: 1px;
-            }
-            
-            .lesson-block {
-                padding: 3px;
-                font-size: 0.65em;
-                line-height: 1.1;
-                border-radius: 3px;
-                margin: 0.5px;
-            }
-            
-            .lesson-block div {
-                margin-bottom: 1px;
-            }
-            
-            .batch-indicator {
-                font-size: 0.6em;
-                margin-top: 1px;
-            }
-            
-            .legend {
-                flex-direction: column;
-                gap: 8px;
-                padding: 10px;
-                margin-bottom: 15px;
-            }
-            
-            .legend-item {
-                gap: 6px;
-                font-size: 0.85em;
-            }
-            
-            .legend-color {
-                width: 16px;
-                height: 16px;
-            }
-            
-            /* Mobile tooltip adjustments */
-            .tooltip {
-                max-width: 280px;
-                min-width: 200px;
-                font-size: 12px;
-                padding: 12px;
-            }
-            
-            .tooltip-title {
-                font-size: 14px;
-                margin-bottom: 8px;
-                padding-bottom: 6px;
-            }
-            
-            .tooltip-row {
-                gap: 10px;
-                padding: 1px 0;
-            }
-            
-            .tooltip-label {
-                min-width: 60px;
-                font-size: 0.9em;
-            }
-            
-            .tooltip-value {
-                font-size: 0.9em;
-            }
-        }
-
-        /* Small mobile devices */
-        @media (max-width: 480px) {
-            body {
-                padding: 5px;
-                font-size: 13px;
-            }
-            
-            .container {
-                padding: 8px;
-                margin: 0;
-                border-radius: 6px;
-            }
-            
-            h1 {
-                font-size: 1.3em;
-                margin-bottom: 10px;
-            }
-            
-            .timetable {
-                grid-template-columns: 60px repeat(6, 1fr);
-                font-size: 0.65em;
-                gap: 0.5px;
-                min-width: 500px; /* Ensure minimum width for very small screens */
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-            
-            .header {
-                padding: 6px 2px;
-                font-size: 0.7em;
-            }
-            
-            .time-slot {
-                padding: 4px 1px;
-                font-size: 0.65em;
-            }
-            
-            .cell {
-                min-height: 50px;
-                padding: 1px;
-            }
-            
-            .lesson-block {
-                padding: 2px;
-                font-size: 0.6em;
-                line-height: 1.0;
-            }
-            
-            .lesson-block div:first-child {
-                font-weight: 600;
-                margin-bottom: 1px;
-            }
-            
-            .lesson-block div:nth-child(2),
-            .lesson-block div:nth-child(3) {
-                display: none; /* Hide teacher and room on very small screens */
-            }
-            
-            .batch-indicator {
-                display: none; /* Hide batch info on very small screens */
-            }
-            
-            /* Simplified combined lab blocks for mobile */
-            .combined-lab-block {
-                padding: 4px;
-                border-radius: 6px;
-                border-width: 1px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-            }
-            
-            .lab-time-header {
-                font-size: 0.8em;
-                padding: 3px 4px;
-                margin-bottom: 4px;
-            }
-            
-            .lab-course-title {
-                font-size: 0.7em;
-                margin-bottom: 2px;
-            }
-            
-            .lab-teacher, .lab-room {
-                font-size: 0.6em;
-                margin-bottom: 1px;
-            }
-            
-            .lab-batches {
-                font-size: 0.55em;
-                margin-top: 2px;
-                padding: 1px 3px;
-            }
-            
-            .lab-multiple-courses {
-                gap: 4px;
-            }
-            
-            .lab-course-item {
-                padding: 2px 0;
-                padding-left: 4px;
-            }
-            
-            .lab-course-name {
-                font-size: 0.65em;
-                margin-bottom: 1px;
-            }
-            
-            .lab-course-details {
-                font-size: 0.55em;
-                display: none; /* Hide details on very small screens */
-            }
-            
-            .tooltip {
-                max-width: 250px;
-                min-width: 180px;
-                font-size: 11px;
-                padding: 10px;
-            }
-            
-            .tooltip-title {
-                font-size: 13px;
-            }
-        }
-
-        h1 {
-            color: var(--text-primary);
-            margin-bottom: 25px;
-            font-weight: 500;
-            font-size: 2.2em;
-            letter-spacing: -0.5px;
-            line-height: 1.2;
-        }
-
-        .controls {
-            margin-bottom: 20px;
-            display: flex;
-            gap: 20px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .control-group {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-
-        .control-group label {
-            color: var(--text-secondary);
-            font-weight: 500;
-            min-width: 80px;
-        }
-
-        select, .toggle-btn, input[type="text"] {
-            padding: 8px 12px;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background-color: var(--cell-bg);
-            font-size: 14px;
-            color: var(--text-primary);
-            cursor: pointer;
-            min-width: 120px;
-            transition: all 0.2s;
-            /* Touch-friendly improvements */
-            -webkit-tap-highlight-color: transparent;
-            user-select: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-        }
-
-        input[type="text"] {
-            cursor: text;
-        }
-
-        input[type="text"]:focus {
-            outline: none;
-            border-color: var(--theory-color);
-            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
-        }
-
-        .toggle-btn {
-            background-color: var(--cell-bg);
-            transition: all 0.2s;
-        }
-
-        .toggle-btn.active {
-            background-color: var(--theory-color);
-            color: var(--bg-primary);
-            border-color: var(--theory-border);
-            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
-        }
-
-        .toggle-btn:hover {
-            background-color: var(--hover-bg);
-            border-color: var(--theory-border);
-        }
-
-        .toggle-btn.active:hover {
-            background-color: var(--theory-border);
-        }
-
-        select:focus {
-            outline: none;
-            border-color: var(--theory-color);
-            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
-        }
-
-        .timetable {
-            display: grid;
-            grid-template-columns: 120px repeat(6, 1fr);
-            gap: 1px;
-            background-color: var(--border-color);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            margin-bottom: 20px;
-            /* Enhanced scrolling support */
-            min-width: 800px; /* Ensure minimum width for readability */
-            width: 100%;
-            overflow: auto;
-            -webkit-overflow-scrolling: touch;
-            scroll-behavior: smooth;
-        }
-
-        .timetable[data-combined="true"] {
-            overflow: visible !important; /* Allow spanning blocks in combined view */
-            position: relative;
-            z-index: 1;
-            contain: none !important; /* Disable CSS containment for spanning elements */
-        }
-
-        /* Enhanced timetable container with scrolling */
-        #timetableContainer {
-            overflow: auto;
-            position: relative;
-            contain: none !important;
-            /* Smooth scrolling for all platforms */
-            -webkit-overflow-scrolling: touch;
-            scroll-behavior: smooth;
-            /* Add subtle scrollbar styling */
-            scrollbar-width: thin;
-            scrollbar-color: var(--theory-color) var(--cell-bg);
-            /* Ensure spanning elements can extend beyond visible area */
-            min-height: 400px;
-            max-height: 80vh;
-            /* Enhanced styling for better UX */
-            padding: 12px;
-            border-radius: 12px;
-            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
-            border: 1px solid var(--border-color);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            /* Better scroll handling */
-            scroll-padding: 10px;
-            /* For mobile, allow horizontal scrolling */
-            overflow-x: auto;
-            overflow-y: auto;
-        }
-
-        /* Custom scrollbar for webkit browsers */
-        #timetableContainer::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-
-        #timetableContainer::-webkit-scrollbar-track {
-            background: var(--cell-bg);
-            border-radius: 4px;
-        }
-
-        #timetableContainer::-webkit-scrollbar-thumb {
-            background: var(--theory-color);
-            border-radius: 4px;
-            transition: background 0.2s ease;
-        }
-
-        #timetableContainer::-webkit-scrollbar-thumb:hover {
-            background: var(--theory-border);
-        }
-
-        #timetableContainer::-webkit-scrollbar-corner {
-            background: var(--cell-bg);
-        }
-
-        /* Combined lab block styling */
-        .combined-lab-block {
-            border: 2px solid rgba(255, 255, 255, 0.4);
-            border-radius: 10px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            transform: translateZ(0); /* Force hardware acceleration */
-            will-change: transform; /* Optimize for animations */
-        }
-
-        .combined-lab-block:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
-            border-color: rgba(255, 255, 255, 0.4);
-        }
-
-        .lab-time-header {
-            font-weight: 700;
-            font-size: 1em;
-            text-align: center;
-            margin-bottom: 8px;
-            padding: 6px 8px;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 6px;
-            color: rgba(255, 255, 255, 0.98);
-            letter-spacing: 0.5px;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-        }
-
-        .lab-course-title {
-            font-weight: 600;
-            font-size: 0.9em;
-            margin-bottom: 4px;
-            line-height: 1.3;
-            color: rgba(255, 255, 255, 0.95);
-        }
-
-        .lab-teacher, .lab-room {
-            font-size: 0.8em;
-            opacity: 0.9;
-            margin-bottom: 3px;
-            color: rgba(255, 255, 255, 0.85);
-        }
-
-        .lab-batches {
-            font-size: 0.75em; 
-            opacity: 0.85;
-            margin-top: 4px;
-            font-style: italic;
-            padding: 2px 6px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 4px;
-            display: inline-block;
-        }
-
-        .lab-multiple-courses {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .lab-course-item {
-            flex: 1;
-            padding: 4px 0;
-            border-left: 3px solid rgba(255, 255, 255, 0.3);
-            padding-left: 8px;
-        }
-
-        .lab-course-name {
-            font-weight: 600;
-            font-size: 0.85em;
-            margin-bottom: 3px;
-            line-height: 1.2;
-            color: rgba(255, 255, 255, 0.95);
-        }
-
-        .lab-course-details {
-            font-size: 0.75em;
-            opacity: 0.8;
-            line-height: 1.2;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .lab-separator {
-            text-align: center;
-            font-weight: bold;
-            opacity: 0.4;
-            font-size: 1em;
-            margin: 4px 0;
-            color: rgba(255, 255, 255, 0.6);
-        }
-
-        /* Visual indicator for lab span cells */
-        .lab-span-cell {
-            background: transparent !important; /* Remove pattern to avoid covering spanning block */
-            pointer-events: none !important; /* Allow clicks to pass through to combined block */
-            z-index: 5 !important; /* Ensure it stays below spanning block */
-            overflow: visible !important;
-            contain: none !important;
-        }
-
-        /* Ensure lab span cells don't hide spanning blocks */
-        .lab-span-cell .combined-lab-block {
-            position: absolute !important;
-            z-index: 600 !important;
-            pointer-events: auto !important;
-        }
-
-        .header {
-            background-color: var(--header-bg);
-            padding: 12px;
-            text-align: center;
-            font-weight: 500;
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-        }
-
-        .time-slot {
-            background-color: var(--header-bg);
-            padding: 8px;
-            text-align: center;
-            font-size: 0.85em;
-            border: 1px solid var(--border-color);
-            color: var(--text-secondary);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .cell {
-            background-color: var(--cell-bg);
-            padding: 4px;
-            min-height: 80px;
-            border: 1px solid var(--border-color);
-            position: relative;
-            transition: background-color 0.2s;
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-            overflow: visible !important; /* Allow spanning blocks to extend beyond cell boundaries */
-        }
-
-        .cell:hover {
-            background-color: var(--hover-bg);
-        }
-
-        .lesson-block {
-            margin: 1px;
-            padding: 6px;
-            border-radius: 4px;
-            color: white;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            font-size: 0.8em;
-            line-height: 1.2;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            /* Touch-friendly improvements */
-            -webkit-tap-highlight-color: transparent;
-            user-select: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            /* Minimum touch target size */
-            min-height: 44px;
-        }
-
-        .lesson-block:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .theory {
-            background-color: var(--theory-color);
-            border: 1px solid var(--theory-border);
-        }
-
-        .lecture {
-            background-color: var(--lecture-color);
-            border: 1px solid var(--lecture-border);
-        }
-
-        .tutorial {
-            background-color: var(--tutorial-color);
-            border: 1px solid var(--tutorial-border);
-        }
-
-        .lab-same {
-            background-color: var(--lab-same-color);
-            border: 1px solid var(--lab-same-border);
-        }
-
-        .lab-different {
-            background-color: var(--lab-different-color);
-            border: 1px solid var(--lab-different-border);
-        }
-
-        .lab-mixed {
-            background-color: var(--lab-mixed-color);
-            border: 1px solid var(--lab-mixed-border);
-        }
-
-        .legend {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: var(--header-bg);
-            border-radius: 8px;
-            flex-wrap: wrap;
-            border: 1px solid var(--border-color);
-        }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .legend-color {
-            width: 20px;
-            height: 20px;
-            border-radius: 4px;
-        }
-
-        .legend-text {
-            font-size: 0.9em;
-            color: var(--text-secondary);
-        }
-
-        .tooltip {
-            position: absolute;
-            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-            color: var(--text-primary);
-            padding: 16px;
-            border-radius: 12px;
-            font-size: 14px;
-            z-index: 1000;
-            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
-            max-width: 400px;
-            min-width: 280px;
-            display: none;
-            border: 2px solid rgba(96, 165, 250, 0.3);
-            backdrop-filter: blur(10px);
-            transition: all 0.2s ease;
-        }
-
-        .tooltip-title {
-            font-weight: 600;
-            font-size: 16px;
-            margin-bottom: 12px;
-            color: var(--text-primary);
-            padding-bottom: 8px;
-            border-bottom: 2px solid rgba(96, 165, 250, 0.3);
-            text-align: center;
-        }
-
-        .tooltip-content {
-            display: grid;
-            gap: 6px;
-        }
-
-        .tooltip-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 16px;
-            padding: 2px 0;
-        }
-
-        .tooltip-label {
-            color: var(--text-secondary);
-            font-weight: 500;
-            min-width: 80px;
-            flex-shrink: 0;
-        }
-
-        .tooltip-value {
-            color: var(--text-primary);
-            font-weight: 500;
-            text-align: right;
-            flex-grow: 1;
-        }
-
-        .error-message {
-            color: #fca5a5;
-            background-color: #1e1b22;
-            border: 1px solid #7f1d1d;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .error-message h3 {
-            margin-top: 0;
-            color: #f87171;
-            font-size: 1.5em;
-        }
-
-        .error-message ul {
-            text-align: left;
-            max-width: 600px;
-            margin: 15px auto;
-        }
-
-        .error-message code {
-            background-color: #374151;
-            padding: 2px 6px;
-            border-radius: 4px;
-            color: #d1d5db;
-        }
-
-        .batch-indicator {
-            font-size: 0.7em;
-            opacity: 0.9;
-            margin-top: 2px;
-        }
-
-        .section-title {
-            font-size: 1.2em;
-            font-weight: 500;
-            margin: 20px 0 10px 0;
-            color: var(--text-primary);
-            padding: 10px 0;
-            border-bottom: 2px solid var(--border-color);
-        }
-
-        .view-toggle {
-            display: flex;
-            gap: 0;
-            border-radius: 6px;
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-        }
-
-        .view-toggle .toggle-btn {
-            border: none;
-            border-radius: 0;
-            min-width: 100px;
-        }
-
-        .view-toggle .toggle-btn:not(:last-child) {
-            border-right: 1px solid var(--border-color);
-        }
-
-        /* Enhanced styling for combined view spanning blocks */
-        .cell[data-schedule-type="combined"] {
-            overflow: visible !important;
-            z-index: 1;
-            position: relative;
-            transition: all 0.2s ease;
-        }
-
-        .cell[data-schedule-type="combined"]:hover {
-            background-color: rgba(96, 165, 250, 0.05);
-        }
-
-        .lesson-block.spanning {
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-            border: 2px solid rgba(255, 255, 255, 0.15);
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .lesson-block.spanning:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-        }
-
-        /* Fix for combined view grid layout */
-        .timetable[data-combined="true"] {
-            position: relative;
-            z-index: 1;
-            overflow: visible !important;
-            background-color: var(--border-color);
-            contain: none !important;
-        }
-
-        .timetable[data-combined="true"] .cell {
-            position: relative;
-            z-index: 10;
-            overflow: visible !important;
-            border: 1px solid rgba(75, 85, 99, 0.5);
-            contain: none !important;
-        }
-
-        .timetable[data-combined="true"] .lesson-block.spanning {
-            z-index: 500 !important;
-        }
-
-        .timetable[data-combined="true"] .combined-lab-block {
-            z-index: 600 !important;
-        }
-
-        /* Ensure non-spanning blocks don't interfere */
-        .timetable[data-combined="true"] .lesson-block:not(.spanning) {
-            z-index: 5;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-        }
-
-        .timetable[data-combined="true"] .lesson-block:not(.spanning):hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Force visibility for combined lab blocks */
-        .combined-lab-block {
-            display: flex !important;
-            visibility: visible !important;
-            transform: translateZ(0); /* Force hardware acceleration */
-        }
-
-        /* Ensure grid doesn't interfere with spanning blocks */
-        .timetable[data-combined="true"] {
-            contain: none !important;
-            isolation: auto !important;
-        }
-
-        /* Improved stacking context for combined view */
-        .timetable[data-combined="true"] .cell.has-combined-block {
-            z-index: 100 !important;
-        }
-
-        /* Analytics Panel Styles */
-        .analytics-container {
-            margin-top: 20px;
-        }
-
-        .main-content {
-            margin-top: 0;
-        }
-
-        .analytics-menu-bar {
-            background: var(--bg-secondary);
-            border-radius: 10px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 20px;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-            overflow: hidden;
-            backdrop-filter: blur(5px);
-        }
-
-        .analytics-tabs {
-            display: flex;
-            background: var(--header-bg);
-            border-bottom: 2px solid var(--border-color);
-            overflow-x: auto;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-        }
-
-        .analytics-tabs::-webkit-scrollbar {
-            display: none;
-        }
-
-        .analytics-tab {
-            flex: 0 0 auto;
-            padding: 15px 25px;
-            background: none;
-            border: none;
-            color: var(--text-secondary);
-            cursor: pointer;
-            font-size: 0.9em;
-            font-weight: 600;
-            transition: all 0.2s;
-            border-bottom: 3px solid transparent;
-            white-space: nowrap;
-            position: relative;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .analytics-tab::before {
-            content: '';
-            width: 12px;
-            height: 12px;
-            border-radius: 2px;
-            background: currentColor;
-            opacity: 0.6;
-            transition: all 0.2s;
-        }
-
-        .analytics-tab.active::before {
-            opacity: 1;
-            background: var(--theory-color);
-        }
-
-        .analytics-tab.active {
-            color: var(--text-primary);
-            border-bottom-color: var(--theory-color);
-            background: rgba(96, 165, 250, 0.08);
-        }
-
-        .analytics-tab:hover {
-            background: rgba(96, 165, 250, 0.05);
-            color: var(--text-primary);
-        }
-
-        .analytics-tab:not(.active):hover {
-            border-bottom-color: rgba(96, 165, 250, 0.3);
-        }
-
-        .analytics-panels {
-            padding: 0;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-        }
-
-        .analytics-panels.expanded {
-            max-height: 70vh;
-            padding: 20px;
-            overflow-y: auto;
-            overflow-x: hidden;
-            position: relative;
-        }
-
-        /* Scroll indicator shadows */
-        .analytics-panels.expanded::before {
-            content: '';
-            position: sticky;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 10px;
-            background: linear-gradient(to bottom, var(--bg-secondary), transparent);
-            z-index: 10;
-            pointer-events: none;
-        }
-
-        .analytics-panels.expanded::after {
-            content: '';
-            position: sticky;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 10px;
-            background: linear-gradient(to top, var(--bg-secondary), transparent);
-            z-index: 10;
-            pointer-events: none;
-        }
-
-        /* Custom Scrollbar Styling */
-        .analytics-panels.expanded::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        .analytics-panels.expanded::-webkit-scrollbar-track {
-            background: var(--cell-bg);
-            border-radius: 4px;
-        }
-
-        .analytics-panels.expanded::-webkit-scrollbar-thumb {
-            background: var(--theory-color);
-            border-radius: 4px;
-            transition: background 0.2s ease;
-        }
-
-        .analytics-panels.expanded::-webkit-scrollbar-thumb:hover {
-            background: var(--theory-border);
-        }
-
-        /* Firefox scrollbar */
-        .analytics-panels.expanded {
-            scrollbar-width: thin;
-            scrollbar-color: var(--theory-color) var(--cell-bg);
-        }
-
-        .analytics-panel {
-            display: none;
-            animation: fadeIn 0.3s ease-in;
-        }
-
-        .analytics-panel.active {
-            display: block;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.6; }
-            50% { opacity: 1; }
-        }
-
-        .scroll-indicator {
-            animation: pulse 2s infinite;
-        }
-
-        .analytics-section {
-            margin-bottom: 30px;
-            background: var(--cell-bg);
-            border-radius: 10px;
-            padding: 16px;
-            border: 1px solid var(--border-color);
-            min-height: 100px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-            transition: all 0.2s ease;
-        }
-
-        .analytics-section:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-color: rgba(96, 165, 250, 0.3);
-        }
-
-        .analytics-section:last-child {
-            margin-bottom: 20px;
-        }
-
-        .analytics-section h4 {
-            margin: 0 0 12px 0;
-            color: var(--text-primary);
-            font-size: 1em;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .analytics-section h4::before {
-            content: '';
-            width: 3px;
-            height: 16px;
-            background: var(--theory-color);
-            border-radius: 2px;
-        }
-
-        .stat-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0;
-            border-bottom: 1px solid rgba(75, 85, 99, 0.2);
-        }
-
-        .stat-item:last-child {
-            border-bottom: none;
-        }
-
-        .stat-label {
-            color: var(--text-secondary);
-            font-size: 0.95em;
-            flex: 1;
-            font-weight: 500;
-        }
-
-        .stat-value {
-            color: var(--text-primary);
-            font-weight: 700;
-            margin-left: 10px;
-            font-size: 1.05em;
-        }
-
-        .utilization-bar {
-            width: 100%;
-            height: 8px;
-            background: var(--cell-bg);
-            border-radius: 4px;
-            margin: 4px 0;
-            overflow: hidden;
-            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-        }
-
-        .utilization-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
-            border-radius: 4px;
-            transition: width 0.3s ease;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-        }
-
-        .room-item {
-            margin-bottom: 12px;
-            padding: 16px;
-            background: var(--cell-bg);
-            border-radius: 10px;
-            border: 1px solid var(--border-color);
-            transition: all 0.2s ease;
-        }
-
-        .room-item:hover {
-            border-color: var(--theory-color);
-            box-shadow: 0 2px 8px rgba(96, 165, 250, 0.1);
-            transform: translateY(-1px);
-        }
-
-        .room-name {
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 8px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.05em;
-        }
-
-        .room-type {
-            font-size: 0.65em;
-            padding: 3px 8px;
-            border-radius: 4px;
-            background: var(--theory-color);
-            color: white;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-        }
-
-        .room-stats {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-
-        .room-stat {
-            color: var(--text-secondary);
-            font-weight: 500;
-        }
-
-        .analytics-toggle-btn {
-            background: var(--theory-color);
-            color: white;
-            border: none;
-            padding: 10px 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 0.85em;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin-left: auto;
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .analytics-toggle-btn:hover {
-            background: var(--theory-border);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
-        }
-
-        .analytics-toggle-btn.expanded {
-            background: var(--theory-color);
-        }
-
-        .analytics-toggle-btn .toggle-icon {
-            transition: transform 0.3s ease;
-        }
-
-        .analytics-toggle-btn.expanded .toggle-icon {
-            transform: rotate(180deg);
-        }
-
-        .menu-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-            background: var(--header-bg);
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .menu-title {
-            color: var(--text-primary);
-            font-weight: 600;
-            font-size: 1.2em;
-            margin: 0;
-            padding: 15px 0;
-            letter-spacing: -0.3px;
-            text-transform: uppercase;
-            font-size: 1em;
-        }
-
-        .efficiency-indicator {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            margin-left: 10px;
-            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
-        }
-
-        .efficiency-high { background: #10b981; }
-        .efficiency-medium { background: #f59e0b; }
-        .efficiency-low { background: #ef4444; }
-
-        .department-item {
-            padding: 14px;
-            background: var(--cell-bg);
-            border-radius: 8px;
-            margin-bottom: 10px;
-            border: 1px solid var(--border-color);
-            transition: all 0.2s ease;
-        }
-
-        .department-item:hover {
-            border-color: var(--theory-color);
-            box-shadow: 0 2px 6px rgba(96, 165, 250, 0.1);
-        }
-
-        .department-name {
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 8px;
-            font-size: 1.05em;
-        }
-
-        .teacher-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-            border-bottom: 1px solid var(--border-color);
-            transition: all 0.2s ease;
-        }
-
-        .teacher-item:hover {
-            background: rgba(96, 165, 250, 0.05);
-            margin: 0 -8px;
-            padding-left: 8px;
-            padding-right: 8px;
-            border-radius: 4px;
-        }
-
-        .teacher-item:last-child {
-            border-bottom: none;
-        }
-
-        .teacher-name {
-            color: var(--text-primary);
-            font-size: 0.95em;
-            font-weight: 500;
-        }
-
-        .teacher-load {
-            font-size: 0.85em;
-            color: var(--text-secondary);
-            font-weight: 600;
-        }
-
-        .workload-high { color: #ef4444; }
-        .workload-medium { color: #f59e0b; }
+        h1 { 
+            color: var(--text-primary); margin-bottom: 25px; font-weight: 500; 
+            font-size: 2.2em; display: flex; align-items: center; gap: 15px;
+        }
+        .title-actions {
+            margin-left: auto; display: flex; gap: 10px; align-items: center;
+        }
+        
+        .controls { 
+            margin-bottom: 20px; display: flex; gap: 20px; align-items: center; 
+            flex-wrap: wrap; background: var(--header-bg); padding: 15px; 
+            border-radius: 10px; border: 1px solid var(--border-color);
+        }
+        .controls.fullscreen { margin-bottom: 10px; padding: 10px; }
+        
+        .control-group { display: flex; gap: 10px; align-items: center; }
+        .control-group label { color: var(--text-secondary); font-weight: 500; min-width: 80px; }
+        
+        select, .toggle-btn, input[type="text"], .icon-btn { 
+            padding: 8px 12px; border: 1px solid var(--border-color); 
+            border-radius: 8px; background-color: var(--cell-bg); 
+            font-size: 14px; color: var(--text-primary); cursor: pointer; 
+            min-width: 120px; transition: all 0.2s;
+        }
+        .icon-btn { 
+            min-width: auto; width: 40px; height: 40px; display: flex; 
+            align-items: center; justify-content: center; font-size: 16px;
+        }
+        .icon-btn:hover { background-color: var(--hover-bg); transform: scale(1.05); }
+        
+        input[type="text"]:focus { 
+            outline: none; border-color: var(--theory-color); 
+            box-shadow: 0 0 0 2px rgba(96,165,250,0.2); 
+        }
+        
+        .view-toggle { display: flex; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-color); }
+        .view-toggle .toggle-btn { border: none; border-radius: 0; }
+        .view-toggle .toggle-btn:not(:last-child) { border-right: 1px solid var(--border-color); }
+        .toggle-btn.active { background-color: var(--theory-color); color: var(--bg-primary); border-color: var(--theory-border); }
+        
+        .zoom-controls { display: flex; gap: 5px; align-items: center; margin-left: 10px; }
+        .zoom-btn { width: 32px; height: 32px; padding: 0; min-width: auto; display: flex; align-items: center; justify-content: center; }
+        .zoom-level { min-width: 60px; text-align: center; font-size: 12px; color: var(--text-secondary); padding: 4px 8px; }
+        
+        .legend { display: flex; gap: 15px; margin-bottom: 20px; padding: 15px; background-color: var(--header-bg); border-radius: 8px; flex-wrap: wrap; border: 1px solid var(--border-color); }
+        .legend.fullscreen { margin-bottom: 10px; padding: 10px; gap: 10px; }
+        .legend-item { display: flex; align-items: center; gap: 8px; }
+        .legend-color { width: 20px; height: 20px; border-radius: 4px; }
+        .legend-text { font-size: 0.9em; color: var(--text-secondary); }
+        
+        #timetableContainer { position: relative; width: 100%; overflow: auto; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s ease; flex-grow: 1; }
+        #timetableContainer.fullscreen { height: auto; border-radius: 0; max-height: none; }
+        
+        .timetable { display: grid; grid-template-columns: 80px repeat(6, 1fr); min-width: 1200px; width: 100%; transform-origin: top left; transition: transform 0.2s ease; }
+        body.compact .timetable { min-width: 1000px; }
+        
+        .header { background-color: var(--header-bg); padding: 12px; text-align: center; font-weight: 500; border-bottom: 1px solid var(--border-color); position: sticky; top: 0; z-index: 20; }
+        .header:not(:last-child) { border-right: 1px solid var(--border-color); }
+        
+        .time-column { position: sticky; left: 0; background-color: var(--header-bg); border-right: 1px solid var(--border-color); z-index: 15; }
+        .day-column, .time-column { height: 1800px; position: relative; transition: height 0.3s ease; }
+        body.compact .day-column, body.compact .time-column { height: 1200px; }
+        
+        .time-marker { position: absolute; width: 100%; text-align: right; padding-right: 10px; font-size: 0.8em; color: var(--text-secondary); transform: translateY(-50%); box-sizing: border-box; }
+        .time-marker::after { content: ''; position: absolute; right: 0; top: 50%; width: 5px; height: 1px; background-color: var(--border-color); }
+        
+        .day-column { background-color: var(--cell-bg); border-right: 1px solid var(--border-color); background-image: linear-gradient(var(--border-color) 1px, transparent 1px); background-size: 100% 200px; transition: background-size 0.3s ease; }
+        body.compact .day-column { background-size: 100% calc(1200px / 9); }
+        .day-column:last-child { border-right: none; }
+        
+        .lesson-block { position: absolute; box-sizing: border-box; margin: 0 2px; padding: 6px; border-radius: 4px; color: white; cursor: pointer; transition: all 0.2s; font-size: 0.8em; line-height: 1.3; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-start; z-index: 10; }
+        .lesson-block:hover { transform: translateY(-1px) scale(1.02); box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 11; }
+        .lesson-block-content > div { margin-bottom: 2px; }
+        .lesson-course { font-weight: 600; }
+        .lesson-details, .lesson-batch { font-size: 0.9em; opacity: 0.9; }
+        
+        .theory { background-color: var(--theory-color); border: 1px solid var(--theory-border); }
+        .lecture { background-color: var(--lecture-color); border: 1px solid var(--lecture-border); }
+        .tutorial { background-color: var(--tutorial-color); border: 1px solid var(--tutorial-border); }
+        .lab { background-color: var(--lab-color); border: 1px solid var(--lab-border); }
+        
+        .tooltip { position: fixed; background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%); color: var(--text-primary); padding: 16px; border-radius: 12px; font-size: 14px; z-index: 1000; box-shadow: 0 12px 32px rgba(0,0,0,0.6); max-width: 400px; min-width: 280px; display: none; border: 2px solid rgba(96,165,250,0.3); backdrop-filter: blur(10px); pointer-events: none; }
+        .tooltip-title { font-weight: 600; font-size: 16px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid rgba(96,165,250,0.3); text-align: center; }
+        .tooltip-content { display: grid; gap: 6px; }
+        .tooltip-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; padding: 2px 0; }
+        .tooltip-label { color: var(--text-secondary); font-weight: 500; min-width: 80px; flex-shrink: 0; }
+        .tooltip-value { font-weight: 500; text-align: right; flex-grow: 1; }
+        
+        .error-message { color: #fca5a5; background-color: #1e1b22; border: 1px solid #7f1d1d; padding: 20px; border-radius: 8px; margin: 20px auto; text-align: center; max-width: 800px; }
+        
+        .analytics-container { margin-top: 20px; transition: all 0.3s ease; }
+        .analytics-container.fullscreen { margin-top: 10px; }
+        
+        .analytics-menu-bar { background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); margin-bottom: 20px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); overflow: hidden; }
+        .analytics-menu-bar.fullscreen { margin-bottom: 10px; border-radius: 6px; }
+        
+        .menu-header { display: flex; justify-content: space-between; align-items: center; padding: 0 20px; background: var(--header-bg); border-bottom: 1px solid var(--border-color); }
+        .menu-title { font-weight: 600; font-size: 1em; margin: 0; padding: 15px 0; text-transform: uppercase; }
+        .menu-title.fullscreen { font-size: 0.9em; padding: 12px 0; }
+        
+        .analytics-toggle-btn { background: var(--theory-color); color: white; border: none; padding: 10px 18px; border-radius: 8px; cursor: pointer; font-weight: 500; font-size: 0.85em; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+        .analytics-toggle-btn .toggle-icon { transition: transform 0.3s ease; }
+        .analytics-toggle-btn.expanded .toggle-icon { transform: rotate(180deg); }
+        
+        .analytics-tabs { display: flex; background: var(--header-bg); border-bottom: 2px solid var(--border-color); overflow-x: auto; }
+        .analytics-tab { flex: 1; padding: 15px 25px; background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 0.9em; font-weight: 600; transition: all 0.2s; border-bottom: 3px solid transparent; text-transform: uppercase; }
+        .analytics-tab.active { color: var(--text-primary); border-bottom-color: var(--theory-color); background: rgba(96,165,250,0.08); }
+        
+        .analytics-panels { padding: 0; max-height: 0; overflow: hidden; transition: all 0.4s ease-in-out; }
+        .analytics-panels.expanded { max-height: 70vh; padding: 20px; overflow-y: auto; }
+        .container.fullscreen .analytics-panels.expanded { max-height: 200px; }
+        
+        .analytics-panel { display: none; animation: fadeIn 0.4s ease-in; }
+        .analytics-panel.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .stats-card { background: var(--cell-bg); padding: 20px 16px; border-radius: 8px; border: 1px solid var(--border-color); text-align: center; transition: all 0.2s ease; }
+        .stats-card:hover { border-color: var(--theory-color); transform: translateY(-2px); }
+        .stats-card-value { font-size: 2.2em; font-weight: 700; color: var(--theory-color); margin-bottom: 6px; }
+        .stats-card-label { color: var(--text-secondary); font-size: 0.85em; text-transform: uppercase; }
+        
+        .analytics-section { margin-bottom: 30px; }
+        .analytics-section h4 { margin: 0 0 12px 0; color: var(--text-primary); font-size: 1em; font-weight: 600; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+        .teacher-item, .stat-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(75, 85, 99, 0.2); }
+        .teacher-item:last-child, .stat-item:last-child { border-bottom: none; }
+        .stat-label, .teacher-name { color: var(--text-secondary); font-size: 0.95em; }
+        .stat-value, .teacher-load { color: var(--text-primary); font-weight: 700; }
+        .workload-high { color: #ef4444; } 
+        .workload-medium { color: #f59e0b; } 
         .workload-normal { color: #10b981; }
+        
+        .nav-panel { position: fixed; top: 20px; right: 20px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); z-index: 1001; display: none; min-width: 200px; }
+        .nav-panel.show { display: block; animation: slideIn 0.3s ease; }
+        @keyframes slideIn { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+        
+        .nav-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 6px; cursor: pointer; transition: all 0.2s; color: var(--text-secondary); font-size: 14px; }
+        .nav-item:hover { background: var(--hover-bg); color: var(--text-primary); }
+        
+        #currentTimeIndicator { position: absolute; left: 80px; width: calc(100% - 80px); height: 2px; background-color: #ef4444; z-index: 25; display: none; transition: top 0.3s ease; pointer-events: none; }
+        #currentTimeIndicator::before { content: 'NOW'; position: absolute; left: -70px; top: 50%; transform: translateY(-50%); background-color: #ef4444; color: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: bold; }
 
-        .chart-container {
-            margin: 20px 0;
-            padding: 15px;
-            background: var(--cell-bg);
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
+        @media print {
+            body { padding: 0; }
+            .controls, .title-actions, .legend, .analytics-container, .nav-panel, #currentTimeIndicator { display: none !important; }
+            .container { padding: 0; border: none; box-shadow: none; border-radius: 0; }
+            #timetableContainer { max-height: none; overflow: visible; border: none; }
+            .timetable { min-width: 100%; transform: scale(1) !important; }
         }
 
-        .time-slot-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-            font-size: 0.9em;
-            transition: all 0.2s ease;
-        }
-
-        .time-slot-item:hover {
-            background: rgba(96, 165, 250, 0.05);
-            margin: 0 -8px;
-            padding-left: 8px;
-            padding-right: 8px;
-            border-radius: 4px;
-        }
-
-        .slot-time {
-            color: var(--text-secondary);
-            font-weight: 500;
-        }
-
-        .slot-usage {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .stats-card {
-            background: var(--cell-bg);
-            padding: 20px 16px;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-            transition: all 0.2s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        }
-
-        .stats-card:hover {
-            border-color: var(--theory-color);
-            box-shadow: 0 6px 16px rgba(96, 165, 250, 0.15);
-            transform: translateY(-2px);
-        }
-
-        .stats-card-value {
-            font-size: 2.2em;
-            font-weight: 700;
-            color: var(--theory-color);
-            margin-bottom: 6px;
-            line-height: 1;
-        }
-
-        .stats-card-label {
-            color: var(--text-secondary);
-            font-size: 0.85em;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        /* Responsive Design */
         @media (max-width: 768px) {
-            .analytics-menu-bar {
-                margin-bottom: 15px;
-                border-radius: 8px;
-            }
-            
-            .menu-title {
-                font-size: 0.9em;
-                padding: 12px 0;
-            }
-            
-            .analytics-toggle-btn {
-                padding: 8px 15px;
-                font-size: 0.8em;
-            }
-            
-            .analytics-tabs {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                scrollbar-width: thin;
-            }
-            
-            .analytics-tab {
-                min-width: 100px;
-                padding: 12px 20px;
-                font-size: 0.8em;
-            }
-            
-            .analytics-tab::before {
-                width: 10px;
-                height: 10px;
-            }
-            
-            .analytics-panels.expanded {
-                max-height: 60vh;
-                padding: 15px;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-                gap: 10px;
-            }
-            
-            .stats-card {
-                padding: 15px 12px;
-            }
-            
-            .stats-card-value {
-                font-size: 1.8em;
-                margin-bottom: 4px;
-            }
-            
-            .stats-card-label {
-                font-size: 0.8em;
-            }
-            
-            .analytics-section {
-                padding: 12px;
-                margin-bottom: 15px;
-            }
-            
-            .analytics-section h4 {
-                font-size: 0.9em;
-                margin-bottom: 10px;
-            }
-            
-            .analytics-section h4::before {
-                width: 2px;
-                height: 14px;
-            }
-            
-            .room-item, .department-item {
-                padding: 12px;
-            }
-            
-            .room-name, .department-name {
-                font-size: 0.95em;
-                margin-bottom: 6px;
-            }
-            
-            .room-type {
-                font-size: 0.6em;
-                padding: 2px 6px;
-            }
-            
-            .room-stats {
-                gap: 8px;
-                font-size: 0.85em;
-                margin-top: 8px;
-            }
-            
-            .stat-item {
-                padding: 8px 0;
-            }
-            
-            .stat-label {
-                font-size: 0.9em;
-            }
-            
-            .stat-value {
-                font-size: 0.95em;
-            }
-            
-            .teacher-item {
-                padding: 6px 0;
-            }
-            
-            .teacher-name {
-                font-size: 0.9em;
-            }
-            
-            .teacher-load {
-                font-size: 0.8em;
-            }
-            
-            .time-slot-item {
-                padding: 6px 0;
-                font-size: 0.85em;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .analytics-menu-bar {
-                margin-bottom: 10px;
-                border-radius: 6px;
-            }
-            
-            .menu-header {
-                padding: 0 15px;
-            }
-            
-            .menu-title {
-                font-size: 0.85em;
-                padding: 10px 0;
-            }
-            
-            .analytics-toggle-btn {
-                padding: 6px 12px;
-                font-size: 0.75em;
-                border-radius: 6px;
-            }
-            
-            .analytics-tabs {
-                flex-wrap: nowrap;
-                overflow-x: auto;
-            }
-            
-            .analytics-tab {
-                min-width: 80px;
-                padding: 10px 15px;
-                font-size: 0.75em;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
-            }
-            
-            .analytics-tab::before {
-                width: 8px;
-                height: 8px;
-            }
-            
-            .analytics-panels.expanded {
-                max-height: 50vh;
-                padding: 10px;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 8px;
-            }
-            
-            .stats-card {
-                padding: 12px 8px;
-                text-align: center;
-            }
-            
-            .stats-card-value {
-                font-size: 1.5em;
-                margin-bottom: 3px;
-            }
-            
-            .stats-card-label {
-                font-size: 0.7em;
-                line-height: 1.2;
-            }
-            
-            .analytics-section {
-                padding: 10px;
-                margin-bottom: 12px;
-                border-radius: 8px;
-            }
-            
-            .analytics-section h4 {
-                font-size: 0.85em;
-                margin-bottom: 8px;
-            }
-            
-            .room-item, .department-item {
-                padding: 10px;
-                margin-bottom: 8px;
-                border-radius: 8px;
-            }
-            
-            .room-name, .department-name {
-                font-size: 0.9em;
-                margin-bottom: 5px;
-            }
-            
-            .room-type {
-                font-size: 0.55em;
-                padding: 1px 4px;
-            }
-            
-            .room-stats {
-                grid-template-columns: 1fr;
-                gap: 4px;
-                font-size: 0.8em;
-                margin-top: 6px;
-            }
-            
-            .utilization-bar {
-                height: 6px;
-                margin: 3px 0;
-            }
-            
-            .efficiency-indicator {
-                width: 8px;
-                height: 8px;
-            }
-            
-            .stat-item {
-                padding: 6px 0;
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 2px;
-            }
-            
-            .stat-label, .stat-value {
-                font-size: 0.8em;
-            }
-            
-            .teacher-item, .time-slot-item {
-                padding: 5px 0;
-                font-size: 0.8em;
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 2px;
-            }
-            
-            .teacher-name, .slot-time {
-                font-size: 0.85em;
-            }
-            
-            .teacher-load, .slot-usage {
-                font-size: 0.75em;
-                margin-left: 0;
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .analytics-panels.expanded {
-                max-height: 75vh;
-            }
-        }
-
-        @media (min-width: 1600px) {
-            .analytics-panels.expanded {
-                max-height: 80vh;
-            }
-        }
-
-        .info-banner {
-            background: linear-gradient(135deg, var(--cell-bg) 0%, var(--header-bg) 100%);
-            padding: 16px 20px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            border-left: 4px solid var(--theory-color);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            border: 1px solid var(--border-color);
-        }
-
-        .info-banner p {
-            margin: 0;
-            color: var(--text-secondary);
-            line-height: 1.5;
-            font-size: 0.95em;
-        }
-
-        /* Scroll indicators for better UX */
-        #timetableContainer::before {
-            content: '';
-            position: sticky;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 5px;
-            background: linear-gradient(to bottom, rgba(96, 165, 250, 0.3), transparent);
-            z-index: 100;
-            pointer-events: none;
-            border-radius: 12px 12px 0 0;
-        }
-
-        #timetableContainer::after {
-            content: '';
-            position: sticky;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 5px;
-            background: linear-gradient(to top, rgba(96, 165, 250, 0.3), transparent);
-            z-index: 100;
-            pointer-events: none;
-            border-radius: 0 0 12px 12px;
-        }
-
-        /* Enhanced mobile scrolling */
-        @media (max-width: 768px) {
-            #timetableContainer {
-                max-height: 70vh;
-                padding: 8px;
-                border-radius: 8px;
-            }
-            
-            .timetable {
-                min-width: 650px; /* Ensure horizontal scroll on mobile */
-            }
-        }
-
-        @media (max-width: 480px) {
-            #timetableContainer {
-                max-height: 65vh;
-                padding: 6px;
-                border-radius: 6px;
-            }
-            
-            .timetable {
-                min-width: 550px; /* Ensure horizontal scroll on small mobile */
-            }
+            body { padding: 10px; }
+            body.fullscreen { padding: 0; }
+            .container { padding: 15px; }
+            .container.fullscreen { padding: 10px; }
+            .controls { flex-direction: column; gap: 10px; align-items: stretch; }
+            .day-column, .time-column { height: 1600px; }
+            .day-column { background-size: 100% calc(1600px / 9); }
+            .lesson-block { font-size: 0.75em; padding: 4px; border-radius: 3px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .analytics-tab { font-size: 0.8em; padding: 12px 15px; }
+            h1 { font-size: 1.8em; }
+            .title-actions { flex-direction: row; align-items: center; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Advanced Timetable Visualizer - 6 Day Schedule</h1>
-        <div class="info-banner">
-            <p style="margin: 0; color: var(--text-secondary);">
-                <strong>Six-Day Schedule Support:</strong> This visualizer supports Monday through Saturday scheduling with department-specific workday policies.
-            </p>
-        </div>
+    <div class="container" id="mainContainer">
+        <h1>
+            Enhanced Timetable Visualizer
+            <div class="title-actions">
+                <div class="zoom-controls">
+                    <button class="zoom-btn icon-btn" onclick="adjustZoom(-0.1)">-</button>
+                    <div class="zoom-level" id="zoomLevel">100%</div>
+                    <button class="zoom-btn icon-btn" onclick="adjustZoom(0.1)">+</button>
+                </div>
+                <button class="icon-btn" id="fullscreenBtn" onclick="toggleFullscreen()" title="Toggle Fullscreen (f)">⛶</button>
+                <button class="icon-btn" id="navToggle" onclick="toggleNavPanel()" title="Navigation">☰</button>
+            </div>
+        </h1>
         
-        <div class="controls">
+        <div class="controls" id="controlsPanel">
             <div class="control-group">
-                <label>Schedule Type:</label>
+                <label>Schedule:</label>
                 <div class="view-toggle">
-                    <button class="toggle-btn active" id="theoryBtn" onclick="setScheduleType('theory')">Theory/Lectures</button>
+                    <button class="toggle-btn" id="theoryBtn" onclick="setScheduleType('theory')">Theory</button>
                     <button class="toggle-btn" id="labBtn" onclick="setScheduleType('lab')">Labs</button>
-                    <button class="toggle-btn" id="combinedBtn" onclick="setScheduleType('combined')">Combined</button>
+                    <button class="toggle-btn active" id="combinedBtn" onclick="setScheduleType('combined')">Combined</button>
                 </div>
             </div>
-            
             <div class="control-group">
                 <label>View:</label>
                 <select id="viewType">
@@ -1902,1802 +238,563 @@
                     <option value="group">Student Group View</option>
                 </select>
             </div>
-            
             <div class="control-group">
                 <select id="entitySelector"></select>
             </div>
-
-            <div class="control-group" id="teacherSearchGroup" style="display: none;">
-                <label>Search Teacher:</label>
-                <input type="text" id="teacherSearch" placeholder="Type teacher name..." 
-                       style="padding: 8px 12px; border: 1px solid var(--border-color); border-radius: 8px; 
-                              background-color: var(--cell-bg); color: var(--text-primary); font-size: 14px; 
-                              min-width: 200px; transition: all 0.2s;">
+            <div class="control-group" id="searchGroup">
+                <label>Search:</label>
+                <input type="text" id="entitySearch" placeholder="Type name...">
             </div>
-
-            <!-- Theme toggle button -->
             <div class="control-group" style="margin-left:auto;">
                 <button id="themeToggle" class="toggle-btn">Light Mode</button>
+                <button class="icon-btn" onclick="resetView()" title="Reset View (r)">🔄</button>
+                <button class="icon-btn" onclick="exportView()" title="Export/Print (p)">📤</button>
             </div>
         </div>
 
-        <div class="legend" id="legend">
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: var(--theory-color); border: 1px solid var(--theory-border);"></div>
-                <span class="legend-text">Theory Classes</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: var(--lecture-color); border: 1px solid var(--lecture-border);"></div>
-                <span class="legend-text">Lectures</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: var(--lab-same-color); border: 1px solid var(--lab-same-border);"></div>
-                <span class="legend-text">Lab - Same Course</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: var(--lab-different-color); border: 1px solid var(--lab-different-border);"></div>
-                <span class="legend-text">Lab - Different Courses</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: var(--lab-mixed-color); border: 1px solid var(--lab-mixed-border);"></div>
-                <span class="legend-text">Lab - Mixed Batches</span>
+        <div class="legend" id="legend"></div>
+
+        <div class="analytics-container" id="analyticsContainer">
+            <div class="analytics-menu-bar" id="analyticsMenuBar">
+                <div class="menu-header">
+                    <h2 class="menu-title" id="menuTitle">Analytics Dashboard</h2>
+                    <button class="analytics-toggle-btn" onclick="toggleAnalytics()">
+                        <span class="toggle-icon">▼</span>
+                        <span>Show Analytics</span>
+                    </button>
+                </div>
+                <div class="analytics-tabs">
+                    <button class="analytics-tab active" onclick="switchAnalyticsTab(event, 'teachers')">Teachers</button>
+                    <button class="analytics-tab" onclick="switchAnalyticsTab(event, 'departments')">Departments</button>
+                    <button class="analytics-tab" onclick="switchAnalyticsTab(event, 'schedule')">Schedule Stats</button>
+                </div>
+                <div class="analytics-panels" id="analyticsPanels">
+                    <div id="teachers-panel" class="analytics-panel active">
+                        <div class="analytics-section">
+                            <h4>Teacher Overview</h4>
+                            <div id="teacher-overview-stats" class="stats-grid"></div>
+                        </div>
+                        <div class="analytics-section">
+                            <h4>Workload Distribution (Top 15)</h4>
+                            <div id="teacher-workload"></div>
+                        </div>
+                    </div>
+                    <div id="departments-panel" class="analytics-panel">
+                         <div class="analytics-section">
+                            <h4>Department Overview</h4>
+                            <div id="department-overview-stats" class="stats-grid"></div>
+                        </div>
+                    </div>
+                    <div id="schedule-panel" class="analytics-panel">
+                        <div class="analytics-section">
+                            <h4>General Statistics</h4>
+                            <div id="schedule-stats" class="stats-grid"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="analytics-container">
-            <div class="main-content">
-                <div class="analytics-menu-bar">
-                    <div class="menu-header">
-                        <h2 class="menu-title">Analytics Dashboard</h2>
-                        <button class="analytics-toggle-btn" onclick="toggleAnalytics()">
-                            <span class="toggle-icon">▼</span>
-                            <span>Show Analytics</span>
-                        </button>
-                    </div>
-                    <div class="analytics-tabs">
-                        <button class="analytics-tab active" onclick="switchAnalyticsTab('rooms')">
-                            Rooms
-                        </button>
-                        <button class="analytics-tab" onclick="switchAnalyticsTab('departments')">
-                            Departments
-                        </button>
-                        <button class="analytics-tab" onclick="switchAnalyticsTab('teachers')">
-                            Teachers
-                        </button>
-                        <button class="analytics-tab" onclick="switchAnalyticsTab('timeslots')">
-                            Time Slots
-                        </button>
-                    </div>
-                    
-                    <div class="analytics-panels">
-                        <!-- Room Analytics Panel -->
-                        <div id="rooms-panel" class="analytics-panel active">
-                            <div class="analytics-section">
-                                <h4>Room Utilization Overview</h4>
-                                <div id="room-overview-stats"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Classroom Utilization</h4>
-                                <div id="classroom-details"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Laboratory Utilization</h4>
-                                <div id="lab-details"></div>
-                            </div>
-                        </div>
-
-                        <!-- Department Analytics Panel -->
-                        <div id="departments-panel" class="analytics-panel">
-                            <div class="analytics-section">
-                                <h4>Department Overview</h4>
-                                <div id="department-overview-stats"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Workday Distribution</h4>
-                                <div id="workday-distribution"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Course Load by Department</h4>
-                                <div id="department-course-load"></div>
-                            </div>
-                        </div>
-
-                        <!-- Teacher Analytics Panel -->
-                        <div id="teachers-panel" class="analytics-panel">
-                            <div class="analytics-section">
-                                <h4>Teacher Overview</h4>
-                                <div id="teacher-overview-stats"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Workload Distribution</h4>
-                                <div id="teacher-workload"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Most Active Teachers</h4>
-                                <div id="top-teachers"></div>
-                            </div>
-                        </div>
-
-                        <!-- Time Slots Analytics Panel -->
-                        <div id="timeslots-panel" class="analytics-panel">
-                            <div class="analytics-section">
-                                <h4>Time Slot Usage</h4>
-                                <div id="timeslot-overview-stats"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Peak Hours Analysis</h4>
-                                <div id="peak-hours-analysis"></div>
-                            </div>
-                            
-                            <div class="analytics-section">
-                                <h4>Daily Distribution</h4>
-                                <div id="daily-distribution"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="timetableContainer">
-                    <div class="timetable" id="timetable"></div>
-                </div>
-            </div>
+        <div id="timetableContainer">
+            <div class="timetable" id="timetable"></div>
+            <div id="currentTimeIndicator"></div>
         </div>
     </div>
-
+    
+    <div class="nav-panel" id="navPanel">
+        <div class="nav-item" onclick="quickJumpToTime('09:00')">📅 Jump to 9 AM</div>
+        <div class="nav-item" onclick="quickJumpToTime('14:00')">📅 Jump to 2 PM</div>
+        <div class="nav-item" onclick="focusCurrentTime()">🕐 Focus Current Time</div>
+        <div class="nav-item" onclick="toggleCompactMode()">📏 Toggle Compact Mode</div>
+        <div class="nav-item" onclick="showKeyboardShortcuts()">⌨️ Shortcuts</div>
+    </div>
+    
     <div class="tooltip" id="tooltip"></div>
 
     <script>
-        // Theory time slots (limited to 5pm)
-        const THEORY_TIME_SLOTS = [
-            { start: "8:00", end: "8:50" },
-            { start: "9:00", end: "9:50" },
-            { start: "10:00", end: "10:50" },
-            { start: "11:00", end: "11:50" },
-            { start: "12:00", end: "12:50" },
-            { start: "13:00", end: "13:50" },
-            { start: "14:00", end: "14:50" },
-            { start: "15:00", end: "15:50" },
-            { start: "16:00", end: "16:50" },
-            { start: "17:00", end: "17:50" }
-        ];
-
-        // Lab time slots (2-hour slots, limited to 5pm)
-        const LAB_TIME_SLOTS = [
-            { start: "8:00", end: "9:40", label: "8:00-9:40" },
-            { start: "10:00", end: "11:40", label: "10:00-11:40" },
-            { start: "11:50", end: "13:20", label: "11:50-13:20" },
-            { start: "13:20", end: "15:00", label: "13:20-15:00" },
-            { start: "15:00", end: "16:40", label: "15:00-16:40" }
-        ];
-
-        // Six-day schedule configuration (Monday through Saturday)
-        // Updated to support department workday policies:
-        // - Batch A departments: Monday to Friday
-        // - Batch B departments: Tuesday to Saturday
         const days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
         const dayDisplayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
+        const TIMELINE_START_HOUR = 8;
+        const TIMELINE_END_HOUR = 17;
+        const TOTAL_HOURS = TIMELINE_END_HOUR - TIMELINE_START_HOUR;
+        const TOTAL_MINUTES = TOTAL_HOURS * 60;
+        
         let timetableData = null;
-        let currentScheduleType = 'theory';
-
-        // Theme handling
+        let currentScheduleType = 'combined';
         let currentTheme = localStorage.getItem('theme') || 'dark';
-        applyTheme(currentTheme);
+        let isFullscreen = false;
+        let currentZoom = 1;
+        let isCompactMode = false;
 
         function applyTheme(theme) {
-            if (theme === 'light') {
-                document.body.classList.add('light-theme');
-                document.getElementById('themeToggle').textContent = 'Dark Mode';
-            } else {
-                document.body.classList.remove('light-theme');
-                document.getElementById('themeToggle').textContent = 'Light Mode';
-            }
+            document.body.classList.toggle('light-theme', theme === 'light');
+            document.getElementById('themeToggle').textContent = theme === 'light' ? 'Dark Mode' : 'Light Mode';
             localStorage.setItem('theme', theme);
             currentTheme = theme;
         }
 
         function toggleTheme() {
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
+            applyTheme(currentTheme === 'light' ? 'dark' : 'light');
+        }
+
+        function toggleFullscreen() {
+            isFullscreen = !isFullscreen;
+            const container = document.getElementById('mainContainer');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            
+            document.body.classList.toggle('fullscreen', isFullscreen);
+            container.classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('timetableContainer').classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('analyticsContainer').classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('controlsPanel').classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('legend').classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('analyticsMenuBar').classList.toggle('fullscreen', isFullscreen);
+            document.getElementById('menuTitle').classList.toggle('fullscreen', isFullscreen);
+
+            if (isFullscreen) {
+                fullscreenBtn.innerHTML = '⛗';
+                fullscreenBtn.title = 'Exit Fullscreen (f)';
+            } else {
+                fullscreenBtn.innerHTML = '⛶';
+                fullscreenBtn.title = 'Toggle Fullscreen (f)';
+            }
+        }
+
+        function adjustZoom(delta) {
+            currentZoom = Math.max(0.5, Math.min(2, currentZoom + delta));
+            document.getElementById('timetable').style.transform = `scale(${currentZoom})`;
+            document.getElementById('zoomLevel').textContent = `${Math.round(currentZoom * 100)}%`;
+        }
+
+        function resetView() {
+            currentZoom = 1;
+            document.getElementById('timetable').style.transform = 'scale(1)';
+            document.getElementById('zoomLevel').textContent = '100%';
+            document.getElementById('timetableContainer').scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+        }
+
+        function toggleNavPanel() {
+            const navPanel = document.getElementById('navPanel');
+            navPanel.classList.toggle('show');
+            if (navPanel.classList.contains('show')) {
+                setTimeout(() => {
+                    document.addEventListener('click', function closeNav(e) {
+                        if (!navPanel.contains(e.target) && !document.getElementById('navToggle').contains(e.target)) {
+                            navPanel.classList.remove('show');
+                            document.removeEventListener('click', closeNav);
+                        }
+                    }, { once: true });
+                }, 0);
+            }
+        }
+
+        function quickJumpToTime(timeStr) {
+            const [hours] = timeStr.split(':').map(Number);
+            const totalHeight = document.querySelector('.day-column').offsetHeight;
+            const targetPosition = ((hours - TIMELINE_START_HOUR) / TOTAL_HOURS) * totalHeight;
+            
+            document.getElementById('timetableContainer').scrollTo({
+                top: targetPosition - 50,
+                behavior: 'smooth'
+            });
+            document.getElementById('navPanel').classList.remove('show');
+        }
+
+        function focusCurrentTime() {
+            const now = new Date();
+            const currentDayIndex = now.getDay() - 1; 
+            const currentHour = now.getHours();
+            const currentMinute = now.getMinutes();
+            const indicator = document.getElementById('currentTimeIndicator');
+
+            if (currentDayIndex >= 0 && currentDayIndex < 6 && currentHour >= TIMELINE_START_HOUR && currentHour < TIMELINE_END_HOUR) {
+                const minutesFromStart = (currentHour - TIMELINE_START_HOUR) * 60 + currentMinute;
+                const totalHeight = document.querySelector('.day-column').offsetHeight;
+                const topPercent = (minutesFromStart / TOTAL_MINUTES) * 100;
+
+                indicator.style.display = 'block';
+                indicator.style.top = `${topPercent}%`;
+                
+                quickJumpToTime(`${currentHour}:${currentMinute}`);
+            } else {
+                indicator.style.display = 'none';
+            }
+             document.getElementById('navPanel')?.classList.remove('show');
+        }
+
+        function toggleCompactMode() {
+            isCompactMode = !isCompactMode;
+            document.body.classList.toggle('compact', isCompactMode);
+            document.getElementById('navPanel').classList.remove('show');
+        }
+
+        function showKeyboardShortcuts() {
+            alert(`Keyboard Shortcuts:\n\n- f: Toggle Fullscreen\n- r: Reset View\n- p: Print/Export View\n- +/-: Zoom In/Out\n- Esc: Close Navigation Panel`);
+             document.getElementById('navPanel').classList.remove('show');
+        }
+
+        function exportView() {
+            window.print();
         }
 
         function setScheduleType(type) {
             currentScheduleType = type;
-            
-            // Update button states
-            document.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('active'));
-            document.getElementById(type + 'Btn').classList.add('active');
-            
-            // Update legend visibility
-            updateLegend(type);
-            
-            // Recreate timetable with appropriate slots
-            createTimetableGrid();
-            
-            // Refresh display
+            document.querySelectorAll('.view-toggle .toggle-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`${type}Btn`).classList.add('active');
+            updateLegend();
             filterLessons();
         }
 
-        function updateLegend(type) {
-            const legend = document.getElementById('legend');
-            legend.innerHTML = '';
-            
-            if (type === 'theory' || type === 'combined') {
-                legend.innerHTML += `
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--theory-color); border: 1px solid var(--theory-border);"></div>
-                        <span class="legend-text">Theory Classes</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--lecture-color); border: 1px solid var(--lecture-border);"></div>
-                        <span class="legend-text">Lectures</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--tutorial-color); border: 1px solid var(--tutorial-border);"></div>
-                        <span class="legend-text">Tutorials</span>
-                    </div>
-                `;
-            }
-            
-            if (type === 'lab' || type === 'combined') {
-                legend.innerHTML += `
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--lab-same-color); border: 1px solid var(--lab-same-border);"></div>
-                        <span class="legend-text">Lab - Same Course</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--lab-different-color); border: 1px solid var(--lab-different-border);"></div>
-                        <span class="legend-text">Lab - Different Courses</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: var(--lab-mixed-color); border: 1px solid var(--lab-mixed-border);"></div>
-                        <span class="legend-text">Lab - Mixed Batches</span>
-                    </div>
-                `;
-            }
+        function updateLegend() {
+            const legendItems = [
+                { type: 'theory', color: 'var(--theory-color)', text: 'Theory' },
+                { type: 'lecture', color: 'var(--lecture-color)', text: 'Lecture' },
+                { type: 'tutorial', color: 'var(--tutorial-color)', text: 'Tutorial' },
+                { type: 'lab', color: 'var(--lab-color)', text: 'Lab' }
+            ];
+            document.getElementById('legend').innerHTML = legendItems
+                .map(item => `<div class="legend-item"><div class="legend-color" style="background-color: ${item.color};"></div><span class="legend-text">${item.text}</span></div>`)
+                .join('');
         }
 
         function createTimetableGrid() {
-            console.log(`Creating timetable grid with ${days.length} days: ${dayDisplayNames.join(', ')}`);
             const timetable = document.getElementById('timetable');
             timetable.innerHTML = '';
-
-            // For combined view, use theory time slots as base grid
-            const timeSlots = currentScheduleType === 'lab' ? LAB_TIME_SLOTS : THEORY_TIME_SLOTS;
-            
-            // Add combined view attribute for CSS styling
-            if (currentScheduleType === 'combined') {
-                timetable.setAttribute('data-combined', 'true');
-            } else {
-                timetable.removeAttribute('data-combined');
-            }
-
-            // Create header row
-            const headerRow = document.createElement('div');
-            headerRow.className = 'header';
-            headerRow.textContent = 'Time';
-            timetable.appendChild(headerRow);
-
-            dayDisplayNames.forEach(day => {
+            const timeColumn = document.createElement('div');
+            timeColumn.className = 'time-column';
+            timetable.appendChild(document.createElement('div')).className = 'header'; // Top-left empty cell
+            dayDisplayNames.forEach(dayName => {
                 const header = document.createElement('div');
                 header.className = 'header';
-                header.textContent = day;
+                header.textContent = dayName;
                 timetable.appendChild(header);
             });
-
-            // Create time slots
-            timeSlots.forEach((slot, index) => {
-                const timeCell = document.createElement('div');
-                timeCell.className = 'time-slot';
-                if (currentScheduleType === 'lab') {
-                    timeCell.textContent = slot.label;
-                } else {
-                    timeCell.innerHTML = `${slot.start}<br>${slot.end}`;
-                }
-                timetable.appendChild(timeCell);
-
-                days.forEach(day => {
-                    const cell = document.createElement('div');
-                    cell.className = 'cell';
-                    cell.dataset.day = day;
-                    cell.dataset.timeSlot = index;
-                    cell.dataset.scheduleType = currentScheduleType;
-                    timetable.appendChild(cell);
-                });
+            timetable.appendChild(timeColumn);
+            for (let hour = TIMELINE_START_HOUR; hour <= TIMELINE_END_HOUR; hour++) {
+                const marker = document.createElement('div');
+                marker.className = 'time-marker';
+                marker.textContent = `${hour}:00`;
+                marker.style.top = `${((hour - TIMELINE_START_HOUR) * 60 / TOTAL_MINUTES) * 100}%`;
+                timeColumn.appendChild(marker);
+            }
+            days.forEach(day => {
+                const dayColumn = document.createElement('div');
+                dayColumn.className = 'day-column';
+                dayColumn.dataset.day = day;
+                timetable.appendChild(dayColumn);
             });
         }
-
-        function showTooltip(event, lesson) {
-            const tooltip = document.getElementById('tooltip');
-            tooltip.style.display = 'block';
-            positionTooltip(tooltip, event.pageX + 10, event.pageY + 10);
-
-            let tooltipContent = `
-                <div class="tooltip-title">${lesson.course}</div>
-                <div class="tooltip-content">
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Teacher:</span>
-                        <span class="tooltip-value">${lesson.teacher}</span>
-                    </div>
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Group:</span>
-                        <span class="tooltip-value">${lesson.group}</span>
-                    </div>
-            `;
-
-            if (lesson.batch) {
-                tooltipContent += `
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Batch:</span>
-                        <span class="tooltip-value">${lesson.batch}</span>
-                    </div>
-                `;
-            }
-
-            tooltipContent += `
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Room:</span>
-                        <span class="tooltip-value">${lesson.room}</span>
-                    </div>
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Time:</span>
-                        <span class="tooltip-value">${lesson.startTime} - ${lesson.endTime}</span>
-                    </div>
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Type:</span>
-                        <span class="tooltip-value">${lesson.type}</span>
-                    </div>
-                </div>
-            `;
-
-            tooltip.innerHTML = tooltipContent;
-        }
-
-        function showCombinedLabTooltip(event, labLessons, startTime, endTime) {
-            const tooltip = document.getElementById('tooltip');
-            tooltip.style.display = 'block';
-            positionTooltip(tooltip, event.pageX + 15, event.pageY + 15);
-
-            const uniqueCourses = new Set(labLessons.map(l => l.course));
-            const uniqueBatches = new Set(labLessons.map(l => l.batch).filter(b => b));
-
-            let tooltipContent = `
-                <div class="tooltip-title">🧪 Lab Session (${startTime} - ${endTime})</div>
-                <div class="tooltip-content">
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Duration:</span>
-                        <span class="tooltip-value">${getLabDuration(startTime, endTime)} hours</span>
-                    </div>
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Sessions:</span>
-                        <span class="tooltip-value">${labLessons.length}</span>
-                    </div>
-                    <div class="tooltip-row">
-                        <span class="tooltip-label">Type:</span>
-                        <span class="tooltip-value">${uniqueCourses.size > 1 ? 'Multiple Courses' : uniqueBatches.size > 1 ? 'Multiple Batches' : 'Single Session'}</span>
-                    </div>
-            `;
-
-            if (uniqueCourses.size === 1) {
-                // Single course with possible multiple batches
-                const lesson = labLessons[0];
-                tooltipContent += `
-                    <div style="margin-top: 12px; padding-top: 12px; border-top: 2px solid var(--theory-color);">
-                        <div class="tooltip-row">
-                            <span class="tooltip-label">📚 Course:</span>
-                            <span class="tooltip-value">${lesson.course}</span>
-                        </div>
-                        <div class="tooltip-row">
-                            <span class="tooltip-label">👨‍🏫 Teacher:</span>
-                            <span class="tooltip-value">${lesson.teacher}</span>
-                        </div>
-                        <div class="tooltip-row">
-                            <span class="tooltip-label">🏢 Room:</span>
-                            <span class="tooltip-value">${lesson.room}</span>
-                        </div>
-                        ${uniqueBatches.size > 0 ? `
-                        <div class="tooltip-row">
-                            <span class="tooltip-label">👥 Batches:</span>
-                            <span class="tooltip-value">${Array.from(uniqueBatches).join(', ')}</span>
-                        </div>
-                        ` : ''}
-                    </div>
-                `;
-            } else {
-                // Multiple courses
-                labLessons.forEach((lesson, index) => {
-                    const courseColor = index % 2 === 0 ? 'var(--lab-same-color)' : 'var(--lab-different-color)';
-                    tooltipContent += `
-                        <div style="margin-top: 10px; padding: 8px; border-left: 3px solid ${courseColor}; background: rgba(255, 255, 255, 0.05);">
-                            <div class="tooltip-row">
-                                <span class="tooltip-label">📚 Course:</span>
-                                <span class="tooltip-value">${lesson.course}</span>
-                            </div>
-                            <div class="tooltip-row">
-                                <span class="tooltip-label">👨‍🏫 Teacher:</span>
-                                <span class="tooltip-value">${lesson.teacher}</span>
-                            </div>
-                            <div class="tooltip-row">
-                                <span class="tooltip-label">🏢 Room:</span>
-                                <span class="tooltip-value">${lesson.room}</span>
-                            </div>
-                            ${lesson.batch ? `
-                            <div class="tooltip-row">
-                                <span class="tooltip-label">👥 Batch:</span>
-                                <span class="tooltip-value">${lesson.batch}</span>
-                            </div>
-                            ` : ''}
-                        </div>
-                    `;
-                });
-            }
-
-            tooltipContent += `</div>`;
-            tooltip.innerHTML = tooltipContent;
-        }
-
-        function getLabDuration(startTime, endTime) {
-            const start = parseTime(startTime);
-            const end = parseTime(endTime);
-            return ((end - start) / 60).toFixed(1);
-        }
-
-        function hideTooltip() {
-            const tooltip = document.getElementById('tooltip');
-            tooltip.style.display = 'none';
-        }
-
+        
         function parseTime(timeStr) {
             const [hours, minutes] = timeStr.split(':').map(Number);
             return hours * 60 + minutes;
         }
 
-        function getSpannedTheorySlots(startTime, endTime) {
-            const startMinutes = parseTime(startTime);
-            const endMinutes = parseTime(endTime);
-            const spannedSlots = [];
-            
-            for (let i = 0; i < THEORY_TIME_SLOTS.length; i++) {
-                const slotStart = parseTime(THEORY_TIME_SLOTS[i].start);
-                const slotEnd = parseTime(THEORY_TIME_SLOTS[i].end);
-                
-                // Check if lab session overlaps with this theory slot
-                // Lab session overlaps if it starts before slot ends and ends after slot starts
-                if (startMinutes < slotEnd && endMinutes > slotStart) {
-                    spannedSlots.push(i);
-                }
-            }
-            
-            console.log(`Lab ${startTime}-${endTime} spans theory slots:`, spannedSlots, spannedSlots.map(i => THEORY_TIME_SLOTS[i]));
-            return spannedSlots;
-        }
-
-        function findTimeSlotIndex(startTime, endTime, scheduleType) {
-            const startMinutes = parseTime(startTime);
-            const endMinutes = parseTime(endTime);
-
-            if (scheduleType === 'lab') {
-                // For lab view, choose the lab slot that overlaps the session (any overlap)
-                for (let i = 0; i < LAB_TIME_SLOTS.length; i++) {
-                    const slotStart = parseTime(LAB_TIME_SLOTS[i].start);
-                    const slotEnd = parseTime(LAB_TIME_SLOTS[i].end);
-
-                    // Overlap if session starts before slot end and ends after slot start
-                    if (startMinutes < slotEnd && endMinutes > slotStart) {
-                        return i;
-                    }
-                }
-            } else {
-                // For theory view, pick slot containing the session start time
-                for (let i = 0; i < THEORY_TIME_SLOTS.length; i++) {
-                    const slotStart = parseTime(THEORY_TIME_SLOTS[i].start);
-                    const slotEnd = parseTime(THEORY_TIME_SLOTS[i].end);
-
-                    if (startMinutes < slotEnd && endMinutes > slotStart) {
-                        return i;
-                    }
-                }
-            }
-
-            return -1; // Not found
-        }
-
-        // Helper to position tooltip within viewport boundaries
-        function positionTooltip(el, pageX, pageY) {
-            const padding = 12; // distance from viewport edges
-
-            const tooltipWidth = el.offsetWidth;
-            const tooltipHeight = el.offsetHeight;
-
-            let x = pageX;
-            let y = pageY;
-
-            // Horizontal overflow → shift left
-            const viewportRight = window.scrollX + window.innerWidth;
-            if (x + tooltipWidth + padding > viewportRight) {
-                x = viewportRight - tooltipWidth - padding;
-            }
-
-            // Vertical overflow → show above cursor
-            const viewportBottom = window.scrollY + window.innerHeight;
-            if (y + tooltipHeight + padding > viewportBottom) {
-                y = pageY - tooltipHeight - padding;
-            }
-
-            // Ensure not off the top
-            if (y < window.scrollY + padding) {
-                y = window.scrollY + padding;
-            }
-
-            // Ensure not off the left
-            if (x < window.scrollX + padding) {
-                x = window.scrollX + padding;
-            }
-
-            el.style.left = x + 'px';
-            el.style.top = y + 'px';
-        }
-
-        function createCombinedLabBlock(labLessons, spanHeight, startTime, endTime) {
-            const block = document.createElement('div');
-            block.className = 'lesson-block combined-lab-block spanning';
-            
-            // Calculate height for spanning blocks
-            if (spanHeight > 1) {
-                // Dynamic height calculation based on actual cell measurements
-                // Get the first cell to measure actual dimensions
-                const firstCell = document.querySelector('.cell[data-schedule-type="combined"]');
-                let cellHeight = 91; // fallback value
-                let gap = 1;
-                
-                if (firstCell) {
-                    const actualHeight = firstCell.offsetHeight;
-                    // Check if we're in mobile view by screen size
-                    const isMobile = window.innerWidth <= 768;
-                    const isSmallMobile = window.innerWidth <= 480;
-                    
-                    if (isSmallMobile) {
-                        gap = 0.5;
-                        cellHeight = actualHeight + gap;
-                    } else if (isMobile) {
-                        gap = 0.5;
-                        cellHeight = actualHeight + gap;
-                    } else {
-                        gap = 1;
-                        cellHeight = actualHeight + gap;
-                    }
-                    
-                    console.log(`Mobile: ${isMobile}, Small: ${isSmallMobile}, Cell height: ${actualHeight}px, with gap: ${cellHeight}px`);
-                }
-                
-                const totalHeightPx = (cellHeight * spanHeight) - gap - (window.innerWidth <= 480 ? 3 : 6);
-                block.style.height = `${totalHeightPx}px`;
-                console.log(`Spanning block height: ${totalHeightPx}px for ${spanHeight} slots`);
-            } else {
-                // Responsive single cell height
-                const isMobile = window.innerWidth <= 768;
-                const isSmallMobile = window.innerWidth <= 480;
-                
-                if (isSmallMobile) {
-                    block.style.height = '46px';
-                } else if (isMobile) {
-                    block.style.height = '56px';
-                } else {
-                    block.style.height = '76px';
-                }
-            }
-            
-            // Improved positioning for CSS grid
-            block.style.position = 'absolute';
-            block.style.width = 'calc(100% - 6px)';
-            block.style.zIndex = '300';
-            block.style.top = '3px';
-            block.style.left = '3px';
-            block.style.margin = '0';
-            block.style.padding = '8px';
-            block.style.boxSizing = 'border-box';
-            block.style.overflow = 'hidden';
-            block.style.display = 'flex';
-            block.style.flexDirection = 'column';
-            block.style.justifyContent = 'space-between';
-            block.style.cursor = 'pointer';
-            block.style.pointerEvents = 'auto';
-            
-            // Determine block color based on course diversity
-            let blockType = 'lab-same';
-            const uniqueCourses = new Set(labLessons.map(l => l.course));
-            const uniqueBatches = new Set(labLessons.map(l => l.batch).filter(b => b));
-            
-            if (uniqueCourses.size > 1) {
-                blockType = 'lab-different'; // Multiple different courses
-            } else if (uniqueBatches.size > 1) {
-                blockType = 'lab-mixed'; // Same course, different batches
-            }
-            
-            block.classList.add(blockType);
-            
-            // Create content for combined lab block
-            let content = `<div class="lab-time-header">${startTime} - ${endTime}</div>`;
-            
-            if (uniqueCourses.size === 1) {
-                // Single course, multiple batches
-                const course = labLessons[0].course;
-                const teacher = labLessons[0].teacher;
-                const room = labLessons[0].room;
-                
-                content += `
-                    <div class="lab-course-title">${course}</div>
-                    <div class="lab-teacher">${teacher}</div>
-                    <div class="lab-room">${room}</div>
-                `;
-                
-                if (uniqueBatches.size > 1) {
-                    const batches = Array.from(uniqueBatches).join(', ');
-                    content += `<div class="lab-batches">Batches: ${batches}</div>`;
-                }
-            } else {
-                // Multiple courses
-                content += `<div class="lab-multiple-courses">`;
-                labLessons.forEach((lesson, index) => {
-                    content += `
-                        <div class="lab-course-item">
-                            <div class="lab-course-name">${lesson.course}</div>
-                            <div class="lab-course-details">${lesson.teacher} • ${lesson.room}${lesson.batch ? ` • ${lesson.batch}` : ''}</div>
-                        </div>
-                    `;
-                    if (index < labLessons.length - 1) {
-                        content += `<div class="lab-separator">|</div>`;
-                    }
-                });
-                content += `</div>`;
-            }
-            
-            block.innerHTML = content;
-            
-            // Add hover tooltip for combined block with better event handling
-            block.addEventListener('mouseenter', (e) => {
-                e.stopPropagation();
-                showCombinedLabTooltip(e, labLessons, startTime, endTime);
-            });
-            block.addEventListener('mouseleave', (e) => {
-                e.stopPropagation();
-                hideTooltip();
-            });
-            block.addEventListener('mousemove', (e) => {
-                e.stopPropagation();
-                // Update tooltip position on mouse move
-                const tooltip = document.getElementById('tooltip');
-                if (tooltip.style.display === 'block') {
-                    positionTooltip(tooltip, e.pageX + 15, e.pageY + 15);
-                }
-            });
-            
-            console.log(`Created combined lab block: ${uniqueCourses.size} courses, ${uniqueBatches.size} batches, spanning ${spanHeight} slots`);
-            
-            return block;
-        }
-
-        function createLessonBlock(lesson, spanHeight = 1) {
-            const block = document.createElement('div');
-            
-            // Determine block type
-            let blockType = 'theory';
-            if (lesson.type === 'lecture') {
-                blockType = 'lecture';
-            } else if (lesson.type === 'tutorial') {
-                blockType = 'tutorial';
-            } else if (lesson.type === 'lab') {
-                blockType = 'lab-same'; // Default for single lab
-            }
-            
-            block.className = `lesson-block ${blockType}`;
-            
-            // If this lesson spans multiple slots, adjust height and add spanning class
-            if (spanHeight > 1) {
-                block.classList.add('spanning');
-                // Calculate proper height for spanning blocks including gaps
-                const cellHeight = 80; // min-height of cells
-                const padding = 8; // cell padding (4px top + 4px bottom)
-                const border = 2; // border width (1px top + 1px bottom) 
-                const gap = 1; // grid gap
-                const totalCellHeight = cellHeight + padding + border + gap;
-                const calculatedHeight = (spanHeight * totalCellHeight) - gap - 8; // Subtract last gap and some margin
-                
-                block.style.height = `${calculatedHeight}px`;
-                block.style.position = 'absolute';
-                block.style.width = 'calc(100% - 8px)';
-                block.style.zIndex = '100';
-                block.style.top = '4px';
-                block.style.left = '4px';
-                block.style.margin = '0';
-                block.style.boxSizing = 'border-box';
-                
-                console.log(`Creating spanning block: height=${calculatedHeight}px, spans=${spanHeight} slots`);
-            }
-            
-            block.innerHTML = `
-                <div style="font-weight: 500; margin-bottom: 2px;">${lesson.course}</div>
-                <div style="font-size: 0.85em; opacity: 0.9;">${lesson.teacher}</div>
-                <div style="font-size: 0.75em; opacity: 0.8;">${lesson.room}</div>
-                ${lesson.batch ? `<div class="batch-indicator">Batch: ${lesson.batch}</div>` : ''}
+        function showTooltip(event, lesson) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'block';
+            tooltip.innerHTML = `
+                <div class="tooltip-title">${lesson.course}</div>
+                <div class="tooltip-content">
+                    <div class="tooltip-row"><span class="tooltip-label">Teacher:</span><span class="tooltip-value">${lesson.teacher}</span></div>
+                    <div class="tooltip-row"><span class="tooltip-label">Group:</span><span class="tooltip-value">${lesson.group}</span></div>
+                    ${lesson.batch ? `<div class="tooltip-row"><span class="tooltip-label">Batch:</span><span class="tooltip-value">${lesson.batch}</span></div>` : ''}
+                    <div class="tooltip-row"><span class="tooltip-label">Room:</span><span class="tooltip-value">${lesson.room}</span></div>
+                    <div class="tooltip-row"><span class="tooltip-label">Time:</span><span class="tooltip-value">${lesson.startTime} - ${lesson.endTime}</span></div>
+                    <div class="tooltip-row"><span class="tooltip-label">Type:</span><span class="tooltip-value">${lesson.type.charAt(0).toUpperCase() + lesson.type.slice(1)}</span></div>
+                </div>
             `;
-            
-            block.addEventListener('mouseenter', (e) => showTooltip(e, lesson));
+            positionTooltip(event);
+        }
+        
+        function hideTooltip() { document.getElementById('tooltip').style.display = 'none'; }
+        
+        function positionTooltip(event) {
+            const tooltip = document.getElementById('tooltip');
+            if(tooltip.style.display === 'none') return;
+            const { clientX, clientY } = event;
+            const { innerWidth, innerHeight } = window;
+            const tooltipRect = tooltip.getBoundingClientRect();
+            tooltip.style.left = `${clientX + 15 + tooltipRect.width > innerWidth ? clientX - 15 - tooltipRect.width : clientX + 15}px`;
+            tooltip.style.top = `${clientY + 15 + tooltipRect.height > innerHeight ? clientY - 15 - tooltipRect.height : clientY + 15}px`;
+        }
+
+        function createLessonBlock(lesson, layout) {
+            const block = document.createElement('div');
+            block.className = `lesson-block ${lesson.type.toLowerCase()}`;
+            const startMinutes = parseTime(lesson.startTime) - (TIMELINE_START_HOUR * 60);
+            const endMinutes = parseTime(lesson.endTime) - (TIMELINE_START_HOUR * 60);
+            block.style.top = `${(startMinutes / TOTAL_MINUTES) * 100}%`;
+            block.style.height = `${((endMinutes - startMinutes) / TOTAL_MINUTES) * 100}%`;
+            block.style.left = `${layout.left}%`;
+            block.style.width = `calc(${layout.width}% - 4px)`;
+            block.innerHTML = `
+                <div class="lesson-block-content">
+                   <div class="lesson-course">${lesson.course}</div>
+                   <div class="lesson-details">${lesson.teacher}</div>
+                   <div class="lesson-details">${lesson.room}</div>
+                   ${lesson.batch ? `<div class="lesson-batch">${lesson.batch}</div>` : ''}
+                </div>`;
+            block.addEventListener('mousemove', (e) => showTooltip(e, lesson));
             block.addEventListener('mouseleave', hideTooltip);
-            
             return block;
         }
 
         function displayLessons(lessons) {
-            // Clear existing lessons and reset cell classes
-            document.querySelectorAll('.cell').forEach(cell => {
-                cell.innerHTML = '';
-                cell.style.position = 'relative';
-                cell.classList.remove('lab-span-cell', 'has-combined-block');
-                cell.removeAttribute('data-occupied-by-lab');
-                // Reset inline styles that might interfere
-                cell.style.overflow = '';
-                cell.style.contain = '';
-                cell.style.zIndex = '';
+            document.querySelectorAll('.day-column').forEach(col => col.innerHTML = '');
+            const lessonsByDay = days.reduce((acc, day) => ({ ...acc, [day]: [] }), {});
+            lessons.forEach(lesson => {
+                const dayKey = lesson.day.toUpperCase();
+                if (lessonsByDay[dayKey]) lessonsByDay[dayKey].push(lesson);
             });
 
-            console.log('Displaying lessons:', lessons);
-            
-            // Filter lessons based on schedule type
-            let filteredLessons = lessons;
-            if (currentScheduleType === 'theory') {
-                filteredLessons = lessons.filter(lesson => 
-                    lesson.type === 'lecture' || lesson.type === 'theory' || lesson.type === 'tutorial'
-                );
-            } else if (currentScheduleType === 'lab') {
-                filteredLessons = lessons.filter(lesson => lesson.type === 'lab');
-            }
-            // Combined view shows all lessons
-            
-            if (currentScheduleType === 'combined') {
-                console.log('Entering combined view mode');
-                displayCombinedLessons(lessons);
-            } else {
-                displayStandardLessons(filteredLessons);
-            }
-        }
+            Object.values(lessonsByDay).forEach(dayLessons => {
+                if (dayLessons.length === 0) return;
 
-        function displayStandardLessons(lessons) {
-            // Group lessons by day and time slot
-            const groupedLessons = {};
-            
-            lessons.forEach(lesson => {
-                const day = lesson.day.toUpperCase();
-                const slotIndex = findTimeSlotIndex(lesson.startTime, lesson.endTime, currentScheduleType);
+                const dayColumn = document.querySelector(`.day-column[data-day="${dayLessons[0].day.toUpperCase()}"]`);
+                const sortedLessons = dayLessons.sort((a, b) => parseTime(a.startTime) - parseTime(b.startTime));
                 
-                if (slotIndex >= 0) {
-                    const key = `${day}-${slotIndex}`;
-                    if (!groupedLessons[key]) {
-                        groupedLessons[key] = [];
-                    }
-                    groupedLessons[key].push(lesson);
-                }
-            });
-            
-            // Display lessons in grid
-            Object.entries(groupedLessons).forEach(([key, lessonsInSlot]) => {
-                const [day, timeSlotStr] = key.split('-');
-                const timeSlot = parseInt(timeSlotStr);
-                
-                const cell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${timeSlot}"][data-schedule-type="${currentScheduleType}"]`);
-                if (cell) {
-                    lessonsInSlot.forEach(lesson => {
-                        const block = createLessonBlock(lesson);
-                        cell.appendChild(block);
-                    });
-                }
-            });
-        }
-
-        function displayCombinedLessons(lessons) {
-            console.log('Displaying combined lessons:', lessons);
-            
-            // Group lab sessions by day and time span
-            const labGroups = new Map(); // key: "day-startTime-endTime", value: array of lessons
-            const occupiedCells = new Map(); // Track which cells are occupied by labs
-            
-            // First, group all lab sessions by their time spans
-            lessons.forEach(lesson => {
-                const day = lesson.day.toUpperCase();
-                
-                if (lesson.type === 'lab') {
-                    const timeKey = `${day}-${lesson.startTime}-${lesson.endTime}`;
-                    if (!labGroups.has(timeKey)) {
-                        labGroups.set(timeKey, []);
-                    }
-                    labGroups.get(timeKey).push(lesson);
-                }
-            });
-            
-            // Process each lab group and create spanning blocks
-            labGroups.forEach((labLessons, timeKey) => {
-                const [day, startTime, endTime] = timeKey.split('-');
-                const spannedSlots = getSpannedTheorySlots(startTime, endTime);
-                
-                if (spannedSlots.length > 0) {
-                    console.log(`Lab group ${timeKey} spans ${spannedSlots.length} slots:`, spannedSlots);
-                    
-                    // Find the first slot cell
-                    const firstSlot = spannedSlots[0];
-                    const firstCell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${firstSlot}"][data-schedule-type="combined"]`);
-                    
-                    if (firstCell) {
-                        // Clear all spanned cells first and prepare them
-                        spannedSlots.forEach((slotIndex, index) => {
-                            const spanCell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
-                            if (spanCell) {
-                                spanCell.innerHTML = '';
-                                spanCell.style.overflow = 'visible';
-                                spanCell.style.contain = 'none';
-                                
-                                // Only add the pointer-events-disabling class to FOLLOWING cells
-                                if (index > 0) {
-                                    spanCell.classList.add('lab-span-cell');
-                                }
-                                spanCell.setAttribute('data-occupied-by-lab', timeKey);
-                                
-                                // Mark all cells as occupied
-                                const key = `${day}-${slotIndex}`;
-                                occupiedCells.set(key, timeKey);
-                            }
-                        });
-                        
-                        // Ensure the first cell is properly prepared
-                        firstCell.style.overflow = 'visible';
-                        firstCell.style.contain = 'none';
-                        firstCell.style.zIndex = '100';
-                        firstCell.classList.add('has-combined-block');
-                        
-                        // Create and add the combined lab block to the first cell
-                        const combinedBlock = createCombinedLabBlock(labLessons, spannedSlots.length, startTime, endTime);
-                        firstCell.appendChild(combinedBlock);
-                        
-                        console.log(`Added combined lab block to cell ${day}-${firstSlot}, spanning ${spannedSlots.length} slots`);
-                    } else {
-                        console.error(`Could not find first cell for ${day}-${firstSlot}`);
-                    }
-                }
-            });
-            
-            // Second pass: Place theory/lecture/tutorial sessions
-            lessons.forEach(lesson => {
-                const day = lesson.day.toUpperCase();
-                
-                if (lesson.type !== 'lab') {
-                    const slotIndex = findTimeSlotIndex(lesson.startTime, lesson.endTime, 'theory');
-                    
-                    if (slotIndex >= 0) {
-                        const cellKey = `${day}-${slotIndex}`;
-                        const cell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
-                        
-                        // Only place if cell is not occupied by a lab
-                        if (cell && !occupiedCells.has(cellKey)) {
-                            const block = createLessonBlock(lesson);
-                            cell.appendChild(block);
+                let lessonGroups = [];
+                sortedLessons.forEach(lesson => {
+                    let placed = false;
+                    for (let group of lessonGroups) {
+                        const lastLessonInGroup = group[group.length - 1];
+                        if (parseTime(lesson.startTime) >= parseTime(lastLessonInGroup.endTime)) {
+                            group.push(lesson);
+                            placed = true;
+                            break;
                         }
                     }
+                    if (!placed) {
+                        lessonGroups.push([lesson]);
+                    }
+                });
+
+                const layoutInfo = new Map();
+                for (let i = 0; i < sortedLessons.length; i++) {
+                    const lesson = sortedLessons[i];
+                    let overlaps = [lesson];
+                    for (let j = 0; j < sortedLessons.length; j++) {
+                        if (i === j) continue;
+                        const other = sortedLessons[j];
+                        if (parseTime(lesson.endTime) > parseTime(other.startTime) && parseTime(lesson.startTime) < parseTime(other.endTime)) {
+                            overlaps.push(other);
+                        }
+                    }
+                    
+                    const columns = [[]];
+                    overlaps.sort((a,b) => parseTime(a.startTime) - parseTime(b.startTime));
+                    overlaps.forEach(ovLesson => {
+                        let placed = false;
+                        for(let col of columns){
+                            if(col.length === 0 || parseTime(ovLesson.startTime) >= parseTime(col[col.length-1].endTime)){
+                                col.push(ovLesson);
+                                placed = true;
+                                break;
+                            }
+                        }
+                        if(!placed){
+                            columns.push([ovLesson]);
+                        }
+                    });
+
+                    if (!layoutInfo.has(lesson.lessonId)) {
+                         for(let c_idx=0; c_idx < columns.length; c_idx++){
+                            let col = columns[c_idx];
+                            for(let r_idx=0; r_idx < col.length; r_idx++){
+                                let l = col[r_idx];
+                                layoutInfo.set(l.lessonId, { width: 100 / columns.length, left: c_idx * (100 / columns.length) });
+                            }
+                         }
+                    }
                 }
+                
+                sortedLessons.forEach(lesson => {
+                     if (layoutInfo.has(lesson.lessonId)) {
+                        dayColumn.appendChild(createLessonBlock(lesson, layoutInfo.get(lesson.lessonId)));
+                     }
+                });
             });
         }
 
         function updateEntitySelector() {
             if (!timetableData) return;
-
             const selector = document.getElementById('entitySelector');
+            const searchInput = document.getElementById('entitySearch');
             const viewType = document.getElementById('viewType').value;
-            const searchGroup = document.getElementById('teacherSearchGroup');
-            
             selector.innerHTML = '';
-
-            const showAllOption = document.createElement('option');
-            showAllOption.value = '';
-            showAllOption.textContent = 'Show All';
-            selector.appendChild(showAllOption);
-
+            selector.add(new Option(`All ${viewType === 'teacher' ? 'Teachers' : 'Groups'}`, ''));
+            const entities = new Map();
             if (viewType === 'teacher') {
-                // Show search field for teacher view
-                searchGroup.style.display = 'flex';
-                
-                const teachers = new Map();
-                timetableData.lessons.forEach(lesson => {
-                    if (!teachers.has(lesson.teacherId)) {
-                        teachers.set(lesson.teacherId, lesson.teacher);
-                    }
-                });
-
-                // Store all teachers for search functionality
-                window.allTeachers = teachers;
-                console.log('Stored teachers for search:', teachers.size, 'teachers');
-
-                teachers.forEach((name, id) => {
-                    const option = document.createElement('option');
-                    option.value = id;
-                    option.textContent = name;
-                    selector.appendChild(option);
-                });
+                searchInput.placeholder = 'Type teacher name...';
+                timetableData.lessons.forEach(l => entities.set(l.teacherId, l.teacher));
             } else {
-                // Hide search field for non-teacher views
-                searchGroup.style.display = 'none';
-                
-                const groups = new Map();
-                timetableData.lessons.forEach(lesson => {
-                    if (!groups.has(lesson.groupId)) {
-                        groups.set(lesson.groupId, lesson.group);
-                    }
-                });
-
-                groups.forEach((name, id) => {
-                    const option = document.createElement('option');
-                    option.value = id;
-                    option.textContent = name;
-                    selector.appendChild(option);
-                });
+                searchInput.placeholder = 'Type group name...';
+                timetableData.lessons.forEach(l => entities.set(l.groupId, l.group));
             }
-            
+            [...entities.entries()].sort((a, b) => a[1].localeCompare(b[1])).forEach(([id, name]) => selector.add(new Option(name, id)));
             selector.value = '';
-            
-            // Clear search field when switching views
-            const searchField = document.getElementById('teacherSearch');
-            if (searchField) {
-                searchField.value = '';
-            }
         }
 
         function showErrorMessage(message) {
-            const container = document.getElementById('timetableContainer');
-            container.innerHTML = `
-                <div class="error-message">
-                    <h3>⚠️ Timetable Data Not Found</h3>
-                    <p>${message}</p>
-                    <p>Please generate your timetable first using the timetable generator, then run this visualizer.</p>
-                    <ul>
-                        <li>Make sure <code>timetable.json</code> exists in the same directory</li>
-                        <li>Verify the JSON file contains valid timetable data</li>
-                        <li>Refresh the page after generating the timetable</li>
-                    </ul>
-                </div>
-            `;
-            
-            // Hide controls when no data is available
+            document.getElementById('timetableContainer').innerHTML = `<div class="error-message"><h3>Timetable Data Error</h3><p>${message}</p></div>`;
             document.querySelector('.controls').style.display = 'none';
-            document.querySelector('.legend').style.display = 'none';
         }
 
         function filterLessons() {
-            if (!timetableData) {
-                showErrorMessage('No timetable data available.');
-                return;
+            if (!timetableData) return;
+            let lessons = timetableData.lessons;
+            if (currentScheduleType === 'theory') {
+                lessons = lessons.filter(l => ['theory', 'lecture', 'tutorial'].includes(l.type.toLowerCase()));
+            } else if (currentScheduleType === 'lab') {
+                lessons = lessons.filter(l => l.type.toLowerCase() === 'lab');
             }
-
             const viewType = document.getElementById('viewType').value;
             const selectedId = document.getElementById('entitySelector').value;
-            
-            let filteredLessons = timetableData.lessons;
-            
             if (selectedId) {
-                filteredLessons = timetableData.lessons.filter(lesson => {
-                    if (viewType === 'teacher') {
-                        return lesson.teacherId === selectedId;
-                    } else {
-                        return lesson.groupId === selectedId;
-                    }
-                });
+                lessons = lessons.filter(l => l[viewType === 'teacher' ? 'teacherId' : 'groupId'] === selectedId);
             }
-
-            console.log(`Filtered lessons for ${viewType} ${selectedId}:`, filteredLessons);
-            displayLessons(filteredLessons);
-            
-            // Update analytics with filtered data
-            if (selectedId) {
-                const originalData = timetableData;
-                timetableData = { ...originalData, lessons: filteredLessons };
-                calculateAnalytics();
-                timetableData = originalData; // Restore original data
-            } else {
-                // If showing all data, recalculate with full dataset
-                calculateAnalytics();
-            }
+            displayLessons(lessons);
+            calculateAnalytics(lessons);
         }
 
-        // Initialize
-        createTimetableGrid();
-        updateLegend('theory');
-
-        // Load timetable data
-        fetch('timetable.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Failed to load timetable.json (HTTP ${response.status})`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Loaded timetable data:', data);
-                if (!data || !data.lessons || !Array.isArray(data.lessons)) {
-                    throw new Error('Invalid timetable data format');
-                }
-                timetableData = data;
-                updateEntitySelector();
-                setupTeacherSearch(); // Initialize search after data is loaded
-                initializeAnalytics(); // Initialize analytics with loaded data
-                initializeScrolling(); // Initialize enhanced scrolling
-                filterLessons();
-            })
-            .catch(error => {
-                console.error('Failed to load timetable data:', error.message);
-                showErrorMessage(`Failed to load timetable.json: ${error.message}`);
-            });
-
-        // Teacher search functionality
-        function setupTeacherSearch() {
-            const searchField = document.getElementById('teacherSearch');
+        function setupSearch() {
+            const searchInput = document.getElementById('entitySearch');
             const entitySelector = document.getElementById('entitySelector');
-            
-            if (!searchField || !entitySelector) {
-                console.warn('Search elements not found, skipping search setup');
+            searchInput.addEventListener('input', () => {
+                const searchTerm = searchInput.value.toLowerCase();
+                let found = false;
+                for (const option of entitySelector.options) {
+                    if (option.text.toLowerCase().includes(searchTerm)) {
+                        entitySelector.value = option.value;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) entitySelector.value = '';
+                filterLessons();
+            });
+            entitySelector.addEventListener('change', () => {
+                const selectedOption = entitySelector.options[entitySelector.selectedIndex];
+                searchInput.value = selectedOption.value ? selectedOption.text : '';
+                filterLessons();
+            });
+        }
+        
+        function calculateAnalytics(lessons) {
+            const analyticsContainer = document.querySelector('.analytics-container');
+            if (!lessons || lessons.length === 0) {
+                analyticsContainer.style.display = 'none';
                 return;
-            }
-            
-            // Clear any existing event listeners by cloning the element
-            const newSearchField = searchField.cloneNode(true);
-            searchField.parentNode.replaceChild(newSearchField, searchField);
-            
-            // Add input event listener for real-time search
-            newSearchField.addEventListener('input', function() {
-                const searchTerm = this.value.toLowerCase().trim();
-                
-                if (searchTerm === '') {
-                    // If search is empty, show all teachers
-                    entitySelector.value = '';
-                    filterLessons();
-                    return;
-                }
-                
-                // Find matching teacher
-                if (window.allTeachers && window.allTeachers.size > 0) {
-                    let matchedTeacherId = null;
-                    let exactMatch = false;
-                    
-                    // Search through all teachers
-                    for (const [id, name] of window.allTeachers) {
-                        const teacherName = name.toLowerCase();
-                        
-                        // Check for exact match first
-                        if (teacherName === searchTerm) {
-                            matchedTeacherId = id;
-                            exactMatch = true;
-                            break;
-                        }
-                        
-                        // Check for partial match if no exact match found
-                        if (!exactMatch && teacherName.includes(searchTerm)) {
-                            matchedTeacherId = id;
-                        }
-                    }
-                    
-                    if (matchedTeacherId) {
-                        entitySelector.value = matchedTeacherId;
-                        filterLessons();
-                    } else {
-                        // No match found, show all
-                        entitySelector.value = '';
-                        filterLessons();
-                    }
-                } else {
-                    console.warn('No teachers data available for search');
-                }
-            });
-            
-            // Handle search field focus styling
-            newSearchField.addEventListener('focus', function() {
-                this.style.borderColor = 'var(--theory-color)';
-                this.style.boxShadow = '0 0 0 2px rgba(96, 165, 250, 0.2)';
-            });
-            
-            newSearchField.addEventListener('blur', function() {
-                this.style.borderColor = 'var(--border-color)';
-                this.style.boxShadow = 'none';
-            });
-            
-            console.log('Teacher search functionality initialized');
-        }
-
-        // Event listeners with enhanced scrolling
-        document.getElementById('viewType').addEventListener('change', function() {
-            updateEntitySelector();
-            enhancedFilterLessons();
-        });
-
-        document.getElementById('entitySelector').addEventListener('change', function() {
-            // Update search field when manually selecting from dropdown
-            const searchField = document.getElementById('teacherSearch');
-            if (searchField && document.getElementById('viewType').value === 'teacher') {
-                const selectedOption = this.options[this.selectedIndex];
-                if (selectedOption && selectedOption.value !== '') {
-                    searchField.value = selectedOption.textContent;
-                } else {
-                    searchField.value = '';
-                }
-            }
-            enhancedFilterLessons();
-        });
-
-        // Theme toggle listener
-        document.getElementById('themeToggle').addEventListener('click', toggleTheme);
-
-        // Mobile optimization: Handle orientation change and resize
-        function handleMobileResize() {
-            // Debounce resize events
-            clearTimeout(window.resizeTimeout);
-            window.resizeTimeout = setTimeout(() => {
-                // Refresh display to recalculate spanning block heights
-                if (timetableData && currentScheduleType === 'combined') {
-                    console.log('Recalculating combined view for mobile resize');
-                    filterLessons();
-                }
-            }, 250);
-        }
-
-        // Add resize and orientation change listeners
-        window.addEventListener('resize', handleMobileResize);
-        window.addEventListener('orientationchange', () => {
-            setTimeout(handleMobileResize, 100); // Small delay for orientation change
-        });
-
-        // Mobile touch improvements
-        document.addEventListener('touchstart', function() {}, { passive: true });
-        document.addEventListener('touchmove', function() {}, { passive: true });
-
-        // Teacher search will be initialized after data is loaded
-
-        // ############################################################################
-        // Analytics Functions
-        // ############################################################################
-
-        let analyticsData = null;
-        let roomsData = null;
-        let isAnalyticsVisible = false;
-
-        // Load room data from CSV files
-        async function loadRoomsData() {
-            try {
-                const [aBlock, bBlock, cBlock, labCore, jBlock, kBlock, techlongue] = await Promise.all([
-                    fetch('data/classroom/a_block.csv').then(r => r.text()),
-                    fetch('data/classroom/b_block.csv').then(r => r.text()),
-                    fetch('data/classroom/c_block.csv').then(r => r.text()),
-                    fetch('data/labs/lab_core.csv').then(r => r.text()),
-                    fetch('data/labs/j_block.csv').then(r => r.text()),
-                    fetch('data/labs/k_block.csv').then(r => r.text()),
-                    fetch('data/labs/techlongue.csv').then(r => r.text())
-                ]);
-
-                const rooms = [];
-                
-                // Parse CSV data
-                [aBlock, bBlock, cBlock, labCore, jBlock, kBlock, techlongue].forEach(csvData => {
-                    const lines = csvData.split('\n').filter(line => line.trim());
-                    const headers = lines[0].split(',');
-                    
-                    for (let i = 1; i < lines.length; i++) {
-                        const values = lines[i].split(',');
-                        if (values.length >= headers.length) {
-                            const room = {};
-                            headers.forEach((header, index) => {
-                                room[header.trim()] = values[index]?.trim() || '';
-                            });
-                            rooms.push(room);
-                        }
-                    }
-                });
-
-                roomsData = rooms;
-                console.log('Loaded rooms data:', rooms.length, 'rooms');
-                return rooms;
-            } catch (error) {
-                console.warn('Could not load room data:', error);
-                return [];
-            }
-        }
-
-        function calculateAnalytics() {
-            if (!timetableData || !timetableData.lessons) return;
-
-            const lessons = timetableData.lessons;
-            const totalTheorySlots = 6 * 11; // 6 days × 11 theory slots per day = 66 slots
-            const totalLabSlots = 6 * 6; // 6 days × 6 lab slots per day = 36 slots
-
-            // Room utilization analytics
-            const roomUsage = new Map();
-            const roomTypes = new Map();
-            
-            lessons.forEach(lesson => {
-                if (lesson.room) {
-                    if (!roomUsage.has(lesson.room)) {
-                        roomUsage.set(lesson.room, { theory: 0, lab: 0, total: 0 });
-                    }
-                    
-                    const usage = roomUsage.get(lesson.room);
-                    if (lesson.type === 'lab') {
-                        usage.lab++;
-                    } else {
-                        usage.theory++;
-                    }
-                    usage.total++;
-                    
-                    // Determine room type from lesson type or room name
-                    if (!roomTypes.has(lesson.room)) {
-                        const isLab = lesson.type === 'lab' || 
-                                     lesson.room.toLowerCase().includes('lab') ||
-                                     lesson.room.toLowerCase().includes('workshop');
-                        roomTypes.set(lesson.room, isLab ? 'lab' : 'classroom');
-                    }
-                }
-            });
-
-            // Department analytics
-            const departmentData = new Map();
-            const teacherData = new Map();
-            const timeSlotData = new Map();
-            const dailyData = new Map();
-
-            lessons.forEach(lesson => {
-                // Department analytics
-                const dept = lesson.group?.split(' ')[0] || 'Unknown';
-                if (!departmentData.has(dept)) {
-                    departmentData.set(dept, { lessons: 0, courses: new Set(), teachers: new Set() });
-                }
-                const deptInfo = departmentData.get(dept);
-                deptInfo.lessons++;
-                deptInfo.courses.add(lesson.course);
-                deptInfo.teachers.add(lesson.teacher);
-
-                // Teacher analytics
-                if (!teacherData.has(lesson.teacher)) {
-                    teacherData.set(lesson.teacher, { lessons: 0, hours: 0, departments: new Set(), courses: new Set() });
-                }
-                const teacherInfo = teacherData.get(lesson.teacher);
-                teacherInfo.lessons++;
-                teacherInfo.hours += lesson.type === 'lab' ? 2 : 1;
-                teacherInfo.departments.add(dept);
-                teacherInfo.courses.add(lesson.course);
-
-                // Time slot analytics
-                const timeKey = `${lesson.startTime}-${lesson.endTime}`;
-                if (!timeSlotData.has(timeKey)) {
-                    timeSlotData.set(timeKey, { count: 0, type: lesson.type === 'lab' ? 'lab' : 'theory' });
-                }
-                timeSlotData.get(timeKey).count++;
-
-                // Daily analytics
-                if (!dailyData.has(lesson.day)) {
-                    dailyData.set(lesson.day, { lessons: 0, rooms: new Set(), teachers: new Set() });
-                }
-                const dayInfo = dailyData.get(lesson.day);
-                dayInfo.lessons++;
-                dayInfo.rooms.add(lesson.room);
-                dayInfo.teachers.add(lesson.teacher);
-            });
-
-            analyticsData = {
-                rooms: { usage: roomUsage, types: roomTypes, totalTheorySlots, totalLabSlots },
-                departments: departmentData,
-                teachers: teacherData,
-                timeSlots: timeSlotData,
-                daily: dailyData,
-                totalLessons: lessons.length
             };
+            analyticsContainer.style.display = 'block';
 
-            updateAnalyticsDisplay();
-        }
+            const teacherData = new Map();
+            const departmentData = new Map();
+            const lessonsByDay = days.reduce((acc, day) => ({ ...acc, [day]: 0 }), {});
+            let totalHours = 0;
 
-        function updateAnalyticsDisplay() {
-            if (!analyticsData) return;
+            lessons.forEach(lesson => {
+                const duration = (parseTime(lesson.endTime) - parseTime(lesson.startTime)) / 60;
+                totalHours += duration;
+                lessonsByDay[lesson.day.toUpperCase()]++;
 
-            updateRoomAnalytics();
-            updateDepartmentAnalytics();
-            updateTeacherAnalytics();
-            updateTimeSlotAnalytics();
-        }
-
-        function updateRoomAnalytics() {
-            const { usage, types, totalTheorySlots, totalLabSlots } = analyticsData.rooms;
-            
-            // Overview stats
-            const overviewStats = document.getElementById('room-overview-stats');
-            const totalRooms = usage.size;
-            const classrooms = Array.from(types.entries()).filter(([_, type]) => type === 'classroom').length;
-            const labs = Array.from(types.entries()).filter(([_, type]) => type === 'lab').length;
-            
-            let totalUtilization = 0;
-            usage.forEach((roomUsage, roomName) => {
-                const roomType = types.get(roomName);
-                const maxSlots = roomType === 'lab' ? totalLabSlots : totalTheorySlots;
-                totalUtilization += (roomUsage.total / maxSlots) * 100;
-            });
-            const avgUtilization = totalRooms > 0 ? (totalUtilization / totalRooms).toFixed(1) : 0;
-
-            overviewStats.innerHTML = `
-                <div class="stats-grid">
-                    <div class="stats-card">
-                        <div class="stats-card-value">${totalRooms}</div>
-                        <div class="stats-card-label">Total Rooms</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${classrooms}</div>
-                        <div class="stats-card-label">Classrooms</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${labs}</div>
-                        <div class="stats-card-label">Laboratories</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${avgUtilization}%</div>
-                        <div class="stats-card-label">Avg Utilization</div>
-                    </div>
-                 </div>
-            `;
-
-            // Classroom details
-            const classroomDetails = document.getElementById('classroom-details');
-            const classroomUsage = Array.from(usage.entries())
-                .filter(([roomName, _]) => types.get(roomName) === 'classroom')
-                .sort((a, b) => b[1].total - a[1].total);
-
-            classroomDetails.innerHTML = classroomUsage.map(([roomName, roomUsage]) => {
-                const utilization = ((roomUsage.total / totalTheorySlots) * 100).toFixed(1);
-                const efficiency = utilization > 70 ? 'high' : utilization > 40 ? 'medium' : 'low';
+                if (!teacherData.has(lesson.teacherId)) teacherData.set(lesson.teacherId, { name: lesson.teacher, hours: 0 });
+                teacherData.get(lesson.teacherId).hours += duration;
                 
-                return `
-                    <div class="room-item">
-                        <div class="room-name">
-                            ${roomName}
-                            <span class="room-type">Classroom</span>
-                        </div>
-                        <div class="utilization-bar">
-                            <div class="utilization-fill" style="width: ${utilization}%"></div>
-                        </div>
-                        <div class="room-stats">
-                            <div class="room-stat">Usage: ${roomUsage.total}/${totalTheorySlots}</div>
-                            <div class="room-stat">Utilization: ${utilization}%</div>
-                        </div>
-                        <span class="efficiency-indicator efficiency-${efficiency}"></span>
-                    </div>
-                `;
-            }).join('');
-
-            // Lab details
-            const labDetails = document.getElementById('lab-details');
-            const labUsage = Array.from(usage.entries())
-                .filter(([roomName, _]) => types.get(roomName) === 'lab')
-                .sort((a, b) => b[1].total - a[1].total);
-
-            labDetails.innerHTML = labUsage.map(([roomName, roomUsage]) => {
-                const utilization = ((roomUsage.total / totalLabSlots) * 100).toFixed(1);
-                const efficiency = utilization > 60 ? 'high' : utilization > 30 ? 'medium' : 'low';
-                
-                return `
-                    <div class="room-item">
-                        <div class="room-name">
-                            ${roomName}
-                            <span class="room-type" style="background: var(--lab-same-color)">Laboratory</span>
-                        </div>
-                        <div class="utilization-bar">
-                            <div class="utilization-fill" style="width: ${utilization}%"></div>
-                        </div>
-                        <div class="room-stats">
-                            <div class="room-stat">Usage: ${roomUsage.total}/${totalLabSlots}</div>
-                            <div class="room-stat">Utilization: ${utilization}%</div>
-                        </div>
-                        <span class="efficiency-indicator efficiency-${efficiency}"></span>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function updateDepartmentAnalytics() {
-            const departments = analyticsData.departments;
-            
-            // Department overview
-            const overviewStats = document.getElementById('department-overview-stats');
-            const deptArray = Array.from(departments.entries()).sort((a, b) => b[1].lessons - a[1].lessons);
-            
-            overviewStats.innerHTML = `
-                <div class="stats-grid">
-                    <div class="stats-card">
-                        <div class="stats-card-value">${departments.size}</div>
-                        <div class="stats-card-label">Total Departments</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${analyticsData.totalLessons}</div>
-                        <div class="stats-card-label">Total Lessons</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${deptArray[0]?.[0] || 'N/A'}</div>
-                        <div class="stats-card-label">Most Active Dept</div>
-                    </div>
-                 </div>
-            `;
-
-            // Workday distribution
-            const workdayDist = document.getElementById('workday-distribution');
-            const mondayFriday = ['AERO', 'AUTO', 'MECH', 'MCT', 'CIVIL', 'CHEM', 'EEE', 'ECE'];
-            const tuesdaySaturday = ['BME', 'BT', 'FT', 'AIDS', 'CSBS', 'CSE', 'CSD', 'AIML', 'IT'];
-            
-            let monFriCount = 0, tuesSatCount = 0, otherCount = 0;
-            deptArray.forEach(([deptName, _]) => {
-                if (mondayFriday.includes(deptName)) monFriCount++;
-                else if (tuesdaySaturday.includes(deptName)) tuesSatCount++;
-                else otherCount++;
+                const dept = lesson.group.split('-')[0] || 'Unknown';
+                if (!departmentData.has(dept)) departmentData.set(dept, { lessons: 0, hours:0, teachers: new Set() });
+                departmentData.get(dept).lessons++;
+                departmentData.get(dept).hours += duration;
+                departmentData.get(dept).teachers.add(lesson.teacher);
             });
 
-            workdayDist.innerHTML = `
-                <div class="stat-item">
-                    <span class="stat-label">Monday-Friday Departments</span>
-                    <span class="stat-value">${monFriCount}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Tuesday-Saturday Departments</span>
-                    <span class="stat-value">${tuesSatCount}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Other Departments</span>
-                    <span class="stat-value">${otherCount}</span>
-                </div>
-            `;
+            const sortedTeachers = [...teacherData.values()].sort((a,b) => b.hours - a.hours);
+            document.getElementById('teacher-overview-stats').innerHTML = `
+                <div class="stats-card"><div class="stats-card-value">${teacherData.size}</div><div class="stats-card-label">Visible Teachers</div></div>
+                <div class="stats-card"><div class="stats-card-value">${(totalHours / teacherData.size || 0).toFixed(1)}</div><div class="stats-card-label">Avg Hours/Teacher</div></div>`;
+            document.getElementById('teacher-workload').innerHTML = sortedTeachers.slice(0, 15).map(t => {
+                const loadClass = t.hours > 16 ? 'workload-high' : t.hours > 10 ? 'workload-medium' : 'workload-normal';
+                return `<div class="teacher-item"><span class="teacher-name">${t.name}</span><span class="teacher-load ${loadClass}">${t.hours.toFixed(1)} hrs</span></div>`;
+            }).join('') || '<div class="stat-item"><span class="stat-label">No teacher data to display.</span></div>';
 
-            // Course load by department
-            const courseLoad = document.getElementById('department-course-load');
-            courseLoad.innerHTML = deptArray.slice(0, 10).map(([deptName, deptData]) => `
-                <div class="department-item">
-                    <div class="department-name">${deptName}</div>
-                    <div class="stat-item">
-                        <span class="stat-label">Lessons</span>
-                        <span class="stat-value">${deptData.lessons}</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Courses</span>
-                        <span class="stat-value">${deptData.courses.size}</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Teachers</span>
-                        <span class="stat-value">${deptData.teachers.size}</span>
-                    </div>
-                </div>
-            `).join('');
+            document.getElementById('department-overview-stats').innerHTML = [...departmentData.entries()].map(([name, data]) => `
+                <div class="stats-card">
+                    <div class="stats-card-value">${name}</div>
+                    <div class="stats-card-label">${data.lessons} lessons, ${data.teachers.size} teachers</div>
+                </div>`).join('') || '<div class="stat-item"><span class="stat-label">No department data.</span></div>';
+
+            const busiestDay = Object.entries(lessonsByDay).sort((a,b) => b[1] - a[1])[0];
+            document.getElementById('schedule-stats').innerHTML = `
+                <div class="stats-card"><div class="stats-card-value">${lessons.length}</div><div class="stats-card-label">Total Lessons</div></div>
+                <div class="stats-card"><div class="stats-card-value">${totalHours.toFixed(1)}</div><div class="stats-card-label">Total Hours Scheduled</div></div>
+                <div class="stats-card"><div class="stats-card-value">${busiestDay ? dayDisplayNames[days.indexOf(busiestDay[0])] : 'N/A'}</div><div class="stats-card-label">Busiest Day</div></div>`;
+        }
+        
+        function toggleAnalytics() {
+            const panels = document.getElementById('analyticsPanels');
+            const btn = document.querySelector('.analytics-toggle-btn');
+            const isExpanded = panels.classList.toggle('expanded');
+            btn.classList.toggle('expanded', isExpanded);
+            btn.querySelector('.toggle-icon').style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+            btn.querySelector('span:last-child').textContent = isExpanded ? 'Hide Analytics' : 'Show Analytics';
         }
 
-        function updateTeacherAnalytics() {
-            const teachers = analyticsData.teachers;
-            const teacherArray = Array.from(teachers.entries()).sort((a, b) => b[1].hours - a[1].hours);
-            
-            // Teacher overview
-            const overviewStats = document.getElementById('teacher-overview-stats');
-            const totalTeachers = teachers.size;
-            const avgHours = totalTeachers > 0 ? (teacherArray.reduce((sum, [_, data]) => sum + data.hours, 0) / totalTeachers).toFixed(1) : 0;
-            const maxHours = teacherArray[0]?.[1]?.hours || 0;
-            
-            overviewStats.innerHTML = `
-                <div class="stats-grid">
-                    <div class="stats-card">
-                        <div class="stats-card-value">${totalTeachers}</div>
-                        <div class="stats-card-label">Total Teachers</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${avgHours}</div>
-                        <div class="stats-card-label">Average Hours</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${maxHours}</div>
-                        <div class="stats-card-label">Maximum Hours</div>
-                    </div>
-                 </div>
-            `;
-
-            // Workload distribution
-            const workloadDist = document.getElementById('teacher-workload');
-            let lightLoad = 0, normalLoad = 0, heavyLoad = 0;
-            teacherArray.forEach(([_, data]) => {
-                if (data.hours <= 8) lightLoad++;
-                else if (data.hours <= 16) normalLoad++;
-                else heavyLoad++;
-            });
-
-            workloadDist.innerHTML = `
-                <div class="stat-item">
-                    <span class="stat-label">Light Load (≤8h)</span>
-                    <span class="stat-value workload-normal">${lightLoad}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Normal Load (9-16h)</span>
-                    <span class="stat-value workload-medium">${normalLoad}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Heavy Load (>16h)</span>
-                    <span class="stat-value workload-high">${heavyLoad}</span>
-                </div>
-            `;
-
-            // Top teachers
-            const topTeachers = document.getElementById('top-teachers');
-            topTeachers.innerHTML = teacherArray.slice(0, 10).map(([teacherName, data]) => {
-                const workloadClass = data.hours <= 8 ? 'workload-normal' : data.hours <= 16 ? 'workload-medium' : 'workload-high';
-                return `
-                    <div class="teacher-item">
-                        <div class="teacher-name">${teacherName}</div>
-                        <div class="teacher-load ${workloadClass}">${data.hours}h (${data.lessons} lessons)</div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function updateTimeSlotAnalytics() {
-            const timeSlots = analyticsData.timeSlots;
-            const daily = analyticsData.daily;
-            
-            // Time slot overview
-            const overviewStats = document.getElementById('timeslot-overview-stats');
-            const slotArray = Array.from(timeSlots.entries()).sort((a, b) => b[1].count - a[1].count);
-            const totalSlots = slotArray.length;
-            const mostUsed = slotArray[0];
-            const leastUsed = slotArray[slotArray.length - 1];
-            
-            overviewStats.innerHTML = `
-                <div class="stats-grid">
-                    <div class="stats-card">
-                        <div class="stats-card-value">${totalSlots}</div>
-                        <div class="stats-card-label">Active Time Slots</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${mostUsed?.[1]?.count || 0}</div>
-                        <div class="stats-card-label">Peak Usage</div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-card-value">${mostUsed?.[0] || 'N/A'}</div>
-                        <div class="stats-card-label">Most Used Slot</div>
-                    </div>
-                 </div>
-            `;
-
-            // Peak hours analysis
-            const peakHours = document.getElementById('peak-hours-analysis');
-            peakHours.innerHTML = slotArray.slice(0, 8).map(([timeSlot, data]) => `
-                <div class="time-slot-item">
-                    <span class="slot-time">${timeSlot}</span>
-                    <span class="slot-usage">${data.count} lessons</span>
-                </div>
-            `).join('');
-
-            // Daily distribution
-            const dailyDist = document.getElementById('daily-distribution');
-            const dayOrder = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
-            dailyDist.innerHTML = dayOrder.map(day => {
-                const dayData = daily.get(day) || { lessons: 0, rooms: new Set(), teachers: new Set() };
-                return `
-                    <div class="stat-item">
-                        <span class="stat-label">${day.charAt(0) + day.slice(1).toLowerCase()}</span>
-                        <span class="stat-value">${dayData.lessons} lessons</span>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function switchAnalyticsTab(tabName) {
-            // Update tab buttons
-            document.querySelectorAll('.analytics-tab').forEach(tab => tab.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            // Update panels
-            document.querySelectorAll('.analytics-panel').forEach(panel => panel.classList.remove('active'));
+        function switchAnalyticsTab(event, tabName) {
+            document.querySelectorAll('.analytics-tab').forEach(t => t.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            document.querySelectorAll('.analytics-panel').forEach(p => p.classList.remove('active'));
             document.getElementById(`${tabName}-panel`).classList.add('active');
         }
-
-        function toggleAnalytics() {
-            const panels = document.querySelector('.analytics-panels');
-            const button = document.querySelector('.analytics-toggle-btn');
-            const toggleIcon = button.querySelector('.toggle-icon');
-            const toggleText = button.querySelector('span:last-child');
-            
-            isAnalyticsVisible = !isAnalyticsVisible;
-            
-            if (isAnalyticsVisible) {
-                panels.classList.add('expanded');
-                button.classList.add('expanded');
-                toggleIcon.textContent = '▲';
-                toggleText.textContent = 'Hide Analytics';
-                
-                // Check if content is scrollable and add indicator
-                setTimeout(() => {
-                    checkScrollableContent();
-                }, 350); // Wait for animation to complete
-            } else {
-                panels.classList.remove('expanded');
-                button.classList.remove('expanded');
-                toggleIcon.textContent = '▼';
-                toggleText.textContent = 'Show Analytics';
-                
-                // Remove scroll indicator when collapsed
-                const indicator = button.querySelector('.scroll-indicator');
-                if (indicator) {
-                    indicator.remove();
-                }
-            }
-        }
-
-        // Initialize analytics when data is loaded
-        function initializeAnalytics() {
-            if (timetableData && timetableData.lessons) {
-                calculateAnalytics();
-                loadRoomsData();
-            }
-        }
-
-        function checkScrollableContent() {
-            const panels = document.querySelector('.analytics-panels');
-            const button = document.querySelector('.analytics-toggle-btn');
-            
-            if (panels && panels.scrollHeight > panels.clientHeight) {
-                // Content is scrollable, add indicator
-                if (!button.querySelector('.scroll-indicator')) {
-                    const scrollIndicator = document.createElement('span');
-                    scrollIndicator.className = 'scroll-indicator';
-                    scrollIndicator.textContent = '↕';
-                    scrollIndicator.style.cssText = `
-                        color: rgba(255,255,255,0.7);
-                        font-size: 0.8em;
-                        margin-left: 4px;
-                        opacity: 0.8;
-                    `;
-                    button.appendChild(scrollIndicator);
-                }
-            } else {
-                // Remove indicator if content is not scrollable
-                const indicator = button.querySelector('.scroll-indicator');
-                if (indicator) {
-                    indicator.remove();
-                }
-            }
-        }
-
-        // Enhanced scrolling functionality
-        let scrollPosition = { x: 0, y: 0 };
-
-        function saveScrollPosition() {
-            const container = document.getElementById('timetableContainer');
-            if (container) {
-                scrollPosition.x = container.scrollLeft;
-                scrollPosition.y = container.scrollTop;
-            }
-        }
-
-        function restoreScrollPosition() {
-            const container = document.getElementById('timetableContainer');
-            if (container) {
-                container.scrollLeft = scrollPosition.x;
-                container.scrollTop = scrollPosition.y;
-            }
-        }
-
-        function smoothScrollToElement(element) {
-            if (element) {
-                element.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center',
-                    inline: 'center'
-                });
-            }
-        }
-
-        // Add scroll position memory when switching views
-        function enhancedFilterLessons() {
-            saveScrollPosition();
-            filterLessons();
-            // Restore scroll position after a brief delay to allow DOM updates
-            setTimeout(restoreScrollPosition, 100);
-        }
-
-        // Enhanced mobile resize with scroll preservation
-        function handleMobileResize() {
-            saveScrollPosition();
-            // Debounce resize events
-            clearTimeout(window.resizeTimeout);
-            window.resizeTimeout = setTimeout(() => {
-                // Refresh display to recalculate spanning block heights
-                if (timetableData && currentScheduleType === 'combined') {
-                    console.log('Recalculating combined view for mobile resize');
-                    filterLessons();
-                    setTimeout(restoreScrollPosition, 150);
-                }
-            }, 250);
-        }
-
-        // Initialize scrolling enhancements
-        function initializeScrolling() {
-            const container = document.getElementById('timetableContainer');
-            if (!container) return;
-
-            // Add scroll hint if content overflows
-            function checkScrollable() {
-                const isScrollableX = container.scrollWidth > container.clientWidth;
-                const isScrollableY = container.scrollHeight > container.clientHeight;
-                
-                if (isScrollableX || isScrollableY) {
-                    container.setAttribute('data-scrollable', 'true');
-                    showScrollHint();
-                } else {
-                    container.removeAttribute('data-scrollable');
-                }
-            }
-
-            function showScrollHint() {
-                // Only show hint once per session
-                if (!sessionStorage.getItem('scrollHintShown')) {
-                    const hint = document.createElement('div');
-                    hint.className = 'scroll-hint';
-                    hint.innerHTML = '↔️ Scroll to view full timetable';
-                    hint.style.cssText = `
-                        position: absolute;
-                        top: 10px;
-                        right: 10px;
-                        background: var(--theory-color);
-                        color: white;
-                        padding: 8px 12px;
-                        border-radius: 6px;
-                        font-size: 0.8em;
-                        z-index: 1000;
-                        animation: fadeInOut 3s ease-in-out;
-                        pointer-events: none;
-                    `;
-                    
-                    // Add animation keyframes
-                    if (!document.querySelector('#scrollHintAnimation')) {
-                        const style = document.createElement('style');
-                        style.id = 'scrollHintAnimation';
-                        style.textContent = `
-                            @keyframes fadeInOut {
-                                0%, 100% { opacity: 0; transform: translateY(-10px); }
-                                20%, 80% { opacity: 1; transform: translateY(0); }
-                            }
-                        `;
-                        document.head.appendChild(style);
-                    }
-                    
-                    container.appendChild(hint);
-                    
-                    setTimeout(() => {
-                        if (hint.parentNode) {
-                            hint.remove();
-                        }
-                    }, 3000);
-                    
-                    sessionStorage.setItem('scrollHintShown', 'true');
-                }
-            }
-
-            // Check scrollable state on load and resize
-            checkScrollable();
-            window.addEventListener('resize', checkScrollable);
-            
-            // Add smooth scroll behavior to lesson blocks
-            container.addEventListener('click', function(e) {
-                const lessonBlock = e.target.closest('.lesson-block');
-                if (lessonBlock && !e.target.closest('.combined-lab-block')) {
-                    // Smooth scroll to center the clicked lesson
-                    setTimeout(() => smoothScrollToElement(lessonBlock), 10);
+        
+        function setupKeyboardShortcuts() {
+            window.addEventListener('keydown', (e) => {
+                if(document.activeElement.tagName === 'INPUT') return;
+                switch(e.key) {
+                    case 'f': toggleFullscreen(); break;
+                    case 'r': resetView(); break;
+                    case 'p': exportView(); break;
+                    case '+': case '=': e.preventDefault(); adjustZoom(0.1); break;
+                    case '-': case '_': e.preventDefault(); adjustZoom(-0.1); break;
+                    case 'Escape': document.getElementById('navPanel').classList.remove('show'); break;
                 }
             });
         }
+
+        async function initializeApp() {
+            applyTheme(currentTheme);
+            createTimetableGrid();
+            setScheduleType('combined');
+            
+            try {
+                const response = await fetch('timetable.json');
+                if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                const data = await response.json();
+                if (!data || !data.lessons) throw new Error('Invalid JSON format');
+                
+                timetableData = data;
+                timetableData.lessons.forEach((lesson, i) => lesson.lessonId = `l-${i}-${lesson.teacherId}-${lesson.groupId}-${lesson.day}-${lesson.startTime}`);
+                
+                updateEntitySelector();
+                filterLessons();
+                setupSearch();
+                setupKeyboardShortcuts();
+                focusCurrentTime();
+            } catch (error) {
+                showErrorMessage(`Could not load or parse timetable data. ${error.message}. Please ensure you are connected to the internet and that the data source is available.`);
+            }
+
+            document.getElementById('viewType').addEventListener('change', () => {
+                updateEntitySelector();
+                filterLessons();
+                document.getElementById('entitySearch').value = '';
+            });
+            document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+            document.body.addEventListener('mousemove', positionTooltip);
+            setInterval(focusCurrentTime, 60000);
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeApp);
     </script>
 </body>
 </html>

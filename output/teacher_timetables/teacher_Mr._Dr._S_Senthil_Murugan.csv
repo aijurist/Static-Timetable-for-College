@@ -1,12 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,13:50,15:30,COMPREHENSION,MECH 4.2,Isaac Asimov Laboratory
-MONDAY,15:50,17:30,COMPREHENSION,MECH 4.2,Manufacturing Technology I
-WEDNESDAY,11:00,11:50,Product Life Cycle Management,MECH 4.1,A303
-WEDNESDAY,13:00,13:50,Product Life Cycle Management,MECH 4.1,C307
-THURSDAY,17:00,17:50,Product Life Cycle Management,MECH 4.1,B221
-WEDNESDAY,16:00,16:50,Product Life Cycle Management,MECH 4.2,B426
-MONDAY,09:00,09:50,Product Life Cycle Management,MECH 4.2,C103
-TUESDAY,15:00,15:50,Product Life Cycle Management,MECH 4.2,B418
-TUESDAY,09:00,09:50,Product Life Cycle Management,MECH 4.3,B404
-WEDNESDAY,08:00,08:50,Product Life Cycle Management,MECH 4.3,B106
-WEDNESDAY,15:00,15:50,Product Life Cycle Management,MECH 4.3,C103
+WEDNESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,CSE 1.12,Machine Shop FF3 - EPL - 3
+FRIDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,CSE 1.12,Machine Shop FF1 - EPL - 1

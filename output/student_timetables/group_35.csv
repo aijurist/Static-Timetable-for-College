@@ -1,27 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,14:00,14:50,Theory of Computation,New Staff - 07,B302
-FRIDAY,17:00,17:50,Theory of Computation,New Staff - 07,C308
-FRIDAY,15:00,15:50,Theory of Computation,New Staff - 07,A308
-TUESDAY,12:00,12:50,Theory of Computation,New Staff - 07,B403
-SATURDAY,13:00,13:50,Fundamentals of Mobile Computing,New Staff - 08,A102
-WEDNESDAY,11:00,11:50,Fundamentals of Mobile Computing,New Staff - 08,B302
-SATURDAY,15:00,15:50,Fundamentals of Mobile Computing,New Staff - 08,B405
-FRIDAY,14:00,14:50,Web Programming,Mrs. J.Jinu Sophia,B106
-THURSDAY,17:00,17:50,Web Programming,Mrs. J.Jinu Sophia,A304
-TUESDAY,09:00,09:50,Web Programming,Mrs. J.Jinu Sophia,B402
-THURSDAY,13:50,15:30,Web Programming,Mrs. J.Jinu Sophia,KFL03
-WEDNESDAY,08:00,09:40,Web Programming,Mrs. J.Jinu Sophia,TLFR4
-TUESDAY,13:50,15:30,Web Programming,Mrs. J.Jinu Sophia,TLFR5
-SATURDAY,15:50,17:30,Web Programming,Mrs. J.Jinu Sophia,KSL03
-WEDNESDAY,10:00,10:50,Computer Networks,Ms. Sana,A305
-THURSDAY,16:00,16:50,Computer Networks,Ms. Sana,A210
-SATURDAY,14:00,14:50,Computer Networks,Ms. Sana,B405
-THURSDAY,11:50,13:30,Computer Networks,Ms. Sana,JL3
-SATURDAY,15:50,17:30,Computer Networks,Ms. Sana,JR1
-WEDNESDAY,08:00,09:40,Computer Networks,Ms. Sana,TLFR1
-SATURDAY,17:30,19:10,Computer Networks,Ms. Sana,KFR01
-WEDNESDAY,13:00,13:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B320
-THURSDAY,18:00,18:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B404
-FRIDAY,18:00,18:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,C103
-SATURDAY,17:30,19:10,Foundations of Artificial Intelligence,Mrs. Bhavani M,TLFR3
-TUESDAY,09:50,11:30,Foundations of Artificial Intelligence,Mrs. Bhavani M,JR1
+MONDAY,11:00,11:50,Heritage Of Tamils,Ms. Malathy G,A311
+WEDNESDAY,11:00,11:50,Programming using C,CSE-NF1,D202
+THURSDAY,13:00,13:50,Programming using C,CSE-NF1,D202
+TUESDAY,10:00,10:50,Programming using C,CSE-NF1,D405
+WEDNESDAY,13:20,15:00,Programming using C,CSE-NF1,TLFL1
+THURSDAY,10:00,11:40,Programming using C,CSE-NF1,TLFL3
+TUESDAY,08:00,09:40,Programming using C,CSE-NF1,TLFR2
+WEDNESDAY,15:00,16:40,Programming using C,CSE-NF1,TLFR5
+THURSDAY,08:00,08:50,Physics for Information Science,Mr. Dr S Gobalakrishnan,A110
+MONDAY,14:00,14:50,Physics for Information Science,Mr. Dr S Gobalakrishnan,A209
+FRIDAY,13:00,13:50,Physics for Information Science,Mr. Dr S Gobalakrishnan,D405
+TUESDAY,11:50,13:20,Physics for Information Science,Mr. Dr S Gobalakrishnan,Physics LAB - 2
+MONDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D611
+TUESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D202
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Manasa K,D711
+WEDNESDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D612
+MONDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D210
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,B426
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+FRIDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+FRIDAY,14:00,14:50,Technical Communication -I,Mrs. Angel P,B426
+FRIDAY,11:00,11:50,Technical Communication -I,Mrs. Angel P,D311
+FRIDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. L S Tamizhselvan,Machine Shop FF2 - EPL - 2
+MONDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. L S Tamizhselvan,Machine Shop FF2 - EPL - 2

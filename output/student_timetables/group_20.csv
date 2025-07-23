@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,14:00,14:50,Heritage Of Tamils,Dr. Sri Hari. G,D203
-THURSDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
-THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
-THURSDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,D204
-THURSDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
-TUESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
-TUESDAY,11:00,11:50,Engineering Graphics,Mr. Ct.Muthiah,D209
-TUESDAY,12:00,12:50,Engineering Graphics,Mr. Ct.Muthiah,D209
-THURSDAY,11:00,11:50,Engineering Graphics,Mr. Ct.Muthiah,D205
-TUESDAY,10:00,10:50,Engineering Graphics,Mr. Ct.Muthiah,D210
-TUESDAY,16:00,16:50,Engineering Graphics,Mr. Ct.Muthiah,D210
-TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D211
-THURSDAY,15:00,15:50,Programming using C,IT-NF1,D205
-TUESDAY,13:20,15:00,Programming using C,IT-NF1,Aerodynamics Lab
-SATURDAY,11:50,13:20,Programming using C,IT-NF1,Auto CAD Lab
-SATURDAY,13:20,15:00,Programming using C,IT-NF1,Auto CAD Lab
-THURSDAY,11:50,13:20,Programming using C,IT-NF1,Medical Image Processing Lab
-SATURDAY,15:00,16:40,Programming using C,IT-NF1,Food Chemistry Lab
-SATURDAY,10:00,11:40,Programming using C,IT-NF1,Food Chemistry Lab
-SATURDAY,09:00,09:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D210
-TUESDAY,15:00,15:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D211
-SATURDAY,08:00,08:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D209
-THURSDAY,16:00,16:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D205
-TUESDAY,08:00,08:50,Technical Communication -I,Mrs. Andria Babu,D211
-FRIDAY,08:00,08:50,Technical Communication -I,Mrs. Andria Babu,D204
-FRIDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electrical)
-FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electrical)
-FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D211
-WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D210
-WEDNESDAY,12:00,12:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D210
+THURSDAY,09:00,09:50,Heritage Of Tamils,Dr. Sri Hari. G,B423
+TUESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,B423
+WEDNESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,A305
+FRIDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,B220
+THURSDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+SATURDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Ms. D Manimegalai,Basic Electronics Lab-1
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+TUESDAY,09:00,09:50,Engineering Graphics,Mr. Ct.Muthiah,D210
+THURSDAY,11:00,11:50,Programming using C,IT-NF1,A303
+SATURDAY,10:00,10:50,Programming using C,IT-NF1,A108
+FRIDAY,10:00,10:50,Programming using C,IT-NF1,B401
+SATURDAY,13:20,15:00,Programming using C,IT-NF1,KFL02
+FRIDAY,11:50,13:20,Programming using C,IT-NF1,TLFR3
+TUESDAY,13:20,15:00,Programming using C,IT-NF1,TLFL5
+THURSDAY,13:20,15:00,Programming using C,IT-NF1,KFL03
+FRIDAY,14:00,14:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),A108
+FRIDAY,16:00,16:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D210
+FRIDAY,09:00,09:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),B417
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-4),D402
+WEDNESDAY,13:00,13:50,Technical Communication -I,Mrs. Andria Babu,C202
+TUESDAY,15:00,15:50,Technical Communication -I,Mrs. Andria Babu,D302
+WEDNESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electrical)
+SATURDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Mrs. R Bharathy,Engineering Practices Lab (Electronics)
+TUESDAY,16:00,16:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,A305
+WEDNESDAY,14:00,14:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,D302
+SATURDAY,16:00,16:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,A305

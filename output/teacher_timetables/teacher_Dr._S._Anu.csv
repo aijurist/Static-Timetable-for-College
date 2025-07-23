@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,16:00,16:50,Environmental Science and Engineering,FT 1.1,C102
+MONDAY,11:00,11:50,Environmental Science and Engineering,FT 1.1,B320
+THURSDAY,16:00,16:50,Environmental Science and Engineering,FT 1.1,B418
+SATURDAY,15:00,15:50,Chemistry for Technologists,BT 1.1,D203
+WEDNESDAY,12:00,12:50,Chemistry for Technologists,BT 1.1,D512
+THURSDAY,12:00,12:50,Chemistry for Technologists,BT 1.1,D202
+TUESDAY,10:00,11:40,Chemistry for Technologists,BT 1.1,Chemistry Lab
+SATURDAY,10:00,11:40,Chemistry for Technologists,BT 1.1,Chemistry Lab
+FRIDAY,12:00,12:50,Environmental Science and Engineering,MECH 1.1,D409
+WEDNESDAY,13:00,13:50,Environmental Science and Engineering,MECH 1.1,D705
+MONDAY,13:00,13:50,Environmental Science and Engineering,MECH 1.1,D211

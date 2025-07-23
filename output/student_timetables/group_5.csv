@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,11:00,11:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
-MONDAY,12:00,12:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
-MONDAY,14:00,14:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D109
-MONDAY,08:00,09:40,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,Chemistry Lab
+WEDNESDAY,13:00,13:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D710
+TUESDAY,12:00,12:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,D511
+WEDNESDAY,12:00,12:50,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,A108
+MONDAY,11:50,13:20,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,Chemistry Lab
 MONDAY,15:00,16:40,Chemistry For Electronics Engineering,Dr. J Edward Jeyakumar,Chemistry Lab
-MONDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Gurunathan S,D111
-WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Gurunathan S,D110
-WEDNESDAY,11:00,11:50,Linear Algebra and Calculus,Mr. Gurunathan S,D110
-WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Mr. Gurunathan S,D111
-WEDNESDAY,13:00,13:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D202
-WEDNESDAY,14:00,14:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D202
-WEDNESDAY,10:00,10:50,Heritage Of Tamils,Ms. Malathy G,D203
-WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D205
-WEDNESDAY,16:00,16:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D203
-THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D110
-THURSDAY,11:00,11:50,Programming using C,Mrs. T.Jenitha,D110
-THURSDAY,11:50,13:20,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
-THURSDAY,13:20,15:00,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
-THURSDAY,15:00,16:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
-MONDAY,08:00,09:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
-THURSDAY,08:00,09:40,Programming using C,Mrs. T.Jenitha,Food Chemistry Lab
-FRIDAY,15:00,16:40,Programming using C,Mrs. T.Jenitha,Auto CAD Lab
-FRIDAY,09:00,09:50,Electron Devices,Mr. Senthilraja B,D111
-FRIDAY,10:00,10:50,Electron Devices,Mr. Senthilraja B,D111
-FRIDAY,11:00,11:50,Electron Devices,Mr. Senthilraja B,D111
-FRIDAY,11:50,13:20,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)
-FRIDAY,13:20,15:00,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)
+THURSDAY,11:00,11:50,Linear Algebra and Calculus,Mr. Gurunathan S,A208
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Gurunathan S,D511
+FRIDAY,14:00,14:50,Linear Algebra and Calculus,Mr. Gurunathan S,B302
+FRIDAY,12:00,12:50,Linear Algebra and Calculus,Mr. Gurunathan S,B409
+MONDAY,10:00,10:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D710
+TUESDAY,10:00,10:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,D710
+FRIDAY,16:00,16:50,Heritage Of Tamils,Ms. Malathy G,D111
+MONDAY,11:00,11:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,B416
+WEDNESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,A208
+THURSDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D710
+WEDNESDAY,15:00,15:50,Programming using C,Mrs. T.Jenitha,B302
+THURSDAY,09:00,09:50,Programming using C,Mrs. T.Jenitha,D109
+TUESDAY,11:00,11:50,Programming using C,Mrs. T.Jenitha,C102
+THURSDAY,15:00,16:40,Programming using C,Mrs. T.Jenitha,JL3
+WEDNESDAY,10:00,11:40,Programming using C,Mrs. T.Jenitha,TLFL2
+FRIDAY,10:00,11:40,Programming using C,Mrs. T.Jenitha,KSL03
+TUESDAY,13:20,15:00,Programming using C,Mrs. T.Jenitha,KFL03
+TUESDAY,15:00,15:50,Electron Devices,Mr. Senthilraja B,B409
+FRIDAY,15:00,15:50,Electron Devices,Mr. Senthilraja B,B409
+WEDNESDAY,14:00,14:50,Electron Devices,Mr. Senthilraja B,D711
+MONDAY,15:00,16:40,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)
+THURSDAY,15:00,16:40,Electron Devices,Mr. Senthilraja B,Engineering Practices Lab (Electronics)

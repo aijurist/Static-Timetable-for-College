@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:00,08:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
-MONDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
-MONDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,D109
-MONDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
-MONDAY,13:20,15:00,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
-MONDAY,11:00,11:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
-MONDAY,15:00,15:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
-MONDAY,16:00,16:50,Linear Algebra and Calculus,Ms. Balavidhya S,D111
-WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,Ms. Balavidhya S,D110
-WEDNESDAY,09:00,09:50,Technical Communication -I,Mrs. Andria Babu,D111
-WEDNESDAY,10:00,10:50,Technical Communication -I,Mrs. Andria Babu,D202
-WEDNESDAY,11:00,11:50,Heritage Of Tamils,Mrs. Indhu Bala B,D203
-WEDNESDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D203
-WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D203
-WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D204
-WEDNESDAY,16:00,16:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),D205
-MONDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
-TUESDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
-TUESDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
-MONDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Auto CAD Lab
-TUESDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Food Chemistry Lab
-TUESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),Food Chemistry Lab
-TUESDAY,09:00,09:50,Electron Devices,Mr. G Loganathan,D204
-TUESDAY,08:00,08:50,Electron Devices,Mr. G Loganathan,D205
-THURSDAY,08:00,08:50,Electron Devices,Mr. G Loganathan,D111
-THURSDAY,10:00,11:40,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)
-THURSDAY,11:50,13:20,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)
+TUESDAY,14:00,14:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,B320
+WEDNESDAY,15:00,15:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,A305
+THURSDAY,11:00,11:50,Chemistry For Electronics Engineering,Mr. Dr Mohan S,C301
+WEDNESDAY,08:00,09:40,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
+MONDAY,08:00,09:40,Chemistry For Electronics Engineering,Mr. Dr Mohan S,Chemistry Lab
+WEDNESDAY,14:00,14:50,Linear Algebra and Calculus,Ms. Balavidhya S,D310
+WEDNESDAY,12:00,12:50,Linear Algebra and Calculus,Ms. Balavidhya S,B410
+THURSDAY,15:00,15:50,Linear Algebra and Calculus,Ms. Balavidhya S,D310
+TUESDAY,12:00,12:50,Linear Algebra and Calculus,Ms. Balavidhya S,C101
+THURSDAY,10:00,10:50,Technical Communication -I,Mrs. Andria Babu,B423
+TUESDAY,13:00,13:50,Technical Communication -I,Mrs. Andria Babu,B409
+MONDAY,12:00,12:50,Heritage Of Tamils,Mrs. Indhu Bala B,A305
+THURSDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,D510
+FRIDAY,16:00,16:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,B424
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Ms. Malikunnisha Mohamed Noorullah,B423
+THURSDAY,09:00,09:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),B424
+WEDNESDAY,11:00,11:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),B415
+FRIDAY,09:00,09:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),C101
+TUESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),TLFR1
+MONDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),TLFR5
+TUESDAY,15:00,16:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),TLGL4
+MONDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-5),TLGL1
+FRIDAY,14:00,14:50,Electron Devices,Mr. G Loganathan,B415
+WEDNESDAY,10:00,10:50,Electron Devices,Mr. G Loganathan,B423
+FRIDAY,13:00,13:50,Electron Devices,Mr. G Loganathan,B423
+THURSDAY,13:20,15:00,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)
+FRIDAY,10:00,11:40,Electron Devices,Mr. G Loganathan,Engineering Practices Lab (Electronics)

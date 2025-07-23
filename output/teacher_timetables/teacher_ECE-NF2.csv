@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,13:00,13:50,Programming using C,ECE 1.5,D110
-FRIDAY,08:00,09:40,Programming using C,ECE 1.5,Food Chemistry Lab
-FRIDAY,10:00,11:40,Programming using C,ECE 1.5,Isaac Asimov Laboratory
-TUESDAY,15:00,16:40,Programming using C,ECE 1.5,Food Chemistry Lab
-TUESDAY,13:20,15:00,Programming using C,ECE 1.5,Food Chemistry Lab
-FRIDAY,15:00,16:40,Programming using C,ECE 1.5,Food Chemistry Lab
-WEDNESDAY,08:00,09:40,Programming using C,ECE 1.5,Food Chemistry Lab
+WEDNESDAY,13:00,13:50,Programming using C,ECE 1.5,D109
+TUESDAY,09:00,09:50,Programming using C,ECE 1.5,B403
+WEDNESDAY,15:00,15:50,Programming using C,ECE 1.5,A309
+THURSDAY,08:00,09:40,Programming using C,ECE 1.5,TLFR5
+WEDNESDAY,08:00,09:40,Programming using C,ECE 1.5,TLFL5
+MONDAY,11:50,13:20,Programming using C,ECE 1.5,TLFR2
+TUESDAY,11:50,13:20,Programming using C,ECE 1.5,TLGL2

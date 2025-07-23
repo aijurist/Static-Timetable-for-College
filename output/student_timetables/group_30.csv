@@ -1,32 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,A205
-THURSDAY,09:00,09:50,Computer Architecture,Mrs. Deepa B,B221
-FRIDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,A310
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. T.Ramala,A102
-TUESDAY,18:00,18:50,Design and Analysis of Algorithms,Ms. T.Ramala,B422
-THURSDAY,08:00,08:50,Design and Analysis of Algorithms,Ms. T.Ramala,B401
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,KFR02
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,TLGL4
-THURSDAY,14:00,14:50,Fourier series and Number theory,Mr. Venkatesan J,A302
-FRIDAY,15:00,15:50,Fourier series and Number theory,Mr. Venkatesan J,B425
-WEDNESDAY,15:00,15:50,Fourier series and Number theory,Mr. Venkatesan J,B211
-MONDAY,13:00,13:50,Fourier series and Number theory,Mr. Venkatesan J,C302
-WEDNESDAY,16:00,16:50,Database Management Systems,Mr. Dr Parthasarathy C,B409
-MONDAY,11:00,11:50,Database Management Systems,Mr. Dr Parthasarathy C,B210
-MONDAY,17:00,17:50,Database Management Systems,Mr. Dr Parthasarathy C,B405
-TUESDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JL2
-WEDNESDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL2
-THURSDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,KFL03
-MONDAY,13:50,15:30,Database Management Systems,Mr. Dr Parthasarathy C,JR2
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A311
-FRIDAY,17:00,17:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A108
-FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B210
-WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL01
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR2
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR5
-WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL02
-FRIDAY,15:00,15:50,Fundamentals of Data Science,Ms. Dharshini B S,B418
-WEDNESDAY,14:00,14:50,Fundamentals of Data Science,Ms. Dharshini B S,B107
-FRIDAY,13:00,13:50,Fundamentals of Data Science,Ms. Dharshini B S,A209
-TUESDAY,13:50,15:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL1
-TUESDAY,15:50,17:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL4
+THURSDAY,11:00,11:50,Microbiology,Mrs. Muneeswari Alias Surya S,D310
+THURSDAY,10:00,10:50,Microbiology,Mrs. Muneeswari Alias Surya S,B325
+SATURDAY,15:00,16:40,Microbiology,Mrs. Muneeswari Alias Surya S,Microbiology Lab
+WEDNESDAY,11:50,13:20,Microbiology,Mrs. Muneeswari Alias Surya S,Microbiology Lab
+TUESDAY,10:00,11:40,Microbiology,Mrs. Muneeswari Alias Surya S,Microbiology Lab
+FRIDAY,13:20,15:00,Microbiology,Mrs. Muneeswari Alias Surya S,Microbiology Lab
+SATURDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Santhanakrishnan Mamallan,Machine Shop FF2 - EPL - 2
+SATURDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Santhanakrishnan Mamallan,Machine Shop FF3 - EPL - 3
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+TUESDAY,16:00,16:50,Engineering Graphics,Dr. Rajesh Kumar B,D302
+FRIDAY,10:00,10:50,Chemistry for Technologists,Mrs. Geetha Chandrasekran,B426
+FRIDAY,11:00,11:50,Chemistry for Technologists,Mrs. Geetha Chandrasekran,A302
+WEDNESDAY,08:00,08:50,Chemistry for Technologists,Mrs. Geetha Chandrasekran,B212
+SATURDAY,11:50,13:20,Chemistry for Technologists,Mrs. Geetha Chandrasekran,Chemistry Lab
+THURSDAY,15:00,16:40,Chemistry for Technologists,Mrs. Geetha Chandrasekran,Chemistry Lab
+TUESDAY,13:00,13:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,B212
+TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,A208
+FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr Arikrishnan J,B426
+WEDNESDAY,10:00,10:50,Algebra and Calculus,Dr. Santhiya S,B325
+WEDNESDAY,14:00,14:50,Algebra and Calculus,Dr. Santhiya S,D305
+FRIDAY,16:00,16:50,Algebra and Calculus,Dr. Santhiya S,C202
+THURSDAY,14:00,14:50,Algebra and Calculus,Dr. Santhiya S,D305
+THURSDAY,12:00,12:50,Technical Communication -I,Ms. Raghavi K K,B416
+WEDNESDAY,09:00,09:50,Technical Communication -I,Ms. Raghavi K K,D305
+SATURDAY,09:00,09:50,Heritage Of Tamils,Mr. Dinakaran S,B325

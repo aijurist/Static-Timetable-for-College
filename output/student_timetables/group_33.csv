@@ -1,31 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,17:30,19:10,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-WEDNESDAY,15:00,15:50,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-WEDNESDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-FRIDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A109
-FRIDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B212
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A208
-SATURDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL02
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,JL3
-SATURDAY,10:00,10:50,Database Management Systems,Mrs. Kalpana D,B411
-WEDNESDAY,14:00,14:50,Database Management Systems,Mrs. Kalpana D,A104/105
-SATURDAY,14:00,14:50,Database Management Systems,Mrs. Kalpana D,B211
-TUESDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,JL1
-FRIDAY,15:50,17:30,Database Management Systems,Mrs. Kalpana D,TLFR5
-THURSDAY,15:50,17:30,Database Management Systems,Mrs. Kalpana D,KSL03
-FRIDAY,17:30,19:10,Database Management Systems,Mrs. Kalpana D,TLGL1
-WEDNESDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. J.Julie,B425
-SATURDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,B415
-WEDNESDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,A309
-SATURDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. J.Julie,B411
-FRIDAY,15:00,15:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B408
-TUESDAY,12:00,12:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B321
-THURSDAY,15:00,15:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B415
-TUESDAY,15:50,17:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR4
-SATURDAY,08:00,09:40,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR2
-THURSDAY,14:00,14:50,UI and UX design,New Staff - 01,B412
-TUESDAY,18:00,18:50,UI and UX design,New Staff - 01,A208
-FRIDAY,17:30,19:10,UI and UX design,New Staff - 01,KFL02
-THURSDAY,15:50,17:30,UI and UX design,New Staff - 01,JR3
-FRIDAY,15:50,17:30,UI and UX design,New Staff - 01,KSL03
-TUESDAY,15:50,17:30,UI and UX design,New Staff - 01,TLGL3
+FRIDAY,15:00,15:50,Design Drawing and Sketching,Mr. S Pradeep Kumar,D311
+TUESDAY,11:00,11:50,Design Drawing and Sketching,Mr. S Pradeep Kumar,B402
+FRIDAY,09:00,09:50,Design Drawing and Sketching,Mr. S Pradeep Kumar,B222
+MONDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Dr. S R Balaji,Engineering Practices Lab (Electrical)
+MONDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. S R Balaji,Engineering Practices Lab (Electrical)
+THURSDAY,16:00,16:50,Technical Communication -I,Mrs. Renuka B S,B416
+FRIDAY,11:00,11:50,Technical Communication -I,Mrs. Renuka B S,A211
+WEDNESDAY,11:00,11:50,Mathematics for Design,New Faculty Mathematics (NS-NF-1),B222
+WEDNESDAY,08:00,08:50,Mathematics for Design,New Faculty Mathematics (NS-NF-1),D311
+WEDNESDAY,10:00,10:50,Mathematics for Design,New Faculty Mathematics (NS-NF-1),B404
+TUESDAY,08:00,08:50,Mathematics for Design,New Faculty Mathematics (NS-NF-1),D109
+TUESDAY,09:00,09:50,Heritage Of Tamils,Mrs. Andria Babu,D109
+THURSDAY,09:00,09:50,Programming using C,Mrs. Revathy Padmanabhan,B402
+TUESDAY,10:00,10:50,Programming using C,Mrs. Revathy Padmanabhan,D611
+MONDAY,09:00,09:50,Programming using C,Mrs. Revathy Padmanabhan,B404
+TUESDAY,11:50,13:20,Programming using C,Mrs. Revathy Padmanabhan,TLFL5
+FRIDAY,13:20,15:00,Programming using C,Mrs. Revathy Padmanabhan,JL3
+WEDNESDAY,13:20,15:00,Programming using C,Mrs. Revathy Padmanabhan,TLFL3
+TUESDAY,13:20,15:00,Programming using C,Mrs. Revathy Padmanabhan,TLFL4
+MONDAY,10:00,10:50,Physics for Information Science,Dr. R.Bhavani,B322
+MONDAY,12:00,12:50,Physics for Information Science,Dr. R.Bhavani,D611
+MONDAY,11:00,11:50,Physics for Information Science,Dr. R.Bhavani,B402
+THURSDAY,13:20,15:00,Physics for Information Science,Dr. R.Bhavani,Physics LAB - 1
+FRIDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mrs. Sharmila B,D311
+THURSDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mrs. Sharmila B,D711
+WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Sharmila B,B402

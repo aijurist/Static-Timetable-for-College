@@ -1,9 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,09:00,09:50,Technical Communication -I,ECE 1.7,D202
-WEDNESDAY,11:00,11:50,Technical Communication -I,ECE 1.7,D202
-MONDAY,14:00,14:50,Indian Constitution and Freedom Movement,ECE 1.3,D202
-TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,ECE 1.3,D203
-MONDAY,08:00,08:50,Indian Constitution and Freedom Movement,ECE 1.3,D202
-THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,AIDS 1.5,D203
-SATURDAY,10:00,10:50,Indian Constitution and Freedom Movement,AIDS 1.5,D204
-THURSDAY,16:00,16:50,Indian Constitution and Freedom Movement,AIDS 1.5,D202
+MONDAY,10:00,10:50,Technical Communication -I,ECE 1.7,A310
+TUESDAY,09:00,09:50,Technical Communication -I,ECE 1.7,D611
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,ECE 1.3,C102
+TUESDAY,10:00,10:50,Indian Constitution and Freedom Movement,ECE 1.3,A208
+THURSDAY,12:00,12:50,Indian Constitution and Freedom Movement,ECE 1.3,B320
+WEDNESDAY,08:00,08:50,Indian Constitution and Freedom Movement,AIDS 1.5,B424
+FRIDAY,09:00,09:50,Indian Constitution and Freedom Movement,AIDS 1.5,B410
+THURSDAY,09:00,09:50,Indian Constitution and Freedom Movement,AIDS 1.5,D611
+FRIDAY,15:00,15:50,Heritage Of Tamils,BT 1.3,A311
+FRIDAY,14:00,14:50,Technical Communication -I,CSE 1.2,B426
+FRIDAY,11:00,11:50,Technical Communication -I,CSE 1.2,D311
+SATURDAY,10:00,10:50,Heritage Of Tamils,AIML 1.1,B107

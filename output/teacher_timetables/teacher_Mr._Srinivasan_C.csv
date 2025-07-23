@@ -1,6 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,16:00,16:50,Basic Electrical and Electronics Engineering,AIDS 1.5,D204
-FRIDAY,15:00,15:50,Basic Electrical and Electronics Engineering,AIDS 1.5,D202
-FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,AIDS 1.5,D202
-FRIDAY,08:00,09:40,Basic Electrical and Electronics Engineering,AIDS 1.5,Basic Electronics Lab-1
-SATURDAY,13:20,15:00,Basic Electrical and Electronics Engineering,AIDS 1.5,Basic Electronics Lab-1
+SATURDAY,08:00,08:50,Basic Electrical and Electronics Engineering,AIDS 1.5,C308
+FRIDAY,08:00,08:50,Basic Electrical and Electronics Engineering,AIDS 1.5,B107
+TUESDAY,16:00,16:50,Basic Electrical and Electronics Engineering,AIDS 1.5,D611
+THURSDAY,13:20,15:00,Basic Electrical and Electronics Engineering,AIDS 1.5,Basic Electronics Lab-1
+THURSDAY,11:50,13:20,Basic Electrical and Electronics Engineering,AIDS 1.5,Basic Electronics Lab-1
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,CSE 1.6,B211
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,CSE 1.6,A305
+TUESDAY,08:00,08:50,Basic Electrical and Electronics Engineering,CSE 1.6,B425
+FRIDAY,11:50,13:20,Basic Electrical and Electronics Engineering,CSE 1.6,Basic Electronics Lab-1
+MONDAY,08:00,08:50,Basic Electrical and Electronics Engineering,CSE 1.6,Basic Electronics Lab-1

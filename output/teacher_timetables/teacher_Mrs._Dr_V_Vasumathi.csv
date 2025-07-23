@@ -1,6 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,11:00,11:50,Chemistry For Electronics Engineering,ECE 1.6,D110
-MONDAY,12:00,12:50,Chemistry For Electronics Engineering,ECE 1.6,D110
-MONDAY,14:00,14:50,Chemistry For Electronics Engineering,ECE 1.6,D110
-WEDNESDAY,08:00,09:40,Chemistry For Electronics Engineering,ECE 1.6,Chemistry Lab
-WEDNESDAY,10:00,11:40,Chemistry For Electronics Engineering,ECE 1.6,Chemistry Lab
+FRIDAY,15:00,15:50,Chemistry For Electronics Engineering,ECE 1.6,A210
+THURSDAY,12:00,12:50,Chemistry For Electronics Engineering,ECE 1.6,D405
+FRIDAY,13:00,13:50,Chemistry For Electronics Engineering,ECE 1.6,A304
+THURSDAY,13:20,15:00,Chemistry For Electronics Engineering,ECE 1.6,Chemistry Lab
+TUESDAY,15:00,16:40,Chemistry For Electronics Engineering,ECE 1.6,Chemistry Lab

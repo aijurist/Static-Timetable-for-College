@@ -1,21 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,11:00,11:50,Principles of Financial Management,Dr. Ramanathan V K,C308
-THURSDAY,09:00,09:50,Principles of Financial Management,Dr. Ramanathan V K,B410
-FRIDAY,15:00,15:50,Design Thinking and Innovation,Ms. Janani U,B402
-TUESDAY,17:30,19:10,Design Thinking and Innovation,Ms. Janani U,JR2
-MONDAY,09:50,11:30,Design Thinking and Innovation,Ms. Janani U,KSL03
-THURSDAY,13:00,13:50,Computer Network Technology,Dr. Vishnu Kumar A,A209
-MONDAY,09:00,09:50,Computer Network Technology,Dr. Vishnu Kumar A,A210
-THURSDAY,08:00,08:50,Computer Network Technology,Dr. Vishnu Kumar A,B222
-THURSDAY,09:50,11:30,Computer Network Technology,Dr. Vishnu Kumar A,JL2
-FRIDAY,15:50,17:30,Computer Network Technology,Dr. Vishnu Kumar A,TLFL4
-TUESDAY,16:00,16:50,Artificial Intelligence,New Faculty New Staff -19,B213
-MONDAY,12:00,12:50,Artificial Intelligence,New Faculty New Staff -19,B418
-THURSDAY,14:00,14:50,Artificial Intelligence,New Faculty New Staff -19,B422
-WEDNESDAY,08:00,09:40,Artificial Intelligence,New Faculty New Staff -19,KFR02
-FRIDAY,17:30,19:10,Artificial Intelligence,New Faculty New Staff -19,KFR02
-WEDNESDAY,14:00,14:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B422
-TUESDAY,13:00,13:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B403
-TUESDAY,15:00,15:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,C202
-FRIDAY,15:50,17:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,JR3
-THURSDAY,09:50,11:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,KFL01
+WEDNESDAY,16:00,16:50,Heritage Of Tamils,Mr. Prem Anand T P,D311
+SATURDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Harikrishnan Ravichandran,Machine Shop FF1 - EPL - 1
+FRIDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,Mr. Harikrishnan Ravichandran,Machine Shop FF2 - EPL - 2
+SATURDAY,16:00,16:50,Heritage Of Tamils,Mr. M. Muthumanikandan,C201
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+SATURDAY,12:00,12:50,Engineering Graphics,Mr. D.L. Vasthadu Vasu Kannah,D311
+THURSDAY,14:00,14:50,Physics of Materials,Mr. Dr. G. Saravana Kumar,A104/105
+TUESDAY,13:00,13:50,Physics of Materials,Mr. Dr. G. Saravana Kumar,B222
+FRIDAY,09:00,09:50,Physics of Materials,Mr. Dr. G. Saravana Kumar,A103
+WEDNESDAY,13:20,15:00,Physics of Materials,Mr. Dr. G. Saravana Kumar,Physics LAB - 1
+FRIDAY,15:00,15:50,Research Methodology and IPR,Mr. Dr. E.Shankar,A303
+THURSDAY,10:00,10:50,Research Methodology and IPR,Mr. Dr. E.Shankar,B322
+TUESDAY,14:00,14:50,Research Methodology and IPR,Mr. Dr. E.Shankar,B403
+WEDNESDAY,15:00,15:50,Technical Communication -I,Dr. Vijayalakshmi M,C201
+FRIDAY,08:00,08:50,Technical Communication -I,Dr. Vijayalakshmi M,D111
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. S Harish,B410
+WEDNESDAY,12:00,12:50,Environmental Science and Engineering,Mr. S Harish,D202
+THURSDAY,11:00,11:50,Environmental Science and Engineering,Mr. S Harish,C201
+FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Ms. A Sowmiya,B222
+SATURDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Ms. A Sowmiya,D311
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Ms. A Sowmiya,C103
+THURSDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Ms. A Sowmiya,Basic Electronics Lab-1
+TUESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Ms. A Sowmiya,Basic Electronics Lab-1
+TUESDAY,11:00,11:50,Algebra and Calculus,Dr. R.Bhavani,A303
+WEDNESDAY,10:00,10:50,Algebra and Calculus,Dr. R.Bhavani,A102
+THURSDAY,09:00,09:50,Algebra and Calculus,Dr. R.Bhavani,A208
+TUESDAY,15:00,15:50,Algebra and Calculus,Dr. R.Bhavani,B322

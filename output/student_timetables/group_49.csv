@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,13:00,13:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B402
-FRIDAY,14:00,14:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,A210
-TUESDAY,15:00,15:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B401
-WEDNESDAY,15:00,15:50,Computer Organization and Architecture,Mrs. Jayanthi M,B424
-FRIDAY,15:00,15:50,Computer Organization and Architecture,Mrs. Jayanthi M,B321
-MONDAY,14:00,14:50,Computer Organization and Architecture,Mrs. Jayanthi M,B410
-MONDAY,13:00,13:50,Computational Statistics,Mrs. R Nathiya,A110
-THURSDAY,15:00,15:50,Computational Statistics,Mrs. R Nathiya,A203
-WEDNESDAY,09:00,09:50,Computational Statistics,Mrs. R Nathiya,A109
-MONDAY,08:00,09:40,Computational Statistics,Mrs. R Nathiya,KFL01
-TUESDAY,17:30,19:10,Computational Statistics,Mrs. R Nathiya,TLFL2
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,B401
-FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,B221
-THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,B321
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,TLGL2
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,KFL01
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,TLGL1
-WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,KFR01
-FRIDAY,13:00,13:50,Environmental Sciences,Mr. Manigandan Ramadoss,B418
-MONDAY,11:00,11:50,Environmental Sciences,Mr. Manigandan Ramadoss,B107
-FRIDAY,15:00,15:50,Environmental Sciences,Mr. Manigandan Ramadoss,B220
-TUESDAY,14:00,14:50,Software Engineering,Mrs. Dr. K Devaki,B408
-MONDAY,10:00,10:50,Software Engineering,Mrs. Dr. K Devaki,B422
-THURSDAY,14:00,14:50,Software Engineering,Mrs. Dr. K Devaki,A208
-THURSDAY,09:50,11:30,Software Engineering,Mrs. Dr. K Devaki,JR3
-MONDAY,08:00,09:40,Software Engineering,Mrs. Dr. K Devaki,KFL02
-FRIDAY,10:00,10:50,Database Technology,Mrs. Nisha R S,A102
-FRIDAY,11:00,11:50,Database Technology,Mrs. Nisha R S,B107
-THURSDAY,16:00,16:50,Database Technology,Mrs. Nisha R S,B211
-WEDNESDAY,11:50,13:30,Database Technology,Mrs. Nisha R S,KFR03
-TUESDAY,15:50,17:30,Database Technology,Mrs. Nisha R S,JR2
+FRIDAY,08:00,08:50,Physics for Information Science,Mrs. Dr R Kavitha,B302
+SATURDAY,15:00,15:50,Physics for Information Science,Mrs. Dr R Kavitha,B412
+SATURDAY,14:00,14:50,Physics for Information Science,Mrs. Dr R Kavitha,D612
+THURSDAY,11:50,13:20,Physics for Information Science,Mrs. Dr R Kavitha,Physics LAB - 2
+THURSDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electrical)
+WEDNESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electrical)
+FRIDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,B412
+FRIDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,D703
+TUESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,D702
+SATURDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,Basic Electronics Lab-1
+FRIDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,Basic Electronics Lab-1
+TUESDAY,13:00,13:50,Programming using C,AIML NS2,C201
+THURSDAY,15:00,15:50,Programming using C,AIML NS2,D512
+THURSDAY,14:00,14:50,Programming using C,AIML NS2,C307
+WEDNESDAY,13:20,15:00,Programming using C,AIML NS2,KSL03
+WEDNESDAY,11:50,13:20,Programming using C,AIML NS2,JR1
+THURSDAY,10:00,11:40,Programming using C,AIML NS2,TLGL2
+TUESDAY,10:00,11:40,Programming using C,AIML NS2,JL2
+THURSDAY,16:00,16:50,Indian Constitution and Freedom Movement,Mrs. Dr. B.Lakshmi,A102
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Dr. B.Lakshmi,A302
+FRIDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mrs. Dr. B.Lakshmi,B302
+WEDNESDAY,08:00,08:50,Heritage Of Tamils,Mrs. Renuka B S,D612
+WEDNESDAY,11:00,11:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,B401
+TUESDAY,08:00,08:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,A110
+FRIDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,C307
+WEDNESDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,A110
+SATURDAY,13:00,13:50,Technical Communication -I,Dr. Sri Hari. G,A102
+SATURDAY,11:00,11:50,Technical Communication -I,Dr. Sri Hari. G,C307

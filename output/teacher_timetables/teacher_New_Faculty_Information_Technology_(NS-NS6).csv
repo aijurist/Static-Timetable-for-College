@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,09:00,09:50,Programming using C,IT 1.1,D205
-SATURDAY,15:00,16:40,Programming using C,IT 1.1,Auto CAD Lab
-FRIDAY,08:00,09:40,Programming using C,IT 1.1,Isaac Asimov Laboratory
-FRIDAY,13:20,15:00,Programming using C,IT 1.1,Isaac Asimov Laboratory
-SATURDAY,10:00,11:40,Programming using C,IT 1.1,Auto CAD Lab
-FRIDAY,11:50,13:20,Programming using C,IT 1.1,Medical Image Processing Lab
-FRIDAY,10:00,11:40,Programming using C,IT 1.1,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,09:00,09:50,Programming using C,IT 1.1,A110
+FRIDAY,14:00,14:50,Programming using C,IT 1.1,C301
+THURSDAY,12:00,12:50,Programming using C,IT 1.1,A303
+SATURDAY,13:20,15:00,Programming using C,IT 1.1,TLFL5
+TUESDAY,13:20,15:00,Programming using C,IT 1.1,TLGL1
+FRIDAY,15:00,16:40,Programming using C,IT 1.1,KSL03
+SATURDAY,11:50,13:20,Programming using C,IT 1.1,TLFL4

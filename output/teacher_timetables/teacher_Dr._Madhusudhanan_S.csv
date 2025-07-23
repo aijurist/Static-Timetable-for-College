@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:00,08:50,Programming using C,ECE 1.7,D203
-WEDNESDAY,13:20,15:00,Programming using C,ECE 1.7,Isaac Asimov Laboratory
-TUESDAY,08:00,09:40,Programming using C,ECE 1.7,Food Chemistry Lab
-TUESDAY,10:00,11:40,Programming using C,ECE 1.7,Medical Image Processing Lab
-WEDNESDAY,11:50,13:20,Programming using C,ECE 1.7,Isaac Asimov Laboratory
-TUESDAY,11:50,13:20,Programming using C,ECE 1.7,Medical Image Processing Lab
-TUESDAY,13:20,15:00,Programming using C,ECE 1.7,Medical Image Processing Lab
+WEDNESDAY,12:00,12:50,Programming using C,ECE 1.7,B418
+TUESDAY,11:00,11:50,Programming using C,ECE 1.7,D402
+WEDNESDAY,08:00,08:50,Programming using C,ECE 1.7,A303
+WEDNESDAY,13:20,15:00,Programming using C,ECE 1.7,JR1
+TUESDAY,13:20,15:00,Programming using C,ECE 1.7,TLFR1
+TUESDAY,11:50,13:20,Programming using C,ECE 1.7,JL1
+THURSDAY,08:00,09:40,Programming using C,ECE 1.7,JL3

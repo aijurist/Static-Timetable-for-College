@@ -1,31 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,14:00,14:50,Computer Vision and Applications,Mrs. Sangeetha K,B213
-THURSDAY,14:00,14:50,Computer Vision and Applications,Mrs. Sangeetha K,C302
-TUESDAY,08:00,09:40,Computer Vision and Applications,Mrs. Sangeetha K,TLGL3
-THURSDAY,08:00,09:40,Computer Vision and Applications,Mrs. Sangeetha K,TLGL2
-SATURDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B218
-FRIDAY,15:00,15:50,Recommendation Systems (Professional Elective I),New Staff - 05,A310
-SATURDAY,08:00,09:40,Recommendation Systems (Professional Elective I),New Staff - 05,KFL01
-FRIDAY,09:50,11:30,Recommendation Systems (Professional Elective I),New Staff - 05,JR3
-WEDNESDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML  NS3,TLGL2
-TUESDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML  NS3,TLGL1
-SATURDAY,11:00,11:50,Deep Learning,Ms. V Akshaya,A209
-TUESDAY,10:00,10:50,Deep Learning,Ms. V Akshaya,B212
-FRIDAY,16:00,16:50,Deep Learning,Ms. V Akshaya,A303
-FRIDAY,09:50,11:30,Deep Learning,Ms. V Akshaya,TLFL1
-THURSDAY,09:50,11:30,Deep Learning,Ms. V Akshaya,TLFL4
-TUESDAY,11:00,11:50,Framework for data and visual Analytics,Mrs. Priya M,B424
-TUESDAY,13:00,13:50,Framework for data and visual Analytics,Mrs. Priya M,B211
-TUESDAY,14:00,14:50,Framework for data and visual Analytics,Mrs. Priya M,B426
-THURSDAY,09:50,11:30,Framework for data and visual Analytics,Mrs. Priya M,TLGL4
-WEDNESDAY,08:00,09:40,Framework for data and visual Analytics,Mrs. Priya M,TLFL2
-SATURDAY,13:00,13:50,Computer Networks,Mr. Vijay K,A211
-WEDNESDAY,14:00,14:50,Computer Networks,Mr. Vijay K,B408
-WEDNESDAY,13:00,13:50,Computer Networks,Mr. Vijay K,B325
-THURSDAY,11:50,13:30,Computer Networks,Mr. Vijay K,JR1
-THURSDAY,08:00,09:40,Computer Networks,Mr. Vijay K,KFL02
-SATURDAY,08:00,09:40,Computer Networks,Mr. Vijay K,TLGL1
-FRIDAY,11:50,13:30,Computer Networks,Mr. Vijay K,KFR01
-FRIDAY,14:00,14:50,DataEngineering,Mrs. Sree Subha S,B404
-WEDNESDAY,10:00,10:50,DataEngineering,Mrs. Sree Subha S,B425
-WEDNESDAY,11:00,11:50,DataEngineering,Mrs. Sree Subha S,A108
+TUESDAY,08:00,08:50,Heritage Of Tamils,Mrs. Renuka B S,B419
+FRIDAY,09:00,09:50,Programming using C,Ms. Jaeyalakshmi M,D411
+WEDNESDAY,11:00,11:50,Programming using C,Ms. Jaeyalakshmi M,B419
+WEDNESDAY,08:00,08:50,Programming using C,Ms. Jaeyalakshmi M,D411
+MONDAY,10:00,11:40,Programming using C,Ms. Jaeyalakshmi M,JR2
+TUESDAY,11:50,13:20,Programming using C,Ms. Jaeyalakshmi M,JL3
+THURSDAY,13:20,15:00,Programming using C,Ms. Jaeyalakshmi M,KFR03
+THURSDAY,10:00,11:40,Programming using C,Ms. Jaeyalakshmi M,KSL03
+FRIDAY,14:00,14:50,Physics for Information Science,Mr. Dr.P Vasudevan,B401
+MONDAY,13:00,13:50,Physics for Information Science,Mr. Dr.P Vasudevan,D209
+MONDAY,16:00,16:50,Physics for Information Science,Mr. Dr.P Vasudevan,A210
+FRIDAY,10:00,11:40,Physics for Information Science,Mr. Dr.P Vasudevan,Physics LAB - 1
+MONDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mr. M. Muthumanikandan,B424
+THURSDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mr. M. Muthumanikandan,D209
+WEDNESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mr. M. Muthumanikandan,B419
+FRIDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mrs. Aswini A,B419
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mrs. Aswini A,A210
+MONDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mrs. Aswini A,D209
+WEDNESDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mrs. Aswini A,Basic Electronics Lab-1
+THURSDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mrs. Aswini A,Basic Electronics Lab-1
+THURSDAY,12:00,12:50,Technical Communication -I,Mr. Jebaraj Kabriel,D612
+WEDNESDAY,12:00,12:50,Technical Communication -I,Mr. Jebaraj Kabriel,B401
+TUESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. S Venkat Prasat,Machine Shop FF2 - EPL - 2
+TUESDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,Mr. S Venkat Prasat,Machine Shop FF2 - EPL - 2

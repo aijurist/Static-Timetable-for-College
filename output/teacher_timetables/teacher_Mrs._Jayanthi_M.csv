@@ -1,4 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,15:00,15:50,Computer Organization and Architecture,CSBS 2.1,B424
-FRIDAY,15:00,15:50,Computer Organization and Architecture,CSBS 2.1,B321
-MONDAY,14:00,14:50,Computer Organization and Architecture,CSBS 2.1,B410
+MONDAY,15:00,15:50,Fundamentals of Computer Science,CSBS 1.2,C103
+MONDAY,10:00,10:50,Fundamentals of Computer Science,CSBS 1.2,D109
+WEDNESDAY,13:20,15:00,Fundamentals of Computer Science,CSBS 1.2,Thermal Lab 1
+FRIDAY,11:50,13:20,Fundamentals of Computer Science,CSBS 1.2,Airframe Repair and Aero Engine Lab
+THURSDAY,08:00,09:40,Fundamentals of Computer Science,CSBS 1.2,Microprocessor and Microcontrollers Lab
+FRIDAY,10:00,11:40,Fundamentals of Computer Science,CSBS 1.2,Networks Lab

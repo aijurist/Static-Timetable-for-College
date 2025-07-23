@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,13:00,13:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D109
-FRIDAY,16:00,16:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D109
-FRIDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,D110
-FRIDAY,10:00,11:40,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
-TUESDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
-TUESDAY,16:00,16:50,Linear Algebra and Calculus,Mrs. R Nathiya,D111
-TUESDAY,09:00,09:50,Linear Algebra and Calculus,Mrs. R Nathiya,D202
-FRIDAY,12:00,12:50,Linear Algebra and Calculus,Mrs. R Nathiya,D110
-FRIDAY,14:00,14:50,Linear Algebra and Calculus,Mrs. R Nathiya,D110
-TUESDAY,10:00,10:50,Technical Communication -I,Mrs. Renuka B S,D202
-TUESDAY,11:00,11:50,Technical Communication -I,Mrs. Renuka B S,D202
-TUESDAY,15:00,15:50,Heritage Of Tamils,Ms. Raghavi K K,D202
-FRIDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D110
-TUESDAY,14:00,14:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D203
-FRIDAY,08:00,08:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D110
-TUESDAY,08:00,08:50,Programming using C,ECE-NF1,D204
-TUESDAY,11:50,13:20,Programming using C,ECE-NF1,Isaac Asimov Laboratory
-MONDAY,15:00,16:40,Programming using C,ECE-NF1,Auto CAD Lab
-MONDAY,13:20,15:00,Programming using C,ECE-NF1,Isaac Asimov Laboratory
-FRIDAY,10:00,11:40,Programming using C,ECE-NF1,Food Chemistry Lab
-MONDAY,11:50,13:20,Programming using C,ECE-NF1,Isaac Asimov Laboratory
-MONDAY,10:00,11:40,Programming using C,ECE-NF1,Isaac Asimov Laboratory
-MONDAY,09:00,09:50,Electron Devices,Mrs. T. Helan Vidhya,D204
-MONDAY,08:00,08:50,Electron Devices,Mrs. T. Helan Vidhya,D204
-THURSDAY,11:00,11:50,Electron Devices,Mrs. T. Helan Vidhya,D111
-THURSDAY,15:00,16:40,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)
-MONDAY,13:20,15:00,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)
+THURSDAY,09:00,09:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,C103
+WEDNESDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,B222
+FRIDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,B402
+TUESDAY,15:00,15:50,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
+FRIDAY,13:20,15:00,Chemistry For Electronics Engineering,Mr. Dr Arikrishnan J,Chemistry Lab
+WEDNESDAY,14:00,14:50,Linear Algebra and Calculus,Mrs. R Nathiya,B218
+WEDNESDAY,12:00,12:50,Linear Algebra and Calculus,Mrs. R Nathiya,D511
+WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,Mrs. R Nathiya,B222
+THURSDAY,13:00,13:50,Linear Algebra and Calculus,Mrs. R Nathiya,A305
+MONDAY,13:00,13:50,Technical Communication -I,Mrs. Renuka B S,D510
+THURSDAY,15:00,15:50,Technical Communication -I,Mrs. Renuka B S,D511
+FRIDAY,08:00,08:50,Heritage Of Tamils,Ms. Raghavi K K,B325
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,B325
+FRIDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,A204
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,B419
+THURSDAY,08:00,08:50,Programming using C,ECE-NF1,D511
+WEDNESDAY,11:00,11:50,Programming using C,ECE-NF1,D203
+MONDAY,10:00,10:50,Programming using C,ECE-NF1,B220
+FRIDAY,11:50,13:20,Programming using C,ECE-NF1,KSL03
+TUESDAY,11:50,13:20,Programming using C,ECE-NF1,TLFR4
+WEDNESDAY,15:00,16:40,Programming using C,ECE-NF1,TLFL2
+THURSDAY,10:00,11:40,Programming using C,ECE-NF1,TLFL5
+MONDAY,11:00,11:50,Electron Devices,Mrs. T. Helan Vidhya,B410
+THURSDAY,14:00,14:50,Electron Devices,Mrs. T. Helan Vidhya,B220
+TUESDAY,10:00,10:50,Electron Devices,Mrs. T. Helan Vidhya,A310
+TUESDAY,13:20,15:00,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)
+MONDAY,08:00,09:40,Electron Devices,Mrs. T. Helan Vidhya,Engineering Practices Lab (Electronics)

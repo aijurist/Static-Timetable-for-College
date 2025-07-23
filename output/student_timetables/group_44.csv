@@ -1,19 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,10:00,10:50,Essentials of Human Resources  Management,Mrs. Preetha T,A109
-THURSDAY,14:00,14:50,Essentials of Human Resources  Management,Mrs. Preetha T,B222
-MONDAY,18:00,18:50,Principles of Financial Management,Dr. Sindhu Al,A309
-WEDNESDAY,14:00,14:50,Principles of Financial Management,Dr. Sindhu Al,C102
-MONDAY,17:00,17:50,Usability Design of Software  Applications,Mrs. Rajammal K,B325
-THURSDAY,12:00,12:50,Usability Design of Software  Applications,Mrs. Rajammal K,B408
-MONDAY,16:00,16:50,Usability Design of Software  Applications,Mrs. Rajammal K,B411
-MONDAY,13:50,15:30,Usability Design of Software  Applications,Mrs. Rajammal K,TLGL2
-FRIDAY,11:50,13:30,Usability Design of Software  Applications,Mrs. Rajammal K,JR1
-THURSDAY,15:00,15:50,IT Workshop,New Faculty New  Staff - 23,C201
-MONDAY,12:00,12:50,IT Workshop,New Faculty New  Staff - 23,B211
-TUESDAY,15:50,17:30,IT Workshop,New Faculty New  Staff - 23,TLFR3
-TUESDAY,17:30,19:10,IT Workshop,New Faculty New  Staff - 23,TLFR2
-FRIDAY,15:00,15:50,Modern Web Applications,New Faculty New  Staff - 22,A104/105
-THURSDAY,10:00,10:50,Modern Web Applications,New Faculty New  Staff - 22,A309
-WEDNESDAY,12:00,12:50,Modern Web Applications,New Faculty New  Staff - 22,B320
-TUESDAY,17:30,19:10,Modern Web Applications,New Faculty New  Staff - 22,TLFL4
-WEDNESDAY,08:00,09:40,Modern Web Applications,New Faculty New  Staff - 22,TLFR3
+MONDAY,14:00,14:50,Heritage Of Tamils,Mr. Vijay Muthuswamy,D202
+TUESDAY,14:00,14:50,Programming using C,Mr. Dr. N. Duraimurugan,A210
+MONDAY,12:00,12:50,Programming using C,Mr. Dr. N. Duraimurugan,A309
+WEDNESDAY,11:00,11:50,Programming using C,Mr. Dr. N. Duraimurugan,D610
+MONDAY,10:00,11:40,Programming using C,Mr. Dr. N. Duraimurugan,TLFL2
+FRIDAY,15:00,16:40,Programming using C,Mr. Dr. N. Duraimurugan,TLFL5
+TUESDAY,15:00,16:40,Programming using C,Mr. Dr. N. Duraimurugan,KSL03
+FRIDAY,11:50,13:20,Programming using C,Mr. Dr. N. Duraimurugan,JL1
+THURSDAY,12:00,12:50,Physics for Information Science,Mr. Dr Ragavendran Venkatesan,D402
+WEDNESDAY,16:00,16:50,Physics for Information Science,Mr. Dr Ragavendran Venkatesan,D110
+THURSDAY,11:00,11:50,Physics for Information Science,Mr. Dr Ragavendran Venkatesan,A304
+MONDAY,15:00,16:40,Physics for Information Science,Mr. Dr Ragavendran Venkatesan,Physics LAB - 1
+TUESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D705
+FRIDAY,14:00,14:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,D510
+WEDNESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Dr. Rajasree Baskaran,C101
+WEDNESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,A309
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,B425
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D610
+TUESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+THURSDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+MONDAY,13:00,13:50,Technical Communication -I,Dr. Rajasree Baskaran,A210
+TUESDAY,13:00,13:50,Technical Communication -I,Dr. Rajasree Baskaran,D402
+THURSDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Dr. Ramkumar S,Machine Shop FF2 - EPL - 2
+WEDNESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Dr. Ramkumar S,Machine Shop FF3 - EPL - 3

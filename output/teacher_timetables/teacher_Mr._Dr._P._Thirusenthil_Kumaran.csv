@@ -1,6 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,IT 1.4,D203
-SATURDAY,10:00,10:50,Basic Electrical and Electronics Engineering,IT 1.4,D205
-SATURDAY,14:00,14:50,Basic Electrical and Electronics Engineering,IT 1.4,D205
-TUESDAY,15:00,16:40,Basic Electrical and Electronics Engineering,IT 1.4,Basic Electronics Lab-1
-WEDNESDAY,08:00,09:40,Basic Electrical and Electronics Engineering,IT 1.4,Basic Electronics Lab-1
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,IT 1.4,B415
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,IT 1.4,A108
+SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,IT 1.4,D209
+FRIDAY,08:00,09:40,Basic Electrical and Electronics Engineering,IT 1.4,Basic Electronics Lab-1
+SATURDAY,10:00,11:40,Basic Electrical and Electronics Engineering,IT 1.4,Basic Electronics Lab-1
+WEDNESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,CSE 1.11,A309
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,CSE 1.11,B425
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,CSE 1.11,D610
+TUESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,CSE 1.11,Basic Electronics Lab-1
+THURSDAY,15:00,16:40,Basic Electrical and Electronics Engineering,CSE 1.11,Basic Electronics Lab-1

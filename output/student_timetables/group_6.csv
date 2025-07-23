@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,13:00,13:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,D109
-MONDAY,15:00,15:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,D109
-MONDAY,16:00,16:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,D109
+MONDAY,08:00,08:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,A110
+MONDAY,15:00,15:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,C101
+THURSDAY,15:00,15:50,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,B416
 MONDAY,10:00,11:40,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,Chemistry Lab
-TUESDAY,10:00,11:40,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,Chemistry Lab
-TUESDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Venkatesan J,D111
-TUESDAY,12:00,12:50,Linear Algebra and Calculus,Mr. Venkatesan J,D111
-MONDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Venkatesan J,D111
-MONDAY,12:00,12:50,Linear Algebra and Calculus,Mr. Venkatesan J,D111
-TUESDAY,13:00,13:50,Technical Communication -I,New Faculty English (NS-NFE-1),D111
-TUESDAY,08:00,08:50,Technical Communication -I,New Faculty English (NS-NFE-1),D202
-TUESDAY,14:00,14:50,Heritage Of Tamils,Mr. M. Muthumanikandan,D202
-MONDAY,14:00,14:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D202
-TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D203
-MONDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mrs. Angel P,D202
-TUESDAY,16:00,16:50,Programming using C,Ms. T.Ramala,D202
-WEDNESDAY,15:00,16:40,Programming using C,Ms. T.Ramala,Auto CAD Lab
-WEDNESDAY,13:20,15:00,Programming using C,Ms. T.Ramala,Food Chemistry Lab
-WEDNESDAY,11:50,13:20,Programming using C,Ms. T.Ramala,Food Chemistry Lab
-MONDAY,10:00,11:40,Programming using C,Ms. T.Ramala,Auto CAD Lab
-WEDNESDAY,10:00,11:40,Programming using C,Ms. T.Ramala,Food Chemistry Lab
-THURSDAY,15:00,16:40,Programming using C,Ms. T.Ramala,Food Chemistry Lab
-WEDNESDAY,09:00,09:50,Electron Devices,Mrs. Nirmala D,D204
-THURSDAY,09:00,09:50,Electron Devices,Mrs. Nirmala D,D111
-THURSDAY,10:00,10:50,Electron Devices,Mrs. Nirmala D,D111
-THURSDAY,13:20,15:00,Electron Devices,Mrs. Nirmala D,Engineering Practices Lab (Electronics)
-WEDNESDAY,11:50,13:20,Electron Devices,Mrs. Nirmala D,Engineering Practices Lab (Electronics)
+TUESDAY,08:00,09:40,Chemistry For Electronics Engineering,Ms. Dr. Saraswathi Kothandan,Chemistry Lab
+TUESDAY,13:00,13:50,Linear Algebra and Calculus,Mr. Venkatesan J,C102
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Venkatesan J,B210
+THURSDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Venkatesan J,A110
+WEDNESDAY,16:00,16:50,Linear Algebra and Calculus,Mr. Venkatesan J,D612
+FRIDAY,10:00,10:50,Technical Communication -I,New Faculty English (NS-NFE-1),D409
+WEDNESDAY,09:00,09:50,Technical Communication -I,New Faculty English (NS-NFE-1),C102
+FRIDAY,12:00,12:50,Heritage Of Tamils,Mr. M. Muthumanikandan,A208
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mrs. Angel P,C102
+TUESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Mrs. Angel P,A208
+THURSDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mrs. Angel P,B320
+THURSDAY,11:00,11:50,Programming using C,Ms. T.Ramala,B411
+WEDNESDAY,12:00,12:50,Programming using C,Ms. T.Ramala,D612
+FRIDAY,09:00,09:50,Programming using C,Ms. T.Ramala,D405
+THURSDAY,13:20,15:00,Programming using C,Ms. T.Ramala,TLGL3
+MONDAY,13:20,15:00,Programming using C,Ms. T.Ramala,TLGL2
+FRIDAY,15:00,16:40,Programming using C,Ms. T.Ramala,TLFR1
+FRIDAY,13:20,15:00,Programming using C,Ms. T.Ramala,KSL03
+MONDAY,09:00,09:50,Electron Devices,Mrs. Nirmala D,C101
+WEDNESDAY,11:00,11:50,Electron Devices,Mrs. Nirmala D,C301
+THURSDAY,09:00,09:50,Electron Devices,Mrs. Nirmala D,D203
+TUESDAY,08:00,08:50,Electron Devices,Mrs. Nirmala D,Engineering Practices Lab (Electronics)
+WEDNESDAY,13:20,15:00,Electron Devices,Mrs. Nirmala D,Engineering Practices Lab (Electronics)

@@ -51,7 +51,16 @@ public class SolverProgressMonitor implements SolverEventListener<TimetableProbl
             
             // Trigger constraint monitoring evaluation
             constraintMonitor.newEvaluation();
-            
+            // Log detailed constraint status (method is not visible, so use current stats instead)
+            var stats = constraintMonitor.getCurrentStats();
+            if (stats.isEmpty()) {
+                logger.info("Constraint summary: No constraint violations recorded during solving");
+            } else {
+                int totalHardViolations = stats.values().stream().mapToInt(s -> s.getHardViolations()).sum();
+                int totalSoftViolations = stats.values().stream().mapToInt(s -> s.getSoftViolations()).sum();
+                logger.info("Constraint summary: {} hard, {} soft violations", totalHardViolations, totalSoftViolations);
+            }
+
             // Log feasibility status
             if (newBestSolution.getScore() != null) {
                 if (newBestSolution.getScore().isFeasible()) {

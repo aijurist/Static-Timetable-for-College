@@ -13,3 +13,5 @@ id,room_number,block,description,is_lab,room_type,room_min_cap,room_max_cap,has_
 185,TLGL2,Techlounge,Computer Lab (TLGL2),1,Laboratory,50,70,1,0,Advanced,13,0,0,0,computer
 186,TLGL3,Techlounge,Computer Lab (TLGL3),1,Laboratory,20,35,1,0,,13,0,0,0,computer
 187,TLGL4,Techlounge,Computer Lab (TLGL4),1,Laboratory,20,35,1,0,Basic,4,0,0,0,computer
+1000,TLSL1,Techlounge,Computer Lab (TLGL4),1,Laboratory,60,70,1,0,Basic,4,0,0,0,computer
+1001,TLSL2,Techlounge,Computer Lab (TLGL4),1,Laboratory,60,70,1,0,Basic,4,0,0,0,computer

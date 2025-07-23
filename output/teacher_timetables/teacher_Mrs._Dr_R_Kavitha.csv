@@ -1,2 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,13:00,13:50,Heritage Of Tamils,IT 1.1,D111
+THURSDAY,09:00,09:50,Heritage Of Tamils,IT 1.1,A303
+FRIDAY,11:00,11:50,Physics for Information Science,CSE-CS 1.3,D110
+TUESDAY,15:00,15:50,Physics for Information Science,CSE-CS 1.3,B219
+WEDNESDAY,09:00,09:50,Physics for Information Science,CSE-CS 1.3,C301
+TUESDAY,11:50,13:20,Physics for Information Science,CSE-CS 1.3,Physics LAB - 1
+FRIDAY,08:00,08:50,Physics for Information Science,AIML 1.3,B302
+SATURDAY,15:00,15:50,Physics for Information Science,AIML 1.3,B412
+SATURDAY,14:00,14:50,Physics for Information Science,AIML 1.3,D612
+THURSDAY,11:50,13:20,Physics for Information Science,AIML 1.3,Physics LAB - 2

@@ -1,3 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,IT 1.5,Engineering Practices Lab (Electrical)
-TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,IT 1.5,Engineering Practices Lab (Electronics)
+WEDNESDAY,09:00,09:50,Engineering Practices – Electrical and Electronics,IT 1.5,Engineering Practices Lab (Electronics)
+THURSDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,IT 1.5,Engineering Practices Lab (Electronics)
+THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,AIML 1.1,Engineering Practices Lab (Electronics)
+FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,AIML 1.1,Engineering Practices Lab (Electrical)

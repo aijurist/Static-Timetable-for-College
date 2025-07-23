@@ -1,32 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B219
-MONDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A104/105
-MONDAY,14:00,14:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,C307
-WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,C103
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B411
-MONDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B426
-WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,JR3
-THURSDAY,17:30,19:10,Design and Analysis of Algorithms,Mrs. Mahesmeena,TLFL4
-WEDNESDAY,14:00,14:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B213
-WEDNESDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B212
-FRIDAY,11:00,11:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A303
-THURSDAY,13:00,13:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B426
-TUESDAY,09:00,09:50,Database Management Systems,Mrs. Dharani Devi G,B218
-TUESDAY,10:00,10:50,Database Management Systems,Mrs. Dharani Devi G,B213
-TUESDAY,13:00,13:50,Database Management Systems,Mrs. Dharani Devi G,C308
-THURSDAY,15:50,17:30,Database Management Systems,Mrs. Dharani Devi G,TLFL2
-TUESDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,TLFR4
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,TLFR3
-THURSDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,KFR01
-FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,C307
-MONDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A308
-WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A304
-THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,JR1
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,KFR02
-WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFL5
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR5
-MONDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,A108
-MONDAY,18:00,18:50,Fundamentals of Data Science,Mrs. Bhavani M,B423
-FRIDAY,16:00,16:50,Fundamentals of Data Science,Mrs. Bhavani M,B107
-THURSDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Bhavani M,TLFR3
-TUESDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Bhavani M,TLFR2
+MONDAY,10:00,10:50,Physics of Materials,Mrs. Dr I Sankeeda,B422
+MONDAY,14:00,14:50,Physics of Materials,Mrs. Dr I Sankeeda,D203
+THURSDAY,15:00,15:50,Physics of Materials,Mrs. Dr I Sankeeda,B106
+MONDAY,11:50,13:20,Physics of Materials,Mrs. Dr I Sankeeda,Physics LAB - 2
+MONDAY,08:00,08:50,Technical Communication -I,Mrs. G.Janet,A209
+TUESDAY,08:00,08:50,Technical Communication -I,Mrs. G.Janet,A311
+FRIDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. R. Edwin Joseph,Machine Shop FF1 - EPL - 1
+FRIDAY,12:00,12:50,Production Technology - I,Mr. R. Edwin Joseph,C307
+MONDAY,09:00,09:50,Production Technology - I,Mr. R. Edwin Joseph,B107
+MONDAY,11:00,11:50,Production Technology - I,Mr. R. Edwin Joseph,C202
+FRIDAY,10:00,10:50,Environmental Science and Engineering,Mrs. Dr.K.Seethalakshmi,A110
+FRIDAY,09:00,09:50,Environmental Science and Engineering,Mrs. Dr.K.Seethalakshmi,A204
+TUESDAY,12:00,12:50,Environmental Science and Engineering,Mrs. Dr.K.Seethalakshmi,C202
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+FRIDAY,16:00,16:50,Engineering Graphics,Mrs. B.Mullai Sudaroli,D211
+THURSDAY,09:00,09:50,Algebra and Calculus,Dr. Santhiya S,A110
+TUESDAY,10:00,10:50,Algebra and Calculus,Dr. Santhiya S,C307
+FRIDAY,15:00,15:50,Algebra and Calculus,Dr. Santhiya S,B213
+FRIDAY,11:00,11:50,Algebra and Calculus,Dr. Santhiya S,A209
+MONDAY,15:00,15:50,Heritage Of Tamils,Mrs. Gayathri K,C202

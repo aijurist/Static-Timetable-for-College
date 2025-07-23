@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,08:00,08:50,Heritage Of Tamils,Dr. Vijayalakshmi M,D203
-SATURDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D204
-SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D204
-SATURDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D205
-WEDNESDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
-WEDNESDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
-WEDNESDAY,12:00,12:50,Engineering Graphics,Mr. R.Dhanaraj,D205
-WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. R.Dhanaraj,D209
-WEDNESDAY,09:00,09:50,Engineering Graphics,Mr. R.Dhanaraj,D209
-WEDNESDAY,15:00,15:50,Engineering Graphics,Mr. R.Dhanaraj,D210
-SATURDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D209
-SATURDAY,15:00,15:50,Engineering Graphics,Mr. R.Dhanaraj,D209
-WEDNESDAY,16:00,16:50,Programming using C,New Faculty Information Technology (NS-IT NS10),D209
-WEDNESDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),Aircraft Structures Lab
-THURSDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Medical Image Processing Lab
-THURSDAY,15:00,16:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Medical Image Processing Lab
-WEDNESDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS10),Diagnostic and Therapeutic Equipment Lab
-THURSDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),Diagnostic and Therapeutic Equipment Lab
-THURSDAY,11:50,13:20,Programming using C,New Faculty Information Technology (NS-IT NS10),Electronics and Instrumentation
-THURSDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D210
-THURSDAY,08:00,08:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D209
-SATURDAY,14:00,14:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D210
-SATURDAY,16:00,16:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D205
-FRIDAY,12:00,12:50,Technical Communication -I,Mr. M. Muthumanikandan,D204
-FRIDAY,13:00,13:50,Technical Communication -I,Mr. M. Muthumanikandan,D204
-FRIDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electrical)
-TUESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electronics)
-TUESDAY,11:00,11:50,Environmental Science and Engineering,Mr. Dr Mohan S,D211
-TUESDAY,14:00,14:50,Environmental Science and Engineering,Mr. Dr Mohan S,D211
-FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr Mohan S,D205
+TUESDAY,08:00,08:50,Heritage Of Tamils,Dr. Vijayalakshmi M,D410
+TUESDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D209
+WEDNESDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,B210
+FRIDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D512
+FRIDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+TUESDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. R.Dhanaraj,D205
+FRIDAY,11:00,11:50,Programming using C,New Faculty Information Technology (NS-IT NS10),B417
+THURSDAY,15:00,15:50,Programming using C,New Faculty Information Technology (NS-IT NS10),B210
+SATURDAY,15:00,15:50,Programming using C,New Faculty Information Technology (NS-IT NS10),D402
+SATURDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),KFL03
+FRIDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),JR3
+WEDNESDAY,13:20,15:00,Programming using C,New Faculty Information Technology (NS-IT NS10),KFL02
+TUESDAY,10:00,11:40,Programming using C,New Faculty Information Technology (NS-IT NS10),KSL03
+THURSDAY,11:00,11:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D205
+WEDNESDAY,15:00,15:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D512
+TUESDAY,12:00,12:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,D709
+THURSDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Dr. S. Prabhu,A309
+SATURDAY,08:00,08:50,Technical Communication -I,Mr. M. Muthumanikandan,D209
+TUESDAY,15:00,15:50,Technical Communication -I,Mr. M. Muthumanikandan,D109
+WEDNESDAY,09:00,09:50,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electronics)
+THURSDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electronics)
+SATURDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr Mohan S,B210
+FRIDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr Mohan S,B210
+FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr Mohan S,B210

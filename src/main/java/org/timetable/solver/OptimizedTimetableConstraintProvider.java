@@ -65,10 +65,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 
                 // Lecture/lab batching rules
                 lectureOrTutorialMustBeForFullGroup(constraintFactory),
-                labForLargeGroupMustBeBatched(constraintFactory),
-                
-                // Special room restrictions
-                specialRoomForAuto(constraintFactory),
                 
                 // Mandatory lunch break constraint
                 mandatoryLunchBreak(constraintFactory),
@@ -79,6 +75,15 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // CRITICAL: Explicit same batch conflict prevention
                 preventSameBatchOverlap(constraintFactory),
                 
+                // CRITICAL: MA courses must be scheduled only Tuesday-Friday
+                maCoursesTuesdayToFridayOnly(constraintFactory),
+                
+                // === FINAL THREE HARD CONSTRAINTS ===
+                teacherMaxThreeContinuousHours(constraintFactory),
+                programmingUsingCLabAndTheoryRoomConstraint(constraintFactory),
+                groupLectureTutorialRoomLimit(constraintFactory),
+                engineeringGraphicsTwoHourBlock(constraintFactory),
+                
                 // ########################################################################
                 // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
                 // ########################################################################
@@ -86,27 +91,15 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // Core lab priority enforcement (prefer lab_1 over lab_2 over lab_3)
                 coreLabPriorityPreference(constraintFactory),
                 
-                // Large lab efficiency - encourage combining batches (DISABLED - only for labs)
-                // largeLab70CapacityBatchCombining(constraintFactory),
-                // NEW: Penalize inefficient batch splitting
-                // penalizeSplitBatchesSeparateLargeLabs(constraintFactory),
-                
                 // Teacher workload management
                 teacherMaxWeeklyHours(constraintFactory),
                 teacherWorkdaySpan(constraintFactory),
                 balanceTeacherDailyLoad(constraintFactory),
                 
                 // Student group preferences
-                // studentGroupShiftPattern(constraintFactory),
                 penalizePairedLabInDifferentSlots(constraintFactory),
                 
-                // ########################################################################
-                // TIER 3: MILD SOFT CONSTRAINTS (Nice-to-have optimizations)
-                // ########################################################################
-                
                 // Teaching preferences and efficiency
-                // preferTeacherTimePreferences(constraintFactory),
-                teacherMaxConsecutiveHours(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
                 
@@ -118,16 +111,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 minimumLabsPerDay(constraintFactory),
                 
                 // NEW: Ensure balanced daily schedule (both theory and lab)
-                balancedDailySchedule(constraintFactory),
-                
-                // Weekly shift pattern enforcement
-                // studentWeeklyShiftPattern(constraintFactory),
-                
-                // Lab utilization optimization
-                preferHotspotLabsOnMonday(constraintFactory),
-                
-                // NEW: Prevent inefficient use of large labs by small batches
-                efficientLargeLabUtilization(constraintFactory)
+                balancedDailySchedule(constraintFactory)
         };
     }
 
@@ -243,124 +227,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 })
                 .asConstraint("CRITICAL: Theory/Tutorial must be for full group only");
     }
-
-    private Constraint labForLargeGroupMustBeBatched(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresLabRoom()
-                        && lesson.getStudentGroup().getSize() > TimetableConfig.LAB_BATCH_SIZE
-                        && !lesson.isSplitBatch())
-                .penalize(HardSoftScore.ONE_HARD)
-                .asConstraint("Lab for large group must be batched");
-    }
-
-    // ############################################################################
-    // Enhanced Hard Constraints - REMOVED TO REDUCE CONFLICTS
-    // These constraints were causing too many conflicts and making solutions infeasible
-    // ############################################################################
-
-    /**
-     * DISABLED: Prevent the same teacher from teaching the same course at the same time
-     * This constraint was causing excessive conflicts - teachers can handle multiple batches
-     */
-    /*
-    private Constraint sameTeacherSameCourseConflict(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEachUniquePair(Lesson.class,
-                        Joiners.equal(Lesson::getTeacher),
-                        Joiners.equal(Lesson::getCourse),
-                        Joiners.equal(Lesson::getTimeSlot))
-                .penalize(HardSoftScore.of(5, 0)) // Reduced from 10
-                .asConstraint("Same teacher same course conflict");
-    }
-    */
-
-    /**
-     * DISABLED: Prevent lab and theory sessions of the same course from overlapping
-     * This constraint was too restrictive and causing scheduling conflicts
-     */
-    /*
-    private Constraint labTheoryOverlapConflict(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEachUniquePair(Lesson.class,
-                        Joiners.equal(Lesson::getStudentGroup),
-                        Joiners.equal(Lesson::getCourse),
-                        Joiners.equal(l -> l.getTimeSlot().getDayOfWeek()),
-                        Joiners.overlapping(Lesson::getStartTime, Lesson::getEndTime))
-                .filter((lesson1, lesson2) -> 
-                        lesson1.requiresLabRoom() != lesson2.requiresLabRoom()) // One is lab, other is theory
-                .penalize(HardSoftScore.of(3, 0)) // Reduced from 10
-                .asConstraint("Lab theory overlap conflict");
-    }
-    */
-
-    /**
-     * DISABLED: Minimum break between classes for teachers
-     * This constraint was causing infeasibility when teachers have back-to-back classes
-     */
-    /*
-    private Constraint minimumBreakBetweenClasses(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEachUniquePair(Lesson.class,
-                        Joiners.equal(Lesson::getTeacher),
-                        Joiners.equal(l -> l.getTimeSlot().getDayOfWeek()))
-                .filter((lesson1, lesson2) -> {
-                    if (lesson1.getTimeSlot() == null || lesson2.getTimeSlot() == null) return false;
-                    
-                    java.time.LocalTime end1 = lesson1.getTimeSlot().getEndTime();
-                    java.time.LocalTime start2 = lesson2.getTimeSlot().getStartTime();
-                    java.time.LocalTime end2 = lesson2.getTimeSlot().getEndTime();
-                    java.time.LocalTime start1 = lesson1.getTimeSlot().getStartTime();
-                    
-                    // Check if lessons are adjacent with no break
-                    return (end1.equals(start2) || end2.equals(start1)) ||
-                           (Duration.between(end1, start2).toMinutes() < 15 && Duration.between(end1, start2).toMinutes() > 0) ||
-                           (Duration.between(end2, start1).toMinutes() < 15 && Duration.between(end2, start1).toMinutes() > 0);
-                })
-                .penalize(HardSoftScore.of(1, 0)) // Light penalty
-                .asConstraint("Minimum break between classes");
-    }
-    */
-
-    /**
-     * DISABLED: Teacher consecutive hours limit  
-     * This constraint was too restrictive for academic scheduling
-     */
-    private Constraint teacherMaxConsecutiveHours(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEach(Lesson.class)
-                .groupBy(Lesson::getTeacher, 
-                        lesson -> lesson.getTimeSlot().getDayOfWeek(),
-                        toList())
-                .filter((teacher, day, lessons) -> calculateMaxContinuousHours(lessons) > 4)
-                .penalize(HardSoftScore.of(0, 50), // Higher soft penalty for 4+ hour violation
-                        (teacher, day, lessons) -> {
-                            int continuousHours = calculateMaxContinuousHours(lessons);
-                            return (continuousHours - 4) * 10; // Penalty scales with violation
-                        })
-                .asConstraint("Teacher max 4 continuous hours");
-    }
-
-    /**
-     * DISABLED: Prevent random lab assignment for mapped courses
-     * This was redundant with courseLabMustMatchMapping and causing double penalties
-     */
-    /*
-    private Constraint preventRandomLabAssignmentForMappedCourses(ConstraintFactory constraintFactory) {
-        return constraintFactory.forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresLabRoom()) // Any lab lesson
-                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
-                .filter(lesson -> lesson.getRoom() != null)
-                .filter(lesson -> {
-                    // Check if this room is in the allowed list for this course
-                    String courseCode = lesson.getCourse().getCode();
-                    String roomDesc = lesson.getRoom().getDescription();
-                    return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
-                })
-                .penalize(HardSoftScore.ONE_HARD.multiply(50000)) // Even higher penalty
-                .asConstraint("Prevent random lab assignment for mapped courses");
-    }
-    */
 
     // ############################################################################
     // Soft Constraints (Performance Optimized)
@@ -820,25 +686,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         lesson.getTimeSlot().getDayOfWeek()))
                 .penalize(HardSoftScore.ONE_HARD.multiply(1000)) // Very high penalty
                 .asConstraint("Department outside allowed working days");
-    }
-
-    /**
-     * SOFT: Prefer hotspot labs on Monday for Monday-Friday departments
-     * Uses simplified department-only logic
-     */
-    private Constraint preferHotspotLabsOnMonday(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEach(Lesson.class)
-                .filter(lesson -> lesson.getTimeSlot() != null && 
-                        lesson.getRoom() != null && 
-                        lesson.getStudentGroup() != null)
-                .filter(lesson -> lesson.getTimeSlot().getDayOfWeek() == java.time.DayOfWeek.MONDAY)
-                .filter(lesson -> DepartmentWorkdayConfig.isMondayFridayDepartment(
-                        lesson.getStudentGroup().getDepartment()))
-                .filter(lesson -> DepartmentWorkdayConfig.isHotspotLab(
-                        lesson.getRoom().getDescription()))
-                .reward(HardSoftScore.of(0, 25)) // Mild reward
-                .asConstraint("Prefer hotspot labs on Monday");
     }
 
     /**
@@ -1544,5 +1391,87 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter(lesson -> !"D Block".equalsIgnoreCase(lesson.getRoom().getBlock()))
                 .penalize(HardSoftScore.ONE_SOFT.multiply(5))
                 .asConstraint("Prefer D Block for all student groups (theory/tutorial)");
+    }
+
+    /**
+     * HARD: MA (Maths) courses must be scheduled only between Tuesday and Friday (not Monday or Saturday)
+     */
+    private Constraint maCoursesTuesdayToFridayOnly(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getCourse() != null && lesson.getTimeSlot() != null)
+                .filter(lesson -> lesson.getCourse().getCode() != null && lesson.getCourse().getCode().startsWith("MA"))
+                .filter(lesson -> {
+                    java.time.DayOfWeek day = lesson.getTimeSlot().getDayOfWeek();
+                    return day == java.time.DayOfWeek.MONDAY || day == java.time.DayOfWeek.SATURDAY;
+                })
+                .penalize(HardSoftScore.ONE_HARD)
+                .asConstraint("MA courses only Tuesday-Friday");
+    }
+
+    // 1. HARD: No teacher can be scheduled for more than 3 continuous hours (including old timetable/teacher_matrix if possible)
+    private Constraint teacherMaxThreeContinuousHours(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .groupBy(Lesson::getTeacher, lesson -> lesson.getTimeSlot().getDayOfWeek(), toList())
+                .filter((teacher, day, lessons) -> calculateMaxContinuousHours(lessons) > 3)
+                .penalize(HardSoftScore.ONE_HARD,
+                        (teacher, day, lessons) -> 1000 * (calculateMaxContinuousHours(lessons) - 3))
+                .asConstraint("HARD: Teacher max 3 continuous hours");
+    }
+
+    // 2. HARD: Programming Using C - labs in computer lab, lectures/tutorials in classroom
+    private Constraint programmingUsingCLabAndTheoryRoomConstraint(ConstraintFactory constraintFactory) {
+        final java.util.Set<String> C_COURSE_CODES = java.util.Set.of(
+           "GE23131"
+        );
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getCourse() != null && lesson.getRoom() != null)
+                .filter(lesson -> {
+                    String courseName = lesson.getCourse().getName().toLowerCase();
+                    String courseCode = lesson.getCourse().getCode();
+                    boolean isCProgramming = courseName.contains("programming using c") || C_COURSE_CODES.contains(courseCode);
+                    if (!isCProgramming) return false;
+                    String sessionType = lesson.getSessionType().toLowerCase();
+                    String roomLabType = lesson.getRoom().getLabType();
+                    if (sessionType.equals("lab") || sessionType.equals("practical")) {
+                        // Lab/practical must be in computer lab
+                        return roomLabType == null || !roomLabType.equalsIgnoreCase("computer");
+                    } else if (sessionType.equals("lecture") || sessionType.equals("theory") || sessionType.equals("tutorial")) {
+                        // Lecture/tutorial must NOT be in a lab
+                        return roomLabType != null && roomLabType.toLowerCase().contains("lab");
+                    }
+                    return false;
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(10000))
+                .asConstraint("HARD: Programming Using C - labs in computer lab, lectures/tutorials in classroom");
+    }
+
+    // NEW: For each student group, restrict lecture/tutorial rooms to max 2
+    private Constraint groupLectureTutorialRoomLimit(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType() != null &&
+                        (lesson.getSessionType().equalsIgnoreCase("lecture") ||
+                         lesson.getSessionType().equalsIgnoreCase("theory") ||
+                         lesson.getSessionType().equalsIgnoreCase("tutorial")))
+                .groupBy(Lesson::getStudentGroup, toSet(Lesson::getRoom))
+                .filter((group, rooms) -> rooms.size() > 2)
+                .penalize(HardSoftScore.ONE_SOFT,
+                        (group, rooms) -> 100 * (rooms.size() - 2))
+                .asConstraint("SOFT: Student group lecture/tutorial in more than 2 rooms");
+    }
+
+    // 3. HARD: Engineering Graphics must be scheduled as a continuous 2-hour block in the same room
+    private Constraint engineeringGraphicsTwoHourBlock(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+            .filter(lesson -> lesson.getCourse() != null && lesson.getCourse().getName().toLowerCase().contains("engineering graphics"))
+            .groupBy(Lesson::getStudentGroup, Lesson::getRoom, lesson -> lesson.getTimeSlot().getDayOfWeek(), toList())
+            .filter((group, room, day, lessons) -> {
+                if (lessons.size() != 1) return true; // Violation if split into multiple lessons
+                Lesson egLesson = lessons.get(0);
+                long duration = java.time.Duration.between(egLesson.getTimeSlot().getStartTime(), egLesson.getTimeSlot().getEndTime()).toMinutes();
+                return duration < 110; // Violation if less than 2 hours (allowing a few minutes margin)
+            })
+            .penalize(HardSoftScore.ONE_HARD.multiply(10000))
+            .asConstraint("HARD: Engineering Graphics must be 2hr continuous in same room");
     }
 }

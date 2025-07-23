@@ -1,5 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,08:00,08:50,Linear Algebra and Calculus,EEE 1.2,D109
-WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,EEE 1.2,D109
-WEDNESDAY,11:00,11:50,Linear Algebra and Calculus,EEE 1.2,D109
-WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,EEE 1.2,D110
+THURSDAY,16:00,16:50,Linear Algebra and Calculus,EEE 1.2,D405
+THURSDAY,12:00,12:50,Linear Algebra and Calculus,EEE 1.2,D310
+TUESDAY,09:00,09:50,Linear Algebra and Calculus,EEE 1.2,B222
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,EEE 1.2,B405
+FRIDAY,11:00,11:50,Linear Algebra and Calculus,CSE-CS 1.2,A203
+THURSDAY,08:00,08:50,Linear Algebra and Calculus,CSE-CS 1.2,D309
+FRIDAY,10:00,10:50,Linear Algebra and Calculus,CSE-CS 1.2,C302
+THURSDAY,15:00,15:50,Linear Algebra and Calculus,CSE-CS 1.2,D309

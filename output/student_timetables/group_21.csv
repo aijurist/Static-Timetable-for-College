@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,09:00,09:50,Heritage Of Tamils,Ms. Rajalakshmi B,D203
-SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D203
-SATURDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D205
-SATURDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D205
-TUESDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
-WEDNESDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
-WEDNESDAY,13:00,13:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
-TUESDAY,13:00,13:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
-WEDNESDAY,14:00,14:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
-TUESDAY,11:00,11:50,Engineering Graphics,Mr. Dr.S.Kumar,D210
-WEDNESDAY,15:00,15:50,Engineering Graphics,Mr. Dr.S.Kumar,D209
-WEDNESDAY,10:00,10:50,Engineering Graphics,Mr. Dr.S.Kumar,D210
-WEDNESDAY,11:00,11:50,Programming using C,Mr. Dr.M.Babu,D209
-SATURDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Isaac Asimov Laboratory
-WEDNESDAY,08:00,09:40,Programming using C,Mr. Dr.M.Babu,Diagnostic and Therapeutic Equipment Lab
-TUESDAY,08:00,09:40,Programming using C,Mr. Dr.M.Babu,Diagnostic and Therapeutic Equipment Lab
-TUESDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Airframe Repair and Aero Engine Lab
-THURSDAY,15:00,16:40,Programming using C,Mr. Dr.M.Babu,Isaac Asimov Laboratory
-THURSDAY,13:20,15:00,Programming using C,Mr. Dr.M.Babu,Electronics and Instrumentation
-THURSDAY,12:00,12:50,Linear Algebra and Calculus,Dr. Vikram S T,D205
-SATURDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vikram S T,D205
-THURSDAY,09:00,09:50,Linear Algebra and Calculus,Dr. Vikram S T,D209
-THURSDAY,10:00,10:50,Linear Algebra and Calculus,Dr. Vikram S T,D210
-THURSDAY,11:00,11:50,Technical Communication -I,Mr. Dinakaran S,D210
-TUESDAY,10:00,10:50,Technical Communication -I,Mr. Dinakaran S,D211
-FRIDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
-SATURDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
-FRIDAY,08:00,08:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205
-FRIDAY,12:00,12:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205
-FRIDAY,13:00,13:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205
+TUESDAY,12:00,12:50,Heritage Of Tamils,Ms. Rajalakshmi B,A108
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,B415
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,A108
+SATURDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,D209
+FRIDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+SATURDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Dr. P. Thirusenthil Kumaran,Basic Electronics Lab-1
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+WEDNESDAY,08:00,08:50,Engineering Graphics,Mr. Dr.S.Kumar,D205
+TUESDAY,10:00,10:50,Programming using C,Mr. Dr.M.Babu,B210
+SATURDAY,16:00,16:50,Programming using C,Mr. Dr.M.Babu,A202
+WEDNESDAY,09:00,09:50,Programming using C,Mr. Dr.M.Babu,B415
+SATURDAY,10:00,11:40,Programming using C,Mr. Dr.M.Babu,TLFL5
+TUESDAY,13:20,15:00,Programming using C,Mr. Dr.M.Babu,TLFR2
+FRIDAY,08:00,09:40,Programming using C,Mr. Dr.M.Babu,TLFL1
+WEDNESDAY,11:50,13:20,Programming using C,Mr. Dr.M.Babu,KFL01
+WEDNESDAY,15:00,15:50,Linear Algebra and Calculus,Dr. Vikram S T,A205
+FRIDAY,10:00,10:50,Linear Algebra and Calculus,Dr. Vikram S T,B213
+FRIDAY,13:00,13:50,Linear Algebra and Calculus,Dr. Vikram S T,B210
+FRIDAY,11:00,11:50,Linear Algebra and Calculus,Dr. Vikram S T,A205
+SATURDAY,14:00,14:50,Technical Communication -I,Mr. Dinakaran S,D209
+THURSDAY,12:00,12:50,Technical Communication -I,Mr. Dinakaran S,D209
+THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
+THURSDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Mr. A.E. Prabhu,Engineering Practices Lab (Electrical)
+FRIDAY,14:00,14:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D702
+TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,B213
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D205

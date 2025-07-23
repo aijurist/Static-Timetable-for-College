@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,13:00,13:50,Programming using C,AIDS 1.5,D204
-THURSDAY,13:20,15:00,Programming using C,AIDS 1.5,Isaac Asimov Laboratory
-TUESDAY,15:00,16:40,Programming using C,AIDS 1.5,Diagnostic and Therapeutic Equipment Lab
-WEDNESDAY,10:00,11:40,Programming using C,AIDS 1.5,Medical Image Processing Lab
-WEDNESDAY,13:20,15:00,Programming using C,AIDS 1.5,Diagnostic and Therapeutic Equipment Lab
-WEDNESDAY,15:00,16:40,Programming using C,AIDS 1.5,Aerodynamics Lab
-TUESDAY,15:00,16:40,Programming using C,AIDS 1.5,Aerodynamics Lab
+TUESDAY,12:00,12:50,Programming using C,AIDS 1.5,C307
+THURSDAY,15:00,15:50,Programming using C,AIDS 1.5,B409
+SATURDAY,15:00,15:50,Programming using C,AIDS 1.5,B322
+FRIDAY,11:50,13:20,Programming using C,AIDS 1.5,TLFR2
+THURSDAY,11:50,13:20,Programming using C,AIDS 1.5,TLFL5
+SATURDAY,10:00,11:40,Programming using C,AIDS 1.5,TLGL4
+THURSDAY,13:20,15:00,Programming using C,AIDS 1.5,TLFL3

@@ -1,4 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,16:00,16:50,Environmental Science and Engineering,IT 1.2,D205
-TUESDAY,08:00,08:50,Environmental Science and Engineering,IT 1.2,D302
-THURSDAY,16:00,16:50,Environmental Science and Engineering,IT 1.2,D209
+WEDNESDAY,15:00,15:50,Environmental Science and Engineering,IT 1.2,D205
+FRIDAY,15:00,15:50,Environmental Science and Engineering,IT 1.2,B415
+FRIDAY,08:00,08:50,Environmental Science and Engineering,IT 1.2,A310
+FRIDAY,10:00,10:50,Chemistry For Electronics Engineering,BME 1.2,A305
+SATURDAY,10:00,10:50,Chemistry For Electronics Engineering,BME 1.2,D410
+WEDNESDAY,08:00,08:50,Chemistry For Electronics Engineering,BME 1.2,D309
+SATURDAY,13:20,15:00,Chemistry For Electronics Engineering,BME 1.2,Chemistry Lab
+WEDNESDAY,13:20,15:00,Chemistry For Electronics Engineering,BME 1.2,Chemistry Lab

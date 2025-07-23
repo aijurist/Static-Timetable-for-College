@@ -1,5 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,10:00,10:50,Transforms and Applied Partial Differential Equations,AERO 2.1,B417
-FRIDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,AERO 2.1,C307
-TUESDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,AERO 2.1,B212
-SATURDAY,12:00,12:50,Transforms and Applied Partial Differential Equations,AERO 2.1,B107
+THURSDAY,09:00,09:50,Algebra and Calculus,AUTO 1.1,A110
+TUESDAY,10:00,10:50,Algebra and Calculus,AUTO 1.1,C307
+FRIDAY,15:00,15:50,Algebra and Calculus,AUTO 1.1,B213
+FRIDAY,11:00,11:50,Algebra and Calculus,AUTO 1.1,A209
+WEDNESDAY,10:00,10:50,Algebra and Calculus,BT 1.2,B325
+WEDNESDAY,14:00,14:50,Algebra and Calculus,BT 1.2,D305
+FRIDAY,16:00,16:50,Algebra and Calculus,BT 1.2,C202
+THURSDAY,14:00,14:50,Algebra and Calculus,BT 1.2,D305

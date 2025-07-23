@@ -1,0 +1,4942 @@
+=== CONSTRAINT VIOLATION ANALYSIS REPORT ===
+Generated at: 2025-07-22 19:57:56
+Final Score: -191981hard/-105529soft
+
+SUMMARY:
+--------
+⚠️ Found 984 total constraint violations
+   🔴 Critical: 698 violations
+   🟠 Hard:     286 violations
+
+DETAILED VIOLATIONS:
+-------------------
+
+[CRITICAL] Room Conflict
+  Room 209 is double-booked at THURSDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-269 | Course: EC23131 | Group: ECE 1.1
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 209
+
+[CRITICAL] Room Conflict
+  Room 209 is double-booked at THURSDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1313 | Course: GE23122 | Group: AIML 1.1
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 209
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1563 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room D311 is double-booked at SATURDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1564 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-511 | Course: EE23133 | Group: IT 1.3
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1325 | Course: EE23133 | Group: AIML 1.1
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-543 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-544 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 08:00-08:50 with 5 other lessons
+  Lesson: L-545 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-550 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at WEDNESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-551 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1429 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D310 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1430 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-648 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-649 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-537 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-538 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D210 is double-booked at TUESDAY 09:00-09:50 with 5 other lessons
+  Lesson: L-539 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1250 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1251 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at FRIDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-1252 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-806 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D205 is double-booked at MONDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-807 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-855 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-856 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D302 is double-booked at TUESDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-857 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-47 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-48 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 15:00-15:50 with 5 other lessons
+  Lesson: L-49 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-42 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D110 is double-booked at WEDNESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-43 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1257 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at FRIDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-1258 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-850 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-851 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-861 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-862 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D305 is double-booked at TUESDAY 11:00-11:50 with 5 other lessons
+  Lesson: L-863 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-793 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-794 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at FRIDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-795 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-531 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-532 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 13:00-13:50 with 5 other lessons
+  Lesson: L-533 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-682 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D211 is double-booked at TUESDAY 12:00-12:50 with 5 other lessons
+  Lesson: L-683 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-525 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-526 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D209 is double-booked at TUESDAY 10:00-10:50 with 5 other lessons
+  Lesson: L-527 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1434 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1435 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room D309 is double-booked at SATURDAY 16:00-16:50 with 5 other lessons
+  Lesson: L-1436 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-399 | Course: EE23133 | Group: AIDS 1.1
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-501 | Course: EE23133 | Group: IT 1.1
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 15:00-16:40 (Lab) with 1 other lessons
+  Lesson: L-1127 | Course: EE23133 | Group: CSE 1.5
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 15:00-16:40 (Lab) with 1 other lessons
+  Lesson: L-1162 | Course: EE23133 | Group: CSE 1.12
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-1138 | Course: EE23133 | Group: CSE 1.7
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-1167 | Course: EE23133 | Group: CSE 1.13
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 11:50-13:20 (Lab) with 1 other lessons
+  Lesson: L-420 | Course: EE23133 | Group: AIDS 1.5
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 11:50-13:20 (Lab) with 1 other lessons
+  Lesson: L-1580 | Course: EE23133 | Group: AERO 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-419 | Course: EE23133 | Group: AIDS 1.5
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-500 | Course: EE23133 | Group: IT 1.1
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-39
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-40
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-41
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-42
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-43
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-40
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-41
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-42
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-43
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-41
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-42
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-43
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-42
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-43
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Arumugam is double-booked: conflicts with lesson L-43
+  Lesson: L-42 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-45
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-46
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-47
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-48
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-49
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-46
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-47
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-48
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-49
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-47
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-48
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-49
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-48
+  Lesson: L-47 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-49
+  Lesson: L-47 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramesh G is double-booked: conflicts with lesson L-49
+  Lesson: L-48 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-523
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-524
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-525
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-526
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-527
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-524
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-525
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-526
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-527
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-525
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-526
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-527
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-526
+  Lesson: L-525 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-527
+  Lesson: L-525 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr P. Muthaimanoj is double-booked: conflicts with lesson L-527
+  Lesson: L-526 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-529
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-530
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-531
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-532
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-533
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-530
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-531
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-532
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-533
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-531
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-532
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-533
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-532
+  Lesson: L-531 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-533
+  Lesson: L-531 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Arun Prakash N is double-booked: conflicts with lesson L-533
+  Lesson: L-532 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-535
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-536
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-537
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-538
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-539
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-536
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-537
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-538
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-539
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-537
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-538
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-539
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-538
+  Lesson: L-537 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-539
+  Lesson: L-537 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Ct.Muthiah is double-booked: conflicts with lesson L-539
+  Lesson: L-538 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-541
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-542
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-543
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-544
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-545
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-542
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-543
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-544
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-545
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-543
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-544
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-545
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-544
+  Lesson: L-543 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-545
+  Lesson: L-543 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Dr.S.Kumar is double-booked: conflicts with lesson L-545
+  Lesson: L-544 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-547
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-548
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-549
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-550
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-551
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-548
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-549
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-550
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-551
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-549
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-550
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-551
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-550
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-551
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. R.Dhanaraj is double-booked: conflicts with lesson L-551
+  Lesson: L-550 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-645
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-646
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-647
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-648
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-649
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-646
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-647
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-648
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-649
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-647
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-648
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-649
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-648
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-649
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P.Vimalanathan is double-booked: conflicts with lesson L-649
+  Lesson: L-648 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-679
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-680
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-681
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-682
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-683
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-680
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-681
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-682
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-683
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-681
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-682
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-683
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-682
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-683
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Ramkumar S is double-booked: conflicts with lesson L-683
+  Lesson: L-682 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-791
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-792
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-793
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-794
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-795
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-792
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-793
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-794
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-795
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-793
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-794
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-795
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-794
+  Lesson: L-793 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-795
+  Lesson: L-793 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mrs. B.Mullai Sudaroli is double-booked: conflicts with lesson L-795
+  Lesson: L-794 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-803
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-804
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-805
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-806
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-807
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-804
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-805
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-806
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-807
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-805
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-806
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-807
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-806
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-807
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. M.S.Natarajan is double-booked: conflicts with lesson L-807
+  Lesson: L-806 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-847
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-848
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-849
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-850
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-851
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-848
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-849
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-850
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-851
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-849
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-850
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-851
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-850
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-851
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Parthiban.N is double-booked: conflicts with lesson L-851
+  Lesson: L-850 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-853
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-854
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-855
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-856
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-857
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-854
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-855
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-856
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-857
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-855
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-856
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-857
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-856
+  Lesson: L-855 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-857
+  Lesson: L-855 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Dr. Rajesh Kumar B is double-booked: conflicts with lesson L-857
+  Lesson: L-856 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-859
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-860
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-861
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-862
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-863
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-860
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-861
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-862
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-863
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-861
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-862
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-863
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-862
+  Lesson: L-861 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-863
+  Lesson: L-861 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. P T Dineshkumar is double-booked: conflicts with lesson L-863
+  Lesson: L-862 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1248
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1249
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1250
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1251
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1252
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1249
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1250
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1251
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1252
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1250
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1251
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1252
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1251
+  Lesson: L-1250 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1252
+  Lesson: L-1250 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Vinoth Babu N is double-booked: conflicts with lesson L-1252
+  Lesson: L-1251 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1254
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1255
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1256
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1257
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1258
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1255
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1256
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1257
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1258
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1256
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1257
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1258
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1257
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1258
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Abraham Anthony D is double-booked: conflicts with lesson L-1258
+  Lesson: L-1257 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1426
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1427
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1428
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1429
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1430
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1427
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1428
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1429
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1430
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1428
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1429
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1430
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1429
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1430
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. L S Tamizhselvan is double-booked: conflicts with lesson L-1430
+  Lesson: L-1429 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1432
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1433
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1434
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1435
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1436
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1433
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1434
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1435
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1436
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1434
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1435
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1436
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1435
+  Lesson: L-1434 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1436
+  Lesson: L-1434 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. Rajkumar.M is double-booked: conflicts with lesson L-1436
+  Lesson: L-1435 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1560
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1561
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1562
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1563
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1564
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1561
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1562
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1563
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1564
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1562
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1563
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1564
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1563
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1564
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Teacher Conflict
+  Teacher Mr. D.L. Vasthadu Vasu Kannah is double-booked: conflicts with lesson L-1564
+  Lesson: L-1563 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-39
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-40
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-41
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-42
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-43
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-40
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-41
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-42
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-43
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-41
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-42
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-43
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-42
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-43
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.1 is double-booked: conflicts with lesson L-43
+  Lesson: L-42 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-45
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-46
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-47
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-48
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-49
+  Lesson: L-44 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-46
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-47
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-48
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-49
+  Lesson: L-45 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-47
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-48
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-49
+  Lesson: L-46 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-48
+  Lesson: L-47 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-49
+  Lesson: L-47 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group EEE 1.2 is double-booked: conflicts with lesson L-49
+  Lesson: L-48 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 15:00-15:50 | Room: D110
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-523
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-524
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-525
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-526
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-527
+  Lesson: L-522 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-524
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-525
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-526
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-527
+  Lesson: L-523 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-525
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-526
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-527
+  Lesson: L-524 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-526
+  Lesson: L-525 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-527
+  Lesson: L-525 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.1 is double-booked: conflicts with lesson L-527
+  Lesson: L-526 | Course: GE23111 | Group: IT 1.1
+  Time: TUESDAY 10:00-10:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-529
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-530
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-531
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-532
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-533
+  Lesson: L-528 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-530
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-531
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-532
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-533
+  Lesson: L-529 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-531
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-532
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-533
+  Lesson: L-530 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-532
+  Lesson: L-531 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-533
+  Lesson: L-531 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.2 is double-booked: conflicts with lesson L-533
+  Lesson: L-532 | Course: GE23111 | Group: IT 1.2
+  Time: TUESDAY 13:00-13:50 | Room: D209
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-535
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-536
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-537
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-538
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-539
+  Lesson: L-534 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-536
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-537
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-538
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-539
+  Lesson: L-535 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-537
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-538
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-539
+  Lesson: L-536 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-538
+  Lesson: L-537 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-539
+  Lesson: L-537 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.3 is double-booked: conflicts with lesson L-539
+  Lesson: L-538 | Course: GE23111 | Group: IT 1.3
+  Time: TUESDAY 09:00-09:50 | Room: D210
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-541
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-542
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-543
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-544
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-545
+  Lesson: L-540 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-542
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-543
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-544
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-545
+  Lesson: L-541 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-543
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-544
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-545
+  Lesson: L-542 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-544
+  Lesson: L-543 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-545
+  Lesson: L-543 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.4 is double-booked: conflicts with lesson L-545
+  Lesson: L-544 | Course: GE23111 | Group: IT 1.4
+  Time: WEDNESDAY 08:00-08:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-547
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-548
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-549
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-550
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-551
+  Lesson: L-546 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-548
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-549
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-550
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-551
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-549
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-550
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-551
+  Lesson: L-548 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-550
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-551
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group IT 1.5 is double-booked: conflicts with lesson L-551
+  Lesson: L-550 | Course: GE23111 | Group: IT 1.5
+  Time: WEDNESDAY 10:00-10:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-645
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-646
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-647
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-648
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-649
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-646
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-647
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-648
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-649
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-647
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-648
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-649
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-648
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-649
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group R&A 1.1 is double-booked: conflicts with lesson L-649
+  Lesson: L-648 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-679
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-680
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-681
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-682
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-683
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-680
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-681
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-682
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-683
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-681
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-682
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-683
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-682
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-683
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group FT 1.1 is double-booked: conflicts with lesson L-683
+  Lesson: L-682 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-791
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-792
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-793
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-794
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-795
+  Lesson: L-790 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-792
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-793
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-794
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-795
+  Lesson: L-791 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-793
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-794
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-795
+  Lesson: L-792 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-794
+  Lesson: L-793 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-795
+  Lesson: L-793 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group AUTO 1.1 is double-booked: conflicts with lesson L-795
+  Lesson: L-794 | Course: GE23111 | Group: AUTO 1.1
+  Time: FRIDAY 16:00-16:50 | Room: D211
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-803
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-804
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-805
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-806
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-807
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-804
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-805
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-806
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-807
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-805
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-806
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-807
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-806
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-807
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group CHEM 1.1 is double-booked: conflicts with lesson L-807
+  Lesson: L-806 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-847
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-848
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-849
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-850
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-851
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-848
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-849
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-850
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-851
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-849
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-850
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-851
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-850
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-851
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.1 is double-booked: conflicts with lesson L-851
+  Lesson: L-850 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-853
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-854
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-855
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-856
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-857
+  Lesson: L-852 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-854
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-855
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-856
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-857
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-855
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-856
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-857
+  Lesson: L-854 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-856
+  Lesson: L-855 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-857
+  Lesson: L-855 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.2 is double-booked: conflicts with lesson L-857
+  Lesson: L-856 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 16:00-16:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-859
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-860
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-861
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-862
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-863
+  Lesson: L-858 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-860
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-861
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-862
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-863
+  Lesson: L-859 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-861
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-862
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-863
+  Lesson: L-860 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-862
+  Lesson: L-861 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-863
+  Lesson: L-861 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BT 1.3 is double-booked: conflicts with lesson L-863
+  Lesson: L-862 | Course: GE23111 | Group: BT 1.3
+  Time: TUESDAY 11:00-11:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1248
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1249
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1250
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1251
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1252
+  Lesson: L-1247 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1249
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1250
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1251
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1252
+  Lesson: L-1248 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1250
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1251
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1252
+  Lesson: L-1249 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1251
+  Lesson: L-1250 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1252
+  Lesson: L-1250 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.1 is double-booked: conflicts with lesson L-1252
+  Lesson: L-1251 | Course: GE23111 | Group: MECH 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D302
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1254
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1255
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1256
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1257
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1258
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1255
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1256
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1257
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1258
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1256
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1257
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1258
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1257
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1258
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group MECH 1.2 is double-booked: conflicts with lesson L-1258
+  Lesson: L-1257 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1426
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1427
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1428
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1429
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1430
+  Lesson: L-1425 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1427
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1428
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1429
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1430
+  Lesson: L-1426 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1428
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1429
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1430
+  Lesson: L-1427 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1429
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1430
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.1 is double-booked: conflicts with lesson L-1430
+  Lesson: L-1429 | Course: GE23111 | Group: BME 1.1
+  Time: FRIDAY 13:00-13:50 | Room: D310
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1432
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1433
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1434
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1435
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1436
+  Lesson: L-1431 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1433
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1434
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1435
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1436
+  Lesson: L-1432 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1434
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1435
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1436
+  Lesson: L-1433 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1435
+  Lesson: L-1434 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1436
+  Lesson: L-1434 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group BME 1.2 is double-booked: conflicts with lesson L-1436
+  Lesson: L-1435 | Course: GE23111 | Group: BME 1.2
+  Time: SATURDAY 16:00-16:50 | Room: D309
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1560
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1561
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1562
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1563
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1564
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1561
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1562
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1563
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1564
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1562
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1563
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1564
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1563
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1564
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[CRITICAL] Student Group Conflict
+  Student group AERO 1.1 is double-booked: conflicts with lesson L-1564
+  Lesson: L-1563 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-429 | Course: PH23132 | Group: AIDS 1.1
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-445 | Course: PH23132 | Group: AIDS 1.5
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-449 | Course: PH23132 | Group: AIDS 1.6
+  Time: FRIDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-765 | Course: PH23132 | Group: CSE-CS 1.1
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-769 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: WEDNESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1016 | Course: PH23132 | Group: CSE 1.1
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1020 | Course: PH23132 | Group: CSE 1.2
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1024 | Course: PH23132 | Group: CSE 1.3
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1028 | Course: PH23132 | Group: CSE 1.4
+  Time: FRIDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1032 | Course: PH23132 | Group: CSE 1.5
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1040 | Course: PH23132 | Group: CSE 1.7
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1044 | Course: PH23132 | Group: CSE 1.8
+  Time: FRIDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1052 | Course: PH23132 | Group: CSE 1.10
+  Time: TUESDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1056 | Course: PH23132 | Group: CSE 1.11
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1060 | Course: PH23132 | Group: CSE 1.12
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1064 | Course: PH23132 | Group: CSE 1.13
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1300 | Course: PH23132 | Group: AIML 1.1
+  Time: TUESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1304 | Course: PH23132 | Group: AIML 1.2
+  Time: SATURDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1568 | Course: PH23131 | Group: AERO 1.1
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 15:00-15:50
+  Lesson: L-108 | Course: CY23131 | Group: ECE 1.4
+  Time: TUESDAY 15:00-15:50 | Room: CH01
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 13:00-13:50
+  Lesson: L-128 | Course: CY23131 | Group: ECE 1.8
+  Time: THURSDAY 13:00-13:50 | Room: CH01
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 08:00-08:50
+  Lesson: L-279 | Course: EC23131 | Group: ECE 1.3
+  Time: TUESDAY 08:00-08:50 | Room: 209
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 14:00-14:50
+  Lesson: L-345 | Course: GE23122 | Group: AIDS 1.5
+  Time: WEDNESDAY 14:00-14:50 | Room: 208
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 09:00-09:50
+  Lesson: L-405 | Course: EE23133 | Group: AIDS 1.2
+  Time: SATURDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 09:00-09:50
+  Lesson: L-409 | Course: EE23133 | Group: AIDS 1.3
+  Time: FRIDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 16:00-16:50
+  Lesson: L-414 | Course: EE23133 | Group: AIDS 1.4
+  Time: TUESDAY 16:00-16:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 10:00-10:50
+  Lesson: L-506 | Course: EE23133 | Group: IT 1.2
+  Time: THURSDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 08:00-08:50
+  Lesson: L-510 | Course: EE23133 | Group: IT 1.3
+  Time: THURSDAY 08:00-08:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 13:00-13:50
+  Lesson: L-521 | Course: EE23133 | Group: IT 1.5
+  Time: TUESDAY 13:00-13:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 09:00-09:50
+  Lesson: L-625 | Course: GE23122 | Group: IT 1.5
+  Time: WEDNESDAY 09:00-09:50 | Room: 209
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 09:00-09:50
+  Lesson: L-750 | Course: EE23133 | Group: CSE-CS 1.1
+  Time: THURSDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 16:00-16:50
+  Lesson: L-751 | Course: EE23133 | Group: CSE-CS 1.1
+  Time: FRIDAY 16:00-16:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 16:00-16:50
+  Lesson: L-760 | Course: EE23133 | Group: CSE-CS 1.3
+  Time: THURSDAY 16:00-16:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 12:00-12:50
+  Lesson: L-761 | Course: EE23133 | Group: CSE-CS 1.3
+  Time: FRIDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 09:00-09:50
+  Lesson: L-1112 | Course: EE23133 | Group: CSE 1.2
+  Time: TUESDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 15:00-15:50
+  Lesson: L-1113 | Course: EE23133 | Group: CSE 1.2
+  Time: FRIDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 10:00-10:50
+  Lesson: L-1118 | Course: EE23133 | Group: CSE 1.3
+  Time: TUESDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 13:00-13:50
+  Lesson: L-1122 | Course: EE23133 | Group: CSE 1.4
+  Time: THURSDAY 13:00-13:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 11:00-11:50
+  Lesson: L-1123 | Course: EE23133 | Group: CSE 1.4
+  Time: WEDNESDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 14:00-14:50
+  Lesson: L-1128 | Course: EE23133 | Group: CSE 1.5
+  Time: FRIDAY 14:00-14:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 08:00-08:50
+  Lesson: L-1133 | Course: EE23133 | Group: CSE 1.6
+  Time: MONDAY 08:00-08:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 15:00-15:50
+  Lesson: L-1137 | Course: EE23133 | Group: CSE 1.7
+  Time: TUESDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 10:00-10:50
+  Lesson: L-1142 | Course: EE23133 | Group: CSE 1.8
+  Time: WEDNESDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 15:00-15:50
+  Lesson: L-1143 | Course: EE23133 | Group: CSE 1.8
+  Time: THURSDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 14:00-14:50
+  Lesson: L-1147 | Course: EE23133 | Group: CSE 1.9
+  Time: TUESDAY 14:00-14:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 12:00-12:50
+  Lesson: L-1148 | Course: EE23133 | Group: CSE 1.9
+  Time: THURSDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 12:00-12:50
+  Lesson: L-1153 | Course: EE23133 | Group: CSE 1.10
+  Time: WEDNESDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 11:00-11:50
+  Lesson: L-1157 | Course: EE23133 | Group: CSE 1.11
+  Time: TUESDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 09:00-09:50
+  Lesson: L-1163 | Course: EE23133 | Group: CSE 1.12
+  Time: MONDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 15:00-15:50
+  Lesson: L-1324 | Course: EE23133 | Group: AIML 1.1
+  Time: WEDNESDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 10:00-10:50
+  Lesson: L-1335 | Course: EE23133 | Group: AIML 1.3
+  Time: FRIDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 13:00-13:50
+  Lesson: L-1547 | Course: GE23122 | Group: MCT 1.2
+  Time: FRIDAY 13:00-13:50 | Room: 208
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 12:00-12:50
+  Lesson: L-1581 | Course: EE23133 | Group: AERO 1.1
+  Time: TUESDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-429 | Course: PH23132 | Group: AIDS 1.1
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-445 | Course: PH23132 | Group: AIDS 1.5
+  Time: WEDNESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-449 | Course: PH23132 | Group: AIDS 1.6
+  Time: FRIDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-765 | Course: PH23132 | Group: CSE-CS 1.1
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-769 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: WEDNESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1016 | Course: PH23132 | Group: CSE 1.1
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1020 | Course: PH23132 | Group: CSE 1.2
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1024 | Course: PH23132 | Group: CSE 1.3
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1028 | Course: PH23132 | Group: CSE 1.4
+  Time: FRIDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1032 | Course: PH23132 | Group: CSE 1.5
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1040 | Course: PH23132 | Group: CSE 1.7
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1044 | Course: PH23132 | Group: CSE 1.8
+  Time: FRIDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1052 | Course: PH23132 | Group: CSE 1.10
+  Time: TUESDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1056 | Course: PH23132 | Group: CSE 1.11
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1060 | Course: PH23132 | Group: CSE 1.12
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1064 | Course: PH23132 | Group: CSE 1.13
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: THURSDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1300 | Course: PH23132 | Group: AIML 1.1
+  Time: TUESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1304 | Course: PH23132 | Group: AIML 1.2
+  Time: SATURDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1568 | Course: PH23131 | Group: AERO 1.1
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1450 | Course: GE23121 | Group: BME 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.7 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1181 | Course: HS23111 | Group: CSE 1.7
+  Time: WEDNESDAY 12:00-12:50 | Room: D405
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on MONDAY
+  Lesson: L-1086 | Course: MC23111 | Group: CSE 1.8
+  Time: MONDAY 12:00-12:50 | Room: B424
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-225 | Course: GE23131 | Group: ECE 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: D612
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-490 | Course: GE23131 | Group: AIDS 1.6
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: TLFL4
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on TUESDAY
+  Lesson: L-975 | Course: GE23131 | Group: CSE 1.8
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: JL3
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on TUESDAY
+  Lesson: L-1210 | Course: GE23121 | Group: CSE 1.8
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 205
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.12 has insufficient lunch break on FRIDAY
+  Lesson: L-1218 | Course: GE23121 | Group: CSE 1.12
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1493 | Course: MA23114 | Group: CSBS 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D704
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-717 | Course: GE23131 | Group: CSE-CS 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: TLGL3
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.7 has insufficient lunch break on THURSDAY
+  Lesson: L-156 | Course: MA23111 | Group: ECE 1.7
+  Time: THURSDAY 12:00-12:50 | Room: C308
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-194 | Course: MC23111 | Group: ECE 1.3
+  Time: THURSDAY 12:00-12:50 | Room: B320
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1581 | Course: EE23133 | Group: AERO 1.1
+  Time: TUESDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-82 | Course: CY23131 | Group: EEE 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D204
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-234 | Course: GE23131 | Group: ECE 1.4
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: KSL03
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-97 | Course: CY23131 | Group: ECE 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: A108
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on WEDNESDAY
+  Lesson: L-422 | Course: EE23133 | Group: AIDS 1.6
+  Time: WEDNESDAY 12:00-12:50 | Room: D310
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-131 | Course: MA23111 | Group: ECE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: B410
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on FRIDAY
+  Lesson: L-247 | Course: GE23131 | Group: ECE 1.6
+  Time: FRIDAY 12:00-12:50 | Room: D709
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-846 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-847 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-848 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-849 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-850 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-851 | Course: GE23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-802 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-803 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-804 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-805 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-806 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-807 | Course: GE23111 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-902 | Course: HS23111 | Group: BT 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B416
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on SATURDAY
+  Lesson: L-387 | Course: MC23111 | Group: AIDS 1.4
+  Time: SATURDAY 12:00-12:50 | Room: B401
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1326 | Course: EE23133 | Group: AIML 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B402
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-315 | Course: MA23116 | Group: AIDS 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D309
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1505 | Course: MC23111 | Group: CSBS 1.1
+  Time: MONDAY 12:00-12:50 | Room: B426
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1254 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1255 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1256 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1257 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1258 | Course: GE23111 | Group: MECH 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-369 | Course: MC23112 | Group: AIDS 1.4
+  Time: FRIDAY 12:00-12:50 | Room: B408
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on FRIDAY
+  Lesson: L-129 | Course: CY23131 | Group: ECE 1.8
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on FRIDAY
+  Lesson: L-262 | Course: GE23131 | Group: ECE 1.8
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: TLGL1
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-761 | Course: EE23133 | Group: CSE-CS 1.3
+  Time: FRIDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on FRIDAY
+  Lesson: L-519 | Course: EE23133 | Group: IT 1.5
+  Time: FRIDAY 12:00-12:50 | Room: D512
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-143 | Course: MA23111 | Group: ECE 1.4
+  Time: WEDNESDAY 12:00-12:50 | Room: D511
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-1333 | Course: EE23133 | Group: AIML 1.3
+  Time: TUESDAY 12:00-12:50 | Room: D702
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1340 | Course: EE23133 | Group: AIML 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-715 | Course: GE23131 | Group: CSE-CS 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: JR3
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-742 | Course: GE23121 | Group: CSE-CS 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 206
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-38 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-39 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-41 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-42 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-43 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D110
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on MONDAY
+  Lesson: L-723 | Course: GE23131 | Group: CSE-CS 1.2
+  Time: MONDAY 11:50-13:20 (Lab) | Room: JL1
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-579 | Course: GE23131 | Group: IT 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: KFL01
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-286 | Course: EC23131 | Group: ECE 1.5
+  Time: THURSDAY 12:00-12:50 | Room: B415
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1322 | Course: EE23133 | Group: AIML 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B107
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-626 | Course: GE23122 | Group: IT 1.5
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on WEDNESDAY
+  Lesson: L-251 | Course: GE23131 | Group: ECE 1.6
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: KSL03
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on TUESDAY
+  Lesson: L-259 | Course: GE23131 | Group: ECE 1.8
+  Time: TUESDAY 12:00-12:50 | Room: D203
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-460 | Course: GE23131 | Group: AIDS 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: KFL03
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-34 | Course: GE23122 | Group: EEE 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-96 | Course: CY23131 | Group: ECE 1.2
+  Time: TUESDAY 12:00-12:50 | Room: D511
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-563 | Course: GE23131 | Group: IT 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLGL3
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-368 | Course: MC23112 | Group: AIDS 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: D203
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1500 | Course: MA23114 | Group: CSBS 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: D705
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on MONDAY
+  Lesson: L-295 | Course: EC23131 | Group: ECE 1.6
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1419 | Course: CY23131 | Group: BME 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-609 | Course: HS23111 | Group: IT 1.2
+  Time: TUESDAY 12:00-12:50 | Room: D411
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on THURSDAY
+  Lesson: L-389 | Course: MC23111 | Group: AIDS 1.4
+  Time: THURSDAY 12:00-12:50 | Room: D711
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-186 | Course: MC23111 | Group: ECE 1.1
+  Time: THURSDAY 12:00-12:50 | Room: D510
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1241 | Course: PH23132 | Group: CSD 1.1
+  Time: MONDAY 12:00-12:50 | Room: D611
+
+[HARD] Mandatory Lunch Break
+  Student group CIVIL 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-4 | Course: GE23117 | Group: CIVIL 1.1
+  Time: THURSDAY 12:00-12:50 | Room: B325
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1522 | Course: HS23111 | Group: MCT 1.2
+  Time: FRIDAY 12:00-12:50 | Room: C308
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-380 | Course: MC23111 | Group: AIDS 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D310
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-729 | Course: GE23131 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: JR2
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-746 | Course: GE23121 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 206
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1491 | Course: MA23115 | Group: CSBS 1.2
+  Time: TUESDAY 12:00-12:50 | Room: C308
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1184 | Course: HS23111 | Group: CSE 1.8
+  Time: WEDNESDAY 12:00-12:50 | Room: B401
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-657 | Course: MC23112 | Group: R&A 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D202
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-37 | Course: GE23122 | Group: EEE 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-84 | Course: CY23131 | Group: EEE 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-505 | Course: EE23133 | Group: IT 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-837 | Course: BT23131 | Group: BT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 115
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on TUESDAY
+  Lesson: L-244 | Course: GE23131 | Group: ECE 1.5
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: TLGL2
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on TUESDAY
+  Lesson: L-289 | Course: EC23131 | Group: ECE 1.5
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1575 | Course: MC23112 | Group: AERO 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D202
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1473 | Course: PH23133 | Group: CSBS 1.2
+  Time: THURSDAY 12:00-12:50 | Room: A204
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.12 has insufficient lunch break on TUESDAY
+  Lesson: L-1003 | Course: GE23131 | Group: CSE 1.12
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: KFR02
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-822 | Course: BT23131 | Group: BT 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D511
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.7 has insufficient lunch break on WEDNESDAY
+  Lesson: L-252 | Course: GE23131 | Group: ECE 1.7
+  Time: WEDNESDAY 12:00-12:50 | Room: B418
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.11 has insufficient lunch break on MONDAY
+  Lesson: L-993 | Course: GE23131 | Group: CSE 1.11
+  Time: MONDAY 12:00-12:50 | Room: A309
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.11 has insufficient lunch break on THURSDAY
+  Lesson: L-1053 | Course: PH23132 | Group: CSE 1.11
+  Time: THURSDAY 12:00-12:50 | Room: D402
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-341 | Course: GE23122 | Group: AIDS 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-468 | Course: GE23131 | Group: AIDS 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: TLFR1
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1346 | Course: GE23131 | Group: AIML 1.1
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: TLGL2
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-1302 | Course: PH23132 | Group: AIML 1.2
+  Time: FRIDAY 12:00-12:50 | Room: B107
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-420 | Course: EE23133 | Group: AIDS 1.5
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-482 | Course: GE23131 | Group: AIDS 1.5
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLFL5
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on SATURDAY
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-463 | Course: GE23131 | Group: AIDS 1.2
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: TLFR5
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on TUESDAY
+  Lesson: L-605 | Course: MA23111 | Group: IT 1.5
+  Time: TUESDAY 12:00-12:50 | Room: D709
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on FRIDAY
+  Lesson: L-481 | Course: GE23131 | Group: AIDS 1.5
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: TLFR2
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1517 | Course: GE23117 | Group: MCT 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-396 | Course: EE23133 | Group: AIDS 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D703
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.7 has insufficient lunch break on TUESDAY
+  Lesson: L-257 | Course: GE23131 | Group: ECE 1.7
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: JL1
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-1531 | Course: EE23132 | Group: MCT 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 141
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-728 | Course: GE23131 | Group: CSE-CS 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLFR2
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.9 has insufficient lunch break on TUESDAY
+  Lesson: L-984 | Course: GE23131 | Group: CSE 1.9
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: TLGL4
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on TUESDAY
+  Lesson: L-478 | Course: GE23131 | Group: AIDS 1.5
+  Time: TUESDAY 12:00-12:50 | Room: C307
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1236 | Course: GE23131 | Group: CSD 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: TLFL5
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1544 | Course: MA23112 | Group: MCT 1.2
+  Time: TUESDAY 12:00-12:50 | Room: B409
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1263 | Course: MC23112 | Group: MECH 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D409
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1244 | Course: MC23111 | Group: CSD 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on THURSDAY
+  Lesson: L-264 | Course: GE23131 | Group: ECE 1.8
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: KSL03
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.7 has insufficient lunch break on FRIDAY
+  Lesson: L-967 | Course: GE23131 | Group: CSE 1.7
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: TLFR1
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-724 | Course: GE23131 | Group: CSE-CS 1.2
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: JL2
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-191 | Course: MC23111 | Group: ECE 1.2
+  Time: THURSDAY 12:00-12:50 | Room: D710
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.5 has insufficient lunch break on WEDNESDAY
+  Lesson: L-954 | Course: GE23131 | Group: CSE 1.5
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: TLGL1
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.5 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1204 | Course: GE23121 | Group: CSE 1.5
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on FRIDAY
+  Lesson: L-290 | Course: EC23131 | Group: ECE 1.5
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-312 | Course: MA23116 | Group: AIDS 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D209
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on TUESDAY
+  Lesson: L-477 | Course: GE23131 | Group: AIDS 1.4
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: KFL01
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1071 | Course: MC23111 | Group: CSE 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group AUTO 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-780 | Course: PH23131 | Group: AUTO 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-431 | Course: PH23132 | Group: AIDS 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B405
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on SATURDAY
+  Lesson: L-376 | Course: MC23112 | Group: AIDS 1.6
+  Time: SATURDAY 12:00-12:50 | Room: A204
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-744 | Course: GE23121 | Group: CSE-CS 1.2
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 206
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-323 | Course: MA23116 | Group: AIDS 1.3
+  Time: THURSDAY 12:00-12:50 | Room: B321
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.10 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1153 | Course: EE23133 | Group: CSE 1.10
+  Time: WEDNESDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-741 | Course: GE23121 | Group: CSE-CS 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 206
+
+[HARD] Mandatory Lunch Break
+  Student group CIVIL 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-11 | Course: MA23112 | Group: CIVIL 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: A204
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-644 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-645 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-646 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-647 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-648 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-649 | Course: GE23111 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-820 | Course: MA23112 | Group: CHEM 1.1
+  Time: THURSDAY 12:00-12:50 | Room: A209
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-152 | Course: MA23111 | Group: ECE 1.6
+  Time: TUESDAY 12:00-12:50 | Room: C102
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on MONDAY
+  Lesson: L-98 | Course: CY23131 | Group: ECE 1.2
+  Time: MONDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-55 | Course: GE23131 | Group: EEE 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLFL2
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-70 | Course: GE23122 | Group: EEE 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-909 | Course: GE23117 | Group: CSE 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B210
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1580 | Course: EE23133 | Group: AERO 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1559 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1560 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1561 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1562 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1563 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1564 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on MONDAY
+  Lesson: L-948 | Course: GE23131 | Group: CSE 1.4
+  Time: MONDAY 11:50-13:20 (Lab) | Room: TLGL1
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1359 | Course: GE23131 | Group: AIML 1.3
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: JR1
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1328 | Course: EE23133 | Group: AIML 1.2
+  Time: TUESDAY 12:00-12:50 | Room: D310
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1470 | Course: PH23133 | Group: CSBS 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.9 has insufficient lunch break on THURSDAY
+  Lesson: L-1148 | Course: EE23133 | Group: CSE 1.9
+  Time: THURSDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.6 has insufficient lunch break on FRIDAY
+  Lesson: L-1132 | Course: EE23133 | Group: CSE 1.6
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group CIVIL 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-9 | Course: MA23112 | Group: CIVIL 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D204
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on WEDNESDAY
+  Lesson: L-158 | Course: MA23111 | Group: ECE 1.8
+  Time: WEDNESDAY 12:00-12:50 | Room: B106
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1271 | Course: PH23131 | Group: MECH 1.1
+  Time: MONDAY 12:00-12:50 | Room: D302
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1175 | Course: HS23111 | Group: CSE 1.4
+  Time: WEDNESDAY 12:00-12:50 | Room: B412
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-678 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-679 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-680 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-681 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-682 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-683 | Course: GE23111 | Group: FT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1273 | Course: PH23131 | Group: MECH 1.2
+  Time: TUESDAY 12:00-12:50 | Room: B415
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-1384 | Course: GE23117 | Group: AIML 1.4
+  Time: FRIDAY 12:00-12:50 | Room: D309
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on FRIDAY
+  Lesson: L-334 | Course: MA23116 | Group: AIDS 1.6
+  Time: FRIDAY 12:00-12:50 | Room: B422
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.9 has insufficient lunch break on FRIDAY
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-885 | Course: MC23112 | Group: BT 1.3
+  Time: FRIDAY 12:00-12:50 | Room: D203
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on THURSDAY
+  Lesson: L-116 | Course: CY23131 | Group: ECE 1.6
+  Time: THURSDAY 12:00-12:50 | Room: D405
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-133 | Course: MA23111 | Group: ECE 1.1
+  Time: TUESDAY 12:00-12:50 | Room: C101
+
+[HARD] Mandatory Lunch Break
+  Student group AUTO 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-784 | Course: AT23111 | Group: AUTO 1.1
+  Time: FRIDAY 12:00-12:50 | Room: C307
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-1205 | Course: GE23121 | Group: CSE 1.6
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-570 | Course: GE23131 | Group: IT 1.3
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: TLFR3
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1543 | Course: MA23112 | Group: MCT 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: B409
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1458 | Course: CB23131 | Group: CSBS 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: AC01
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on THURSDAY
+  Lesson: L-332 | Course: MA23116 | Group: AIDS 1.6
+  Time: THURSDAY 12:00-12:50 | Room: A104/105
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.11 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1154 | Course: EE23133 | Group: CSE 1.11
+  Time: WEDNESDAY 12:00-12:50 | Room: A309
+
+VIOLATION STATISTICS:
+--------------------
+  Mandatory Lunch Break: 190 violations
+  Lab Must Be Batched: 31 violations
+  Teacher Conflict: 285 violations
+  Room Capacity: 31 violations
+  Room Conflict: 128 violations
+  Lab in Lab Slot: 34 violations
+  Student Group Conflict: 285 violations

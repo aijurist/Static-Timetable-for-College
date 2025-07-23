@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
 THURSDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,CIVIL 1.1,Machine Shop FF1 - EPL - 1
-THURSDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,CIVIL 1.1,Machine Shop FF1 - EPL - 1
-THURSDAY,15:00,15:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,C101
-THURSDAY,16:00,16:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,D109
-FRIDAY,08:00,09:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
-FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
-FRIDAY,11:50,13:20,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
-FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,CIVIL 1.1,Auto CAD Lab
+WEDNESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,CIVIL 1.1,Machine Shop FF2 - EPL - 2
+TUESDAY,13:00,13:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,C302
+WEDNESDAY,13:00,13:50,Engineering Drawing for Civil Engineers,CIVIL 1.1,A202
+SATURDAY,11:50,13:20,Engineering Drawing for Civil Engineers,CIVIL 1.1,JR3
+FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,MEMS Lab
+FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,CIVIL 1.1,Thermal Lab 2
+SATURDAY,10:00,11:40,Engineering Drawing for Civil Engineers,CIVIL 1.1,KSL03

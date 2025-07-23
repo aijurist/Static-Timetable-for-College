@@ -1,21 +1,24 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,13:00,13:50,Social and Ethical Issues in AI,New Faculty New  Staff - 30,B411
-FRIDAY,08:00,08:50,Big Data Technology,Mrs. Sangeetha K,A103
-WEDNESDAY,18:00,18:50,Big Data Technology,Mrs. Sangeetha K,A208
-WEDNESDAY,17:00,17:50,Big Data Technology,Mrs. Sangeetha K,C307
-FRIDAY,09:50,11:30,Big Data Technology,Mrs. Sangeetha K,JL2
-FRIDAY,11:50,13:30,Big Data Technology,Mrs. Sangeetha K,TLGL3
-TUESDAY,11:00,11:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,C301
-SATURDAY,15:00,15:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,B320
-THURSDAY,09:50,11:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,JR2
-SATURDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,TLGL2
-FRIDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B415
-FRIDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A308
-SATURDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,C301
-WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,B415
-TUESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,C101
-TUESDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,KFL01
-THURSDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,KFR02
-THURSDAY,16:00,16:50,Secure Systems Engineering,Ms. R.Anitha,C201
-WEDNESDAY,13:00,13:50,Secure Systems Engineering,Ms. R.Anitha,B219
-SATURDAY,14:00,14:50,Secure Systems Engineering,Ms. R.Anitha,B322
+FRIDAY,11:00,11:50,Environmental Science and Engineering,Mrs. Dr. S. Jasmine,D702
+WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Mrs. Dr. S. Jasmine,B218
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mrs. Dr. S. Jasmine,D411
+THURSDAY,10:00,10:50,Chemistry For Electronics Engineering,Mr. V.Inbaraj Vadivel,D410
+THURSDAY,15:00,15:50,Chemistry For Electronics Engineering,Mr. V.Inbaraj Vadivel,B302
+THURSDAY,08:00,08:50,Chemistry For Electronics Engineering,Mr. V.Inbaraj Vadivel,A304
+FRIDAY,08:00,09:40,Chemistry For Electronics Engineering,Mr. V.Inbaraj Vadivel,Chemistry Lab
+TUESDAY,11:50,13:20,Chemistry For Electronics Engineering,Mr. V.Inbaraj Vadivel,Chemistry Lab
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+FRIDAY,13:00,13:50,Engineering Graphics,Mr. L S Tamizhselvan,D310
+THURSDAY,11:00,11:50,Technical Communication -I,Ms. Manasa K,C302
+WEDNESDAY,16:00,16:50,Technical Communication -I,Ms. Manasa K,D310
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,Mr. Rajkumar V,C302
+TUESDAY,11:00,11:50,Linear Algebra and Calculus,Mr. Rajkumar V,B401
+TUESDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Rajkumar V,D410
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,Mr. Rajkumar V,D410
+WEDNESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Santhanakrishnan Mamallan,Machine Shop FF2 - EPL - 2
+THURSDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,Mr. Santhanakrishnan Mamallan,Machine Shop FF1 - EPL - 1
+TUESDAY,08:00,08:50,Heritage Of Tamils,Mrs. Shanmugapriya Kumaravelu,B302

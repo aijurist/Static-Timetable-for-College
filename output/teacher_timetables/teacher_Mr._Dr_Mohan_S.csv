@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:00,08:50,Chemistry For Electronics Engineering,ECE 1.1,D109
-MONDAY,09:00,09:50,Chemistry For Electronics Engineering,ECE 1.1,D109
-MONDAY,10:00,10:50,Chemistry For Electronics Engineering,ECE 1.1,D109
-MONDAY,11:50,13:20,Chemistry For Electronics Engineering,ECE 1.1,Chemistry Lab
-MONDAY,13:20,15:00,Chemistry For Electronics Engineering,ECE 1.1,Chemistry Lab
-TUESDAY,11:00,11:50,Environmental Science and Engineering,IT 1.5,D211
-TUESDAY,14:00,14:50,Environmental Science and Engineering,IT 1.5,D211
-FRIDAY,10:00,10:50,Environmental Science and Engineering,IT 1.5,D205
+TUESDAY,14:00,14:50,Chemistry For Electronics Engineering,ECE 1.1,B320
+WEDNESDAY,15:00,15:50,Chemistry For Electronics Engineering,ECE 1.1,A305
+THURSDAY,11:00,11:50,Chemistry For Electronics Engineering,ECE 1.1,C301
+WEDNESDAY,08:00,09:40,Chemistry For Electronics Engineering,ECE 1.1,Chemistry Lab
+MONDAY,08:00,09:40,Chemistry For Electronics Engineering,ECE 1.1,Chemistry Lab
+SATURDAY,10:00,10:50,Environmental Science and Engineering,IT 1.5,B210
+FRIDAY,09:00,09:50,Environmental Science and Engineering,IT 1.5,B210
+FRIDAY,10:00,10:50,Environmental Science and Engineering,IT 1.5,B210

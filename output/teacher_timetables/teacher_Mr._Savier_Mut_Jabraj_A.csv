@@ -1,6 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Technical Communication -I,AIDS 1.6,D111
-THURSDAY,10:00,10:50,Technical Communication -I,AIDS 1.6,D202
-SATURDAY,13:00,13:50,Heritage Of Tamils,IT 1.2,D202
-MONDAY,13:00,13:50,Technical Communication -I,FT 1.1,D202
-MONDAY,12:00,12:50,Technical Communication -I,FT 1.1,D203
+TUESDAY,11:00,11:50,Technical Communication -I,AIDS 1.6,A102
+WEDNESDAY,15:00,15:50,Technical Communication -I,AIDS 1.6,A102
+SATURDAY,11:00,11:50,Heritage Of Tamils,IT 1.2,D211
+MONDAY,10:00,10:50,Technical Communication -I,FT 1.1,D709
+THURSDAY,09:00,09:50,Technical Communication -I,FT 1.1,B212
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,CSE 1.9,D510
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,CSE 1.9,C301
+MONDAY,12:00,12:50,Indian Constitution and Freedom Movement,CSE 1.9,D703

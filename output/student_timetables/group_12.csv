@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,08:00,08:50,Heritage Of Tamils,Ms. Rajalakshmi B,D109
-SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D109
-SATURDAY,15:00,15:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D109
-SATURDAY,09:00,09:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D110
-SATURDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D110
-SATURDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electrical)
-TUESDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electrical)
-TUESDAY,13:00,13:50,Technical Communication -I,Ms. Manasa K,D202
-TUESDAY,10:00,10:50,Technical Communication -I,Ms. Manasa K,D203
-TUESDAY,11:00,11:50,Environmental Science and Engineering,AIDS-NF1,D205
-TUESDAY,14:00,14:50,Environmental Science and Engineering,AIDS-NF1,D205
-TUESDAY,15:00,15:50,Environmental Science and Engineering,AIDS-NF1,D205
-SATURDAY,11:00,11:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D203
-SATURDAY,16:00,16:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D202
-TUESDAY,16:00,16:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D205
-FRIDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
-FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
-FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D111
-FRIDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
-SATURDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
-FRIDAY,12:00,12:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D203
-FRIDAY,15:00,15:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D203
-FRIDAY,09:00,09:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D204
-WEDNESDAY,10:00,11:40,Physics for Information Science,Dr. Pugazhvadivu Ks,Physics LAB - 1
-WEDNESDAY,08:00,08:50,Programming using C,surendar A,D204
-WEDNESDAY,11:50,13:20,Programming using C,surendar A,Medical Image Processing Lab
-WEDNESDAY,13:20,15:00,Programming using C,surendar A,Medical Image Processing Lab
-TUESDAY,08:00,09:40,Programming using C,surendar A,Isaac Asimov Laboratory
-FRIDAY,10:00,11:40,Programming using C,surendar A,Electronics and Instrumentation
-WEDNESDAY,15:00,16:40,Programming using C,surendar A,Isaac Asimov Laboratory
-THURSDAY,08:00,09:40,Programming using C,surendar A,Isaac Asimov Laboratory
+THURSDAY,08:00,08:50,Heritage Of Tamils,Ms. Rajalakshmi B,C308
+WEDNESDAY,12:00,12:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D209
+TUESDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Sathiragavan M,A204
+WEDNESDAY,08:00,08:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D512
+TUESDAY,12:00,12:50,Mathematical Foundations for AI,Mr. Sathiragavan M,D309
+FRIDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electronics)
+SATURDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,AIDS-NF2,Engineering Practices Lab (Electrical)
+TUESDAY,13:00,13:50,Technical Communication -I,Ms. Manasa K,D309
+THURSDAY,10:00,10:50,Technical Communication -I,Ms. Manasa K,D703
+THURSDAY,09:00,09:50,Environmental Science and Engineering,AIDS-NF1,B321
+FRIDAY,10:00,10:50,Environmental Science and Engineering,AIDS-NF1,A103
+WEDNESDAY,14:00,14:50,Environmental Science and Engineering,AIDS-NF1,B408
+WEDNESDAY,13:00,13:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),A204
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),B321
+SATURDAY,12:00,12:50,Indian Constitution and Freedom Movement,New Faculty English (NS-NFE-1),D310
+FRIDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D703
+SATURDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,D309
+FRIDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,A103
+WEDNESDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
+TUESDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mrs. V.Sivagami,Basic Electronics Lab-1
+THURSDAY,12:00,12:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D309
+WEDNESDAY,09:00,09:50,Physics for Information Science,Dr. Pugazhvadivu Ks,B408
+FRIDAY,15:00,15:50,Physics for Information Science,Dr. Pugazhvadivu Ks,A104/105
+SATURDAY,13:20,15:00,Physics for Information Science,Dr. Pugazhvadivu Ks,Physics LAB - 2
+SATURDAY,11:00,11:50,Programming using C,surendar A,D310
+FRIDAY,14:00,14:50,Programming using C,surendar A,B408
+WEDNESDAY,15:00,15:50,Programming using C,surendar A,B107
+SATURDAY,08:00,09:40,Programming using C,surendar A,JL1
+TUESDAY,08:00,09:40,Programming using C,surendar A,KFL01
+THURSDAY,13:20,15:00,Programming using C,surendar A,TLFR3
+WEDNESDAY,10:00,11:40,Programming using C,surendar A,TLGL4

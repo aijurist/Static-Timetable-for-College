@@ -1,5 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,14:00,14:50,Mathematical Foundations for AI,AIDS 1.1,D109
-SATURDAY,15:00,15:50,Mathematical Foundations for AI,AIDS 1.1,D109
-SATURDAY,09:00,09:50,Mathematical Foundations for AI,AIDS 1.1,D110
-SATURDAY,10:00,10:50,Mathematical Foundations for AI,AIDS 1.1,D110
+WEDNESDAY,12:00,12:50,Mathematical Foundations for AI,AIDS 1.1,D209
+TUESDAY,14:00,14:50,Mathematical Foundations for AI,AIDS 1.1,A204
+WEDNESDAY,08:00,08:50,Mathematical Foundations for AI,AIDS 1.1,D512
+TUESDAY,12:00,12:50,Mathematical Foundations for AI,AIDS 1.1,D309
+THURSDAY,13:00,13:50,Mathematical Foundations for AI,AIML 1.2,C302
+THURSDAY,10:00,10:50,Mathematical Foundations for AI,AIML 1.2,B107
+FRIDAY,14:00,14:50,Mathematical Foundations for AI,AIML 1.2,B320
+FRIDAY,11:00,11:50,Mathematical Foundations for AI,AIML 1.2,D309

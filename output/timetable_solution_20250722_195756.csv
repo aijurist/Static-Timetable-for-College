@@ -1,0 +1,1586 @@
+Teacher,Course,Group,Type,Day,StartTime,EndTime,Room
+Mr. Dr.S.Mohandoss,Environmental Science and Engineering,CIVIL 1.1,lecture,TUESDAY,09:00,09:50,B402
+Mr. Dr.S.Mohandoss,Environmental Science and Engineering,CIVIL 1.1,lecture,SATURDAY,15:00,15:50,D511
+Mr. Dr.S.Mohandoss,Environmental Science and Engineering,CIVIL 1.1,lecture,THURSDAY,10:00,10:50,A305
+Dr. Rajasree Baskaran,Heritage Of Tamils,CIVIL 1.1,lecture,THURSDAY,12:00,12:50,B325
+Mr. Dr Ragavendran Venkatesan,Physics of Materials,CIVIL 1.1,lecture,WEDNESDAY,14:00,14:50,D204
+Mr. Dr Ragavendran Venkatesan,Physics of Materials,CIVIL 1.1,lecture,SATURDAY,09:00,09:50,C103
+Mr. Dr Ragavendran Venkatesan,Physics of Materials,CIVIL 1.1,lecture,THURSDAY,14:00,14:50,B219
+Mr. Dr Ragavendran Venkatesan,Physics of Materials,CIVIL 1.1,lab,TUESDAY,10:00,11:40,Physics LAB - 2
+Dr. Thilagavathi R,Algebra and Calculus,CIVIL 1.1,lecture,TUESDAY,12:00,12:50,D204
+Dr. Thilagavathi R,Algebra and Calculus,CIVIL 1.1,lecture,FRIDAY,12:00,12:50,D610
+Dr. Thilagavathi R,Algebra and Calculus,CIVIL 1.1,lecture,WEDNESDAY,12:00,12:50,A204
+Dr. Thilagavathi R,Algebra and Calculus,CIVIL 1.1,tutorial,FRIDAY,16:00,16:50,A204
+Dr. Vijayalakshmi M,Technical Communication -I,CIVIL 1.1,lecture,THURSDAY,11:00,11:50,C103
+Dr. Vijayalakshmi M,Technical Communication -I,CIVIL 1.1,lecture,TUESDAY,14:00,14:50,C103
+Mr. Mahamood Ul Hasan N,Engineering Practices - Civil & Mechanical,CIVIL 1.1,lab,THURSDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+Mr. Mahamood Ul Hasan N,Engineering Practices - Civil & Mechanical,CIVIL 1.1,lab,WEDNESDAY,15:00,16:40,Machine Shop FF2 - EPL - 2
+Mrs. Yugasini S,Building Materials,CIVIL 1.1,lecture,SATURDAY,14:00,14:50,C302
+Mrs. Yugasini S,Building Materials,CIVIL 1.1,lecture,TUESDAY,15:00,15:50,D204
+Mrs. Yugasini S,Building Materials,CIVIL 1.1,lecture,WEDNESDAY,09:00,09:50,A103
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lecture,TUESDAY,13:00,13:50,C302
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lecture,WEDNESDAY,13:00,13:50,A202
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lab,SATURDAY,11:50,13:20,JR3
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lab,FRIDAY,10:00,11:40,MEMS Lab
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lab,FRIDAY,13:20,15:00,Thermal Lab 2
+Mr. Mahamood Ul Hasan N,Engineering Drawing for Civil Engineers,CIVIL 1.1,lab,SATURDAY,10:00,11:40,KSL03
+Mrs. M. Subha,Linear Algebra and Calculus,EEE 1.1,lecture,FRIDAY,10:00,10:50,D110
+Mrs. M. Subha,Linear Algebra and Calculus,EEE 1.1,lecture,TUESDAY,09:00,09:50,B410
+Mrs. M. Subha,Linear Algebra and Calculus,EEE 1.1,lecture,WEDNESDAY,16:00,16:50,C103
+Mrs. M. Subha,Linear Algebra and Calculus,EEE 1.1,tutorial,FRIDAY,11:00,11:50,B106
+Dr. Meenakumari R,Linear Algebra and Calculus,EEE 1.2,lecture,THURSDAY,16:00,16:50,D405
+Dr. Meenakumari R,Linear Algebra and Calculus,EEE 1.2,lecture,THURSDAY,12:00,12:50,D310
+Dr. Meenakumari R,Linear Algebra and Calculus,EEE 1.2,lecture,TUESDAY,09:00,09:50,B222
+Dr. Meenakumari R,Linear Algebra and Calculus,EEE 1.2,tutorial,THURSDAY,09:00,09:50,B405
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,EEE 1.1,lab,TUESDAY,11:50,13:20,Engineering Practices Lab (Electrical)
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,EEE 1.1,lab,TUESDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Mrs. Shaik Thasleem Bhanu,Engineering Practices – Electrical and Electronics,EEE 1.2,lab,THURSDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Mrs. Shaik Thasleem Bhanu,Engineering Practices – Electrical and Electronics,EEE 1.2,lab,WEDNESDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,lecture,WEDNESDAY,12:00,12:50,D110
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,lecture,WEDNESDAY,12:00,12:50,D110
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,tutorial,WEDNESDAY,12:00,12:50,D110
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,tutorial,WEDNESDAY,12:00,12:50,D110
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,tutorial,WEDNESDAY,12:00,12:50,D110
+Mr. P.Arumugam,Engineering Graphics,EEE 1.1,tutorial,WEDNESDAY,12:00,12:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,lecture,WEDNESDAY,15:00,15:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,lecture,WEDNESDAY,15:00,15:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,tutorial,WEDNESDAY,15:00,15:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,tutorial,WEDNESDAY,15:00,15:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,tutorial,WEDNESDAY,15:00,15:50,D110
+Dr. Ramesh G,Engineering Graphics,EEE 1.2,tutorial,WEDNESDAY,15:00,15:50,D110
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lecture,THURSDAY,15:00,15:50,D611
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lecture,SATURDAY,12:00,12:50,A108
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lecture,TUESDAY,10:00,10:50,C103
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lab,WEDNESDAY,10:00,11:40,JL3
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lab,WEDNESDAY,13:20,15:00,TLGL4
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lab,THURSDAY,11:50,13:20,TLFL2
+New Faculty Information Technology (NS-IT NS12),Programming using C,EEE 1.1,lab,SATURDAY,10:00,11:40,TLGL1
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lecture,TUESDAY,11:00,11:50,D405
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lecture,FRIDAY,15:00,15:50,D109
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lecture,WEDNESDAY,09:00,09:50,B411
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lab,SATURDAY,13:20,15:00,TLFR5
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lab,THURSDAY,13:20,15:00,TLFR1
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lab,TUESDAY,15:00,16:40,KFL02
+New Faculty Information Technology (NS-IT NS11),Programming using C,EEE 1.2,lab,TUESDAY,13:20,15:00,JL3
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,EEE 1.1,lecture,TUESDAY,11:00,11:50,A108
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,EEE 1.1,lecture,FRIDAY,13:00,13:50,D611
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,EEE 1.1,lecture,WEDNESDAY,09:00,09:50,D110
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,EEE 1.2,lecture,SATURDAY,10:00,10:50,D110
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,EEE 1.2,lecture,SATURDAY,08:00,08:50,B405
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,EEE 1.2,lecture,FRIDAY,14:00,14:50,C302
+Dr. Dhandayuthapani S,Engineering Practices – Electrical and Electronics,EEE 1.1,lab,THURSDAY,11:50,13:20,Engineering Practices Lab (Electrical)
+Dr. Dhandayuthapani S,Engineering Practices – Electrical and Electronics,EEE 1.1,lab,SATURDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Mr. Ron Carter Sb,Engineering Practices – Electrical and Electronics,EEE 1.2,lab,TUESDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Mr. Ron Carter Sb,Engineering Practices – Electrical and Electronics,EEE 1.2,lab,SATURDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Ms. Raghavi K K,Heritage Of Tamils,EEE 1.1,lecture,SATURDAY,09:00,09:50,A308
+Ms. Malathy G,Heritage Of Tamils,EEE 1.2,lecture,FRIDAY,13:00,13:50,B405
+Mr. Dr.Jayakumar S,Chemistry For Electronics Engineering,EEE 1.1,lecture,TUESDAY,14:00,14:50,B106
+Mr. Dr.Jayakumar S,Chemistry For Electronics Engineering,EEE 1.1,lecture,THURSDAY,16:00,16:50,A308
+Mr. Dr.Jayakumar S,Chemistry For Electronics Engineering,EEE 1.1,lecture,THURSDAY,10:00,10:50,D702
+Mr. Dr.Jayakumar S,Chemistry For Electronics Engineering,EEE 1.1,lab,SATURDAY,15:00,16:40,Chemistry Lab
+Mr. Dr.Jayakumar S,Chemistry For Electronics Engineering,EEE 1.1,lab,FRIDAY,15:00,16:40,Chemistry Lab
+Mr. Dr. K. Suresh Babu K,Chemistry For Electronics Engineering,EEE 1.2,lecture,FRIDAY,16:00,16:50,D405
+Mr. Dr. K. Suresh Babu K,Chemistry For Electronics Engineering,EEE 1.2,lecture,FRIDAY,12:00,12:50,D204
+Mr. Dr. K. Suresh Babu K,Chemistry For Electronics Engineering,EEE 1.2,lecture,WEDNESDAY,14:00,14:50,D109
+Mr. Dr. K. Suresh Babu K,Chemistry For Electronics Engineering,EEE 1.2,lab,WEDNESDAY,11:50,13:20,Chemistry Lab
+Mr. Dr. K. Suresh Babu K,Chemistry For Electronics Engineering,EEE 1.2,lab,FRIDAY,10:00,11:40,Chemistry Lab
+Mrs. Shanmugapriya Kumaravelu,Technical Communication I,EEE 1.1,lecture,THURSDAY,14:00,14:50,D704
+Mrs. Shanmugapriya Kumaravelu,Technical Communication I,EEE 1.1,lecture,FRIDAY,14:00,14:50,D511
+Mrs. Chitra Devi P,Technical Communication I,EEE 1.2,lecture,SATURDAY,11:00,11:50,D611
+Mrs. Chitra Devi P,Technical Communication I,EEE 1.2,lecture,SATURDAY,15:00,15:50,C201
+Mr. Dr Mohan S,Chemistry For Electronics Engineering,ECE 1.1,lecture,TUESDAY,14:00,14:50,B320
+Mr. Dr Mohan S,Chemistry For Electronics Engineering,ECE 1.1,lecture,WEDNESDAY,15:00,15:50,A305
+Mr. Dr Mohan S,Chemistry For Electronics Engineering,ECE 1.1,lecture,THURSDAY,11:00,11:50,C301
+Mr. Dr Mohan S,Chemistry For Electronics Engineering,ECE 1.1,lab,WEDNESDAY,08:00,09:40,Chemistry Lab
+Mr. Dr Mohan S,Chemistry For Electronics Engineering,ECE 1.1,lab,MONDAY,08:00,09:40,Chemistry Lab
+Dr. J Edward Jeyakumar,Chemistry For Electronics Engineering,ECE 1.2,lecture,WEDNESDAY,13:00,13:50,D710
+Dr. J Edward Jeyakumar,Chemistry For Electronics Engineering,ECE 1.2,lecture,TUESDAY,12:00,12:50,D511
+Dr. J Edward Jeyakumar,Chemistry For Electronics Engineering,ECE 1.2,lecture,WEDNESDAY,12:00,12:50,A108
+Dr. J Edward Jeyakumar,Chemistry For Electronics Engineering,ECE 1.2,lab,MONDAY,11:50,13:20,Chemistry Lab
+Dr. J Edward Jeyakumar,Chemistry For Electronics Engineering,ECE 1.2,lab,MONDAY,15:00,16:40,Chemistry Lab
+Ms. Dr. Saraswathi Kothandan,Chemistry For Electronics Engineering,ECE 1.3,lecture,MONDAY,08:00,08:50,A110
+Ms. Dr. Saraswathi Kothandan,Chemistry For Electronics Engineering,ECE 1.3,lecture,MONDAY,15:00,15:50,C101
+Ms. Dr. Saraswathi Kothandan,Chemistry For Electronics Engineering,ECE 1.3,lecture,THURSDAY,15:00,15:50,B416
+Ms. Dr. Saraswathi Kothandan,Chemistry For Electronics Engineering,ECE 1.3,lab,MONDAY,10:00,11:40,Chemistry Lab
+Ms. Dr. Saraswathi Kothandan,Chemistry For Electronics Engineering,ECE 1.3,lab,TUESDAY,08:00,09:40,Chemistry Lab
+Mr. Dr Arikrishnan J,Chemistry For Electronics Engineering,ECE 1.4,lecture,THURSDAY,09:00,09:50,C103
+Mr. Dr Arikrishnan J,Chemistry For Electronics Engineering,ECE 1.4,lecture,WEDNESDAY,10:00,10:50,B222
+Mr. Dr Arikrishnan J,Chemistry For Electronics Engineering,ECE 1.4,lecture,FRIDAY,10:00,10:50,B402
+Mr. Dr Arikrishnan J,Chemistry For Electronics Engineering,ECE 1.4,lab,TUESDAY,15:00,15:50,Chemistry Lab
+Mr. Dr Arikrishnan J,Chemistry For Electronics Engineering,ECE 1.4,lab,FRIDAY,13:20,15:00,Chemistry Lab
+Suresh kumar S,Chemistry For Electronics Engineering,ECE 1.5,lecture,FRIDAY,11:00,11:50,D409
+Suresh kumar S,Chemistry For Electronics Engineering,ECE 1.5,lecture,MONDAY,15:00,15:50,D511
+Suresh kumar S,Chemistry For Electronics Engineering,ECE 1.5,lecture,FRIDAY,09:00,09:50,B401
+Suresh kumar S,Chemistry For Electronics Engineering,ECE 1.5,lab,WEDNESDAY,10:00,11:40,Chemistry Lab
+Suresh kumar S,Chemistry For Electronics Engineering,ECE 1.5,lab,THURSDAY,08:00,09:40,Chemistry Lab
+Mrs. Dr V Vasumathi,Chemistry For Electronics Engineering,ECE 1.6,lecture,FRIDAY,15:00,15:50,A210
+Mrs. Dr V Vasumathi,Chemistry For Electronics Engineering,ECE 1.6,lecture,THURSDAY,12:00,12:50,D405
+Mrs. Dr V Vasumathi,Chemistry For Electronics Engineering,ECE 1.6,lecture,FRIDAY,13:00,13:50,A304
+Mrs. Dr V Vasumathi,Chemistry For Electronics Engineering,ECE 1.6,lab,THURSDAY,13:20,15:00,Chemistry Lab
+Mrs. Dr V Vasumathi,Chemistry For Electronics Engineering,ECE 1.6,lab,TUESDAY,15:00,16:40,Chemistry Lab
+Mrs. P. Ramadevi,Chemistry For Electronics Engineering,ECE 1.7,lecture,MONDAY,09:00,09:50,C302
+Mrs. P. Ramadevi,Chemistry For Electronics Engineering,ECE 1.7,lecture,MONDAY,15:00,15:50,A303
+Mrs. P. Ramadevi,Chemistry For Electronics Engineering,ECE 1.7,lecture,THURSDAY,10:00,10:50,C302
+Mrs. P. Ramadevi,Chemistry For Electronics Engineering,ECE 1.7,lab,MONDAY,13:20,15:00,Chemistry Lab
+Mrs. P. Ramadevi,Chemistry For Electronics Engineering,ECE 1.7,lab,TUESDAY,13:20,15:00,Chemistry Lab
+Mr. Manigandan Ramadoss,Chemistry For Electronics Engineering,ECE 1.8,lecture,TUESDAY,15:00,15:50,D703
+Mr. Manigandan Ramadoss,Chemistry For Electronics Engineering,ECE 1.8,lecture,WEDNESDAY,14:00,14:50,D510
+Mr. Manigandan Ramadoss,Chemistry For Electronics Engineering,ECE 1.8,lecture,WEDNESDAY,13:00,13:50,D302
+Mr. Manigandan Ramadoss,Chemistry For Electronics Engineering,ECE 1.8,lab,THURSDAY,13:00,13:50,Chemistry Lab
+Mr. Manigandan Ramadoss,Chemistry For Electronics Engineering,ECE 1.8,lab,FRIDAY,11:50,13:20,Chemistry Lab
+Ms. Balavidhya S,Linear Algebra and Calculus,ECE 1.1,lecture,WEDNESDAY,14:00,14:50,D310
+Ms. Balavidhya S,Linear Algebra and Calculus,ECE 1.1,lecture,WEDNESDAY,12:00,12:50,B410
+Ms. Balavidhya S,Linear Algebra and Calculus,ECE 1.1,lecture,THURSDAY,15:00,15:50,D310
+Ms. Balavidhya S,Linear Algebra and Calculus,ECE 1.1,tutorial,TUESDAY,12:00,12:50,C101
+Mr. Gurunathan S,Linear Algebra and Calculus,ECE 1.2,lecture,THURSDAY,11:00,11:50,A208
+Mr. Gurunathan S,Linear Algebra and Calculus,ECE 1.2,lecture,TUESDAY,09:00,09:50,D511
+Mr. Gurunathan S,Linear Algebra and Calculus,ECE 1.2,lecture,FRIDAY,14:00,14:50,B302
+Mr. Gurunathan S,Linear Algebra and Calculus,ECE 1.2,tutorial,FRIDAY,12:00,12:50,B409
+Mr. Venkatesan J,Linear Algebra and Calculus,ECE 1.3,lecture,TUESDAY,13:00,13:50,C102
+Mr. Venkatesan J,Linear Algebra and Calculus,ECE 1.3,lecture,WEDNESDAY,10:00,10:50,B210
+Mr. Venkatesan J,Linear Algebra and Calculus,ECE 1.3,lecture,THURSDAY,10:00,10:50,A110
+Mr. Venkatesan J,Linear Algebra and Calculus,ECE 1.3,tutorial,WEDNESDAY,16:00,16:50,D612
+Mrs. R Nathiya,Linear Algebra and Calculus,ECE 1.4,lecture,WEDNESDAY,14:00,14:50,B218
+Mrs. R Nathiya,Linear Algebra and Calculus,ECE 1.4,lecture,WEDNESDAY,12:00,12:50,D511
+Mrs. R Nathiya,Linear Algebra and Calculus,ECE 1.4,lecture,WEDNESDAY,09:00,09:50,B222
+Mrs. R Nathiya,Linear Algebra and Calculus,ECE 1.4,tutorial,THURSDAY,13:00,13:50,A305
+Dr. Vinod Kumar R,Linear Algebra and Calculus,ECE 1.5,lecture,THURSDAY,14:00,14:50,A309
+Dr. Vinod Kumar R,Linear Algebra and Calculus,ECE 1.5,lecture,TUESDAY,08:00,08:50,A309
+Dr. Vinod Kumar R,Linear Algebra and Calculus,ECE 1.5,lecture,FRIDAY,16:00,16:50,D409
+Dr. Vinod Kumar R,Linear Algebra and Calculus,ECE 1.5,tutorial,TUESDAY,11:00,11:50,B211
+Mr. Siluvai Dasan R,Linear Algebra and Calculus,ECE 1.6,lecture,THURSDAY,11:00,11:50,D704
+Mr. Siluvai Dasan R,Linear Algebra and Calculus,ECE 1.6,lecture,FRIDAY,08:00,08:50,B410
+Mr. Siluvai Dasan R,Linear Algebra and Calculus,ECE 1.6,lecture,TUESDAY,12:00,12:50,C102
+Mr. Siluvai Dasan R,Linear Algebra and Calculus,ECE 1.6,tutorial,TUESDAY,13:00,13:50,B401
+Mrs. Yuvashri P,Linear Algebra and Calculus,ECE 1.7,lecture,WEDNESDAY,10:00,10:50,B419
+Mrs. Yuvashri P,Linear Algebra and Calculus,ECE 1.7,lecture,FRIDAY,14:00,14:50,B418
+Mrs. Yuvashri P,Linear Algebra and Calculus,ECE 1.7,lecture,THURSDAY,12:00,12:50,C308
+Mrs. Yuvashri P,Linear Algebra and Calculus,ECE 1.7,tutorial,THURSDAY,14:00,14:50,A108
+Dr. Chitra Rameshbabu,Linear Algebra and Calculus,ECE 1.8,lecture,WEDNESDAY,12:00,12:50,B106
+Dr. Chitra Rameshbabu,Linear Algebra and Calculus,ECE 1.8,lecture,THURSDAY,08:00,08:50,D512
+Dr. Chitra Rameshbabu,Linear Algebra and Calculus,ECE 1.8,lecture,FRIDAY,09:00,09:50,D204
+Dr. Chitra Rameshbabu,Linear Algebra and Calculus,ECE 1.8,tutorial,TUESDAY,13:00,13:50,C307
+Mrs. Andria Babu,Technical Communication -I,ECE 1.1,lecture,THURSDAY,10:00,10:50,B423
+Mrs. Andria Babu,Technical Communication -I,ECE 1.1,lecture,TUESDAY,13:00,13:50,B409
+Mrs. Dr. B.Lakshmi,Technical Communication -I,ECE 1.2,lecture,MONDAY,10:00,10:50,D710
+Mrs. Dr. B.Lakshmi,Technical Communication -I,ECE 1.2,lecture,TUESDAY,10:00,10:50,D710
+New Faculty English (NS-NFE-1),Technical Communication -I,ECE 1.3,lecture,FRIDAY,10:00,10:50,D409
+New Faculty English (NS-NFE-1),Technical Communication -I,ECE 1.3,lecture,WEDNESDAY,09:00,09:50,C102
+Mrs. Renuka B S,Technical Communication -I,ECE 1.4,lecture,MONDAY,13:00,13:50,D510
+Mrs. Renuka B S,Technical Communication -I,ECE 1.4,lecture,THURSDAY,15:00,15:50,D511
+New Faculty English (NS-NFE-3),Technical Communication -I,ECE 1.5,lecture,MONDAY,16:00,16:50,D109
+New Faculty English (NS-NFE-3),Technical Communication -I,ECE 1.5,lecture,FRIDAY,14:00,14:50,B409
+Mr. Hastin Fernandez,Technical Communication -I,ECE 1.6,lecture,THURSDAY,10:00,10:50,D405
+Mr. Hastin Fernandez,Technical Communication -I,ECE 1.6,lecture,MONDAY,15:00,15:50,D204
+Mrs. Angel P,Technical Communication -I,ECE 1.7,lecture,MONDAY,10:00,10:50,A310
+Mrs. Angel P,Technical Communication -I,ECE 1.7,lecture,TUESDAY,09:00,09:50,D611
+Ms. Malathy G,Technical Communication -I,ECE 1.8,lecture,TUESDAY,09:00,09:50,D510
+Ms. Malathy G,Technical Communication -I,ECE 1.8,lecture,FRIDAY,15:00,15:50,B106
+Mrs. Indhu Bala B,Heritage Of Tamils,ECE 1.1,lecture,MONDAY,12:00,12:50,A305
+Ms. Malathy G,Heritage Of Tamils,ECE 1.2,lecture,FRIDAY,16:00,16:50,D111
+Mr. M. Muthumanikandan,Heritage Of Tamils,ECE 1.3,lecture,FRIDAY,12:00,12:50,A208
+Ms. Raghavi K K,Heritage Of Tamils,ECE 1.4,lecture,FRIDAY,08:00,08:50,B325
+Mrs. Sharmila B,Heritage Of Tamils,ECE 1.5,lecture,TUESDAY,10:00,10:50,B107
+Mrs. Dr. B.Lakshmi,Heritage Of Tamils,ECE 1.6,lecture,MONDAY,11:00,11:50,B401
+Mrs. Chitra Devi P,Heritage Of Tamils,ECE 1.7,lecture,THURSDAY,11:00,11:50,A108
+New Faculty English (NS-NFE-3),Heritage Of Tamils,ECE 1.8,lecture,MONDAY,14:00,14:50,A103
+Ms. Malikunnisha Mohamed Noorullah,Indian Constitution and Freedom Movement,ECE 1.1,lecture,THURSDAY,12:00,12:50,D510
+Ms. Malikunnisha Mohamed Noorullah,Indian Constitution and Freedom Movement,ECE 1.1,lecture,FRIDAY,16:00,16:50,B424
+Ms. Malikunnisha Mohamed Noorullah,Indian Constitution and Freedom Movement,ECE 1.1,lecture,TUESDAY,09:00,09:50,B423
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,ECE 1.2,lecture,MONDAY,11:00,11:50,B416
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,ECE 1.2,lecture,WEDNESDAY,08:00,08:50,A208
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,ECE 1.2,lecture,THURSDAY,12:00,12:50,D710
+Mrs. Angel P,Indian Constitution and Freedom Movement,ECE 1.3,lecture,TUESDAY,15:00,15:50,C102
+Mrs. Angel P,Indian Constitution and Freedom Movement,ECE 1.3,lecture,TUESDAY,10:00,10:50,A208
+Mrs. Angel P,Indian Constitution and Freedom Movement,ECE 1.3,lecture,THURSDAY,12:00,12:50,B320
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,ECE 1.4,lecture,FRIDAY,11:00,11:50,B325
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,ECE 1.4,lecture,FRIDAY,15:00,15:50,A204
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,ECE 1.4,lecture,TUESDAY,09:00,09:50,B419
+Mrs. G.Janet,Indian Constitution and Freedom Movement,ECE 1.5,lecture,THURSDAY,11:00,11:50,D211
+Mrs. G.Janet,Indian Constitution and Freedom Movement,ECE 1.5,lecture,MONDAY,10:00,10:50,D409
+Mrs. G.Janet,Indian Constitution and Freedom Movement,ECE 1.5,lecture,MONDAY,14:00,14:50,B409
+Mrs. Gayathri K,Indian Constitution and Freedom Movement,ECE 1.6,lecture,MONDAY,08:00,08:50,A305
+Mrs. Gayathri K,Indian Constitution and Freedom Movement,ECE 1.6,lecture,TUESDAY,09:00,09:50,D405
+Mrs. Gayathri K,Indian Constitution and Freedom Movement,ECE 1.6,lecture,MONDAY,10:00,10:50,D204
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,ECE 1.7,lecture,MONDAY,11:00,11:50,D205
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,ECE 1.7,lecture,TUESDAY,10:00,10:50,B222
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,ECE 1.7,lecture,FRIDAY,09:00,09:50,A303
+New Faculty English (NS-NFE-2),Indian Constitution and Freedom Movement,ECE 1.8,lecture,MONDAY,15:00,15:50,D512
+New Faculty English (NS-NFE-2),Indian Constitution and Freedom Movement,ECE 1.8,lecture,MONDAY,08:00,08:50,B106
+New Faculty English (NS-NFE-2),Indian Constitution and Freedom Movement,ECE 1.8,lecture,FRIDAY,11:00,11:50,A103
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lecture,THURSDAY,09:00,09:50,B424
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lecture,WEDNESDAY,11:00,11:50,B415
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lecture,FRIDAY,09:00,09:50,C101
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lab,TUESDAY,10:00,11:40,TLFR1
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lab,MONDAY,13:20,15:00,TLFR5
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lab,TUESDAY,15:00,16:40,TLGL4
+New Faculty Computer Science & Engineering (NS-New Staff-5),Programming using C,ECE 1.1,lab,MONDAY,10:00,11:40,TLGL1
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lecture,WEDNESDAY,15:00,15:50,B302
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lecture,THURSDAY,09:00,09:50,D109
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lecture,TUESDAY,11:00,11:50,C102
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lab,THURSDAY,15:00,16:40,JL3
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lab,WEDNESDAY,10:00,11:40,TLFL2
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lab,FRIDAY,10:00,11:40,KSL03
+Mrs. T.Jenitha,Programming using C,ECE 1.2,lab,TUESDAY,13:20,15:00,KFL03
+Ms. T.Ramala,Programming using C,ECE 1.3,lecture,THURSDAY,11:00,11:50,B411
+Ms. T.Ramala,Programming using C,ECE 1.3,lecture,WEDNESDAY,12:00,12:50,D612
+Ms. T.Ramala,Programming using C,ECE 1.3,lecture,FRIDAY,09:00,09:50,D405
+Ms. T.Ramala,Programming using C,ECE 1.3,lab,THURSDAY,13:20,15:00,TLGL3
+Ms. T.Ramala,Programming using C,ECE 1.3,lab,MONDAY,13:20,15:00,TLGL2
+Ms. T.Ramala,Programming using C,ECE 1.3,lab,FRIDAY,15:00,16:40,TLFR1
+Ms. T.Ramala,Programming using C,ECE 1.3,lab,FRIDAY,13:20,15:00,KSL03
+ECE-NF1,Programming using C,ECE 1.4,lecture,THURSDAY,08:00,08:50,D511
+ECE-NF1,Programming using C,ECE 1.4,lecture,WEDNESDAY,11:00,11:50,D203
+ECE-NF1,Programming using C,ECE 1.4,lecture,MONDAY,10:00,10:50,B220
+ECE-NF1,Programming using C,ECE 1.4,lab,FRIDAY,11:50,13:20,KSL03
+ECE-NF1,Programming using C,ECE 1.4,lab,TUESDAY,11:50,13:20,TLFR4
+ECE-NF1,Programming using C,ECE 1.4,lab,WEDNESDAY,15:00,16:40,TLFL2
+ECE-NF1,Programming using C,ECE 1.4,lab,THURSDAY,10:00,11:40,TLFL5
+ECE-NF2,Programming using C,ECE 1.5,lecture,WEDNESDAY,13:00,13:50,D109
+ECE-NF2,Programming using C,ECE 1.5,lecture,TUESDAY,09:00,09:50,B403
+ECE-NF2,Programming using C,ECE 1.5,lecture,WEDNESDAY,15:00,15:50,A309
+ECE-NF2,Programming using C,ECE 1.5,lab,THURSDAY,08:00,09:40,TLFR5
+ECE-NF2,Programming using C,ECE 1.5,lab,WEDNESDAY,08:00,09:40,TLFL5
+ECE-NF2,Programming using C,ECE 1.5,lab,MONDAY,11:50,13:20,TLFR2
+ECE-NF2,Programming using C,ECE 1.5,lab,TUESDAY,11:50,13:20,TLGL2
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lecture,THURSDAY,16:00,16:50,B410
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lecture,WEDNESDAY,14:00,14:50,A311
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lecture,FRIDAY,12:00,12:50,D709
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lab,TUESDAY,10:00,11:40,TLFR5
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lab,WEDNESDAY,15:00,16:40,TLGL3
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lab,FRIDAY,10:00,11:40,KFR02
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,ECE 1.6,lab,WEDNESDAY,11:50,13:20,KSL03
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lecture,WEDNESDAY,12:00,12:50,B418
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lecture,TUESDAY,11:00,11:50,D402
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lecture,WEDNESDAY,08:00,08:50,A303
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lab,WEDNESDAY,13:20,15:00,JR1
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lab,TUESDAY,13:20,15:00,TLFR1
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lab,TUESDAY,11:50,13:20,JL1
+Dr. Madhusudhanan S,Programming using C,ECE 1.7,lab,THURSDAY,08:00,09:40,JL3
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lecture,TUESDAY,12:00,12:50,D203
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lecture,THURSDAY,14:00,14:50,D211
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lecture,TUESDAY,16:00,16:50,A103
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lab,FRIDAY,11:50,13:20,TLGL1
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lab,FRIDAY,13:20,15:00,KFL01
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lab,THURSDAY,11:50,13:20,KSL03
+New Faculty Computer Science & Engineering (NS-New Staff-3),Programming using C,ECE 1.8,lab,TUESDAY,10:00,11:40,KFR02
+Mr. G Loganathan,Electron Devices,ECE 1.1,lecture,FRIDAY,14:00,14:50,B415
+Mr. G Loganathan,Electron Devices,ECE 1.1,lecture,WEDNESDAY,10:00,10:50,B423
+Mr. G Loganathan,Electron Devices,ECE 1.1,lecture,FRIDAY,13:00,13:50,B423
+Mr. G Loganathan,Electron Devices,ECE 1.1,lab,THURSDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Mr. G Loganathan,Electron Devices,ECE 1.1,lab,FRIDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Mr. Senthilraja B,Electron Devices,ECE 1.2,lecture,TUESDAY,15:00,15:50,B409
+Mr. Senthilraja B,Electron Devices,ECE 1.2,lecture,FRIDAY,15:00,15:50,B409
+Mr. Senthilraja B,Electron Devices,ECE 1.2,lecture,WEDNESDAY,14:00,14:50,D711
+Mr. Senthilraja B,Electron Devices,ECE 1.2,lab,MONDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Mr. Senthilraja B,Electron Devices,ECE 1.2,lab,THURSDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Mrs. Nirmala D,Electron Devices,ECE 1.3,lecture,MONDAY,09:00,09:50,C101
+Mrs. Nirmala D,Electron Devices,ECE 1.3,lecture,WEDNESDAY,11:00,11:50,C301
+Mrs. Nirmala D,Electron Devices,ECE 1.3,lecture,THURSDAY,09:00,09:50,D203
+Mrs. Nirmala D,Electron Devices,ECE 1.3,lab,TUESDAY,08:00,08:50,Engineering Practices Lab (Electronics)
+Mrs. Nirmala D,Electron Devices,ECE 1.3,lab,WEDNESDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Mrs. T. Helan Vidhya,Electron Devices,ECE 1.4,lecture,MONDAY,11:00,11:50,B410
+Mrs. T. Helan Vidhya,Electron Devices,ECE 1.4,lecture,THURSDAY,14:00,14:50,B220
+Mrs. T. Helan Vidhya,Electron Devices,ECE 1.4,lecture,TUESDAY,10:00,10:50,A310
+Mrs. T. Helan Vidhya,Electron Devices,ECE 1.4,lab,TUESDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Mrs. T. Helan Vidhya,Electron Devices,ECE 1.4,lab,MONDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+Mrs. Dr.S.Suganthi,Electron Devices,ECE 1.5,lecture,THURSDAY,12:00,12:50,B415
+Mrs. Dr.S.Suganthi,Electron Devices,ECE 1.5,lecture,THURSDAY,10:00,10:50,D211
+Mrs. Dr.S.Suganthi,Electron Devices,ECE 1.5,lecture,WEDNESDAY,14:00,14:50,A309
+Mrs. Dr.S.Suganthi,Electron Devices,ECE 1.5,lab,TUESDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mrs. Dr.S.Suganthi,Electron Devices,ECE 1.5,lab,FRIDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mr. Dr M Palanivelan,Electron Devices,ECE 1.6,lecture,WEDNESDAY,11:00,11:50,C102
+Mr. Dr M Palanivelan,Electron Devices,ECE 1.6,lecture,THURSDAY,09:00,09:50,B401
+Mr. Dr M Palanivelan,Electron Devices,ECE 1.6,lecture,FRIDAY,14:00,14:50,C102
+Mr. Dr M Palanivelan,Electron Devices,ECE 1.6,lab,MONDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Mr. Dr M Palanivelan,Electron Devices,ECE 1.6,lab,MONDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mrs. R Bharathy,Electron Devices,ECE 1.7,lecture,WEDNESDAY,09:00,09:50,D204
+Mrs. R Bharathy,Electron Devices,ECE 1.7,lecture,MONDAY,16:00,16:50,B222
+Mrs. R Bharathy,Electron Devices,ECE 1.7,lecture,WEDNESDAY,11:00,11:50,D611
+Mrs. R Bharathy,Electron Devices,ECE 1.7,lab,THURSDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+Mrs. R Bharathy,Electron Devices,ECE 1.7,lab,FRIDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Mrs. Sowmiya G,Electron Devices,ECE 1.8,lecture,THURSDAY,15:00,15:50,A203
+Mrs. Sowmiya G,Electron Devices,ECE 1.8,lecture,MONDAY,12:00,12:50,A103
+Mrs. Sowmiya G,Electron Devices,ECE 1.8,lecture,WEDNESDAY,10:00,10:50,D302
+Mrs. Sowmiya G,Electron Devices,ECE 1.8,lab,WEDNESDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+Mrs. Sowmiya G,Electron Devices,ECE 1.8,lab,MONDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Ms. Rajalakshmi B,Heritage Of Tamils,AIDS 1.1,lecture,THURSDAY,08:00,08:50,C308
+Mrs. Dr. B.Lakshmi,Heritage Of Tamils,AIDS 1.2,lecture,FRIDAY,11:00,11:50,A210
+Dr. Sri Hari. G,Heritage Of Tamils,AIDS 1.3,lecture,WEDNESDAY,15:00,15:50,B403
+Mr. Vijay Muthuswamy,Heritage Of Tamils,AIDS 1.4,lecture,THURSDAY,14:00,14:50,D711
+Mrs. G.Janet,Heritage Of Tamils,AIDS 1.5,lecture,SATURDAY,14:00,14:50,D402
+Mrs. Andria Babu,Heritage Of Tamils,AIDS 1.6,lecture,TUESDAY,10:00,10:50,D409
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIDS 1.1,lecture,WEDNESDAY,12:00,12:50,D209
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIDS 1.1,lecture,TUESDAY,14:00,14:50,A204
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIDS 1.1,lecture,WEDNESDAY,08:00,08:50,D512
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIDS 1.1,tutorial,TUESDAY,12:00,12:50,D309
+Mr. Sriram Sastha,Mathematical Foundations for AI,AIDS 1.2,lecture,THURSDAY,10:00,10:50,D311
+Mr. Sriram Sastha,Mathematical Foundations for AI,AIDS 1.2,lecture,WEDNESDAY,15:00,15:50,C102
+Mr. Sriram Sastha,Mathematical Foundations for AI,AIDS 1.2,lecture,TUESDAY,10:00,10:50,A304
+Mr. Sriram Sastha,Mathematical Foundations for AI,AIDS 1.2,tutorial,TUESDAY,15:00,15:50,B424
+New Faculty Mathematics (NS-NF-3),Mathematical Foundations for AI,AIDS 1.3,lecture,FRIDAY,10:00,10:50,C202
+New Faculty Mathematics (NS-NF-3),Mathematical Foundations for AI,AIDS 1.3,lecture,TUESDAY,09:00,09:50,A202
+New Faculty Mathematics (NS-NF-3),Mathematical Foundations for AI,AIDS 1.3,lecture,TUESDAY,16:00,16:50,B408
+New Faculty Mathematics (NS-NF-3),Mathematical Foundations for AI,AIDS 1.3,tutorial,THURSDAY,12:00,12:50,B321
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIDS 1.4,lecture,THURSDAY,13:00,13:50,A203
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIDS 1.4,lecture,THURSDAY,15:00,15:50,A204
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIDS 1.4,lecture,THURSDAY,16:00,16:50,D702
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIDS 1.4,tutorial,WEDNESDAY,08:00,08:50,D410
+Mrs. J.Julie,Mathematical Foundations for AI,AIDS 1.5,lecture,TUESDAY,14:00,14:50,D311
+Mrs. J.Julie,Mathematical Foundations for AI,AIDS 1.5,lecture,WEDNESDAY,13:00,13:50,D611
+Mrs. J.Julie,Mathematical Foundations for AI,AIDS 1.5,lecture,TUESDAY,13:00,13:50,A209
+Mrs. J.Julie,Mathematical Foundations for AI,AIDS 1.5,tutorial,FRIDAY,10:00,10:50,C308
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIDS 1.6,lecture,THURSDAY,12:00,12:50,A104/105
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIDS 1.6,lecture,WEDNESDAY,13:00,13:50,D310
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIDS 1.6,lecture,FRIDAY,12:00,12:50,B422
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIDS 1.6,tutorial,FRIDAY,16:00,16:50,A102
+AIDS-NF2,Engineering Practices – Electrical and Electronics,AIDS 1.1,lab,FRIDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+AIDS-NF2,Engineering Practices – Electrical and Electronics,AIDS 1.1,lab,SATURDAY,08:00,09:40,Engineering Practices Lab (Electrical)
+Mrs. Aswini A,Engineering Practices – Electrical and Electronics,AIDS 1.2,lab,FRIDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Mrs. Aswini A,Engineering Practices – Electrical and Electronics,AIDS 1.2,lab,WEDNESDAY,08:00,09:40,Engineering Practices Lab (Electrical)
+Mrs. Anto Sheeba J,Engineering Practices – Electrical and Electronics,AIDS 1.3,lab,SATURDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Mrs. Anto Sheeba J,Engineering Practices – Electrical and Electronics,AIDS 1.3,lab,SATURDAY,11:50,13:20,Engineering Practices Lab (Electrical)
+Ms. J C Vinitha,Engineering Practices – Electrical and Electronics,AIDS 1.4,lab,FRIDAY,08:00,09:40,Engineering Practices Lab (Electrical)
+Ms. J C Vinitha,Engineering Practices – Electrical and Electronics,AIDS 1.4,lab,SATURDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Dr. Dhandayuthapani S,Engineering Practices – Electrical and Electronics,AIDS 1.5,lab,TUESDAY,10:00,11:40,Engineering Practices Lab (Electrical)
+Dr. Dhandayuthapani S,Engineering Practices – Electrical and Electronics,AIDS 1.5,lab,WEDNESDAY,14:00,14:50,Engineering Practices Lab (Electrical)
+AIDS-NF1,Engineering Practices – Electrical and Electronics,AIDS 1.6,lab,SATURDAY,10:00,11:40,Engineering Practices Lab (Electrical)
+AIDS-NF1,Engineering Practices – Electrical and Electronics,AIDS 1.6,lab,WEDNESDAY,10:00,11:40,Engineering Practices Lab (Electrical)
+Ms. Manasa K,Technical Communication -I,AIDS 1.1,lecture,TUESDAY,13:00,13:50,D309
+Ms. Manasa K,Technical Communication -I,AIDS 1.1,lecture,THURSDAY,10:00,10:50,D703
+Dr. Vijayalakshmi M,Technical Communication -I,AIDS 1.2,lecture,THURSDAY,16:00,16:50,D311
+Dr. Vijayalakshmi M,Technical Communication -I,AIDS 1.2,lecture,WEDNESDAY,10:00,10:50,B302
+New Faculty English (NS-NFE-2),Technical Communication -I,AIDS 1.3,lecture,TUESDAY,10:00,10:50,B418
+New Faculty English (NS-NFE-2),Technical Communication -I,AIDS 1.3,lecture,SATURDAY,15:00,15:50,B425
+Ms. Rajalakshmi B,Technical Communication -I,AIDS 1.4,lecture,SATURDAY,14:00,14:50,A203
+Ms. Rajalakshmi B,Technical Communication -I,AIDS 1.4,lecture,TUESDAY,10:00,10:50,A203
+Dr. Rajasree Baskaran,Technical Communication -I,AIDS 1.5,lecture,THURSDAY,11:00,11:50,B424
+Dr. Rajasree Baskaran,Technical Communication -I,AIDS 1.5,lecture,SATURDAY,13:00,13:50,D512
+Mr. Savier Mut Jabraj A,Technical Communication -I,AIDS 1.6,lecture,TUESDAY,11:00,11:50,A102
+Mr. Savier Mut Jabraj A,Technical Communication -I,AIDS 1.6,lecture,WEDNESDAY,15:00,15:50,A102
+AIDS-NF1,Environmental Science and Engineering,AIDS 1.1,lecture,THURSDAY,09:00,09:50,B321
+AIDS-NF1,Environmental Science and Engineering,AIDS 1.1,lecture,FRIDAY,10:00,10:50,A103
+AIDS-NF1,Environmental Science and Engineering,AIDS 1.1,lecture,WEDNESDAY,14:00,14:50,B408
+Mr. Dr.Jayakumar S,Environmental Science and Engineering,AIDS 1.2,lecture,FRIDAY,10:00,10:50,B212
+Mr. Dr.Jayakumar S,Environmental Science and Engineering,AIDS 1.2,lecture,THURSDAY,09:00,09:50,D512
+Mr. Dr.Jayakumar S,Environmental Science and Engineering,AIDS 1.2,lecture,WEDNESDAY,11:00,11:50,C307
+Mrs. P. Ramadevi,Environmental Science and Engineering,AIDS 1.3,lecture,SATURDAY,08:00,08:50,B321
+Mrs. P. Ramadevi,Environmental Science and Engineering,AIDS 1.3,lecture,FRIDAY,11:00,11:50,B321
+Mrs. P. Ramadevi,Environmental Science and Engineering,AIDS 1.3,lecture,WEDNESDAY,12:00,12:50,D203
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,AIDS 1.4,lecture,FRIDAY,12:00,12:50,B408
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,AIDS 1.4,lecture,THURSDAY,09:00,09:50,D410
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,AIDS 1.4,lecture,SATURDAY,09:00,09:50,D402
+Mr. M.Anand Raj,Environmental Science and Engineering,AIDS 1.5,lecture,SATURDAY,09:00,09:50,D510
+Mr. M.Anand Raj,Environmental Science and Engineering,AIDS 1.5,lecture,THURSDAY,16:00,16:50,B325
+Mr. M.Anand Raj,Environmental Science and Engineering,AIDS 1.5,lecture,FRIDAY,11:00,11:50,D611
+Suresh kumar S,Environmental Science and Engineering,AIDS 1.6,lecture,THURSDAY,13:00,13:50,D409
+Suresh kumar S,Environmental Science and Engineering,AIDS 1.6,lecture,SATURDAY,12:00,12:50,A204
+Suresh kumar S,Environmental Science and Engineering,AIDS 1.6,lecture,WEDNESDAY,09:00,09:50,D310
+New Faculty English (NS-NFE-1),Indian Constitution and Freedom Movement,AIDS 1.1,lecture,WEDNESDAY,13:00,13:50,A204
+New Faculty English (NS-NFE-1),Indian Constitution and Freedom Movement,AIDS 1.1,lecture,TUESDAY,15:00,15:50,B321
+New Faculty English (NS-NFE-1),Indian Constitution and Freedom Movement,AIDS 1.1,lecture,SATURDAY,12:00,12:50,D310
+Mrs. Shanmugapriya Kumaravelu,Indian Constitution and Freedom Movement,AIDS 1.2,lecture,WEDNESDAY,14:00,14:50,A304
+Mrs. Shanmugapriya Kumaravelu,Indian Constitution and Freedom Movement,AIDS 1.2,lecture,TUESDAY,09:00,09:50,B302
+Mrs. Shanmugapriya Kumaravelu,Indian Constitution and Freedom Movement,AIDS 1.2,lecture,SATURDAY,11:00,11:50,B212
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,AIDS 1.3,lecture,WEDNESDAY,08:00,08:50,A310
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,AIDS 1.3,lecture,SATURDAY,10:00,10:50,A310
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,AIDS 1.3,lecture,THURSDAY,14:00,14:50,D203
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,AIDS 1.4,lecture,SATURDAY,12:00,12:50,B401
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,AIDS 1.4,lecture,TUESDAY,15:00,15:50,A308
+Mr. Vijay Muthuswamy,Indian Constitution and Freedom Movement,AIDS 1.4,lecture,THURSDAY,12:00,12:50,D711
+Mrs. Angel P,Indian Constitution and Freedom Movement,AIDS 1.5,lecture,WEDNESDAY,08:00,08:50,B424
+Mrs. Angel P,Indian Constitution and Freedom Movement,AIDS 1.5,lecture,FRIDAY,09:00,09:50,B410
+Mrs. Angel P,Indian Constitution and Freedom Movement,AIDS 1.5,lecture,THURSDAY,09:00,09:50,D611
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,AIDS 1.6,lecture,WEDNESDAY,14:00,14:50,D709
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,AIDS 1.6,lecture,TUESDAY,15:00,15:50,D211
+Ms. Raghavi K K,Indian Constitution and Freedom Movement,AIDS 1.6,lecture,SATURDAY,14:00,14:50,B422
+Mrs. V.Sivagami,Basic Electrical and Electronics Engineering,AIDS 1.1,lecture,FRIDAY,12:00,12:50,D703
+Mrs. V.Sivagami,Basic Electrical and Electronics Engineering,AIDS 1.1,lecture,SATURDAY,10:00,10:50,D309
+Mrs. V.Sivagami,Basic Electrical and Electronics Engineering,AIDS 1.1,lecture,FRIDAY,13:00,13:50,A103
+Mrs. V.Sivagami,Basic Electrical and Electronics Engineering,AIDS 1.1,lab,WEDNESDAY,10:00,11:40,Basic Electronics Lab-1
+Mrs. V.Sivagami,Basic Electrical and Electronics Engineering,AIDS 1.1,lab,TUESDAY,10:00,11:40,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electrical and Electronics Engineering,AIDS 1.2,lecture,TUESDAY,08:00,08:50,A209
+New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electrical and Electronics Engineering,AIDS 1.2,lecture,FRIDAY,14:00,14:50,B211
+New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electrical and Electronics Engineering,AIDS 1.2,lecture,THURSDAY,11:00,11:50,A210
+New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electrical and Electronics Engineering,AIDS 1.2,lab,WEDNESDAY,08:00,09:40,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF3),Basic Electrical and Electronics Engineering,AIDS 1.2,lab,SATURDAY,09:00,09:50,Basic Electronics Lab-1
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,AIDS 1.3,lecture,THURSDAY,13:00,13:50,B107
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,AIDS 1.3,lecture,FRIDAY,14:00,14:50,A203
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,AIDS 1.3,lecture,TUESDAY,15:00,15:50,C201
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,AIDS 1.3,lab,FRIDAY,09:00,09:50,Basic Electronics Lab-1
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,AIDS 1.3,lab,TUESDAY,11:50,13:20,Basic Electronics Lab-1
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,AIDS 1.4,lecture,TUESDAY,11:00,11:50,D410
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,AIDS 1.4,lecture,WEDNESDAY,15:00,15:50,B213
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,AIDS 1.4,lecture,FRIDAY,10:00,10:50,B106
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,AIDS 1.4,lab,TUESDAY,16:00,16:50,Basic Electronics Lab-1
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,AIDS 1.4,lab,FRIDAY,13:20,15:00,Basic Electronics Lab-1
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,AIDS 1.5,lecture,SATURDAY,08:00,08:50,C308
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,AIDS 1.5,lecture,FRIDAY,08:00,08:50,B107
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,AIDS 1.5,lecture,TUESDAY,16:00,16:50,D611
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,AIDS 1.5,lab,THURSDAY,13:20,15:00,Basic Electronics Lab-1
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,AIDS 1.5,lab,THURSDAY,11:50,13:20,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,AIDS 1.6,lecture,FRIDAY,13:00,13:50,D709
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,AIDS 1.6,lecture,WEDNESDAY,12:00,12:50,D310
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,AIDS 1.6,lecture,THURSDAY,09:00,09:50,B422
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,AIDS 1.6,lab,SATURDAY,15:00,16:40,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,AIDS 1.6,lab,TUESDAY,13:20,15:00,Basic Electronics Lab-1
+Dr. Pugazhvadivu Ks,Physics for Information Science,AIDS 1.1,lecture,THURSDAY,12:00,12:50,D309
+Dr. Pugazhvadivu Ks,Physics for Information Science,AIDS 1.1,lecture,WEDNESDAY,09:00,09:50,B408
+Dr. Pugazhvadivu Ks,Physics for Information Science,AIDS 1.1,lecture,FRIDAY,15:00,15:50,A104/105
+Dr. Pugazhvadivu Ks,Physics for Information Science,AIDS 1.1,lab,SATURDAY,13:20,15:00,Physics LAB - 2
+Dr. Mahesh R,Physics for Information Science,AIDS 1.2,lecture,FRIDAY,13:00,13:50,B302
+Dr. Mahesh R,Physics for Information Science,AIDS 1.2,lecture,THURSDAY,12:00,12:50,B405
+Dr. Mahesh R,Physics for Information Science,AIDS 1.2,lecture,SATURDAY,14:00,14:50,D512
+Dr. Mahesh R,Physics for Information Science,AIDS 1.2,lab,SATURDAY,11:50,13:20,Physics LAB - 2
+Mr. Vijayanarasimhan K,Physics for Information Science,AIDS 1.3,lecture,WEDNESDAY,14:00,14:50,D704
+Mr. Vijayanarasimhan K,Physics for Information Science,AIDS 1.3,lecture,THURSDAY,09:00,09:50,A103
+Mr. Vijayanarasimhan K,Physics for Information Science,AIDS 1.3,lecture,FRIDAY,13:00,13:50,D704
+Mr. Vijayanarasimhan K,Physics for Information Science,AIDS 1.3,lab,WEDNESDAY,10:00,11:40,Physics LAB - 1
+Mr. R Muralidharan,Physics for Information Science,AIDS 1.4,lecture,WEDNESDAY,09:00,09:50,B401
+Mr. R Muralidharan,Physics for Information Science,AIDS 1.4,lecture,SATURDAY,10:00,10:50,A203
+Mr. R Muralidharan,Physics for Information Science,AIDS 1.4,lecture,WEDNESDAY,11:00,11:50,D710
+Mr. R Muralidharan,Physics for Information Science,AIDS 1.4,lab,WEDNESDAY,11:50,13:20,Physics LAB - 2
+Mr. Dr. G. Saravana Kumar,Physics for Information Science,AIDS 1.5,lecture,WEDNESDAY,15:00,15:50,A202
+Mr. Dr. G. Saravana Kumar,Physics for Information Science,AIDS 1.5,lecture,THURSDAY,10:00,10:50,B410
+Mr. Dr. G. Saravana Kumar,Physics for Information Science,AIDS 1.5,lecture,WEDNESDAY,09:00,09:50,B417
+Mr. Dr. G. Saravana Kumar,Physics for Information Science,AIDS 1.5,lab,WEDNESDAY,10:00,11:40,Physics LAB - 2
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,AIDS 1.6,lecture,WEDNESDAY,08:00,08:50,D705
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,AIDS 1.6,lecture,THURSDAY,14:00,14:50,D612
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,AIDS 1.6,lecture,THURSDAY,15:00,15:50,D211
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,AIDS 1.6,lab,FRIDAY,10:00,11:40,Physics LAB - 2
+surendar A,Programming using C,AIDS 1.1,lecture,SATURDAY,11:00,11:50,D310
+surendar A,Programming using C,AIDS 1.1,lecture,FRIDAY,14:00,14:50,B408
+surendar A,Programming using C,AIDS 1.1,lecture,WEDNESDAY,15:00,15:50,B107
+surendar A,Programming using C,AIDS 1.1,lab,SATURDAY,08:00,09:40,JL1
+surendar A,Programming using C,AIDS 1.1,lab,TUESDAY,08:00,09:40,KFL01
+surendar A,Programming using C,AIDS 1.1,lab,THURSDAY,13:20,15:00,TLFR3
+surendar A,Programming using C,AIDS 1.1,lab,WEDNESDAY,10:00,11:40,TLGL4
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lecture,TUESDAY,11:00,11:50,C307
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lecture,SATURDAY,10:00,10:50,C102
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lecture,SATURDAY,15:00,15:50,D703
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lab,WEDNESDAY,11:50,13:20,KFL03
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lab,THURSDAY,13:20,15:00,JL1
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lab,FRIDAY,15:00,16:40,TLFL2
+Mrs. Selvarani K,Programming using C,AIDS 1.2,lab,TUESDAY,11:50,13:20,TLFR5
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lecture,FRIDAY,08:00,08:50,C202
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lecture,SATURDAY,09:00,09:50,D705
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lecture,WEDNESDAY,13:00,13:50,A103
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lab,TUESDAY,13:20,15:00,KFR02
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lab,SATURDAY,11:50,13:20,TLFR1
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lab,SATURDAY,13:20,15:00,TLGL3
+Mr. Thiyagarajan G,Programming using C,AIDS 1.3,lab,THURSDAY,15:00,16:40,TLFR1
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lecture,FRIDAY,11:00,11:50,B402
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lecture,SATURDAY,11:00,11:50,B408
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lecture,TUESDAY,14:00,14:50,B424
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lab,THURSDAY,10:00,11:40,TLFL4
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lab,WEDNESDAY,13:20,15:00,TLGL2
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lab,FRIDAY,08:00,09:40,JL3
+New Faculty Artificial Intelligence & Data Science (NS-NF2),Programming using C,AIDS 1.4,lab,TUESDAY,11:50,13:20,KFL01
+Subramanian E.K,Programming using C,AIDS 1.5,lecture,TUESDAY,12:00,12:50,C307
+Subramanian E.K,Programming using C,AIDS 1.5,lecture,THURSDAY,15:00,15:50,B409
+Subramanian E.K,Programming using C,AIDS 1.5,lecture,SATURDAY,15:00,15:50,B322
+Subramanian E.K,Programming using C,AIDS 1.5,lab,FRIDAY,11:50,13:20,TLFR2
+Subramanian E.K,Programming using C,AIDS 1.5,lab,THURSDAY,11:50,13:20,TLFL5
+Subramanian E.K,Programming using C,AIDS 1.5,lab,SATURDAY,10:00,11:40,TLGL4
+Subramanian E.K,Programming using C,AIDS 1.5,lab,THURSDAY,13:20,15:00,TLFL3
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lecture,SATURDAY,09:00,09:50,B417
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lecture,FRIDAY,15:00,15:50,A304
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lecture,SATURDAY,13:00,13:50,B422
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lab,THURSDAY,10:00,11:40,TLFR3
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lab,WEDNESDAY,10:00,11:40,KFR02
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lab,TUESDAY,11:50,13:20,TLFL4
+New Faculty Artificial Intelligence & Data Science (NS-NF3),Programming using C,AIDS 1.6,lab,TUESDAY,08:00,09:40,JR3
+Mrs. Dr R Kavitha,Heritage Of Tamils,IT 1.1,lecture,THURSDAY,09:00,09:50,A303
+Mr. Savier Mut Jabraj A,Heritage Of Tamils,IT 1.2,lecture,SATURDAY,11:00,11:50,D211
+Dr. Sri Hari. G,Heritage Of Tamils,IT 1.3,lecture,THURSDAY,09:00,09:50,B423
+Ms. Rajalakshmi B,Heritage Of Tamils,IT 1.4,lecture,TUESDAY,12:00,12:50,A108
+Dr. Vijayalakshmi M,Heritage Of Tamils,IT 1.5,lecture,TUESDAY,08:00,08:50,D410
+Mrs. Anto Sheeba J,Basic Electrical and Electronics Engineering,IT 1.1,lecture,WEDNESDAY,14:00,14:50,A104/105
+Mrs. Anto Sheeba J,Basic Electrical and Electronics Engineering,IT 1.1,lecture,WEDNESDAY,09:00,09:50,A211
+Mrs. Anto Sheeba J,Basic Electrical and Electronics Engineering,IT 1.1,lecture,SATURDAY,16:00,16:50,B106
+Mrs. Anto Sheeba J,Basic Electrical and Electronics Engineering,IT 1.1,lab,THURSDAY,13:20,15:00,Basic Electronics Lab-1
+Mrs. Anto Sheeba J,Basic Electrical and Electronics Engineering,IT 1.1,lab,WEDNESDAY,10:00,11:40,Basic Electronics Lab-1
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,IT 1.2,lecture,FRIDAY,09:00,09:50,C103
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,IT 1.2,lecture,WEDNESDAY,16:00,16:50,D211
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,IT 1.2,lecture,SATURDAY,15:00,15:50,B212
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,IT 1.2,lab,SATURDAY,11:50,13:20,Basic Electronics Lab-1
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,IT 1.2,lab,THURSDAY,10:00,10:50,Basic Electronics Lab-1
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,IT 1.3,lecture,TUESDAY,12:00,12:50,B423
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,IT 1.3,lecture,WEDNESDAY,11:00,11:50,A305
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,IT 1.3,lecture,FRIDAY,11:00,11:50,B220
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,IT 1.3,lab,THURSDAY,08:00,08:50,Basic Electronics Lab-1
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,IT 1.3,lab,SATURDAY,13:20,15:00,Basic Electronics Lab-1
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,IT 1.4,lecture,TUESDAY,15:00,15:50,B415
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,IT 1.4,lecture,THURSDAY,09:00,09:50,A108
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,IT 1.4,lecture,SATURDAY,13:00,13:50,D209
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,IT 1.4,lab,FRIDAY,08:00,09:40,Basic Electronics Lab-1
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,IT 1.4,lab,SATURDAY,10:00,11:40,Basic Electronics Lab-1
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,IT 1.5,lecture,TUESDAY,14:00,14:50,D209
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,IT 1.5,lecture,WEDNESDAY,08:00,08:50,B210
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,IT 1.5,lecture,FRIDAY,12:00,12:50,D512
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,IT 1.5,lab,FRIDAY,15:00,16:40,Basic Electronics Lab-1
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,IT 1.5,lab,TUESDAY,13:00,13:50,Basic Electronics Lab-1
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,lecture,TUESDAY,10:00,10:50,D209
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,lecture,TUESDAY,10:00,10:50,D209
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,tutorial,TUESDAY,10:00,10:50,D209
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,tutorial,TUESDAY,10:00,10:50,D209
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,tutorial,TUESDAY,10:00,10:50,D209
+Mr. Dr P. Muthaimanoj,Engineering Graphics,IT 1.1,tutorial,TUESDAY,10:00,10:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,lecture,TUESDAY,13:00,13:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,lecture,TUESDAY,13:00,13:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,tutorial,TUESDAY,13:00,13:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,tutorial,TUESDAY,13:00,13:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,tutorial,TUESDAY,13:00,13:50,D209
+Mr. Arun Prakash N,Engineering Graphics,IT 1.2,tutorial,TUESDAY,13:00,13:50,D209
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,lecture,TUESDAY,09:00,09:50,D210
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,lecture,TUESDAY,09:00,09:50,D210
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,tutorial,TUESDAY,09:00,09:50,D210
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,tutorial,TUESDAY,09:00,09:50,D210
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,tutorial,TUESDAY,09:00,09:50,D210
+Mr. Ct.Muthiah,Engineering Graphics,IT 1.3,tutorial,TUESDAY,09:00,09:50,D210
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,lecture,WEDNESDAY,08:00,08:50,D205
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,lecture,WEDNESDAY,08:00,08:50,D205
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,tutorial,WEDNESDAY,08:00,08:50,D205
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,tutorial,WEDNESDAY,08:00,08:50,D205
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,tutorial,WEDNESDAY,08:00,08:50,D205
+Mr. Dr.S.Kumar,Engineering Graphics,IT 1.4,tutorial,WEDNESDAY,08:00,08:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,lecture,WEDNESDAY,10:00,10:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,lecture,WEDNESDAY,10:00,10:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,tutorial,WEDNESDAY,10:00,10:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,tutorial,WEDNESDAY,10:00,10:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,tutorial,WEDNESDAY,10:00,10:50,D205
+Mr. R.Dhanaraj,Engineering Graphics,IT 1.5,tutorial,WEDNESDAY,10:00,10:50,D205
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lecture,TUESDAY,09:00,09:50,A110
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lecture,FRIDAY,14:00,14:50,C301
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lecture,THURSDAY,12:00,12:50,A303
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lab,SATURDAY,13:20,15:00,TLFL5
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lab,TUESDAY,13:20,15:00,TLGL1
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lab,FRIDAY,15:00,16:40,KSL03
+New Faculty Information Technology (NS-NS6),Programming using C,IT 1.1,lab,SATURDAY,11:50,13:20,TLFL4
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lecture,SATURDAY,10:00,10:50,D211
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lecture,SATURDAY,08:00,08:50,D211
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lecture,THURSDAY,09:00,09:50,C308
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lab,FRIDAY,13:20,15:00,TLFR1
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lab,THURSDAY,11:50,13:20,TLGL3
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lab,WEDNESDAY,11:50,13:20,TLFR3
+New Faculty Information Technology (NS-IT NS11),Programming using C,IT 1.2,lab,WEDNESDAY,10:00,11:40,TLFR2
+IT-NF1,Programming using C,IT 1.3,lecture,THURSDAY,11:00,11:50,A303
+IT-NF1,Programming using C,IT 1.3,lecture,SATURDAY,10:00,10:50,A108
+IT-NF1,Programming using C,IT 1.3,lecture,FRIDAY,10:00,10:50,B401
+IT-NF1,Programming using C,IT 1.3,lab,SATURDAY,13:20,15:00,KFL02
+IT-NF1,Programming using C,IT 1.3,lab,FRIDAY,11:50,13:20,TLFR3
+IT-NF1,Programming using C,IT 1.3,lab,TUESDAY,13:20,15:00,TLFL5
+IT-NF1,Programming using C,IT 1.3,lab,THURSDAY,13:20,15:00,KFL03
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lecture,TUESDAY,10:00,10:50,B210
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lecture,SATURDAY,16:00,16:50,A202
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lecture,WEDNESDAY,09:00,09:50,B415
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lab,SATURDAY,10:00,11:40,TLFL5
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lab,TUESDAY,13:20,15:00,TLFR2
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lab,FRIDAY,08:00,09:40,TLFL1
+Mr. Dr.M.Babu,Programming using C,IT 1.4,lab,WEDNESDAY,11:50,13:20,KFL01
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lecture,FRIDAY,11:00,11:50,B417
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lecture,THURSDAY,15:00,15:50,B210
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lecture,SATURDAY,15:00,15:50,D402
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lab,SATURDAY,13:20,15:00,KFL03
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lab,FRIDAY,13:20,15:00,JR3
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lab,WEDNESDAY,13:20,15:00,KFL02
+New Faculty Information Technology (NS-IT NS10),Programming using C,IT 1.5,lab,TUESDAY,10:00,11:40,KSL03
+Dr. V. R. Sunil Kumar,Linear Algebra and Calculus,IT 1.1,lecture,THURSDAY,15:00,15:50,A303
+Dr. V. R. Sunil Kumar,Linear Algebra and Calculus,IT 1.1,lecture,THURSDAY,16:00,16:50,A205
+Dr. V. R. Sunil Kumar,Linear Algebra and Calculus,IT 1.1,lecture,WEDNESDAY,15:00,15:50,A211
+Dr. V. R. Sunil Kumar,Linear Algebra and Calculus,IT 1.1,tutorial,TUESDAY,12:00,12:50,B422
+Dr. Akshaya A,Linear Algebra and Calculus,IT 1.2,lecture,WEDNESDAY,09:00,09:50,A302
+Dr. Akshaya A,Linear Algebra and Calculus,IT 1.2,lecture,THURSDAY,08:00,08:50,D205
+Dr. Akshaya A,Linear Algebra and Calculus,IT 1.2,lecture,THURSDAY,15:00,15:50,B419
+Dr. Akshaya A,Linear Algebra and Calculus,IT 1.2,tutorial,THURSDAY,11:00,11:50,A211
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,IT 1.3,lecture,FRIDAY,14:00,14:50,A108
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,IT 1.3,lecture,FRIDAY,16:00,16:50,D210
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,IT 1.3,lecture,FRIDAY,09:00,09:50,B417
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,IT 1.3,tutorial,WEDNESDAY,10:00,10:50,D402
+Dr. Vikram S T,Linear Algebra and Calculus,IT 1.4,lecture,WEDNESDAY,15:00,15:50,A205
+Dr. Vikram S T,Linear Algebra and Calculus,IT 1.4,lecture,FRIDAY,10:00,10:50,B213
+Dr. Vikram S T,Linear Algebra and Calculus,IT 1.4,lecture,FRIDAY,13:00,13:50,B210
+Dr. Vikram S T,Linear Algebra and Calculus,IT 1.4,tutorial,FRIDAY,11:00,11:50,A205
+Mr. Dr. S. Prabhu,Linear Algebra and Calculus,IT 1.5,lecture,THURSDAY,11:00,11:50,D205
+Mr. Dr. S. Prabhu,Linear Algebra and Calculus,IT 1.5,lecture,WEDNESDAY,15:00,15:50,D512
+Mr. Dr. S. Prabhu,Linear Algebra and Calculus,IT 1.5,lecture,TUESDAY,12:00,12:50,D709
+Mr. Dr. S. Prabhu,Linear Algebra and Calculus,IT 1.5,tutorial,THURSDAY,10:00,10:50,A309
+Mrs. Gayathri K,Technical Communication -I,IT 1.1,lecture,FRIDAY,10:00,10:50,A203
+Mrs. Gayathri K,Technical Communication -I,IT 1.1,lecture,FRIDAY,09:00,09:50,A104/105
+Mrs. Renuka B S,Technical Communication -I,IT 1.2,lecture,TUESDAY,12:00,12:50,D411
+Mrs. Renuka B S,Technical Communication -I,IT 1.2,lecture,SATURDAY,14:00,14:50,D205
+Mrs. Andria Babu,Technical Communication -I,IT 1.3,lecture,WEDNESDAY,13:00,13:50,C202
+Mrs. Andria Babu,Technical Communication -I,IT 1.3,lecture,TUESDAY,15:00,15:50,D302
+Mr. Dinakaran S,Technical Communication -I,IT 1.4,lecture,SATURDAY,14:00,14:50,D209
+Mr. Dinakaran S,Technical Communication -I,IT 1.4,lecture,THURSDAY,12:00,12:50,D209
+Mr. M. Muthumanikandan,Technical Communication -I,IT 1.5,lecture,SATURDAY,08:00,08:50,D209
+Mr. M. Muthumanikandan,Technical Communication -I,IT 1.5,lecture,TUESDAY,15:00,15:50,D109
+Ms. M.Brenda,Engineering Practices – Electrical and Electronics,IT 1.1,lab,TUESDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Ms. M.Brenda,Engineering Practices – Electrical and Electronics,IT 1.1,lab,SATURDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Mrs. Indhu Bala B,Engineering Practices – Electrical and Electronics,IT 1.2,lab,FRIDAY,11:50,13:20,Engineering Practices Lab (Electrical)
+Mrs. Indhu Bala B,Engineering Practices – Electrical and Electronics,IT 1.2,lab,TUESDAY,08:00,09:40,Engineering Practices Lab (Electrical)
+Mrs. R Bharathy,Engineering Practices – Electrical and Electronics,IT 1.3,lab,WEDNESDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Mrs. R Bharathy,Engineering Practices – Electrical and Electronics,IT 1.3,lab,SATURDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mr. A.E. Prabhu,Engineering Practices – Electrical and Electronics,IT 1.4,lab,THURSDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Mr. A.E. Prabhu,Engineering Practices – Electrical and Electronics,IT 1.4,lab,THURSDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Ms. Dr.S.V.Vinodhini,Engineering Practices – Electrical and Electronics,IT 1.5,lab,WEDNESDAY,09:00,09:50,Engineering Practices Lab (Electronics)
+Ms. Dr.S.V.Vinodhini,Engineering Practices – Electrical and Electronics,IT 1.5,lab,THURSDAY,11:50,13:20,Engineering Practices Lab (Electronics)
+Mrs. Geetha Chandrasekran,Environmental Science and Engineering,IT 1.1,lecture,WEDNESDAY,13:00,13:50,A303
+Mrs. Geetha Chandrasekran,Environmental Science and Engineering,IT 1.1,lecture,FRIDAY,12:00,12:50,D209
+Mrs. Geetha Chandrasekran,Environmental Science and Engineering,IT 1.1,lecture,THURSDAY,10:00,10:50,A205
+Mrs. Dr. D. Udhayakumari,Environmental Science and Engineering,IT 1.2,lecture,WEDNESDAY,15:00,15:50,D205
+Mrs. Dr. D. Udhayakumari,Environmental Science and Engineering,IT 1.2,lecture,FRIDAY,15:00,15:50,B415
+Mrs. Dr. D. Udhayakumari,Environmental Science and Engineering,IT 1.2,lecture,FRIDAY,08:00,08:50,A310
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,IT 1.3,lecture,TUESDAY,16:00,16:50,A305
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,IT 1.3,lecture,WEDNESDAY,14:00,14:50,D302
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,IT 1.3,lecture,SATURDAY,16:00,16:50,A305
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,IT 1.4,lecture,FRIDAY,14:00,14:50,D702
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,IT 1.4,lecture,TUESDAY,09:00,09:50,B213
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,IT 1.4,lecture,WEDNESDAY,11:00,11:50,D205
+Mr. Dr Mohan S,Environmental Science and Engineering,IT 1.5,lecture,SATURDAY,10:00,10:50,B210
+Mr. Dr Mohan S,Environmental Science and Engineering,IT 1.5,lecture,FRIDAY,09:00,09:50,B210
+Mr. Dr Mohan S,Environmental Science and Engineering,IT 1.5,lecture,FRIDAY,10:00,10:50,B210
+Mr. Hastin Fernandez,Technical Communication -I,R&A 1.1,lecture,SATURDAY,15:00,15:50,B402
+Mr. Hastin Fernandez,Technical Communication -I,R&A 1.1,lecture,SATURDAY,16:00,16:50,B417
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,lecture,FRIDAY,12:00,12:50,D205
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,lecture,FRIDAY,12:00,12:50,D205
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,tutorial,FRIDAY,12:00,12:50,D205
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,tutorial,FRIDAY,12:00,12:50,D205
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,tutorial,FRIDAY,12:00,12:50,D205
+Mr. P.Vimalanathan,Engineering Graphics,R&A 1.1,tutorial,FRIDAY,12:00,12:50,D205
+Mrs. Dr. Priya Nair,Algebra and Calculus,R&A 1.1,lecture,WEDNESDAY,14:00,14:50,B402
+Mrs. Dr. Priya Nair,Algebra and Calculus,R&A 1.1,lecture,TUESDAY,10:00,10:50,B417
+Mrs. Dr. Priya Nair,Algebra and Calculus,R&A 1.1,lecture,WEDNESDAY,16:00,16:50,A109
+Mrs. Dr. Priya Nair,Algebra and Calculus,R&A 1.1,tutorial,WEDNESDAY,09:00,09:50,B213
+New Faculty Robotics & Automation (NS-RA NS1),Heritage Of Tamils,R&A 1.1,lecture,TUESDAY,15:00,15:50,B402
+Mr. Manigandan Ramadoss,Environmental Science and Engineering,R&A 1.1,lecture,SATURDAY,10:00,10:50,D709
+Mr. Manigandan Ramadoss,Environmental Science and Engineering,R&A 1.1,lecture,THURSDAY,12:00,12:50,C101
+Mr. Manigandan Ramadoss,Environmental Science and Engineering,R&A 1.1,lecture,TUESDAY,12:00,12:50,D202
+HOD RA,Introduction To Mechanical Systems,R&A 1.1,lecture,FRIDAY,15:00,15:50,C101
+HOD RA,Introduction To Mechanical Systems,R&A 1.1,lecture,SATURDAY,14:00,14:50,A109
+HOD RA,Introduction To Mechanical Systems,R&A 1.1,tutorial,THURSDAY,15:00,15:50,D610
+Ms. K M Vijayalakshmi,Engineering Practices – Electrical and Electronics,R&A 1.1,lab,WEDNESDAY,11:50,13:20,Engineering Practices Lab (Electrical)
+Ms. K M Vijayalakshmi,Engineering Practices – Electrical and Electronics,R&A 1.1,lab,FRIDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Mr. Eswaran A,Engineering Practices - Civil & Mechanical,R&A 1.1,lab,WEDNESDAY,10:00,11:40,Machine Shop FF2 - EPL - 2
+Mr. Eswaran A,Engineering Practices - Civil & Mechanical,R&A 1.1,lab,SATURDAY,11:50,13:20,Machine Shop FF1 - EPL - 1
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,R&A 1.1,lecture,THURSDAY,16:00,16:50,C101
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,R&A 1.1,lecture,TUESDAY,13:00,13:50,D205
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,R&A 1.1,lecture,TUESDAY,14:00,14:50,D405
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,R&A 1.1,lab,TUESDAY,08:00,09:40,Electrical Machines I Lab
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,R&A 1.1,lab,THURSDAY,10:00,11:40,Electrical Machines I Lab
+Mr. Savier Mut Jabraj A,Technical Communication -I,FT 1.1,lecture,MONDAY,10:00,10:50,D709
+Mr. Savier Mut Jabraj A,Technical Communication -I,FT 1.1,lecture,THURSDAY,09:00,09:50,B212
+Ms. Malathy G,Heritage Of Tamils,FT 1.1,lecture,MONDAY,09:00,09:50,B418
+Dr. S. Anu,Environmental Science and Engineering,FT 1.1,lecture,MONDAY,16:00,16:50,C102
+Dr. S. Anu,Environmental Science and Engineering,FT 1.1,lecture,MONDAY,11:00,11:50,B320
+Dr. S. Anu,Environmental Science and Engineering,FT 1.1,lecture,THURSDAY,16:00,16:50,B418
+Mr. Parthiban.N,Engineering Practices - Civil & Mechanical,FT 1.1,lab,MONDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+Mr. Parthiban.N,Engineering Practices - Civil & Mechanical,FT 1.1,lab,TUESDAY,08:00,09:40,Machine Shop FF3 - EPL - 3
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,lecture,TUESDAY,12:00,12:50,D211
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,lecture,TUESDAY,12:00,12:50,D211
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,tutorial,TUESDAY,12:00,12:50,D211
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,tutorial,TUESDAY,12:00,12:50,D211
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,tutorial,TUESDAY,12:00,12:50,D211
+Dr. Ramkumar S,Engineering Graphics,FT 1.1,tutorial,TUESDAY,12:00,12:50,D211
+Mr. Dr.S.Mohandoss,Chemistry for Technologists,FT 1.1,lecture,MONDAY,15:00,15:50,D202
+Mr. Dr.S.Mohandoss,Chemistry for Technologists,FT 1.1,lecture,THURSDAY,15:00,15:50,C102
+Mr. Dr.S.Mohandoss,Chemistry for Technologists,FT 1.1,lecture,TUESDAY,15:00,15:50,B418
+Mr. Dr.S.Mohandoss,Chemistry for Technologists,FT 1.1,lab,THURSDAY,11:50,13:20,Chemistry Lab
+Mr. Dr.S.Mohandoss,Chemistry for Technologists,FT 1.1,lab,WEDNESDAY,15:00,16:40,Chemistry Lab
+Mrs. Dr.V.Lakshmi,Algebra and Calculus,FT 1.1,lecture,WEDNESDAY,11:00,11:50,B212
+Mrs. Dr.V.Lakshmi,Algebra and Calculus,FT 1.1,lecture,TUESDAY,13:00,13:50,D210
+Mrs. Dr.V.Lakshmi,Algebra and Calculus,FT 1.1,lecture,WEDNESDAY,13:00,13:50,B212
+Mrs. Dr.V.Lakshmi,Algebra and Calculus,FT 1.1,tutorial,WEDNESDAY,09:00,09:50,D211
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,CSE-CS 1.1,lecture,THURSDAY,11:00,11:50,D209
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,CSE-CS 1.1,lecture,WEDNESDAY,14:00,14:50,A210
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,CSE-CS 1.1,lecture,TUESDAY,09:00,09:50,A108
+New Faculty Mathematics (NS-NF-4),Linear Algebra and Calculus,CSE-CS 1.1,tutorial,THURSDAY,15:00,15:50,D109
+Dr. Meenakumari R,Linear Algebra and Calculus,CSE-CS 1.2,lecture,FRIDAY,11:00,11:50,A203
+Dr. Meenakumari R,Linear Algebra and Calculus,CSE-CS 1.2,lecture,THURSDAY,08:00,08:50,D309
+Dr. Meenakumari R,Linear Algebra and Calculus,CSE-CS 1.2,lecture,FRIDAY,10:00,10:50,C302
+Dr. Meenakumari R,Linear Algebra and Calculus,CSE-CS 1.2,tutorial,THURSDAY,15:00,15:50,D309
+Mrs. Arulmozhi Shanmugam,Linear Algebra and Calculus,CSE-CS 1.3,lecture,THURSDAY,11:00,11:50,D110
+Mrs. Arulmozhi Shanmugam,Linear Algebra and Calculus,CSE-CS 1.3,lecture,FRIDAY,15:00,15:50,B404
+Mrs. Arulmozhi Shanmugam,Linear Algebra and Calculus,CSE-CS 1.3,lecture,WEDNESDAY,08:00,08:50,D109
+Mrs. Arulmozhi Shanmugam,Linear Algebra and Calculus,CSE-CS 1.3,tutorial,TUESDAY,11:00,11:50,B302
+New Faculty English (NS-NFE-1),Technical Communication -I,CSE-CS 1.1,lecture,WEDNESDAY,11:00,11:50,B405
+New Faculty English (NS-NFE-1),Technical Communication -I,CSE-CS 1.1,lecture,MONDAY,10:00,10:50,A302
+Mrs. Sharmila B,Technical Communication -I,CSE-CS 1.2,lecture,THURSDAY,09:00,09:50,B417
+Mrs. Sharmila B,Technical Communication -I,CSE-CS 1.2,lecture,TUESDAY,14:00,14:50,A203
+Mrs. Andria Babu,Technical Communication -I,CSE-CS 1.3,lecture,MONDAY,14:00,14:50,B219
+Mrs. Andria Babu,Technical Communication -I,CSE-CS 1.3,lecture,WEDNESDAY,11:00,11:50,A203
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lecture,TUESDAY,08:00,08:50,D611
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lecture,TUESDAY,11:00,11:50,D409
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lecture,WEDNESDAY,09:00,09:50,C103
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lab,MONDAY,13:20,15:00,JL2
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lab,MONDAY,11:50,13:20,JR3
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lab,FRIDAY,11:50,13:20,KFL03
+CSE-CS-NF1,Programming using C,CSE-CS 1.1,lab,WEDNESDAY,11:50,13:20,TLGL3
+New Staff 1 N,Programming using C,CSE-CS 1.2,lecture,TUESDAY,11:00,11:50,B417
+New Staff 1 N,Programming using C,CSE-CS 1.2,lecture,FRIDAY,15:00,15:50,D703
+New Staff 1 N,Programming using C,CSE-CS 1.2,lecture,MONDAY,08:00,08:50,A205
+New Staff 1 N,Programming using C,CSE-CS 1.2,lab,FRIDAY,08:00,09:40,TLGL1
+New Staff 1 N,Programming using C,CSE-CS 1.2,lab,TUESDAY,08:00,09:40,TLFL3
+New Staff 1 N,Programming using C,CSE-CS 1.2,lab,MONDAY,11:50,13:20,JL1
+New Staff 1 N,Programming using C,CSE-CS 1.2,lab,TUESDAY,11:50,13:20,JL2
+New Staff 5 N,Programming using C,CSE-CS 1.3,lecture,FRIDAY,09:00,09:50,D109
+New Staff 5 N,Programming using C,CSE-CS 1.3,lecture,TUESDAY,14:00,14:50,D110
+New Staff 5 N,Programming using C,CSE-CS 1.3,lecture,WEDNESDAY,14:00,14:50,D409
+New Staff 5 N,Programming using C,CSE-CS 1.3,lab,THURSDAY,11:50,13:20,TLFR2
+New Staff 5 N,Programming using C,CSE-CS 1.3,lab,WEDNESDAY,11:50,13:20,JR2
+New Staff 5 N,Programming using C,CSE-CS 1.3,lab,THURSDAY,13:20,15:00,TLFR2
+New Staff 5 N,Programming using C,CSE-CS 1.3,lab,THURSDAY,15:00,16:40,KFL01
+New Faculty English (NS-NFE-3),Indian Constitution and Freedom Movement,CSE-CS 1.1,lecture,THURSDAY,13:00,13:50,D209
+New Faculty English (NS-NFE-3),Indian Constitution and Freedom Movement,CSE-CS 1.1,lecture,WEDNESDAY,15:00,15:50,C103
+New Faculty English (NS-NFE-3),Indian Constitution and Freedom Movement,CSE-CS 1.1,lecture,THURSDAY,16:00,16:50,D109
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE-CS 1.2,lecture,THURSDAY,14:00,14:50,D709
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE-CS 1.2,lecture,FRIDAY,14:00,14:50,C101
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE-CS 1.2,lecture,WEDNESDAY,11:00,11:50,C101
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,CSE-CS 1.3,lecture,MONDAY,10:00,10:50,B411
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,CSE-CS 1.3,lecture,TUESDAY,16:00,16:50,A210
+Mrs. Chitra Devi P,Indian Constitution and Freedom Movement,CSE-CS 1.3,lecture,MONDAY,13:00,13:50,C301
+CSE-CS-NF2,Engineering Practices - Civil & Mechanical,CSE-CS 1.1,lab,TUESDAY,11:50,13:20,Machine Shop FF3 - EPL - 3
+CSE-CS-NF2,Engineering Practices - Civil & Mechanical,CSE-CS 1.1,lab,MONDAY,11:50,13:20,Machine Shop FF3 - EPL - 3
+Dr. Ramkumar S,Engineering Practices - Civil & Mechanical,CSE-CS 1.2,lab,THURSDAY,11:50,13:20,Machine Shop FF2 - EPL - 2
+Dr. Ramkumar S,Engineering Practices - Civil & Mechanical,CSE-CS 1.2,lab,FRIDAY,11:50,13:20,Machine Shop FF3 - EPL - 3
+CSE-CS-NF1,Engineering Practices - Civil & Mechanical,CSE-CS 1.3,lab,MONDAY,08:00,09:40,Machine Shop FF3 - EPL - 3
+CSE-CS-NF1,Engineering Practices - Civil & Mechanical,CSE-CS 1.3,lab,WEDNESDAY,11:50,13:20,Machine Shop FF3 - EPL - 3
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,CSE-CS 1.1,lecture,MONDAY,11:00,11:50,A108
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,CSE-CS 1.1,lecture,FRIDAY,09:00,09:50,B405
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,CSE-CS 1.1,lecture,TUESDAY,10:00,10:50,A210
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,CSE-CS 1.1,lab,THURSDAY,09:00,09:50,Basic Electronics Lab-1
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,CSE-CS 1.1,lab,FRIDAY,16:00,16:50,Basic Electronics Lab-1
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,CSE-CS 1.2,lecture,WEDNESDAY,10:00,10:50,B402
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,CSE-CS 1.2,lecture,MONDAY,15:00,15:50,D411
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,CSE-CS 1.2,lecture,WEDNESDAY,13:00,13:50,C101
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,CSE-CS 1.2,lab,MONDAY,13:20,15:00,Basic Electronics Lab-1
+Mr. T. S. Saravanan,Basic Electrical and Electronics Engineering,CSE-CS 1.2,lab,TUESDAY,08:00,09:40,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical and Electronics Engineering,CSE-CS 1.3,lecture,THURSDAY,10:00,10:50,B416
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical and Electronics Engineering,CSE-CS 1.3,lecture,FRIDAY,08:00,08:50,B416
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical and Electronics Engineering,CSE-CS 1.3,lecture,FRIDAY,10:00,10:50,C301
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical and Electronics Engineering,CSE-CS 1.3,lab,THURSDAY,16:00,16:50,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical and Electronics Engineering,CSE-CS 1.3,lab,FRIDAY,12:00,12:50,Basic Electronics Lab-1
+Dr. G Ahilandeswari,Physics for Information Science,CSE-CS 1.1,lecture,FRIDAY,15:00,15:50,C103
+Dr. G Ahilandeswari,Physics for Information Science,CSE-CS 1.1,lecture,MONDAY,16:00,16:50,B405
+Dr. G Ahilandeswari,Physics for Information Science,CSE-CS 1.1,lecture,WEDNESDAY,10:00,10:50,D109
+Dr. G Ahilandeswari,Physics for Information Science,CSE-CS 1.1,lab,FRIDAY,13:20,15:00,Physics LAB - 2
+Mrs. Dr.B.Latha,Physics for Information Science,CSE-CS 1.2,lecture,THURSDAY,10:00,10:50,D411
+Mrs. Dr.B.Latha,Physics for Information Science,CSE-CS 1.2,lecture,MONDAY,11:00,11:50,D411
+Mrs. Dr.B.Latha,Physics for Information Science,CSE-CS 1.2,lecture,WEDNESDAY,09:00,09:50,D709
+Mrs. Dr.B.Latha,Physics for Information Science,CSE-CS 1.2,lab,WEDNESDAY,15:00,16:40,Physics LAB - 1
+Mrs. Dr R Kavitha,Physics for Information Science,CSE-CS 1.3,lecture,FRIDAY,11:00,11:50,D110
+Mrs. Dr R Kavitha,Physics for Information Science,CSE-CS 1.3,lecture,TUESDAY,15:00,15:50,B219
+Mrs. Dr R Kavitha,Physics for Information Science,CSE-CS 1.3,lecture,WEDNESDAY,09:00,09:50,C301
+Mrs. Dr R Kavitha,Physics for Information Science,CSE-CS 1.3,lab,TUESDAY,11:50,13:20,Physics LAB - 1
+New Faculty English (NS-NFE-1),Heritage Of Tamils,CSE-CS 1.1,lecture,TUESDAY,14:00,14:50,A102
+New Faculty English (NS-NFE-3),Heritage Of Tamils,CSE-CS 1.2,lecture,MONDAY,09:00,09:50,D411
+New Faculty English (NS-NFE-2),Heritage Of Tamils,CSE-CS 1.3,lecture,TUESDAY,09:00,09:50,B416
+Mrs. Dr I Sankeeda,Physics of Materials,AUTO 1.1,lecture,MONDAY,10:00,10:50,B422
+Mrs. Dr I Sankeeda,Physics of Materials,AUTO 1.1,lecture,MONDAY,14:00,14:50,D203
+Mrs. Dr I Sankeeda,Physics of Materials,AUTO 1.1,lecture,THURSDAY,15:00,15:50,B106
+Mrs. Dr I Sankeeda,Physics of Materials,AUTO 1.1,lab,MONDAY,11:50,13:20,Physics LAB - 2
+Mrs. G.Janet,Technical Communication -I,AUTO 1.1,lecture,MONDAY,08:00,08:50,A209
+Mrs. G.Janet,Technical Communication -I,AUTO 1.1,lecture,TUESDAY,08:00,08:50,A311
+Mr. R. Edwin Joseph,Engineering Practices - Civil & Mechanical,AUTO 1.1,lab,FRIDAY,13:20,15:00,Machine Shop FF1 - EPL - 1
+Mr. R. Edwin Joseph,Production Technology - I,AUTO 1.1,lecture,FRIDAY,12:00,12:50,C307
+Mr. R. Edwin Joseph,Production Technology - I,AUTO 1.1,lecture,MONDAY,09:00,09:50,B107
+Mr. R. Edwin Joseph,Production Technology - I,AUTO 1.1,lecture,MONDAY,11:00,11:50,C202
+Mrs. Dr.K.Seethalakshmi,Environmental Science and Engineering,AUTO 1.1,lecture,FRIDAY,10:00,10:50,A110
+Mrs. Dr.K.Seethalakshmi,Environmental Science and Engineering,AUTO 1.1,lecture,FRIDAY,09:00,09:50,A204
+Mrs. Dr.K.Seethalakshmi,Environmental Science and Engineering,AUTO 1.1,lecture,TUESDAY,12:00,12:50,C202
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,lecture,FRIDAY,16:00,16:50,D211
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,lecture,FRIDAY,16:00,16:50,D211
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,tutorial,FRIDAY,16:00,16:50,D211
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,tutorial,FRIDAY,16:00,16:50,D211
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,tutorial,FRIDAY,16:00,16:50,D211
+Mrs. B.Mullai Sudaroli,Engineering Graphics,AUTO 1.1,tutorial,FRIDAY,16:00,16:50,D211
+Dr. Santhiya S,Algebra and Calculus,AUTO 1.1,lecture,THURSDAY,09:00,09:50,A110
+Dr. Santhiya S,Algebra and Calculus,AUTO 1.1,lecture,TUESDAY,10:00,10:50,C307
+Dr. Santhiya S,Algebra and Calculus,AUTO 1.1,lecture,FRIDAY,15:00,15:50,B213
+Dr. Santhiya S,Algebra and Calculus,AUTO 1.1,tutorial,FRIDAY,11:00,11:50,A209
+Mrs. Gayathri K,Heritage Of Tamils,AUTO 1.1,lecture,MONDAY,15:00,15:50,C202
+Ms. Raghavi K K,Heritage Of Tamils,CHEM 1.1,lecture,TUESDAY,16:00,16:50,B416
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,lecture,MONDAY,12:00,12:50,D205
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,lecture,MONDAY,12:00,12:50,D205
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,tutorial,MONDAY,12:00,12:50,D205
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,tutorial,MONDAY,12:00,12:50,D205
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,tutorial,MONDAY,12:00,12:50,D205
+Mr. M.S.Natarajan,Engineering Graphics,CHEM 1.1,tutorial,MONDAY,12:00,12:50,D205
+Mr. Dr. A. Rajkumar,Engineering Practices - Civil & Mechanical,CHEM 1.1,lab,THURSDAY,15:00,16:40,Machine Shop FF1 - EPL - 1
+Mr. Dr. A. Rajkumar,Engineering Practices - Civil & Mechanical,CHEM 1.1,lab,MONDAY,10:00,11:40,Machine Shop FF1 - EPL - 1
+Mr. Anumantha Kannan G,Physics for Chemical Engineering,CHEM 1.1,lecture,MONDAY,09:00,09:50,B325
+Mr. Anumantha Kannan G,Physics for Chemical Engineering,CHEM 1.1,lecture,TUESDAY,14:00,14:50,B325
+Mr. Anumantha Kannan G,Physics for Chemical Engineering,CHEM 1.1,lecture,THURSDAY,14:00,14:50,B401
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,CHEM 1.1,lecture,MONDAY,15:00,15:50,A209
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,CHEM 1.1,lecture,MONDAY,16:00,16:50,D302
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,CHEM 1.1,lecture,THURSDAY,09:00,09:50,A205
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,CHEM 1.1,lecture,MONDAY,13:00,13:50,A302
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,CHEM 1.1,lecture,MONDAY,14:00,14:50,C302
+Mrs. V. Shakila,Algebra and Calculus,CHEM 1.1,lecture,THURSDAY,10:00,10:50,D512
+Mrs. V. Shakila,Algebra and Calculus,CHEM 1.1,lecture,TUESDAY,10:00,10:50,B322
+Mrs. V. Shakila,Algebra and Calculus,CHEM 1.1,lecture,THURSDAY,12:00,12:50,A209
+Mrs. V. Shakila,Algebra and Calculus,CHEM 1.1,tutorial,THURSDAY,11:00,11:50,A209
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lecture,SATURDAY,12:00,12:50,D511
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lecture,FRIDAY,08:00,08:50,B321
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lab,WEDNESDAY,08:00,09:40,Microbiology Lab
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lab,THURSDAY,13:20,15:00,Microbiology Lab
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lab,FRIDAY,10:00,11:40,Microbiology Lab
+Mr. Dr. T. A. Selvakumar,Microbiology,BT 1.1,lab,THURSDAY,10:00,11:40,Microbiology Lab
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lecture,THURSDAY,11:00,11:50,D310
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lecture,THURSDAY,10:00,10:50,B325
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lab,SATURDAY,15:00,16:40,Microbiology Lab
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lab,WEDNESDAY,11:50,13:20,Microbiology Lab
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lab,TUESDAY,10:00,11:40,Microbiology Lab
+Mrs. Muneeswari Alias Surya S,Microbiology,BT 1.2,lab,FRIDAY,13:20,15:00,Microbiology Lab
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lecture,THURSDAY,16:00,16:50,D205
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lecture,SATURDAY,11:00,11:50,A304
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lab,TUESDAY,15:00,16:40,Microbiology Lab
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lab,SATURDAY,11:50,13:20,Microbiology Lab
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lab,WEDNESDAY,13:20,15:00,Microbiology Lab
+Mr. Dr.D.Sridhar,Microbiology,BT 1.3,lab,SATURDAY,08:00,09:40,Microbiology Lab
+Mr. Parthiban.N,Engineering Practices - Civil & Mechanical,BT 1.1,lab,TUESDAY,15:00,16:40,Machine Shop FF2 - EPL - 2
+Mr. Parthiban.N,Engineering Practices - Civil & Mechanical,BT 1.1,lab,SATURDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+Mr. Santhanakrishnan Mamallan,Engineering Practices - Civil & Mechanical,BT 1.2,lab,SATURDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+Mr. Santhanakrishnan Mamallan,Engineering Practices - Civil & Mechanical,BT 1.2,lab,SATURDAY,10:00,11:40,Machine Shop FF3 - EPL - 3
+Mr. P T Dineshkumar,Engineering Practices - Civil & Mechanical,BT 1.3,lab,FRIDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+Mr. P T Dineshkumar,Engineering Practices - Civil & Mechanical,BT 1.3,lab,WEDNESDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,lecture,TUESDAY,12:00,12:50,D305
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,lecture,TUESDAY,12:00,12:50,D305
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,tutorial,TUESDAY,12:00,12:50,D305
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,tutorial,TUESDAY,12:00,12:50,D305
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,tutorial,TUESDAY,12:00,12:50,D305
+Mr. Parthiban.N,Engineering Graphics,BT 1.1,tutorial,TUESDAY,12:00,12:50,D305
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,lecture,TUESDAY,16:00,16:50,D302
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,lecture,TUESDAY,16:00,16:50,D302
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,tutorial,TUESDAY,16:00,16:50,D302
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,tutorial,TUESDAY,16:00,16:50,D302
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,tutorial,TUESDAY,16:00,16:50,D302
+Dr. Rajesh Kumar B,Engineering Graphics,BT 1.2,tutorial,TUESDAY,16:00,16:50,D302
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,lecture,TUESDAY,11:00,11:50,D305
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,lecture,TUESDAY,11:00,11:50,D305
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,tutorial,TUESDAY,11:00,11:50,D305
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,tutorial,TUESDAY,11:00,11:50,D305
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,tutorial,TUESDAY,11:00,11:50,D305
+Mr. P T Dineshkumar,Engineering Graphics,BT 1.3,tutorial,TUESDAY,11:00,11:50,D305
+Dr. S. Anu,Chemistry for Technologists,BT 1.1,lecture,SATURDAY,15:00,15:50,D203
+Dr. S. Anu,Chemistry for Technologists,BT 1.1,lecture,WEDNESDAY,12:00,12:50,D512
+Dr. S. Anu,Chemistry for Technologists,BT 1.1,lecture,THURSDAY,12:00,12:50,D202
+Dr. S. Anu,Chemistry for Technologists,BT 1.1,lab,TUESDAY,10:00,11:40,Chemistry Lab
+Dr. S. Anu,Chemistry for Technologists,BT 1.1,lab,SATURDAY,10:00,11:40,Chemistry Lab
+Mrs. Geetha Chandrasekran,Chemistry for Technologists,BT 1.2,lecture,FRIDAY,10:00,10:50,B426
+Mrs. Geetha Chandrasekran,Chemistry for Technologists,BT 1.2,lecture,FRIDAY,11:00,11:50,A302
+Mrs. Geetha Chandrasekran,Chemistry for Technologists,BT 1.2,lecture,WEDNESDAY,08:00,08:50,B212
+Mrs. Geetha Chandrasekran,Chemistry for Technologists,BT 1.2,lab,SATURDAY,11:50,13:20,Chemistry Lab
+Mrs. Geetha Chandrasekran,Chemistry for Technologists,BT 1.2,lab,THURSDAY,15:00,16:40,Chemistry Lab
+Mrs. Dr.K.Seethalakshmi,Chemistry for Technologists,BT 1.3,lecture,THURSDAY,15:00,15:50,A311
+Mrs. Dr.K.Seethalakshmi,Chemistry for Technologists,BT 1.3,lecture,WEDNESDAY,10:00,10:50,D203
+Mrs. Dr.K.Seethalakshmi,Chemistry for Technologists,BT 1.3,lecture,THURSDAY,12:00,12:50,A311
+Mrs. Dr.K.Seethalakshmi,Chemistry for Technologists,BT 1.3,lab,SATURDAY,08:00,09:40,Chemistry Lab
+Mrs. Dr.K.Seethalakshmi,Chemistry for Technologists,BT 1.3,lab,THURSDAY,10:00,11:40,Chemistry Lab
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BT 1.1,lecture,WEDNESDAY,10:00,10:50,D409
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BT 1.1,lecture,THURSDAY,09:00,09:50,B222
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BT 1.1,lecture,THURSDAY,08:00,08:50,D311
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,BT 1.2,lecture,TUESDAY,13:00,13:50,B212
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,BT 1.2,lecture,TUESDAY,09:00,09:50,A208
+Mr. Dr Arikrishnan J,Environmental Science and Engineering,BT 1.2,lecture,FRIDAY,15:00,15:50,B426
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,BT 1.3,lecture,FRIDAY,12:00,12:50,D203
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,BT 1.3,lecture,FRIDAY,11:00,11:50,D511
+Mr. V.Inbaraj Vadivel,Environmental Science and Engineering,BT 1.3,lecture,THURSDAY,14:00,14:50,D511
+Mrs. C. Renuga,Algebra and Calculus,BT 1.1,lecture,FRIDAY,13:00,13:50,B221
+Mrs. C. Renuga,Algebra and Calculus,BT 1.1,lecture,WEDNESDAY,15:00,15:50,D405
+Mrs. C. Renuga,Algebra and Calculus,BT 1.1,lecture,FRIDAY,09:00,09:50,B221
+Mrs. C. Renuga,Algebra and Calculus,BT 1.1,tutorial,WEDNESDAY,14:00,14:50,D705
+Dr. Santhiya S,Algebra and Calculus,BT 1.2,lecture,WEDNESDAY,10:00,10:50,B325
+Dr. Santhiya S,Algebra and Calculus,BT 1.2,lecture,WEDNESDAY,14:00,14:50,D305
+Dr. Santhiya S,Algebra and Calculus,BT 1.2,lecture,FRIDAY,16:00,16:50,C202
+Dr. Santhiya S,Algebra and Calculus,BT 1.2,tutorial,THURSDAY,14:00,14:50,D305
+Mrs. S.Vasanthi,Algebra and Calculus,BT 1.3,lecture,TUESDAY,09:00,09:50,B321
+Mrs. S.Vasanthi,Algebra and Calculus,BT 1.3,lecture,FRIDAY,10:00,10:50,D305
+Mrs. S.Vasanthi,Algebra and Calculus,BT 1.3,lecture,FRIDAY,08:00,08:50,D305
+Mrs. S.Vasanthi,Algebra and Calculus,BT 1.3,tutorial,WEDNESDAY,15:00,15:50,B321
+Mrs. Gayathri K,Technical Communication -I,BT 1.1,lecture,SATURDAY,13:00,13:50,D409
+Mrs. Gayathri K,Technical Communication -I,BT 1.1,lecture,THURSDAY,15:00,15:50,B222
+Ms. Raghavi K K,Technical Communication -I,BT 1.2,lecture,THURSDAY,12:00,12:50,B416
+Ms. Raghavi K K,Technical Communication -I,BT 1.2,lecture,WEDNESDAY,09:00,09:50,D305
+Dr. Sri Hari. G,Technical Communication -I,BT 1.3,lecture,SATURDAY,10:00,10:50,A304
+Dr. Sri Hari. G,Technical Communication -I,BT 1.3,lecture,SATURDAY,15:00,15:50,A311
+Mr. Dr.Jayakumar S,Heritage Of Tamils,BT 1.1,lecture,SATURDAY,14:00,14:50,B222
+Mr. Dinakaran S,Heritage Of Tamils,BT 1.2,lecture,SATURDAY,09:00,09:50,B325
+Mrs. Angel P,Heritage Of Tamils,BT 1.3,lecture,FRIDAY,15:00,15:50,A311
+Mrs. Shanmugapriya Kumaravelu,Heritage Of Tamils,CSE 1.1,lecture,TUESDAY,12:00,12:50,B210
+Ms. Malathy G,Heritage Of Tamils,CSE 1.2,lecture,MONDAY,11:00,11:50,A311
+New Faculty English (NS-NFE-2),Heritage Of Tamils,CSE 1.3,lecture,TUESDAY,12:00,12:50,B222
+New Faculty English (NS-NFE-1),Heritage Of Tamils,CSE 1.4,lecture,MONDAY,11:00,11:50,D612
+Dr. Rajasree Baskaran,Heritage Of Tamils,CSE 1.5,lecture,THURSDAY,09:00,09:50,C102
+CSE-NF1,Heritage Of Tamils,CSE 1.6,lecture,FRIDAY,10:00,10:50,B408
+Mrs. G.Janet,Heritage Of Tamils,CSE 1.7,lecture,TUESDAY,14:00,14:50,D109
+Mrs. Renuka B S,Heritage Of Tamils,CSE 1.8,lecture,TUESDAY,08:00,08:50,B419
+Mrs. P. Ramadevi,Heritage Of Tamils,CSE 1.9,lecture,MONDAY,10:00,10:50,B107
+Mrs. Gayathri K,Heritage Of Tamils,CSE 1.10,lecture,WEDNESDAY,08:00,08:50,A305
+Mr. Vijay Muthuswamy,Heritage Of Tamils,CSE 1.11,lecture,MONDAY,14:00,14:50,D202
+Mrs. Chitra Devi P,Heritage Of Tamils,CSE 1.12,lecture,TUESDAY,14:00,14:50,C101
+Dr. Sri Hari. G,Heritage Of Tamils,CSE 1.13,lecture,TUESDAY,14:00,14:50,A311
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lecture,WEDNESDAY,13:00,13:50,C201
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lecture,TUESDAY,13:00,13:50,D310
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lecture,MONDAY,10:00,10:50,C202
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lab,TUESDAY,08:00,09:40,TLGL1
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lab,FRIDAY,10:00,11:40,TLFL1
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lab,THURSDAY,15:00,16:40,TLFL4
+Mrs. S.Ponmani,Programming using C,CSE 1.1,lab,THURSDAY,11:50,13:20,JL2
+CSE-NF1,Programming using C,CSE 1.2,lecture,WEDNESDAY,11:00,11:50,D202
+CSE-NF1,Programming using C,CSE 1.2,lecture,THURSDAY,13:00,13:50,D202
+CSE-NF1,Programming using C,CSE 1.2,lecture,TUESDAY,10:00,10:50,D405
+CSE-NF1,Programming using C,CSE 1.2,lab,WEDNESDAY,13:20,15:00,TLFL1
+CSE-NF1,Programming using C,CSE 1.2,lab,THURSDAY,10:00,11:40,TLFL3
+CSE-NF1,Programming using C,CSE 1.2,lab,TUESDAY,08:00,09:40,TLFR2
+CSE-NF1,Programming using C,CSE 1.2,lab,WEDNESDAY,15:00,16:40,TLFR5
+CSE-NF2,Programming using C,CSE 1.3,lecture,THURSDAY,09:00,09:50,D205
+CSE-NF2,Programming using C,CSE 1.3,lecture,FRIDAY,13:00,13:50,B211
+CSE-NF2,Programming using C,CSE 1.3,lecture,WEDNESDAY,11:00,11:50,A209
+CSE-NF2,Programming using C,CSE 1.3,lab,WEDNESDAY,13:20,15:00,TLFR2
+CSE-NF2,Programming using C,CSE 1.3,lab,FRIDAY,10:00,11:40,TLFR2
+CSE-NF2,Programming using C,CSE 1.3,lab,TUESDAY,15:00,16:40,TLFL1
+CSE-NF2,Programming using C,CSE 1.3,lab,THURSDAY,10:00,11:40,JL1
+CSE-NF3,Programming using C,CSE 1.4,lecture,WEDNESDAY,15:00,15:50,B412
+CSE-NF3,Programming using C,CSE 1.4,lecture,FRIDAY,13:00,13:50,B213
+CSE-NF3,Programming using C,CSE 1.4,lecture,TUESDAY,10:00,10:50,B425
+CSE-NF3,Programming using C,CSE 1.4,lab,WEDNESDAY,10:00,11:40,TLFL4
+CSE-NF3,Programming using C,CSE 1.4,lab,WEDNESDAY,08:00,09:40,JR1
+CSE-NF3,Programming using C,CSE 1.4,lab,MONDAY,11:50,13:20,TLGL1
+CSE-NF3,Programming using C,CSE 1.4,lab,TUESDAY,11:50,13:20,TLFR1
+CSE-NF4,Programming using C,CSE 1.5,lecture,TUESDAY,12:00,12:50,A305
+CSE-NF4,Programming using C,CSE 1.5,lecture,FRIDAY,16:00,16:50,C102
+CSE-NF4,Programming using C,CSE 1.5,lecture,WEDNESDAY,15:00,15:50,B419
+CSE-NF4,Programming using C,CSE 1.5,lab,TUESDAY,10:00,11:40,TLFL4
+CSE-NF4,Programming using C,CSE 1.5,lab,WEDNESDAY,11:50,13:20,TLGL1
+CSE-NF4,Programming using C,CSE 1.5,lab,WEDNESDAY,13:20,15:00,TLFR4
+CSE-NF4,Programming using C,CSE 1.5,lab,TUESDAY,08:00,09:40,JL2
+CSE-NF5,Programming using C,CSE 1.6,lecture,WEDNESDAY,11:00,11:50,B211
+CSE-NF5,Programming using C,CSE 1.6,lecture,MONDAY,14:00,14:50,B408
+CSE-NF5,Programming using C,CSE 1.6,lecture,TUESDAY,11:00,11:50,A103
+CSE-NF5,Programming using C,CSE 1.6,lab,WEDNESDAY,13:20,15:00,JL1
+CSE-NF5,Programming using C,CSE 1.6,lab,MONDAY,08:00,09:40,JL3
+CSE-NF5,Programming using C,CSE 1.6,lab,FRIDAY,13:20,15:00,TLGL2
+CSE-NF5,Programming using C,CSE 1.6,lab,WEDNESDAY,15:00,16:40,TLFR1
+Dr. Duraipandian N,Programming using C,CSE 1.7,lecture,TUESDAY,08:00,08:50,C103
+Dr. Duraipandian N,Programming using C,CSE 1.7,lecture,MONDAY,15:00,15:50,D702
+Dr. Duraipandian N,Programming using C,CSE 1.7,lecture,TUESDAY,10:00,10:50,D211
+Dr. Duraipandian N,Programming using C,CSE 1.7,lab,FRIDAY,11:50,13:20,TLFR1
+Dr. Duraipandian N,Programming using C,CSE 1.7,lab,MONDAY,08:00,09:40,TLGL3
+Dr. Duraipandian N,Programming using C,CSE 1.7,lab,WEDNESDAY,13:20,15:00,KFL03
+Dr. Duraipandian N,Programming using C,CSE 1.7,lab,FRIDAY,08:00,09:40,TLFL5
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lecture,FRIDAY,09:00,09:50,D411
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lecture,WEDNESDAY,11:00,11:50,B419
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lecture,WEDNESDAY,08:00,08:50,D411
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lab,MONDAY,10:00,11:40,JR2
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lab,TUESDAY,11:50,13:20,JL3
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lab,THURSDAY,13:20,15:00,KFR03
+Ms. Jaeyalakshmi M,Programming using C,CSE 1.8,lab,THURSDAY,10:00,11:40,KSL03
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lecture,THURSDAY,13:00,13:50,D410
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lecture,WEDNESDAY,11:00,11:50,A104/105
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lecture,THURSDAY,14:00,14:50,D710
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lab,MONDAY,15:00,16:40,TLGL3
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lab,FRIDAY,08:00,09:40,TLFL4
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lab,WEDNESDAY,13:20,15:00,JR3
+Dr. Bhuvaneswari R,Programming using C,CSE 1.9,lab,TUESDAY,11:50,13:20,TLGL4
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lecture,WEDNESDAY,13:00,13:50,A305
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lecture,THURSDAY,09:00,09:50,D704
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lecture,THURSDAY,11:00,11:50,A109
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lab,MONDAY,10:00,11:40,KFR02
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lab,MONDAY,13:20,15:00,KFL02
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lab,THURSDAY,13:20,15:00,JR2
+New Faculty Computer Science & Engineering (NS-New Staff-9),Programming using C,CSE 1.10,lab,FRIDAY,13:20,15:00,KFL03
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lecture,TUESDAY,14:00,14:50,A210
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lecture,MONDAY,12:00,12:50,A309
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lecture,WEDNESDAY,11:00,11:50,D610
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lab,MONDAY,10:00,11:40,TLFL2
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lab,FRIDAY,15:00,16:40,TLFL5
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lab,TUESDAY,15:00,16:40,KSL03
+Mr. Dr. N. Duraimurugan,Programming using C,CSE 1.11,lab,FRIDAY,11:50,13:20,JL1
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lecture,WEDNESDAY,13:00,13:50,D205
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lecture,THURSDAY,14:00,14:50,D205
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lecture,WEDNESDAY,14:00,14:50,B403
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lab,THURSDAY,10:00,11:40,TLGL3
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lab,TUESDAY,11:50,13:20,KFR02
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lab,MONDAY,10:00,11:40,KFL01
+Mrs. Akiladevi R,Programming using C,CSE 1.12,lab,MONDAY,15:00,16:40,KFR01
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lecture,THURSDAY,14:00,14:50,B404
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lecture,THURSDAY,15:00,15:50,C307
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lecture,FRIDAY,14:00,14:50,D405
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lab,THURSDAY,10:00,11:40,TLFR4
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lab,WEDNESDAY,10:00,11:40,TLFR4
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lab,MONDAY,10:00,11:40,KFR03
+New Faculty Computer Science & Engineering (NS-New Staff-6),Programming using C,CSE 1.13,lab,MONDAY,11:50,13:20,JR1
+Mr. M Sankar Kumar,Physics for Information Science,CSE 1.1,lecture,FRIDAY,15:00,15:50,A211
+Mr. M Sankar Kumar,Physics for Information Science,CSE 1.1,lecture,TUESDAY,14:00,14:50,B423
+Mr. M Sankar Kumar,Physics for Information Science,CSE 1.1,lecture,WEDNESDAY,10:00,10:50,A211
+Mr. M Sankar Kumar,Physics for Information Science,CSE 1.1,lab,WEDNESDAY,08:00,09:40,Physics LAB - 1
+Mr. Dr S Gobalakrishnan,Physics for Information Science,CSE 1.2,lecture,THURSDAY,08:00,08:50,A110
+Mr. Dr S Gobalakrishnan,Physics for Information Science,CSE 1.2,lecture,MONDAY,14:00,14:50,A209
+Mr. Dr S Gobalakrishnan,Physics for Information Science,CSE 1.2,lecture,FRIDAY,13:00,13:50,D405
+Mr. Dr S Gobalakrishnan,Physics for Information Science,CSE 1.2,lab,TUESDAY,11:50,13:20,Physics LAB - 2
+Mr. Senthilkumar K,Physics for Information Science,CSE 1.3,lecture,WEDNESDAY,09:00,09:50,C308
+Mr. Senthilkumar K,Physics for Information Science,CSE 1.3,lecture,TUESDAY,14:00,14:50,D402
+Mr. Senthilkumar K,Physics for Information Science,CSE 1.3,lecture,MONDAY,15:00,15:50,D209
+Mr. Senthilkumar K,Physics for Information Science,CSE 1.3,lab,MONDAY,08:00,09:40,Physics LAB - 1
+Mr. Vijayanarasimhan K,Physics for Information Science,CSE 1.4,lecture,MONDAY,14:00,14:50,B401
+Mr. Vijayanarasimhan K,Physics for Information Science,CSE 1.4,lecture,MONDAY,09:00,09:50,B401
+Mr. Vijayanarasimhan K,Physics for Information Science,CSE 1.4,lecture,FRIDAY,15:00,15:50,A302
+Mr. Vijayanarasimhan K,Physics for Information Science,CSE 1.4,lab,FRIDAY,08:00,09:40,Physics LAB - 1
+Mr. Anumantha Kannan G,Physics for Information Science,CSE 1.5,lecture,FRIDAY,09:00,09:50,D711
+Mr. Anumantha Kannan G,Physics for Information Science,CSE 1.5,lecture,MONDAY,11:00,11:50,D711
+Mr. Anumantha Kannan G,Physics for Information Science,CSE 1.5,lecture,TUESDAY,15:00,15:50,B419
+Mr. Anumantha Kannan G,Physics for Information Science,CSE 1.5,lab,THURSDAY,10:00,11:40,Physics LAB - 1
+Dr. G Ahilandeswari,Physics for Information Science,CSE 1.6,lecture,FRIDAY,08:00,08:50,B425
+Dr. G Ahilandeswari,Physics for Information Science,CSE 1.6,lecture,MONDAY,10:00,10:50,B222
+Dr. G Ahilandeswari,Physics for Information Science,CSE 1.6,lecture,THURSDAY,14:00,14:50,A103
+Dr. G Ahilandeswari,Physics for Information Science,CSE 1.6,lab,THURSDAY,08:00,09:40,Physics LAB - 1
+Mrs. Dr Muthupradeepa R,Physics for Information Science,CSE 1.7,lecture,WEDNESDAY,08:00,08:50,B302
+Mrs. Dr Muthupradeepa R,Physics for Information Science,CSE 1.7,lecture,TUESDAY,11:00,11:50,D702
+Mrs. Dr Muthupradeepa R,Physics for Information Science,CSE 1.7,lecture,WEDNESDAY,11:00,11:50,B322
+Mrs. Dr Muthupradeepa R,Physics for Information Science,CSE 1.7,lab,FRIDAY,13:20,15:00,Physics LAB - 1
+Mr. Dr.P Vasudevan,Physics for Information Science,CSE 1.8,lecture,FRIDAY,14:00,14:50,B401
+Mr. Dr.P Vasudevan,Physics for Information Science,CSE 1.8,lecture,MONDAY,13:00,13:50,D209
+Mr. Dr.P Vasudevan,Physics for Information Science,CSE 1.8,lecture,MONDAY,16:00,16:50,A210
+Mr. Dr.P Vasudevan,Physics for Information Science,CSE 1.8,lab,FRIDAY,10:00,11:40,Physics LAB - 1
+Mrs. Dr I Sankeeda,Physics for Information Science,CSE 1.9,lecture,FRIDAY,15:00,15:50,B325
+Mrs. Dr I Sankeeda,Physics for Information Science,CSE 1.9,lecture,MONDAY,09:00,09:50,A302
+Mrs. Dr I Sankeeda,Physics for Information Science,CSE 1.9,lecture,WEDNESDAY,09:00,09:50,B210
+Mrs. Dr I Sankeeda,Physics for Information Science,CSE 1.9,lab,FRIDAY,11:50,13:20,Physics LAB - 1
+Dr. Pugazhvadivu Ks,Physics for Information Science,CSE 1.10,lecture,THURSDAY,16:00,16:50,D511
+Dr. Pugazhvadivu Ks,Physics for Information Science,CSE 1.10,lecture,THURSDAY,15:00,15:50,B320
+Dr. Pugazhvadivu Ks,Physics for Information Science,CSE 1.10,lecture,MONDAY,09:00,09:50,A109
+Dr. Pugazhvadivu Ks,Physics for Information Science,CSE 1.10,lab,TUESDAY,13:20,15:00,Physics LAB - 2
+Mr. Dr Ragavendran Venkatesan,Physics for Information Science,CSE 1.11,lecture,THURSDAY,12:00,12:50,D402
+Mr. Dr Ragavendran Venkatesan,Physics for Information Science,CSE 1.11,lecture,WEDNESDAY,16:00,16:50,D110
+Mr. Dr Ragavendran Venkatesan,Physics for Information Science,CSE 1.11,lecture,THURSDAY,11:00,11:50,A304
+Mr. Dr Ragavendran Venkatesan,Physics for Information Science,CSE 1.11,lab,MONDAY,15:00,16:40,Physics LAB - 1
+Mrs. Dr.B.Latha,Physics for Information Science,CSE 1.12,lecture,FRIDAY,09:00,09:50,D202
+Mrs. Dr.B.Latha,Physics for Information Science,CSE 1.12,lecture,TUESDAY,16:00,16:50,D205
+Mrs. Dr.B.Latha,Physics for Information Science,CSE 1.12,lecture,TUESDAY,15:00,15:50,D205
+Mrs. Dr.B.Latha,Physics for Information Science,CSE 1.12,lab,MONDAY,11:50,13:20,Physics LAB - 1
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,CSE 1.13,lecture,FRIDAY,13:00,13:50,D612
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,CSE 1.13,lecture,TUESDAY,11:00,11:50,B404
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,CSE 1.13,lecture,TUESDAY,13:00,13:50,D302
+Mrs. Dr.Rubarani P Gangadharan,Physics for Information Science,CSE 1.13,lab,MONDAY,13:20,15:00,Physics LAB - 1
+Ms. Malathy G,Indian Constitution and Freedom Movement,CSE 1.1,lecture,WEDNESDAY,11:00,11:50,C202
+Ms. Malathy G,Indian Constitution and Freedom Movement,CSE 1.1,lecture,MONDAY,15:00,15:50,C201
+Ms. Malathy G,Indian Constitution and Freedom Movement,CSE 1.1,lecture,FRIDAY,12:00,12:50,A305
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE 1.2,lecture,MONDAY,10:00,10:50,D611
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE 1.2,lecture,TUESDAY,14:00,14:50,D202
+Ms. Manasa K,Indian Constitution and Freedom Movement,CSE 1.2,lecture,MONDAY,15:00,15:50,D711
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,CSE 1.3,lecture,WEDNESDAY,12:00,12:50,D205
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,CSE 1.3,lecture,MONDAY,14:00,14:50,B106
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,CSE 1.3,lecture,MONDAY,13:00,13:50,B320
+Mr. Hastin Fernandez,Indian Constitution and Freedom Movement,CSE 1.4,lecture,TUESDAY,14:00,14:50,B210
+Mr. Hastin Fernandez,Indian Constitution and Freedom Movement,CSE 1.4,lecture,THURSDAY,08:00,08:50,B213
+Mr. Hastin Fernandez,Indian Constitution and Freedom Movement,CSE 1.4,lecture,THURSDAY,14:00,14:50,B213
+Mrs. G.Janet,Indian Constitution and Freedom Movement,CSE 1.5,lecture,WEDNESDAY,11:00,11:50,D210
+Mrs. G.Janet,Indian Constitution and Freedom Movement,CSE 1.5,lecture,MONDAY,09:00,09:50,B322
+Mrs. G.Janet,Indian Constitution and Freedom Movement,CSE 1.5,lecture,FRIDAY,10:00,10:50,D402
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,CSE 1.6,lecture,THURSDAY,15:00,15:50,B418
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,CSE 1.6,lecture,WEDNESDAY,10:00,10:50,A204
+Ms. Rajalakshmi B,Indian Constitution and Freedom Movement,CSE 1.6,lecture,THURSDAY,10:00,10:50,D704
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,CSE 1.7,lecture,WEDNESDAY,15:00,15:50,D409
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,CSE 1.7,lecture,TUESDAY,09:00,09:50,B322
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,CSE 1.7,lecture,FRIDAY,11:00,11:50,A305
+Mr. M. Muthumanikandan,Indian Constitution and Freedom Movement,CSE 1.8,lecture,MONDAY,12:00,12:50,B424
+Mr. M. Muthumanikandan,Indian Constitution and Freedom Movement,CSE 1.8,lecture,THURSDAY,08:00,08:50,D209
+Mr. M. Muthumanikandan,Indian Constitution and Freedom Movement,CSE 1.8,lecture,WEDNESDAY,14:00,14:50,B419
+Mr. Savier Mut Jabraj A,Indian Constitution and Freedom Movement,CSE 1.9,lecture,FRIDAY,11:00,11:50,D510
+Mr. Savier Mut Jabraj A,Indian Constitution and Freedom Movement,CSE 1.9,lecture,TUESDAY,09:00,09:50,C301
+Mr. Savier Mut Jabraj A,Indian Constitution and Freedom Movement,CSE 1.9,lecture,MONDAY,12:00,12:50,D703
+Dr. Sri Hari. G,Indian Constitution and Freedom Movement,CSE 1.10,lecture,FRIDAY,10:00,10:50,B220
+Dr. Sri Hari. G,Indian Constitution and Freedom Movement,CSE 1.10,lecture,TUESDAY,10:00,10:50,B409
+Dr. Sri Hari. G,Indian Constitution and Freedom Movement,CSE 1.10,lecture,MONDAY,15:00,15:50,B218
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,CSE 1.11,lecture,TUESDAY,10:00,10:50,D705
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,CSE 1.11,lecture,FRIDAY,14:00,14:50,D510
+Dr. Rajasree Baskaran,Indian Constitution and Freedom Movement,CSE 1.11,lecture,WEDNESDAY,10:00,10:50,C101
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,CSE 1.12,lecture,TUESDAY,11:00,11:50,B422
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,CSE 1.12,lecture,WEDNESDAY,11:00,11:50,A204
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,CSE 1.12,lecture,FRIDAY,11:00,11:50,C101
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,CSE 1.13,lecture,WEDNESDAY,08:00,08:50,B107
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,CSE 1.13,lecture,THURSDAY,13:00,13:50,D612
+Dr. Vijayalakshmi M,Indian Constitution and Freedom Movement,CSE 1.13,lecture,THURSDAY,08:00,08:50,B404
+Mr. Ron Carter Sb,Basic Electrical and Electronics Engineering,CSE 1.1,lecture,FRIDAY,16:00,16:50,D711
+Mr. Ron Carter Sb,Basic Electrical and Electronics Engineering,CSE 1.1,lecture,WEDNESDAY,15:00,15:50,D411
+Mr. Ron Carter Sb,Basic Electrical and Electronics Engineering,CSE 1.1,lecture,THURSDAY,09:00,09:50,B408
+Mr. Ron Carter Sb,Basic Electrical and Electronics Engineering,CSE 1.1,lab,MONDAY,08:00,09:40,Basic Electronics Lab-1
+Mr. Ron Carter Sb,Basic Electrical and Electronics Engineering,CSE 1.1,lab,THURSDAY,10:00,11:40,Basic Electronics Lab-1
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,CSE 1.2,lecture,WEDNESDAY,10:00,10:50,D612
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,CSE 1.2,lecture,MONDAY,13:00,13:50,D210
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,CSE 1.2,lecture,WEDNESDAY,09:00,09:50,B426
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,CSE 1.2,lab,TUESDAY,09:00,09:50,Basic Electronics Lab-1
+Ms. D Manimegalai,Basic Electrical and Electronics Engineering,CSE 1.2,lab,FRIDAY,15:00,15:50,Basic Electronics Lab-1
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,CSE 1.3,lecture,WEDNESDAY,15:00,15:50,A209
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,CSE 1.3,lecture,THURSDAY,12:00,12:50,B222
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,CSE 1.3,lecture,TUESDAY,09:00,09:50,B212
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,CSE 1.3,lab,TUESDAY,15:00,16:40,Basic Electronics Lab-1
+Ms. K M Vijayalakshmi,Basic Electrical and Electronics Engineering,CSE 1.3,lab,TUESDAY,10:00,10:50,Basic Electronics Lab-1
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,CSE 1.4,lecture,TUESDAY,15:00,15:50,B408
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,CSE 1.4,lecture,MONDAY,10:00,10:50,B425
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,CSE 1.4,lecture,THURSDAY,10:00,10:50,D610
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,CSE 1.4,lab,THURSDAY,13:00,13:50,Basic Electronics Lab-1
+Ms. J C Vinitha,Basic Electrical and Electronics Engineering,CSE 1.4,lab,WEDNESDAY,11:00,11:50,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,CSE 1.5,lecture,THURSDAY,16:00,16:50,B322
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,CSE 1.5,lecture,MONDAY,10:00,10:50,D711
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,CSE 1.5,lecture,MONDAY,13:00,13:50,B409
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,CSE 1.5,lab,MONDAY,15:00,16:40,Basic Electronics Lab-1
+New Faculty Electrical & Electronics Engineering (NS-NF1),Basic Electrical and Electronics Engineering,CSE 1.5,lab,FRIDAY,14:00,14:50,Basic Electronics Lab-1
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,CSE 1.6,lecture,TUESDAY,09:00,09:50,B211
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,CSE 1.6,lecture,WEDNESDAY,09:00,09:50,A305
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,CSE 1.6,lecture,TUESDAY,08:00,08:50,B425
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,CSE 1.6,lab,FRIDAY,11:50,13:20,Basic Electronics Lab-1
+Mr. Srinivasan C,Basic Electrical and Electronics Engineering,CSE 1.6,lab,MONDAY,08:00,08:50,Basic Electronics Lab-1
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,CSE 1.7,lecture,WEDNESDAY,09:00,09:50,D711
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,CSE 1.7,lecture,MONDAY,14:00,14:50,D405
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,CSE 1.7,lecture,THURSDAY,09:00,09:50,B302
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,CSE 1.7,lab,TUESDAY,15:00,15:50,Basic Electronics Lab-1
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,CSE 1.7,lab,MONDAY,10:00,11:40,Basic Electronics Lab-1
+Mrs. Aswini A,Basic Electrical and Electronics Engineering,CSE 1.8,lecture,FRIDAY,12:00,12:50,B419
+Mrs. Aswini A,Basic Electrical and Electronics Engineering,CSE 1.8,lecture,TUESDAY,15:00,15:50,A210
+Mrs. Aswini A,Basic Electrical and Electronics Engineering,CSE 1.8,lecture,MONDAY,09:00,09:50,D209
+Mrs. Aswini A,Basic Electrical and Electronics Engineering,CSE 1.8,lab,WEDNESDAY,10:00,10:50,Basic Electronics Lab-1
+Mrs. Aswini A,Basic Electrical and Electronics Engineering,CSE 1.8,lab,THURSDAY,15:00,15:50,Basic Electronics Lab-1
+Mr. A.Nazar Ali,Basic Electrical and Electronics Engineering,CSE 1.9,lecture,TUESDAY,11:00,11:50,A302
+Mr. A.Nazar Ali,Basic Electrical and Electronics Engineering,CSE 1.9,lecture,WEDNESDAY,10:00,10:50,C301
+Mr. A.Nazar Ali,Basic Electrical and Electronics Engineering,CSE 1.9,lecture,TUESDAY,15:00,15:50,B425
+Mr. A.Nazar Ali,Basic Electrical and Electronics Engineering,CSE 1.9,lab,TUESDAY,14:00,14:50,Basic Electronics Lab-1
+Mr. A.Nazar Ali,Basic Electrical and Electronics Engineering,CSE 1.9,lab,THURSDAY,12:00,12:50,Basic Electronics Lab-1
+Dr. A.Sangari,Basic Electrical and Electronics Engineering,CSE 1.10,lecture,TUESDAY,08:00,08:50,D511
+Dr. A.Sangari,Basic Electrical and Electronics Engineering,CSE 1.10,lecture,WEDNESDAY,14:00,14:50,D311
+Dr. A.Sangari,Basic Electrical and Electronics Engineering,CSE 1.10,lecture,TUESDAY,15:00,15:50,B218
+Dr. A.Sangari,Basic Electrical and Electronics Engineering,CSE 1.10,lab,MONDAY,11:50,13:20,Basic Electronics Lab-1
+Dr. A.Sangari,Basic Electrical and Electronics Engineering,CSE 1.10,lab,WEDNESDAY,12:00,12:50,Basic Electronics Lab-1
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,CSE 1.11,lecture,WEDNESDAY,12:00,12:50,A309
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,CSE 1.11,lecture,WEDNESDAY,09:00,09:50,B425
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,CSE 1.11,lecture,TUESDAY,09:00,09:50,D610
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,CSE 1.11,lab,TUESDAY,11:00,11:50,Basic Electronics Lab-1
+Mr. Dr. P. Thirusenthil Kumaran,Basic Electrical and Electronics Engineering,CSE 1.11,lab,THURSDAY,15:00,16:40,Basic Electronics Lab-1
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,CSE 1.12,lecture,FRIDAY,14:00,14:50,B422
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,CSE 1.12,lecture,THURSDAY,15:00,15:50,B403
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,CSE 1.12,lecture,FRIDAY,16:00,16:50,D202
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,CSE 1.12,lab,MONDAY,15:00,16:40,Basic Electronics Lab-1
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,CSE 1.12,lab,MONDAY,09:00,09:50,Basic Electronics Lab-1
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,CSE 1.13,lecture,WEDNESDAY,09:00,09:50,D210
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,CSE 1.13,lecture,THURSDAY,09:00,09:50,B416
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,CSE 1.13,lecture,MONDAY,09:00,09:50,D405
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,CSE 1.13,lab,MONDAY,10:00,11:40,Basic Electronics Lab-1
+Mr. Ragupathy P,Basic Electrical and Electronics Engineering,CSE 1.13,lab,FRIDAY,10:00,11:40,Basic Electronics Lab-1
+Mrs. Dr. B.Lakshmi,Technical Communication -I,CSE 1.1,lecture,THURSDAY,14:00,14:50,B423
+Mrs. Dr. B.Lakshmi,Technical Communication -I,CSE 1.1,lecture,MONDAY,12:00,12:50,B212
+Mrs. Angel P,Technical Communication -I,CSE 1.2,lecture,FRIDAY,14:00,14:50,B426
+Mrs. Angel P,Technical Communication -I,CSE 1.2,lecture,FRIDAY,11:00,11:50,D311
+Mr. Hastin Fernandez,Technical Communication -I,CSE 1.3,lecture,THURSDAY,16:00,16:50,B426
+Mr. Hastin Fernandez,Technical Communication -I,CSE 1.3,lecture,WEDNESDAY,16:00,16:50,D402
+Mr. Vijay Muthuswamy,Technical Communication -I,CSE 1.4,lecture,WEDNESDAY,12:00,12:50,B412
+Mr. Vijay Muthuswamy,Technical Communication -I,CSE 1.4,lecture,FRIDAY,11:00,11:50,A108
+New Faculty English (NS-NFE-2),Technical Communication -I,CSE 1.5,lecture,WEDNESDAY,08:00,08:50,D402
+New Faculty English (NS-NFE-2),Technical Communication -I,CSE 1.5,lecture,MONDAY,14:00,14:50,B411
+New Faculty English (NS-NFE-3),Technical Communication -I,CSE 1.6,lecture,FRIDAY,11:00,11:50,B418
+New Faculty English (NS-NFE-3),Technical Communication -I,CSE 1.6,lecture,FRIDAY,15:00,15:50,B418
+Mrs. Alamelu G,Technical Communication -I,CSE 1.7,lecture,WEDNESDAY,12:00,12:50,D405
+Mrs. Alamelu G,Technical Communication -I,CSE 1.7,lecture,THURSDAY,14:00,14:50,D109
+Mr. Jebaraj Kabriel,Technical Communication -I,CSE 1.8,lecture,THURSDAY,12:00,12:50,D612
+Mr. Jebaraj Kabriel,Technical Communication -I,CSE 1.8,lecture,WEDNESDAY,12:00,12:50,B401
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,CSE 1.9,lecture,FRIDAY,10:00,10:50,B425
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,CSE 1.9,lecture,THURSDAY,11:00,11:50,B404
+Mr. Dinakaran S,Technical Communication -I,CSE 1.10,lecture,FRIDAY,08:00,08:50,B220
+Mr. Dinakaran S,Technical Communication -I,CSE 1.10,lecture,TUESDAY,11:00,11:50,D704
+Dr. Rajasree Baskaran,Technical Communication -I,CSE 1.11,lecture,MONDAY,13:00,13:50,A210
+Dr. Rajasree Baskaran,Technical Communication -I,CSE 1.11,lecture,TUESDAY,13:00,13:50,D402
+Mrs. Chitra Devi P,Technical Communication -I,CSE 1.12,lecture,MONDAY,14:00,14:50,D110
+Mrs. Chitra Devi P,Technical Communication -I,CSE 1.12,lecture,THURSDAY,16:00,16:50,A208
+Mrs. Shanmugapriya Kumaravelu,Technical Communication -I,CSE 1.13,lecture,MONDAY,15:00,15:50,B404
+Mrs. Shanmugapriya Kumaravelu,Technical Communication -I,CSE 1.13,lecture,FRIDAY,09:00,09:50,A202
+Mr. Abraham Anthony D,Engineering Practices - Civil & Mechanical,CSE 1.1,lab,THURSDAY,10:00,11:40,Machine Shop FF2 - EPL - 2
+Mr. Abraham Anthony D,Engineering Practices - Civil & Mechanical,CSE 1.1,lab,TUESDAY,10:00,11:40,Machine Shop FF1 - EPL - 1
+Mr. L S Tamizhselvan,Engineering Practices - Civil & Mechanical,CSE 1.2,lab,FRIDAY,08:00,09:40,Machine Shop FF2 - EPL - 2
+Mr. L S Tamizhselvan,Engineering Practices - Civil & Mechanical,CSE 1.2,lab,MONDAY,08:00,09:40,Machine Shop FF2 - EPL - 2
+Mr. Dr. A. Rajkumar,Engineering Practices - Civil & Mechanical,CSE 1.3,lab,FRIDAY,15:00,16:40,Machine Shop FF1 - EPL - 1
+Mr. Dr. A. Rajkumar,Engineering Practices - Civil & Mechanical,CSE 1.3,lab,THURSDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+CSE-NF1,Engineering Practices - Civil & Mechanical,CSE 1.4,lab,MONDAY,15:00,16:40,Machine Shop FF1 - EPL - 1
+CSE-NF1,Engineering Practices - Civil & Mechanical,CSE 1.4,lab,TUESDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+CSE-NF2,Engineering Practices - Civil & Mechanical,CSE 1.5,lab,FRIDAY,13:20,15:00,Machine Shop FF3 - EPL - 3
+CSE-NF2,Engineering Practices - Civil & Mechanical,CSE 1.5,lab,WEDNESDAY,11:50,13:20,Machine Shop FF1 - EPL - 1
+CSE-NF3,Engineering Practices - Civil & Mechanical,CSE 1.6,lab,TUESDAY,11:50,13:20,Machine Shop FF1 - EPL - 1
+CSE-NF3,Engineering Practices - Civil & Mechanical,CSE 1.6,lab,TUESDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+Mr. Dr.S.Dhandapani,Engineering Practices - Civil & Mechanical,CSE 1.7,lab,THURSDAY,10:00,11:40,Machine Shop FF1 - EPL - 1
+Mr. Dr.S.Dhandapani,Engineering Practices - Civil & Mechanical,CSE 1.7,lab,MONDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+Mr. S Venkat Prasat,Engineering Practices - Civil & Mechanical,CSE 1.8,lab,TUESDAY,10:00,11:40,Machine Shop FF2 - EPL - 2
+Mr. S Venkat Prasat,Engineering Practices - Civil & Mechanical,CSE 1.8,lab,TUESDAY,11:50,13:20,Machine Shop FF2 - EPL - 2
+Dr. Ramesh G,Engineering Practices - Civil & Mechanical,CSE 1.9,lab,MONDAY,13:20,15:00,Machine Shop FF1 - EPL - 1
+Dr. Ramesh G,Engineering Practices - Civil & Mechanical,CSE 1.9,lab,MONDAY,15:00,16:40,Machine Shop FF2 - EPL - 2
+Mr. Ct.Muthiah,Engineering Practices - Civil & Mechanical,CSE 1.10,lab,THURSDAY,13:20,15:00,Machine Shop FF3 - EPL - 3
+Mr. Ct.Muthiah,Engineering Practices - Civil & Mechanical,CSE 1.10,lab,WEDNESDAY,10:00,11:40,Machine Shop FF1 - EPL - 1
+Dr. Ramkumar S,Engineering Practices - Civil & Mechanical,CSE 1.11,lab,THURSDAY,15:00,16:40,Machine Shop FF2 - EPL - 2
+Dr. Ramkumar S,Engineering Practices - Civil & Mechanical,CSE 1.11,lab,WEDNESDAY,13:20,15:00,Machine Shop FF3 - EPL - 3
+Mr. Dr. S Senthil Murugan,Engineering Practices - Civil & Mechanical,CSE 1.12,lab,WEDNESDAY,15:00,16:40,Machine Shop FF3 - EPL - 3
+Mr. Dr. S Senthil Murugan,Engineering Practices - Civil & Mechanical,CSE 1.12,lab,FRIDAY,11:50,13:20,Machine Shop FF1 - EPL - 1
+Mr. C. Devanathan,Engineering Practices - Civil & Mechanical,CSE 1.13,lab,WEDNESDAY,13:20,15:00,Machine Shop FF1 - EPL - 1
+Mr. C. Devanathan,Engineering Practices - Civil & Mechanical,CSE 1.13,lab,TUESDAY,15:00,16:40,Machine Shop FF1 - EPL - 1
+Mr. S Pradeep Kumar,Design Drawing and Sketching,CSD 1.1,lecture,FRIDAY,15:00,15:50,D311
+Mr. S Pradeep Kumar,Design Drawing and Sketching,CSD 1.1,lecture,TUESDAY,11:00,11:50,B402
+Mr. S Pradeep Kumar,Design Drawing and Sketching,CSD 1.1,tutorial,FRIDAY,09:00,09:50,B222
+Dr. S R Balaji,Engineering Practices – Electrical and Electronics,CSD 1.1,lab,MONDAY,15:00,16:40,Engineering Practices Lab (Electrical)
+Dr. S R Balaji,Engineering Practices – Electrical and Electronics,CSD 1.1,lab,MONDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Mrs. Renuka B S,Technical Communication -I,CSD 1.1,lecture,THURSDAY,16:00,16:50,B416
+Mrs. Renuka B S,Technical Communication -I,CSD 1.1,lecture,FRIDAY,11:00,11:50,A211
+New Faculty Mathematics (NS-NF-1),Mathematics for Design,CSD 1.1,lecture,WEDNESDAY,11:00,11:50,B222
+New Faculty Mathematics (NS-NF-1),Mathematics for Design,CSD 1.1,lecture,WEDNESDAY,08:00,08:50,D311
+New Faculty Mathematics (NS-NF-1),Mathematics for Design,CSD 1.1,lecture,WEDNESDAY,10:00,10:50,B404
+New Faculty Mathematics (NS-NF-1),Mathematics for Design,CSD 1.1,tutorial,TUESDAY,08:00,08:50,D109
+Mrs. Andria Babu,Heritage Of Tamils,CSD 1.1,lecture,TUESDAY,09:00,09:50,D109
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lecture,THURSDAY,09:00,09:50,B402
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lecture,TUESDAY,10:00,10:50,D611
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lecture,MONDAY,09:00,09:50,B404
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lab,TUESDAY,11:50,13:20,TLFL5
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lab,FRIDAY,13:20,15:00,JL3
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lab,WEDNESDAY,13:20,15:00,TLFL3
+Mrs. Revathy Padmanabhan,Programming using C,CSD 1.1,lab,TUESDAY,13:20,15:00,TLFL4
+Dr. R.Bhavani,Physics for Information Science,CSD 1.1,lecture,MONDAY,10:00,10:50,B322
+Dr. R.Bhavani,Physics for Information Science,CSD 1.1,lecture,MONDAY,12:00,12:50,D611
+Dr. R.Bhavani,Physics for Information Science,CSD 1.1,lecture,MONDAY,11:00,11:50,B402
+Dr. R.Bhavani,Physics for Information Science,CSD 1.1,lab,THURSDAY,13:20,15:00,Physics LAB - 1
+Mrs. Sharmila B,Indian Constitution and Freedom Movement,CSD 1.1,lecture,FRIDAY,12:00,12:50,D311
+Mrs. Sharmila B,Indian Constitution and Freedom Movement,CSD 1.1,lecture,THURSDAY,11:00,11:50,D711
+Mrs. Sharmila B,Indian Constitution and Freedom Movement,CSD 1.1,lecture,WEDNESDAY,15:00,15:50,B402
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,lecture,FRIDAY,13:00,13:50,D302
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,lecture,FRIDAY,13:00,13:50,D302
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,tutorial,FRIDAY,13:00,13:50,D302
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,tutorial,FRIDAY,13:00,13:50,D302
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,tutorial,FRIDAY,13:00,13:50,D302
+Mr. Vinoth Babu N,Engineering Graphics,MECH 1.1,tutorial,FRIDAY,13:00,13:50,D302
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,lecture,FRIDAY,12:00,12:50,D305
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,lecture,FRIDAY,12:00,12:50,D305
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,tutorial,FRIDAY,12:00,12:50,D305
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,tutorial,FRIDAY,12:00,12:50,D305
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,tutorial,FRIDAY,12:00,12:50,D305
+Mr. Abraham Anthony D,Engineering Graphics,MECH 1.2,tutorial,FRIDAY,12:00,12:50,D305
+Mr. S. Panneer Selvan,Engineering Practices - Civil & Mechanical,MECH 1.1,lab,WEDNESDAY,15:00,16:40,Machine Shop FF1 - EPL - 1
+Mr. S. Panneer Selvan,Engineering Practices - Civil & Mechanical,MECH 1.1,lab,FRIDAY,10:00,11:40,Machine Shop FF3 - EPL - 3
+Mr. Vinoth Babu N,Engineering Practices - Civil & Mechanical,MECH 1.2,lab,FRIDAY,10:00,11:40,Machine Shop FF2 - EPL - 2
+Mr. Vinoth Babu N,Engineering Practices - Civil & Mechanical,MECH 1.2,lab,TUESDAY,08:00,09:40,Machine Shop FF2 - EPL - 2
+Dr. S. Anu,Environmental Science and Engineering,MECH 1.1,lecture,FRIDAY,12:00,12:50,D409
+Dr. S. Anu,Environmental Science and Engineering,MECH 1.1,lecture,WEDNESDAY,13:00,13:50,D705
+Dr. S. Anu,Environmental Science and Engineering,MECH 1.1,lecture,MONDAY,13:00,13:50,D211
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,MECH 1.2,lecture,THURSDAY,10:00,10:50,B412
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,MECH 1.2,lecture,FRIDAY,09:00,09:50,B322
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,MECH 1.2,lecture,TUESDAY,15:00,15:50,B412
+Mr. J.Venkatamuthukumar,Physics of Materials,MECH 1.1,lecture,MONDAY,09:00,09:50,D711
+Mr. J.Venkatamuthukumar,Physics of Materials,MECH 1.1,lecture,MONDAY,14:00,14:50,D211
+Mr. J.Venkatamuthukumar,Physics of Materials,MECH 1.1,lecture,MONDAY,12:00,12:50,D302
+Mr. J.Venkatamuthukumar,Physics of Materials,MECH 1.1,lab,MONDAY,10:00,11:40,Physics LAB - 1
+Mr. R Muralidharan,Physics of Materials,MECH 1.2,lecture,TUESDAY,12:00,12:50,B415
+Mr. R Muralidharan,Physics of Materials,MECH 1.2,lecture,THURSDAY,11:00,11:50,B419
+Mr. R Muralidharan,Physics of Materials,MECH 1.2,lecture,THURSDAY,15:00,15:50,B415
+Mr. R Muralidharan,Physics of Materials,MECH 1.2,lab,THURSDAY,11:50,13:20,Physics LAB - 1
+Dr. Sri Hari. G,Heritage Of Tamils,MECH 1.1,lecture,FRIDAY,16:00,16:50,D302
+Mr. Vijay Muthuswamy,Heritage Of Tamils,MECH 1.2,lecture,TUESDAY,14:00,14:50,B212
+Dr. Kumaran N,Basic Electronics Engineering,MECH 1.1,lecture,FRIDAY,14:00,14:50,B212
+Dr. Kumaran N,Basic Electronics Engineering,MECH 1.1,lecture,WEDNESDAY,14:00,14:50,B423
+Dr. Kumaran N,Basic Electronics Engineering,MECH 1.1,lecture,MONDAY,08:00,08:50,A102
+Mrs. Dr.T.Mariammal,Basic Electronics Engineering,MECH 1.2,lecture,THURSDAY,14:00,14:50,D310
+Mrs. Dr.T.Mariammal,Basic Electronics Engineering,MECH 1.2,lecture,TUESDAY,10:00,10:50,B423
+Mrs. Dr.T.Mariammal,Basic Electronics Engineering,MECH 1.2,lecture,TUESDAY,13:00,13:50,B412
+Ms. Raghavi K K,Technical Communication -I,MECH 1.1,lecture,WEDNESDAY,11:00,11:50,A311
+Ms. Raghavi K K,Technical Communication -I,MECH 1.1,lecture,MONDAY,15:00,15:50,B212
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,MECH 1.2,lecture,FRIDAY,14:00,14:50,D310
+Ms. Malikunnisha Mohamed Noorullah,Technical Communication -I,MECH 1.2,lecture,THURSDAY,16:00,16:50,B212
+Dr. Thilagavathi R,Algebra and Calculus,MECH 1.1,lecture,WEDNESDAY,09:00,09:50,A109
+Dr. Thilagavathi R,Algebra and Calculus,MECH 1.1,lecture,FRIDAY,15:00,15:50,A308
+Dr. Thilagavathi R,Algebra and Calculus,MECH 1.1,lecture,FRIDAY,09:00,09:50,A102
+Dr. Thilagavathi R,Algebra and Calculus,MECH 1.1,tutorial,WEDNESDAY,10:00,10:50,A109
+Mrs. Bharathi D,Algebra and Calculus,MECH 1.2,lecture,FRIDAY,08:00,08:50,D211
+Mrs. Bharathi D,Algebra and Calculus,MECH 1.2,lecture,FRIDAY,13:00,13:50,B415
+Mrs. Bharathi D,Algebra and Calculus,MECH 1.2,lecture,THURSDAY,09:00,09:50,D211
+Mrs. Bharathi D,Algebra and Calculus,MECH 1.2,tutorial,FRIDAY,15:00,15:50,D704
+Dr. R.Bhavani,Physics for Information Science,AIML 1.1,lecture,THURSDAY,10:00,10:50,D111
+Dr. R.Bhavani,Physics for Information Science,AIML 1.1,lecture,WEDNESDAY,09:00,09:50,A208
+Dr. R.Bhavani,Physics for Information Science,AIML 1.1,lecture,FRIDAY,10:00,10:50,A109
+Dr. R.Bhavani,Physics for Information Science,AIML 1.1,lab,TUESDAY,08:00,09:40,Physics LAB - 1
+Mrs. Dr Muthupradeepa R,Physics for Information Science,AIML 1.2,lecture,TUESDAY,10:00,10:50,D309
+Mrs. Dr Muthupradeepa R,Physics for Information Science,AIML 1.2,lecture,FRIDAY,12:00,12:50,B107
+Mrs. Dr Muthupradeepa R,Physics for Information Science,AIML 1.2,lecture,TUESDAY,09:00,09:50,A305
+Mrs. Dr Muthupradeepa R,Physics for Information Science,AIML 1.2,lab,SATURDAY,10:00,11:40,Physics LAB - 1
+Mrs. Dr R Kavitha,Physics for Information Science,AIML 1.3,lecture,FRIDAY,08:00,08:50,B302
+Mrs. Dr R Kavitha,Physics for Information Science,AIML 1.3,lecture,SATURDAY,15:00,15:50,B412
+Mrs. Dr R Kavitha,Physics for Information Science,AIML 1.3,lecture,SATURDAY,14:00,14:50,D612
+Mrs. Dr R Kavitha,Physics for Information Science,AIML 1.3,lab,THURSDAY,11:50,13:20,Physics LAB - 2
+Mr. Senthilkumar K,Physics for Information Science,AIML 1.4,lecture,THURSDAY,10:00,10:50,B405
+Mr. Senthilkumar K,Physics for Information Science,AIML 1.4,lecture,SATURDAY,10:00,10:50,A209
+Mr. Senthilkumar K,Physics for Information Science,AIML 1.4,lecture,SATURDAY,15:00,15:50,D309
+Mr. Senthilkumar K,Physics for Information Science,AIML 1.4,lab,SATURDAY,11:50,13:20,Physics LAB - 1
+Ms. Dr.S.V.Vinodhini,Engineering Practices – Electrical and Electronics,AIML 1.1,lab,THURSDAY,13:20,15:00,Engineering Practices Lab (Electronics)
+Ms. Dr.S.V.Vinodhini,Engineering Practices – Electrical and Electronics,AIML 1.1,lab,FRIDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Ms. M.Brenda,Engineering Practices – Electrical and Electronics,AIML 1.2,lab,WEDNESDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Ms. M.Brenda,Engineering Practices – Electrical and Electronics,AIML 1.2,lab,WEDNESDAY,15:00,16:40,Engineering Practices Lab (Electronics)
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,AIML 1.3,lab,THURSDAY,10:00,11:40,Engineering Practices Lab (Electrical)
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,AIML 1.3,lab,WEDNESDAY,13:20,15:00,Engineering Practices Lab (Electrical)
+Mr. A.E. Prabhu,Engineering Practices – Electrical and Electronics,AIML 1.4,lab,TUESDAY,10:00,11:40,Engineering Practices Lab (Electronics)
+Mr. A.E. Prabhu,Engineering Practices – Electrical and Electronics,AIML 1.4,lab,THURSDAY,08:00,09:40,Engineering Practices Lab (Electrical)
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,AIML 1.1,lecture,WEDNESDAY,13:00,13:50,D709
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,AIML 1.1,lecture,TUESDAY,12:00,12:50,B107
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,AIML 1.1,lecture,FRIDAY,16:00,16:50,A109
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,AIML 1.1,lab,WEDNESDAY,15:00,15:50,Basic Electronics Lab-1
+Dr. Kandaswamy K V,Basic Electrical and Electronics Engineering,AIML 1.1,lab,SATURDAY,13:20,15:00,Basic Electronics Lab-1
+Mrs. Brindhu Kumari,Basic Electrical and Electronics Engineering,AIML 1.2,lecture,THURSDAY,12:00,12:50,B402
+Mrs. Brindhu Kumari,Basic Electrical and Electronics Engineering,AIML 1.2,lecture,SATURDAY,08:00,08:50,B402
+Mrs. Brindhu Kumari,Basic Electrical and Electronics Engineering,AIML 1.2,lecture,TUESDAY,12:00,12:50,D310
+Mrs. Brindhu Kumari,Basic Electrical and Electronics Engineering,AIML 1.2,lab,WEDNESDAY,15:00,16:40,Basic Electronics Lab-1
+Mrs. Brindhu Kumari,Basic Electrical and Electronics Engineering,AIML 1.2,lab,WEDNESDAY,13:20,15:00,Basic Electronics Lab-1
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,AIML 1.3,lecture,FRIDAY,15:00,15:50,B412
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,AIML 1.3,lecture,FRIDAY,11:00,11:50,D703
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,AIML 1.3,lecture,TUESDAY,12:00,12:50,D702
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,AIML 1.3,lab,SATURDAY,08:00,09:40,Basic Electronics Lab-1
+Mr. Santhanakrishnan T,Basic Electrical and Electronics Engineering,AIML 1.3,lab,FRIDAY,10:00,10:50,Basic Electronics Lab-1
+Dr. Dhandayuthapani S,Basic Electrical and Electronics Engineering,AIML 1.4,lecture,TUESDAY,09:00,09:50,D309
+Dr. Dhandayuthapani S,Basic Electrical and Electronics Engineering,AIML 1.4,lecture,SATURDAY,11:00,11:50,D711
+Dr. Dhandayuthapani S,Basic Electrical and Electronics Engineering,AIML 1.4,lecture,SATURDAY,08:00,08:50,B426
+Dr. Dhandayuthapani S,Basic Electrical and Electronics Engineering,AIML 1.4,lab,THURSDAY,08:00,09:40,Basic Electronics Lab-1
+Dr. Dhandayuthapani S,Basic Electrical and Electronics Engineering,AIML 1.4,lab,WEDNESDAY,11:50,13:20,Basic Electronics Lab-1
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lecture,SATURDAY,09:00,09:50,B415
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lecture,WEDNESDAY,14:00,14:50,D703
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lecture,THURSDAY,08:00,08:50,A308
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lab,TUESDAY,10:00,11:40,TLFL5
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lab,THURSDAY,11:50,13:20,JR1
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lab,SATURDAY,11:50,13:20,TLGL2
+New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),Programming using C,AIML 1.1,lab,THURSDAY,13:20,15:00,TLGL1
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lecture,THURSDAY,14:00,14:50,A305
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lecture,FRIDAY,10:00,10:50,B412
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lecture,TUESDAY,11:00,11:50,B107
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lab,FRIDAY,15:00,16:40,KFR01
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lab,THURSDAY,08:00,09:40,TLFR2
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lab,TUESDAY,15:00,16:40,TLGL3
+Mrs.Sangeetha Archana J,Programming using C,AIML 1.2,lab,SATURDAY,11:50,13:20,KFR02
+AIML NS2,Programming using C,AIML 1.3,lecture,TUESDAY,13:00,13:50,C201
+AIML NS2,Programming using C,AIML 1.3,lecture,THURSDAY,15:00,15:50,D512
+AIML NS2,Programming using C,AIML 1.3,lecture,THURSDAY,14:00,14:50,C307
+AIML NS2,Programming using C,AIML 1.3,lab,WEDNESDAY,13:20,15:00,KSL03
+AIML NS2,Programming using C,AIML 1.3,lab,WEDNESDAY,11:50,13:20,JR1
+AIML NS2,Programming using C,AIML 1.3,lab,THURSDAY,10:00,11:40,TLGL2
+AIML NS2,Programming using C,AIML 1.3,lab,TUESDAY,10:00,11:40,JL2
+AIML NS3,Programming using C,AIML 1.4,lecture,THURSDAY,15:00,15:50,D711
+AIML NS3,Programming using C,AIML 1.4,lecture,TUESDAY,08:00,08:50,A108
+AIML NS3,Programming using C,AIML 1.4,lecture,FRIDAY,14:00,14:50,B405
+AIML NS3,Programming using C,AIML 1.4,lab,THURSDAY,11:50,13:20,TLFR5
+AIML NS3,Programming using C,AIML 1.4,lab,FRIDAY,08:00,09:40,TLGL3
+AIML NS3,Programming using C,AIML 1.4,lab,FRIDAY,10:00,11:40,TLGL3
+AIML NS3,Programming using C,AIML 1.4,lab,TUESDAY,11:50,13:20,KFR01
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,AIML 1.1,lecture,THURSDAY,15:00,15:50,D111
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,AIML 1.1,lecture,TUESDAY,13:00,13:50,D709
+Mr. Dinakaran S,Indian Constitution and Freedom Movement,AIML 1.1,lecture,SATURDAY,11:00,11:50,A109
+Ms. Manasa K,Indian Constitution and Freedom Movement,AIML 1.2,lecture,THURSDAY,15:00,15:50,D210
+Ms. Manasa K,Indian Constitution and Freedom Movement,AIML 1.2,lecture,FRIDAY,09:00,09:50,D302
+Ms. Manasa K,Indian Constitution and Freedom Movement,AIML 1.2,lecture,SATURDAY,15:00,15:50,D310
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,AIML 1.3,lecture,THURSDAY,16:00,16:50,A102
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,AIML 1.3,lecture,TUESDAY,15:00,15:50,A302
+Mrs. Dr. B.Lakshmi,Indian Constitution and Freedom Movement,AIML 1.3,lecture,FRIDAY,09:00,09:50,B302
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,AIML 1.4,lecture,FRIDAY,13:00,13:50,D205
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,AIML 1.4,lecture,WEDNESDAY,10:00,10:50,A108
+Mr. Jebaraj Kabriel,Indian Constitution and Freedom Movement,AIML 1.4,lecture,THURSDAY,14:00,14:50,A209
+Mrs. Angel P,Heritage Of Tamils,AIML 1.1,lecture,SATURDAY,10:00,10:50,B107
+Mrs. Chitra Devi P,Heritage Of Tamils,AIML 1.2,lecture,SATURDAY,14:00,14:50,A311
+Mrs. Renuka B S,Heritage Of Tamils,AIML 1.3,lecture,WEDNESDAY,08:00,08:50,D612
+Mr. Vijayanarasimhan K,Heritage Of Tamils,AIML 1.4,lecture,FRIDAY,12:00,12:50,D309
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIML 1.1,lecture,WEDNESDAY,08:00,08:50,B415
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIML 1.1,lecture,FRIDAY,09:00,09:50,B418
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIML 1.1,lecture,TUESDAY,15:00,15:50,D709
+Mr. A. Azhagarasu,Mathematical Foundations for AI,AIML 1.1,tutorial,TUESDAY,14:00,14:50,D203
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIML 1.2,lecture,THURSDAY,13:00,13:50,C302
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIML 1.2,lecture,THURSDAY,10:00,10:50,B107
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIML 1.2,lecture,FRIDAY,14:00,14:50,B320
+Mr. Sathiragavan M,Mathematical Foundations for AI,AIML 1.2,tutorial,FRIDAY,11:00,11:50,D309
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIML 1.3,lecture,WEDNESDAY,11:00,11:50,B401
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIML 1.3,lecture,TUESDAY,08:00,08:50,A110
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIML 1.3,lecture,FRIDAY,14:00,14:50,C307
+Mr. Dr. K. Mageshwaran,Mathematical Foundations for AI,AIML 1.3,tutorial,WEDNESDAY,10:00,10:50,A110
+Mrs. J.Julie,Mathematical Foundations for AI,AIML 1.4,lecture,WEDNESDAY,14:00,14:50,B409
+Mrs. J.Julie,Mathematical Foundations for AI,AIML 1.4,lecture,WEDNESDAY,15:00,15:50,B425
+Mrs. J.Julie,Mathematical Foundations for AI,AIML 1.4,lecture,FRIDAY,15:00,15:50,A209
+Mrs. J.Julie,Mathematical Foundations for AI,AIML 1.4,tutorial,WEDNESDAY,11:00,11:50,B425
+Mrs. Gayathri K,Technical Communication -I,AIML 1.1,lecture,WEDNESDAY,10:00,10:50,D209
+Mrs. Gayathri K,Technical Communication -I,AIML 1.1,lecture,FRIDAY,11:00,11:50,D111
+Ms. Malathy G,Technical Communication -I,AIML 1.2,lecture,WEDNESDAY,09:00,09:50,C302
+Ms. Malathy G,Technical Communication -I,AIML 1.2,lecture,TUESDAY,14:00,14:50,A305
+Dr. Sri Hari. G,Technical Communication -I,AIML 1.3,lecture,SATURDAY,13:00,13:50,A102
+Dr. Sri Hari. G,Technical Communication -I,AIML 1.3,lecture,SATURDAY,11:00,11:50,C307
+Mrs. G.Janet,Technical Communication -I,AIML 1.4,lecture,TUESDAY,15:00,15:50,B423
+Mrs. G.Janet,Technical Communication -I,AIML 1.4,lecture,WEDNESDAY,16:00,16:50,A209
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,BME 1.1,lecture,FRIDAY,11:00,11:50,D702
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,BME 1.1,lecture,WEDNESDAY,09:00,09:50,B218
+Mrs. Dr. S. Jasmine,Environmental Science and Engineering,BME 1.1,lecture,WEDNESDAY,11:00,11:50,D411
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BME 1.2,lecture,TUESDAY,15:00,15:50,D309
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BME 1.2,lecture,FRIDAY,15:00,15:50,A102
+Mr. Dr. K. Suresh Babu K,Environmental Science and Engineering,BME 1.2,lecture,FRIDAY,14:00,14:50,A210
+Mr. V.Inbaraj Vadivel,Chemistry For Electronics Engineering,BME 1.1,lecture,THURSDAY,10:00,10:50,D410
+Mr. V.Inbaraj Vadivel,Chemistry For Electronics Engineering,BME 1.1,lecture,THURSDAY,15:00,15:50,B302
+Mr. V.Inbaraj Vadivel,Chemistry For Electronics Engineering,BME 1.1,lecture,THURSDAY,08:00,08:50,A304
+Mr. V.Inbaraj Vadivel,Chemistry For Electronics Engineering,BME 1.1,lab,FRIDAY,08:00,09:40,Chemistry Lab
+Mr. V.Inbaraj Vadivel,Chemistry For Electronics Engineering,BME 1.1,lab,TUESDAY,11:50,13:20,Chemistry Lab
+Mrs. Dr. D. Udhayakumari,Chemistry For Electronics Engineering,BME 1.2,lecture,FRIDAY,10:00,10:50,A305
+Mrs. Dr. D. Udhayakumari,Chemistry For Electronics Engineering,BME 1.2,lecture,SATURDAY,10:00,10:50,D410
+Mrs. Dr. D. Udhayakumari,Chemistry For Electronics Engineering,BME 1.2,lecture,WEDNESDAY,08:00,08:50,D309
+Mrs. Dr. D. Udhayakumari,Chemistry For Electronics Engineering,BME 1.2,lab,SATURDAY,13:20,15:00,Chemistry Lab
+Mrs. Dr. D. Udhayakumari,Chemistry For Electronics Engineering,BME 1.2,lab,WEDNESDAY,13:20,15:00,Chemistry Lab
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,lecture,FRIDAY,13:00,13:50,D310
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,lecture,FRIDAY,13:00,13:50,D310
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,tutorial,FRIDAY,13:00,13:50,D310
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,tutorial,FRIDAY,13:00,13:50,D310
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,tutorial,FRIDAY,13:00,13:50,D310
+Mr. L S Tamizhselvan,Engineering Graphics,BME 1.1,tutorial,FRIDAY,13:00,13:50,D310
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,lecture,SATURDAY,16:00,16:50,D309
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,lecture,SATURDAY,16:00,16:50,D309
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,tutorial,SATURDAY,16:00,16:50,D309
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,tutorial,SATURDAY,16:00,16:50,D309
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,tutorial,SATURDAY,16:00,16:50,D309
+Mr. Rajkumar.M,Engineering Graphics,BME 1.2,tutorial,SATURDAY,16:00,16:50,D309
+Ms. Manasa K,Technical Communication -I,BME 1.1,lecture,THURSDAY,11:00,11:50,C302
+Ms. Manasa K,Technical Communication -I,BME 1.1,lecture,WEDNESDAY,16:00,16:50,D310
+Ms. Rajalakshmi B,Technical Communication -I,BME 1.2,lecture,TUESDAY,08:00,08:50,A305
+Ms. Rajalakshmi B,Technical Communication -I,BME 1.2,lecture,FRIDAY,13:00,13:50,B416
+Mr. Rajkumar V,Linear Algebra and Calculus,BME 1.1,lecture,THURSDAY,09:00,09:50,C302
+Mr. Rajkumar V,Linear Algebra and Calculus,BME 1.1,lecture,TUESDAY,11:00,11:50,B401
+Mr. Rajkumar V,Linear Algebra and Calculus,BME 1.1,lecture,TUESDAY,10:00,10:50,D410
+Mr. Rajkumar V,Linear Algebra and Calculus,BME 1.1,tutorial,WEDNESDAY,10:00,10:50,D410
+New Faculty Mathematics (NS-NF-2),Linear Algebra and Calculus,BME 1.2,lecture,WEDNESDAY,09:00,09:50,D410
+New Faculty Mathematics (NS-NF-2),Linear Algebra and Calculus,BME 1.2,lecture,WEDNESDAY,10:00,10:50,B408
+New Faculty Mathematics (NS-NF-2),Linear Algebra and Calculus,BME 1.2,lecture,FRIDAY,11:00,11:50,D205
+New Faculty Mathematics (NS-NF-2),Linear Algebra and Calculus,BME 1.2,tutorial,TUESDAY,12:00,12:50,D711
+Mr. Santhanakrishnan Mamallan,Engineering Practices - Civil & Mechanical,BME 1.1,lab,WEDNESDAY,13:20,15:00,Machine Shop FF2 - EPL - 2
+Mr. Santhanakrishnan Mamallan,Engineering Practices - Civil & Mechanical,BME 1.1,lab,THURSDAY,11:50,13:20,Machine Shop FF1 - EPL - 1
+Mr. Hariram S,Engineering Practices - Civil & Mechanical,BME 1.2,lab,TUESDAY,13:20,15:00,Machine Shop FF1 - EPL - 1
+Mr. Hariram S,Engineering Practices - Civil & Mechanical,BME 1.2,lab,FRIDAY,08:00,09:40,Machine Shop FF1 - EPL - 1
+Mrs. Shanmugapriya Kumaravelu,Heritage Of Tamils,BME 1.1,lecture,TUESDAY,08:00,08:50,B302
+Mr. Jebaraj Kabriel,Heritage Of Tamils,BME 1.2,lecture,SATURDAY,12:00,12:50,C102
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lecture,TUESDAY,13:00,13:50,A202
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lecture,TUESDAY,14:00,14:50,D309
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lab,THURSDAY,13:20,15:00,Automotive Components Lab
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lab,THURSDAY,11:50,13:20,Automotive Components Lab
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lab,TUESDAY,10:00,11:40,KFR01
+New Faculty Computer Science & Business Systems (NS-NF-2),Fundamentals of Computer Science,CSBS 1.1,lab,FRIDAY,13:20,15:00,Vehicle Maintenance Lab
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lecture,MONDAY,15:00,15:50,C103
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lecture,MONDAY,10:00,10:50,D109
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lab,WEDNESDAY,13:20,15:00,Thermal Lab 1
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lab,FRIDAY,11:50,13:20,Airframe Repair and Aero Engine Lab
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lab,THURSDAY,08:00,09:40,Microprocessor and Microcontrollers Lab
+Mrs. Jayanthi M,Fundamentals of Computer Science,CSBS 1.2,lab,FRIDAY,10:00,11:40,Networks Lab
+Mr. M.Anand Raj,Physics for Computing Science,CSBS 1.1,lecture,WEDNESDAY,15:00,15:50,B418
+Mr. M.Anand Raj,Physics for Computing Science,CSBS 1.1,lecture,MONDAY,11:00,11:50,A110
+Mr. M.Anand Raj,Physics for Computing Science,CSBS 1.1,lecture,TUESDAY,16:00,16:50,B426
+Mr. M.Anand Raj,Physics for Computing Science,CSBS 1.1,lab,FRIDAY,11:50,13:20,Physics LAB - 2
+Mr. M.Anand Raj,Physics for Computing Science,CSBS 1.1,lab,THURSDAY,13:20,15:00,Physics LAB - 2
+Mr. Dr S Gobalakrishnan,Physics for Computing Science,CSBS 1.2,lecture,FRIDAY,08:00,08:50,D705
+Mr. Dr S Gobalakrishnan,Physics for Computing Science,CSBS 1.2,lecture,THURSDAY,12:00,12:50,A204
+Mr. Dr S Gobalakrishnan,Physics for Computing Science,CSBS 1.2,lecture,TUESDAY,16:00,16:50,A308
+Mr. Dr S Gobalakrishnan,Physics for Computing Science,CSBS 1.2,lab,TUESDAY,13:20,15:00,Physics LAB - 1
+Mr. Dr S Gobalakrishnan,Physics for Computing Science,CSBS 1.2,lab,WEDNESDAY,13:20,15:00,Physics LAB - 2
+Mrs. V.Sivagami,Principles of Electrical Engineering,CSBS 1.1,lecture,FRIDAY,15:00,15:50,B219
+Mrs. V.Sivagami,Principles of Electrical Engineering,CSBS 1.1,lecture,MONDAY,14:00,14:50,B410
+Mrs. V.Sivagami,Principles of Electrical Engineering,CSBS 1.1,lab,MONDAY,08:00,09:40,Electrical Machines I Lab
+Mrs. V.Sivagami,Principles of Electrical Engineering,CSBS 1.1,lab,WEDNESDAY,08:00,09:40,Electrical Machines I Lab
+Mrs. Sivamani.D,Principles of Electrical Engineering,CSBS 1.2,lecture,THURSDAY,14:00,14:50,B405
+Mrs. Sivamani.D,Principles of Electrical Engineering,CSBS 1.2,lecture,MONDAY,09:00,09:50,B212
+Mrs. Sivamani.D,Principles of Electrical Engineering,CSBS 1.2,lab,MONDAY,13:20,15:00,Electrical Machines I Lab
+Mrs. Sivamani.D,Principles of Electrical Engineering,CSBS 1.2,lab,TUESDAY,13:20,15:00,Electrical Machines I Lab
+CSBS-NF1,Discrete Mathematics,CSBS 1.1,lecture,THURSDAY,10:00,10:50,C201
+CSBS-NF1,Discrete Mathematics,CSBS 1.1,lecture,FRIDAY,08:00,08:50,D410
+CSBS-NF1,Discrete Mathematics,CSBS 1.1,lecture,THURSDAY,08:00,08:50,B219
+CSBS-NF1,Discrete Mathematics,CSBS 1.1,tutorial,THURSDAY,09:00,09:50,B410
+Ms. K Rajaannam,Discrete Mathematics,CSBS 1.2,lecture,WEDNESDAY,10:00,10:50,B107
+Ms. K Rajaannam,Discrete Mathematics,CSBS 1.2,lecture,FRIDAY,14:00,14:50,B107
+Ms. K Rajaannam,Discrete Mathematics,CSBS 1.2,lecture,TUESDAY,12:00,12:50,C308
+Ms. K Rajaannam,Discrete Mathematics,CSBS 1.2,tutorial,WEDNESDAY,09:00,09:50,A311
+CSBS-NF1,Probability and Calculus,CSBS 1.1,lecture,TUESDAY,12:00,12:50,D704
+CSBS-NF1,Probability and Calculus,CSBS 1.1,lecture,WEDNESDAY,14:00,14:50,B426
+CSBS-NF1,Probability and Calculus,CSBS 1.1,lecture,TUESDAY,09:00,09:50,D410
+CSBS-NF1,Probability and Calculus,CSBS 1.1,tutorial,WEDNESDAY,13:00,13:50,D309
+Mrs. C.Shanthini,Probability and Calculus,CSBS 1.2,lecture,THURSDAY,10:00,10:50,A311
+Mrs. C.Shanthini,Probability and Calculus,CSBS 1.2,lecture,TUESDAY,15:00,15:50,B405
+Mrs. C.Shanthini,Probability and Calculus,CSBS 1.2,lecture,THURSDAY,15:00,15:50,C103
+Mrs. C.Shanthini,Probability and Calculus,CSBS 1.2,tutorial,WEDNESDAY,12:00,12:50,D705
+Mrs. Sharmila B,Business Communication and Value Science – I,CSBS 1.1,lecture,MONDAY,10:00,10:50,B219
+Mrs. Sharmila B,Business Communication and Value Science – I,CSBS 1.1,lecture,FRIDAY,11:00,11:50,D310
+Mr. Jebaraj Kabriel,Business Communication and Value Science – I,CSBS 1.2,lecture,MONDAY,12:00,12:50,B425
+Mr. Jebaraj Kabriel,Business Communication and Value Science – I,CSBS 1.2,lecture,FRIDAY,09:00,09:50,D611
+Mrs. Andria Babu,Indian Constitution and Freedom Movement,CSBS 1.1,lecture,MONDAY,12:00,12:50,B426
+Mrs. Andria Babu,Indian Constitution and Freedom Movement,CSBS 1.1,lecture,FRIDAY,10:00,10:50,C201
+Mrs. Andria Babu,Indian Constitution and Freedom Movement,CSBS 1.1,lecture,MONDAY,15:00,15:50,D405
+Mrs. Renuka B S,Indian Constitution and Freedom Movement,CSBS 1.2,lecture,TUESDAY,11:00,11:50,A311
+Mrs. Renuka B S,Indian Constitution and Freedom Movement,CSBS 1.2,lecture,FRIDAY,15:00,15:50,B320
+Mrs. Renuka B S,Indian Constitution and Freedom Movement,CSBS 1.2,lecture,THURSDAY,13:00,13:50,C103
+Mrs. Sharmila B,Technical Communication -I,CSBS 1.1,lecture,WEDNESDAY,10:00,10:50,D704
+Mrs. Sharmila B,Technical Communication -I,CSBS 1.1,lecture,WEDNESDAY,11:00,11:50,A202
+Mr. Jebaraj Kabriel,Technical Communication -I,CSBS 1.2,lecture,MONDAY,16:00,16:50,A308
+Mr. Jebaraj Kabriel,Technical Communication -I,CSBS 1.2,lecture,WEDNESDAY,15:00,15:50,A311
+New Faculty English (NS-NFE-2),Heritage Of Tamils,CSBS 1.1,lecture,THURSDAY,11:00,11:50,B410
+Dr. Vijayalakshmi M,Heritage Of Tamils,CSBS 1.2,lecture,WEDNESDAY,11:00,11:50,B107
+Mrs. Sharmila B,Heritage Of Tamils,MCT 1.1,lecture,WEDNESDAY,12:00,12:50,D305
+Mr. Jebaraj Kabriel,Heritage Of Tamils,MCT 1.2,lecture,SATURDAY,11:00,11:50,B401
+Mrs. Shanmugapriya Kumaravelu,Technical Communication -I,MCT 1.1,lecture,FRIDAY,08:00,08:50,D711
+Mrs. Shanmugapriya Kumaravelu,Technical Communication -I,MCT 1.1,lecture,THURSDAY,09:00,09:50,D305
+New Faculty English (NS-NFE-1),Technical Communication -I,MCT 1.2,lecture,THURSDAY,16:00,16:50,B409
+New Faculty English (NS-NFE-1),Technical Communication -I,MCT 1.2,lecture,FRIDAY,12:00,12:50,C308
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical Engineering,MCT 1.1,lecture,TUESDAY,15:00,15:50,D510
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical Engineering,MCT 1.1,lecture,SATURDAY,12:00,12:50,D305
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical Engineering,MCT 1.1,lecture,FRIDAY,15:00,15:50,A310
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical Engineering,MCT 1.1,lab,SATURDAY,15:00,16:40,Electrical Machines I Lab
+New Faculty Electrical & Electronics Engineering (NS-NF2),Basic Electrical Engineering,MCT 1.1,lab,WEDNESDAY,08:00,09:40,Electrical Machines II Lab
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,MCT 1.2,lecture,THURSDAY,12:00,12:50,A310
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,MCT 1.2,lecture,FRIDAY,08:00,08:50,B409
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,MCT 1.2,lecture,TUESDAY,15:00,15:50,D111
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,MCT 1.2,lab,SATURDAY,11:50,13:20,Electrical Machines I Lab
+Mr. Dr. P. R. Sivaraman,Basic Electrical Engineering,MCT 1.2,lab,WEDNESDAY,13:20,15:00,Electrical Machines II Lab
+MCT-NF1,Computer Aided Drawing Lab,MCT 1.1,lab,THURSDAY,15:00,16:40,MCT CAD Lab
+MCT-NF1,Computer Aided Drawing Lab,MCT 1.1,lab,FRIDAY,11:50,13:20,MCT CAD Lab
+Mr. Dr.P.Chandramohan,Computer Aided Drawing Lab,MCT 1.2,lab,THURSDAY,10:00,11:40,MCT CAD Lab
+Mr. Dr.P.Chandramohan,Computer Aided Drawing Lab,MCT 1.2,lab,TUESDAY,08:00,09:40,MCT CAD Lab
+Mrs. Bharathi D,Algebra and Calculus,MCT 1.1,lecture,WEDNESDAY,11:00,11:50,D305
+Mrs. Bharathi D,Algebra and Calculus,MCT 1.1,lecture,FRIDAY,09:00,09:50,B402
+Mrs. Bharathi D,Algebra and Calculus,MCT 1.1,lecture,FRIDAY,14:00,14:50,D411
+Mrs. Bharathi D,Algebra and Calculus,MCT 1.1,tutorial,TUESDAY,13:00,13:50,A310
+Dr. Ramalakshmi K,Algebra and Calculus,MCT 1.2,lecture,WEDNESDAY,15:00,15:50,D111
+Dr. Ramalakshmi K,Algebra and Calculus,MCT 1.2,lecture,TUESDAY,11:00,11:50,D611
+Dr. Ramalakshmi K,Algebra and Calculus,MCT 1.2,lecture,WEDNESDAY,12:00,12:50,B409
+Dr. Ramalakshmi K,Algebra and Calculus,MCT 1.2,tutorial,TUESDAY,12:00,12:50,B409
+Dr. Kumaran N,Engineering Practices – Electrical and Electronics,MCT 1.1,lab,FRIDAY,10:00,11:40,Engineering Practices Lab (Electrical)
+Dr. Kumaran N,Engineering Practices – Electrical and Electronics,MCT 1.1,lab,TUESDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,MCT 1.2,lab,FRIDAY,13:00,13:50,Engineering Practices Lab (Electrical)
+Dr. R Jeevani,Engineering Practices – Electrical and Electronics,MCT 1.2,lab,SATURDAY,08:00,09:40,Engineering Practices Lab (Electronics)
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,MCT 1.1,lecture,TUESDAY,11:00,11:50,B411
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,MCT 1.1,lecture,SATURDAY,10:00,10:50,D205
+Ms. Dr. Saraswathi Kothandan,Environmental Science and Engineering,MCT 1.1,lecture,THURSDAY,13:00,13:50,D305
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,MCT 1.2,lecture,FRIDAY,14:00,14:50,D111
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,MCT 1.2,lecture,WEDNESDAY,11:00,11:50,C308
+Dr. J Edward Jeyakumar,Environmental Science and Engineering,MCT 1.2,lecture,WEDNESDAY,16:00,16:50,C308
+Mr. Prem Anand T P,Heritage Of Tamils,AERO 1.1,lecture,WEDNESDAY,16:00,16:50,D311
+Mr. Harikrishnan Ravichandran,Engineering Practices - Civil & Mechanical,AERO 1.1,lab,SATURDAY,13:20,15:00,Machine Shop FF1 - EPL - 1
+Mr. Harikrishnan Ravichandran,Engineering Practices - Civil & Mechanical,AERO 1.1,lab,FRIDAY,11:50,13:20,Machine Shop FF2 - EPL - 2
+Mr. M. Muthumanikandan,Heritage Of Tamils,AERO 1.1,lecture,SATURDAY,16:00,16:50,C201
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,lecture,SATURDAY,12:00,12:50,D311
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,lecture,SATURDAY,12:00,12:50,D311
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,tutorial,SATURDAY,12:00,12:50,D311
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,tutorial,SATURDAY,12:00,12:50,D311
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,tutorial,SATURDAY,12:00,12:50,D311
+Mr. D.L. Vasthadu Vasu Kannah,Engineering Graphics,AERO 1.1,tutorial,SATURDAY,12:00,12:50,D311
+Mr. Dr. G. Saravana Kumar,Physics of Materials,AERO 1.1,lecture,THURSDAY,14:00,14:50,A104/105
+Mr. Dr. G. Saravana Kumar,Physics of Materials,AERO 1.1,lecture,TUESDAY,13:00,13:50,B222
+Mr. Dr. G. Saravana Kumar,Physics of Materials,AERO 1.1,lecture,FRIDAY,09:00,09:50,A103
+Mr. Dr. G. Saravana Kumar,Physics of Materials,AERO 1.1,lab,WEDNESDAY,13:20,15:00,Physics LAB - 1
+Mr. Dr. E.Shankar,Research Methodology and IPR,AERO 1.1,lecture,FRIDAY,15:00,15:50,A303
+Mr. Dr. E.Shankar,Research Methodology and IPR,AERO 1.1,lecture,THURSDAY,10:00,10:50,B322
+Mr. Dr. E.Shankar,Research Methodology and IPR,AERO 1.1,lecture,TUESDAY,14:00,14:50,B403
+Dr. Vijayalakshmi M,Technical Communication -I,AERO 1.1,lecture,WEDNESDAY,15:00,15:50,C201
+Dr. Vijayalakshmi M,Technical Communication -I,AERO 1.1,lecture,FRIDAY,08:00,08:50,D111
+Mr. S Harish,Environmental Science and Engineering,AERO 1.1,lecture,WEDNESDAY,11:00,11:50,B410
+Mr. S Harish,Environmental Science and Engineering,AERO 1.1,lecture,WEDNESDAY,12:00,12:50,D202
+Mr. S Harish,Environmental Science and Engineering,AERO 1.1,lecture,THURSDAY,11:00,11:50,C201
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,AERO 1.1,lecture,FRIDAY,14:00,14:50,B222
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,AERO 1.1,lecture,SATURDAY,11:00,11:50,D311
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,AERO 1.1,lecture,TUESDAY,09:00,09:50,C103
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,AERO 1.1,lab,THURSDAY,11:50,13:20,Basic Electronics Lab-1
+Ms. A Sowmiya,Basic Electrical and Electronics Engineering,AERO 1.1,lab,TUESDAY,12:00,12:50,Basic Electronics Lab-1
+Dr. R.Bhavani,Algebra and Calculus,AERO 1.1,lecture,TUESDAY,11:00,11:50,A303
+Dr. R.Bhavani,Algebra and Calculus,AERO 1.1,lecture,WEDNESDAY,10:00,10:50,A102
+Dr. R.Bhavani,Algebra and Calculus,AERO 1.1,lecture,THURSDAY,09:00,09:50,A208
+Dr. R.Bhavani,Algebra and Calculus,AERO 1.1,tutorial,TUESDAY,15:00,15:50,B322

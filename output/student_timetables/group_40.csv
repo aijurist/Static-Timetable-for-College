@@ -1,31 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,16:00,16:50,Computer Vision and Applications,Mr. Srinivasan T,A204
-WEDNESDAY,18:00,18:50,Computer Vision and Applications,Mr. Srinivasan T,B411
-TUESDAY,13:50,15:30,Computer Vision and Applications,Mr. Srinivasan T,TLFL3
-WEDNESDAY,13:50,15:30,Computer Vision and Applications,Mr. Srinivasan T,TLFL5
-FRIDAY,14:00,14:50,Recommendation Systems (Professional Elective I),New Staff - 05,B220
-WEDNESDAY,16:00,16:50,Recommendation Systems (Professional Elective I),New Staff - 05,B415
-TUESDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,JL3
-FRIDAY,12:00,12:50,Recommendation Systems (Professional Elective I),New Staff - 05,KFR02
-WEDNESDAY,13:50,15:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,KFR02
-SATURDAY,13:50,15:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLGL3
-THURSDAY,14:00,14:50,Deep Learning,Dr. Raju K,C103
-WEDNESDAY,17:00,17:50,Deep Learning,Dr. Raju K,B423
-THURSDAY,13:00,13:50,Deep Learning,Dr. Raju K,A308
-FRIDAY,15:50,17:30,Deep Learning,Dr. Raju K,JR2
-TUESDAY,13:50,15:30,Deep Learning,Dr. Raju K,KFL01
-TUESDAY,18:00,18:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,C201
-FRIDAY,18:00,18:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B404
-TUESDAY,17:00,17:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,C308
-THURSDAY,08:00,09:40,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,TLGL3
-SATURDAY,09:50,11:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,TLFL1
-THURSDAY,10:00,10:50,Computer Networks,Dr. N M Balamurugan,B419
-WEDNESDAY,12:00,12:50,Computer Networks,Dr. N M Balamurugan,B218
-THURSDAY,11:00,11:50,Computer Networks,Dr. N M Balamurugan,C308
-SATURDAY,09:50,11:30,Computer Networks,Dr. N M Balamurugan,JL2
-SATURDAY,13:50,15:30,Computer Networks,Dr. N M Balamurugan,KFL02
-THURSDAY,08:00,09:40,Computer Networks,Dr. N M Balamurugan,TLFR5
-FRIDAY,15:50,17:30,Computer Networks,Dr. N M Balamurugan,JL3
-SATURDAY,16:00,16:50,DataEngineering,Mrs. Sowmia K R,B410
-FRIDAY,15:00,15:50,DataEngineering,Mrs. Sowmia K R,B222
-SATURDAY,12:00,12:50,DataEngineering,Mrs. Sowmia K R,A203
+TUESDAY,14:00,14:50,Heritage Of Tamils,Mrs. G.Janet,D109
+TUESDAY,08:00,08:50,Programming using C,Dr. Duraipandian N,C103
+MONDAY,15:00,15:50,Programming using C,Dr. Duraipandian N,D702
+TUESDAY,10:00,10:50,Programming using C,Dr. Duraipandian N,D211
+FRIDAY,11:50,13:20,Programming using C,Dr. Duraipandian N,TLFR1
+MONDAY,08:00,09:40,Programming using C,Dr. Duraipandian N,TLGL3
+WEDNESDAY,13:20,15:00,Programming using C,Dr. Duraipandian N,KFL03
+FRIDAY,08:00,09:40,Programming using C,Dr. Duraipandian N,TLFL5
+WEDNESDAY,08:00,08:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,B302
+TUESDAY,11:00,11:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,D702
+WEDNESDAY,11:00,11:50,Physics for Information Science,Mrs. Dr Muthupradeepa R,B322
+FRIDAY,13:20,15:00,Physics for Information Science,Mrs. Dr Muthupradeepa R,Physics LAB - 1
+WEDNESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,D409
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,B322
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,A305
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,D711
+MONDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,D405
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,B302
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,Basic Electronics Lab-1
+MONDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,Basic Electronics Lab-1
+WEDNESDAY,12:00,12:50,Technical Communication -I,Mrs. Alamelu G,D405
+THURSDAY,14:00,14:50,Technical Communication -I,Mrs. Alamelu G,D109
+THURSDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Dr.S.Dhandapani,Machine Shop FF1 - EPL - 1
+MONDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. Dr.S.Dhandapani,Machine Shop FF1 - EPL - 1

@@ -1,32 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,18:00,18:50,Fundamentals of Machine Learning,Mr. Magesh M P,B212
-FRIDAY,14:00,14:50,Fundamentals of Machine Learning,Mr. Magesh M P,A305
-TUESDAY,17:00,17:50,Fundamentals of Machine Learning,Mr. Magesh M P,A203
-WEDNESDAY,09:50,11:30,Fundamentals of Machine Learning,Mr. Magesh M P,TLGL3
-MONDAY,15:50,17:30,Fundamentals of Machine Learning,Mr. Magesh M P,JL1
-THURSDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 05,B221
-MONDAY,13:00,13:50,Design and Analysis of Algorithms,New Staff - 05,B320
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,New Staff - 05,B404
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 05,KFL03
-WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 05,TLFR1
-FRIDAY,15:00,15:50,Database Management Systems,Mr. Kumaran U,A302
-WEDNESDAY,14:00,14:50,Database Management Systems,Mr. Kumaran U,A308
-MONDAY,11:00,11:50,Database Management Systems,Mr. Kumaran U,A302
-FRIDAY,15:50,17:30,Database Management Systems,Mr. Kumaran U,KFL01
-FRIDAY,17:30,19:10,Database Management Systems,Mr. Kumaran U,TLFL2
-THURSDAY,08:00,09:40,Database Management Systems,Mr. Kumaran U,TLFL3
-MONDAY,13:50,15:30,Database Management Systems,Mr. Kumaran U,TLFL5
-TUESDAY,14:00,14:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,C202
-WEDNESDAY,13:00,13:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B212
-TUESDAY,15:00,15:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B426
-THURSDAY,10:00,10:50,Discrete Mathematics for AI,Ms. Manasa K,B212
-WEDNESDAY,08:00,08:50,Discrete Mathematics for AI,Ms. Manasa K,A208
-THURSDAY,11:00,11:50,Discrete Mathematics for AI,Ms. Manasa K,B424
-TUESDAY,16:00,16:50,Discrete Mathematics for AI,Ms. Manasa K,B321
-FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B221
-WEDNESDAY,09:00,09:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B320
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,C302
-THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JL2
-MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,KFL02
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFR3
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JL1
+TUESDAY,14:00,14:50,Heritage Of Tamils,Mrs. Chitra Devi P,C101
+WEDNESDAY,13:00,13:50,Programming using C,Mrs. Akiladevi R,D205
+THURSDAY,14:00,14:50,Programming using C,Mrs. Akiladevi R,D205
+WEDNESDAY,14:00,14:50,Programming using C,Mrs. Akiladevi R,B403
+THURSDAY,10:00,11:40,Programming using C,Mrs. Akiladevi R,TLGL3
+TUESDAY,11:50,13:20,Programming using C,Mrs. Akiladevi R,KFR02
+MONDAY,10:00,11:40,Programming using C,Mrs. Akiladevi R,KFL01
+MONDAY,15:00,16:40,Programming using C,Mrs. Akiladevi R,KFR01
+FRIDAY,09:00,09:50,Physics for Information Science,Mrs. Dr.B.Latha,D202
+TUESDAY,16:00,16:50,Physics for Information Science,Mrs. Dr.B.Latha,D205
+TUESDAY,15:00,15:50,Physics for Information Science,Mrs. Dr.B.Latha,D205
+MONDAY,11:50,13:20,Physics for Information Science,Mrs. Dr.B.Latha,Physics LAB - 1
+TUESDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,B422
+WEDNESDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,A204
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Jebaraj Kabriel,C101
+FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,B422
+THURSDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,B403
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,D202
+MONDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,Basic Electronics Lab-1
+MONDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Santhanakrishnan T,Basic Electronics Lab-1
+MONDAY,14:00,14:50,Technical Communication -I,Mrs. Chitra Devi P,D110
+THURSDAY,16:00,16:50,Technical Communication -I,Mrs. Chitra Devi P,A208
+WEDNESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Mr. Dr. S Senthil Murugan,Machine Shop FF3 - EPL - 3
+FRIDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,Mr. Dr. S Senthil Murugan,Machine Shop FF1 - EPL - 1

@@ -1,0 +1,1395 @@
+=== CONSTRAINT VIOLATION ANALYSIS REPORT ===
+Generated at: 2025-07-22 14:57:43
+Final Score: -1157hard/-232565soft
+
+SUMMARY:
+--------
+⚠️ Found 275 total constraint violations
+   🔴 Critical: 18 violations
+   🟠 Hard:     257 violations
+
+DETAILED VIOLATIONS:
+-------------------
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 08:00-09:40 (Lab) with 1 other lessons
+  Lesson: L-1153 | Course: EE23133 | Group: CSE 1.10
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 08:00-09:40 (Lab) with 1 other lessons
+  Lesson: L-1157 | Course: EE23133 | Group: CSE 1.11
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 15:00-16:40 (Lab) with 1 other lessons
+  Lesson: L-1133 | Course: EE23133 | Group: CSE 1.6
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at MONDAY 15:00-16:40 (Lab) with 1 other lessons
+  Lesson: L-1167 | Course: EE23133 | Group: CSE 1.13
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at FRIDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-505 | Course: EE23133 | Group: IT 1.2
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at FRIDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1325 | Course: EE23133 | Group: AIML 1.1
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-1128 | Course: EE23133 | Group: CSE 1.5
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at THURSDAY 10:00-11:40 (Lab) with 1 other lessons
+  Lesson: L-1148 | Course: EE23133 | Group: CSE 1.9
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-404 | Course: EE23133 | Group: AIDS 1.2
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at WEDNESDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1168 | Course: EE23133 | Group: CSE 1.13
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-399 | Course: EE23133 | Group: AIDS 1.1
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1335 | Course: EE23133 | Group: AIML 1.3
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 11:50-13:20 (Lab) with 1 other lessons
+  Lesson: L-419 | Course: EE23133 | Group: AIDS 1.5
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room 124 is double-booked at SATURDAY 11:50-13:20 (Lab) with 1 other lessons
+  Lesson: L-510 | Course: EE23133 | Group: IT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 124
+
+[CRITICAL] Room Conflict
+  Room CH01 is double-booked at MONDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-99 | Course: CY23131 | Group: ECE 1.2
+  Time: MONDAY 13:20-15:00 (Lab) | Room: CH01
+
+[CRITICAL] Room Conflict
+  Room CH01 is double-booked at MONDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-128 | Course: CY23131 | Group: ECE 1.8
+  Time: MONDAY 13:20-15:00 (Lab) | Room: CH01
+
+[CRITICAL] Room Conflict
+  Room 208 is double-booked at WEDNESDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1318 | Course: GE23122 | Group: AIML 1.3
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 208
+
+[CRITICAL] Room Conflict
+  Room 208 is double-booked at WEDNESDAY 13:20-15:00 (Lab) with 1 other lessons
+  Lesson: L-1546 | Course: GE23122 | Group: MCT 1.1
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 208
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: FRIDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-429 | Course: PH23132 | Group: AIDS 1.1
+  Time: TUESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-445 | Course: PH23132 | Group: AIDS 1.5
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-449 | Course: PH23132 | Group: AIDS 1.6
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-765 | Course: PH23132 | Group: CSE-CS 1.1
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-769 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1016 | Course: PH23132 | Group: CSE 1.1
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1020 | Course: PH23132 | Group: CSE 1.2
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1024 | Course: PH23132 | Group: CSE 1.3
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1028 | Course: PH23132 | Group: CSE 1.4
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1032 | Course: PH23132 | Group: CSE 1.5
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1040 | Course: PH23132 | Group: CSE 1.7
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1044 | Course: PH23132 | Group: CSE 1.8
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1052 | Course: PH23132 | Group: CSE 1.10
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1056 | Course: PH23132 | Group: CSE 1.11
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1060 | Course: PH23132 | Group: CSE 1.12
+  Time: THURSDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1064 | Course: PH23132 | Group: CSE 1.13
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 225 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 225
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1300 | Course: PH23132 | Group: AIML 1.1
+  Time: SATURDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1304 | Course: PH23132 | Group: AIML 1.2
+  Time: TUESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Room Capacity
+  Room 224 (capacity: 35) cannot accommodate 70 students
+  Lesson: L-1568 | Course: PH23131 | Group: AERO 1.1
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 09:00-09:50
+  Lesson: L-279 | Course: EC23131 | Group: ECE 1.3
+  Time: MONDAY 09:00-09:50 | Room: 209
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 16:00-16:50
+  Lesson: L-338 | Course: GE23122 | Group: AIDS 1.2
+  Time: THURSDAY 16:00-16:50 | Room: 208
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 09:00-09:50
+  Lesson: L-339 | Course: GE23122 | Group: AIDS 1.2
+  Time: TUESDAY 09:00-09:50 | Room: 208
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 09:00-09:50
+  Lesson: L-400 | Course: EE23133 | Group: AIDS 1.1
+  Time: SATURDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 12:00-12:50
+  Lesson: L-410 | Course: EE23133 | Group: AIDS 1.3
+  Time: SATURDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 11:00-11:50
+  Lesson: L-414 | Course: EE23133 | Group: AIDS 1.4
+  Time: SATURDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 10:00-10:50
+  Lesson: L-415 | Course: EE23133 | Group: AIDS 1.4
+  Time: TUESDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 12:00-12:50
+  Lesson: L-424 | Course: EE23133 | Group: AIDS 1.6
+  Time: THURSDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 13:00-13:50
+  Lesson: L-425 | Course: EE23133 | Group: AIDS 1.6
+  Time: SATURDAY 13:00-13:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 11:00-11:50
+  Lesson: L-500 | Course: EE23133 | Group: IT 1.1
+  Time: THURSDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 08:00-08:50
+  Lesson: L-506 | Course: EE23133 | Group: IT 1.2
+  Time: FRIDAY 08:00-08:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 16:00-16:50
+  Lesson: L-511 | Course: EE23133 | Group: IT 1.3
+  Time: FRIDAY 16:00-16:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 13:00-13:50
+  Lesson: L-520 | Course: EE23133 | Group: IT 1.5
+  Time: FRIDAY 13:00-13:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 09:00-09:50
+  Lesson: L-521 | Course: EE23133 | Group: IT 1.5
+  Time: TUESDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot SATURDAY 16:00-16:50
+  Lesson: L-625 | Course: GE23122 | Group: IT 1.5
+  Time: SATURDAY 16:00-16:50 | Room: 208
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 15:00-15:50
+  Lesson: L-750 | Course: EE23133 | Group: CSE-CS 1.1
+  Time: WEDNESDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 11:00-11:50
+  Lesson: L-760 | Course: EE23133 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 12:00-12:50
+  Lesson: L-761 | Course: EE23133 | Group: CSE-CS 1.3
+  Time: TUESDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 09:00-09:50
+  Lesson: L-1108 | Course: EE23133 | Group: CSE 1.1
+  Time: WEDNESDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 10:00-10:50
+  Lesson: L-1112 | Course: EE23133 | Group: CSE 1.2
+  Time: FRIDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 12:00-12:50
+  Lesson: L-1117 | Course: EE23133 | Group: CSE 1.3
+  Time: MONDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 11:00-11:50
+  Lesson: L-1118 | Course: EE23133 | Group: CSE 1.3
+  Time: TUESDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot MONDAY 11:00-11:50
+  Lesson: L-1142 | Course: EE23133 | Group: CSE 1.8
+  Time: MONDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 08:00-08:50
+  Lesson: L-1143 | Course: EE23133 | Group: CSE 1.8
+  Time: TUESDAY 08:00-08:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 12:00-12:50
+  Lesson: L-1152 | Course: EE23133 | Group: CSE 1.10
+  Time: FRIDAY 12:00-12:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 15:00-15:50
+  Lesson: L-1163 | Course: EE23133 | Group: CSE 1.12
+  Time: FRIDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 09:00-09:50
+  Lesson: L-1329 | Course: EE23133 | Group: AIML 1.2
+  Time: THURSDAY 09:00-09:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 16:00-16:50
+  Lesson: L-1330 | Course: EE23133 | Group: AIML 1.2
+  Time: THURSDAY 16:00-16:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot THURSDAY 10:00-10:50
+  Lesson: L-1334 | Course: EE23133 | Group: AIML 1.3
+  Time: THURSDAY 10:00-10:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot WEDNESDAY 15:00-15:50
+  Lesson: L-1419 | Course: CY23131 | Group: BME 1.1
+  Time: WEDNESDAY 15:00-15:50 | Room: CH01
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot FRIDAY 11:00-11:50
+  Lesson: L-1580 | Course: EE23133 | Group: AERO 1.1
+  Time: FRIDAY 11:00-11:50 | Room: 124
+
+[HARD] Lab in Lab Slot
+  Lab session assigned to theory time slot TUESDAY 15:00-15:50
+  Lesson: L-1581 | Course: EE23133 | Group: AERO 1.1
+  Time: TUESDAY 15:00-15:50 | Room: 124
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-8 | Course: PH23131 | Group: CIVIL 1.1
+  Time: FRIDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-429 | Course: PH23132 | Group: AIDS 1.1
+  Time: TUESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-441 | Course: PH23132 | Group: AIDS 1.4
+  Time: SATURDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-445 | Course: PH23132 | Group: AIDS 1.5
+  Time: WEDNESDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-449 | Course: PH23132 | Group: AIDS 1.6
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-765 | Course: PH23132 | Group: CSE-CS 1.1
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-769 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: MONDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-773 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1016 | Course: PH23132 | Group: CSE 1.1
+  Time: WEDNESDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1020 | Course: PH23132 | Group: CSE 1.2
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1024 | Course: PH23132 | Group: CSE 1.3
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1028 | Course: PH23132 | Group: CSE 1.4
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1032 | Course: PH23132 | Group: CSE 1.5
+  Time: MONDAY 10:00-11:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1040 | Course: PH23132 | Group: CSE 1.7
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1044 | Course: PH23132 | Group: CSE 1.8
+  Time: TUESDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1048 | Course: PH23132 | Group: CSE 1.9
+  Time: FRIDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1052 | Course: PH23132 | Group: CSE 1.10
+  Time: MONDAY 15:00-16:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1056 | Course: PH23132 | Group: CSE 1.11
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1060 | Course: PH23132 | Group: CSE 1.12
+  Time: THURSDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1064 | Course: PH23132 | Group: CSE 1.13
+  Time: MONDAY 13:20-15:00 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1276 | Course: PH23131 | Group: MECH 1.2
+  Time: THURSDAY 08:00-09:40 (Lab) | Room: 225
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1300 | Course: PH23132 | Group: AIML 1.1
+  Time: SATURDAY 08:00-09:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1304 | Course: PH23132 | Group: AIML 1.2
+  Time: TUESDAY 15:00-16:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1312 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Lab Must Be Batched
+  Large group (70 students) lab not batched
+  Lesson: L-1568 | Course: PH23131 | Group: AERO 1.1
+  Time: THURSDAY 10:00-11:40 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1411 | Course: MC23112 | Group: BME 1.1
+  Time: THURSDAY 12:00-12:50 | Room: D202
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-660 | Course: RO23111 | Group: R&A 1.1
+  Time: SATURDAY 12:00-12:50 | Room: B212
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on MONDAY
+  Lesson: L-1041 | Course: PH23132 | Group: CSE 1.8
+  Time: MONDAY 12:00-12:50 | Room: B409
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-311 | Course: GE23117 | Group: AIDS 1.6
+  Time: TUESDAY 12:00-12:50 | Room: D311
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-807 | Course: GE23111 | Group: CHEM 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: A208
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-1358 | Course: GE23131 | Group: AIML 1.3
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 138
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1486 | Course: MA23115 | Group: CSBS 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D709
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.10 has insufficient lunch break on FRIDAY
+  Lesson: L-1152 | Course: EE23133 | Group: CSE 1.10
+  Time: FRIDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.7 has insufficient lunch break on THURSDAY
+  Lesson: L-253 | Course: GE23131 | Group: ECE 1.7
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLFR3
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on FRIDAY
+  Lesson: L-1184 | Course: HS23111 | Group: CSE 1.8
+  Time: FRIDAY 12:00-12:50 | Room: A303
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-767 | Course: PH23132 | Group: CSE-CS 1.2
+  Time: THURSDAY 12:00-12:50 | Room: D203
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1239 | Course: GE23131 | Group: CSD 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: KFR01
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-635 | Course: MC23112 | Group: IT 1.3
+  Time: THURSDAY 12:00-12:50 | Room: B221
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-106 | Course: CY23131 | Group: ECE 1.4
+  Time: FRIDAY 12:00-12:50 | Room: A308
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on WEDNESDAY
+  Lesson: L-333 | Course: MA23116 | Group: AIDS 1.6
+  Time: WEDNESDAY 12:00-12:50 | Room: D409
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-189 | Course: MC23111 | Group: ECE 1.2
+  Time: FRIDAY 12:00-12:50 | Room: D512
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-687 | Course: CY23132 | Group: FT 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1241 | Course: PH23132 | Group: CSD 1.1
+  Time: THURSDAY 12:00-12:50 | Room: B213
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-901 | Course: HS23111 | Group: BT 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B412
+
+[HARD] Mandatory Lunch Break
+  Student group CHEM 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-801 | Course: GE23117 | Group: CHEM 1.1
+  Time: MONDAY 12:00-12:50 | Room: A208
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-342 | Course: GE23122 | Group: AIDS 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-477 | Course: GE23131 | Group: AIDS 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: TLFL3
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-833 | Course: BT23131 | Group: BT 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 115
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on SATURDAY
+  Lesson: L-474 | Course: GE23131 | Group: AIDS 1.4
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 126
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1351 | Course: GE23131 | Group: AIML 1.2
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 155
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-450 | Course: GE23131 | Group: AIDS 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D209
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-69 | Course: MC23111 | Group: EEE 1.2
+  Time: TUESDAY 12:00-12:50 | Room: A304
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-35 | Course: GE23122 | Group: EEE 1.1
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1458 | Course: CB23131 | Group: CSBS 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 152
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1480 | Course: EE23131 | Group: CSBS 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 141
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-476 | Course: GE23131 | Group: AIDS 1.4
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 148
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on TUESDAY
+  Lesson: L-946 | Course: GE23131 | Group: CSE 1.4
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 213
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on TUESDAY
+  Lesson: L-1320 | Course: GE23122 | Group: AIML 1.4
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on TUESDAY
+  Lesson: L-1363 | Course: GE23131 | Group: AIML 1.4
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 150
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on FRIDAY
+  Lesson: L-209 | Course: MC23111 | Group: ECE 1.8
+  Time: FRIDAY 12:00-12:50 | Room: A102
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-224 | Course: GE23131 | Group: ECE 1.3
+  Time: TUESDAY 12:00-12:50 | Room: B220
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on FRIDAY
+  Lesson: L-549 | Course: GE23111 | Group: IT 1.5
+  Time: FRIDAY 12:00-12:50 | Room: D704
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on WEDNESDAY
+  Lesson: L-584 | Course: GE23131 | Group: IT 1.5
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 125
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-608 | Course: HS23111 | Group: IT 1.1
+  Time: SATURDAY 12:00-12:50 | Room: D109
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-1394 | Course: MA23116 | Group: AIML 1.3
+  Time: TUESDAY 12:00-12:50 | Room: D204
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-722 | Course: GE23131 | Group: CSE-CS 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 226
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-755 | Course: EE23133 | Group: CSE-CS 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.8 has insufficient lunch break on THURSDAY
+  Lesson: L-973 | Course: GE23131 | Group: CSE 1.8
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 213
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-433 | Course: PH23132 | Group: AIDS 1.2
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-1421 | Course: CY23131 | Group: BME 1.2
+  Time: SATURDAY 12:00-12:50 | Room: C103
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-677 | Course: GE23121 | Group: FT 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on THURSDAY
+  Lesson: L-1365 | Course: GE23131 | Group: AIML 1.4
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: JR3
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1344 | Course: GE23131 | Group: AIML 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: AC01
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-40 | Course: GE23111 | Group: EEE 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D612
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.4 has insufficient lunch break on WEDNESDAY
+  Lesson: L-576 | Course: GE23131 | Group: IT 1.4
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: JL1
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1324 | Course: EE23133 | Group: AIML 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1345 | Course: GE23131 | Group: AIML 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: KFL02
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-547 | Course: GE23111 | Group: IT 1.5
+  Time: THURSDAY 12:00-12:50 | Room: D705
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on TUESDAY
+  Lesson: L-129 | Course: CY23131 | Group: ECE 1.8
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-365 | Course: MC23112 | Group: AIDS 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: D305
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-76 | Course: CY23131 | Group: EEE 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B325
+
+[HARD] Mandatory Lunch Break
+  Student group AUTO 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-781 | Course: HS23111 | Group: AUTO 1.1
+  Time: TUESDAY 12:00-12:50 | Room: D512
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-853 | Course: GE23111 | Group: BT 1.2
+  Time: TUESDAY 12:00-12:50 | Room: A211
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.5 has insufficient lunch break on TUESDAY
+  Lesson: L-951 | Course: GE23131 | Group: CSE 1.5
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 212
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-271 | Course: EC23131 | Group: ECE 1.2
+  Time: TUESDAY 12:00-12:50 | Room: D705
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-598 | Course: MA23111 | Group: IT 1.3
+  Time: TUESDAY 12:00-12:50 | Room: D710
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-906 | Course: GE23117 | Group: BT 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group FT 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-676 | Course: GE23121 | Group: FT 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 205
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-464 | Course: GE23131 | Group: AIDS 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: B402
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1473 | Course: PH23133 | Group: CSBS 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: D205
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-566 | Course: GE23131 | Group: IT 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: D210
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on MONDAY
+  Lesson: L-172 | Course: HS23111 | Group: ECE 1.6
+  Time: MONDAY 12:00-12:50 | Room: A205
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.4 has insufficient lunch break on THURSDAY
+  Lesson: L-232 | Course: GE23131 | Group: ECE 1.4
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: KFR02
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1428 | Course: GE23111 | Group: BME 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B322
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on MONDAY
+  Lesson: L-1284 | Course: EC23111 | Group: MECH 1.2
+  Time: MONDAY 12:00-12:50 | Room: A309
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-562 | Course: GE23131 | Group: IT 1.2
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 122
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.4 has insufficient lunch break on THURSDAY
+  Lesson: L-438 | Course: PH23132 | Group: AIDS 1.4
+  Time: THURSDAY 12:00-12:50 | Room: D210
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-336 | Course: GE23122 | Group: AIDS 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-186 | Course: MC23111 | Group: ECE 1.1
+  Time: THURSDAY 12:00-12:50 | Room: A110
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1224 | Course: GE23122 | Group: CSD 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1237 | Course: GE23131 | Group: CSD 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 154
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.4 has insufficient lunch break on THURSDAY
+  Lesson: L-623 | Course: GE23122 | Group: IT 1.4
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on WEDNESDAY
+  Lesson: L-771 | Course: PH23132 | Group: CSE-CS 1.3
+  Time: WEDNESDAY 12:00-12:50 | Room: D705
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.11 has insufficient lunch break on TUESDAY
+  Lesson: L-996 | Course: GE23131 | Group: CSE 1.11
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 226
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on WEDNESDAY
+  Lesson: L-49 | Course: GE23111 | Group: EEE 1.2
+  Time: WEDNESDAY 12:00-12:50 | Room: D203
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-610 | Course: HS23111 | Group: IT 1.2
+  Time: SATURDAY 12:00-12:50 | Room: D310
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.2 has insufficient lunch break on FRIDAY
+  Lesson: L-459 | Course: GE23131 | Group: AIDS 1.2
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 131
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-845 | Course: GE23121 | Group: BT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-877 | Course: CY23132 | Group: BT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group CIVIL 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-17 | Course: CE23111 | Group: CIVIL 1.1
+  Time: SATURDAY 12:00-12:50 | Room: B402
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-93 | Course: CY23131 | Group: ECE 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: CH01
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-216 | Course: GE23131 | Group: ECE 1.1
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 214
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1557 | Course: GE23121 | Group: AERO 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1482 | Course: EE23131 | Group: CSBS 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B401
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.12 has insufficient lunch break on TUESDAY
+  Lesson: L-1003 | Course: GE23131 | Group: CSE 1.12
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 210
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.12 has insufficient lunch break on TUESDAY
+  Lesson: L-1217 | Course: GE23121 | Group: CSE 1.12
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-466 | Course: GE23131 | Group: AIDS 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 129
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-410 | Course: EE23133 | Group: AIDS 1.3
+  Time: SATURDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.2 has insufficient lunch break on SATURDAY
+  Lesson: L-89 | Course: HS 23111 | Group: EEE 1.2
+  Time: SATURDAY 12:00-12:50 | Room: B322
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1369 | Course: MC23111 | Group: AIML 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: B408
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on THURSDAY
+  Lesson: L-482 | Course: GE23131 | Group: AIDS 1.5
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: KFR01
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.13 has insufficient lunch break on FRIDAY
+  Lesson: L-1008 | Course: GE23131 | Group: CSE 1.13
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 154
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on SATURDAY
+  Lesson: L-1310 | Course: PH23132 | Group: AIML 1.4
+  Time: SATURDAY 12:00-12:50 | Room: A310
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.5 has insufficient lunch break on FRIDAY
+  Lesson: L-392 | Course: MC23111 | Group: AIDS 1.5
+  Time: FRIDAY 12:00-12:50 | Room: D711
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-427 | Course: PH23132 | Group: AIDS 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D204
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-556 | Course: GE23131 | Group: IT 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 212
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-321 | Course: MA23116 | Group: AIDS 1.3
+  Time: FRIDAY 12:00-12:50 | Room: B409
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.7 has insufficient lunch break on MONDAY
+  Lesson: L-298 | Course: EC23131 | Group: ECE 1.7
+  Time: MONDAY 12:00-12:50 | Room: D209
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-940 | Course: GE23131 | Group: CSE 1.3
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 142
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-726 | Course: GE23131 | Group: CSE-CS 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: TLGL3
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-1355 | Course: GE23131 | Group: AIML 1.3
+  Time: THURSDAY 12:00-12:50 | Room: C301
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.5 has insufficient lunch break on SATURDAY
+  Lesson: L-585 | Course: GE23131 | Group: IT 1.5
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 213
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-693 | Course: MA23111 | Group: CSE-CS 1.1
+  Time: THURSDAY 12:00-12:50 | Room: B402
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.12 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1099 | Course: MC23111 | Group: CSE 1.12
+  Time: WEDNESDAY 12:00-12:50 | Room: D511
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1420 | Course: CY23131 | Group: BME 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B210
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-944 | Course: GE23131 | Group: CSE 1.4
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 153
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-1202 | Course: GE23121 | Group: CSE 1.4
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-627 | Course: MC23112 | Group: IT 1.1
+  Time: THURSDAY 12:00-12:50 | Room: A211
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1565 | Course: PH23131 | Group: AERO 1.1
+  Time: FRIDAY 12:00-12:50 | Room: B415
+
+[HARD] Mandatory Lunch Break
+  Student group CSD 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1243 | Course: PH23132 | Group: CSD 1.1
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on THURSDAY
+  Lesson: L-262 | Course: GE23131 | Group: ECE 1.8
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 156
+
+[HARD] Mandatory Lunch Break
+  Student group BME 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1451 | Course: GE23121 | Group: BME 1.2
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 205
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1258 | Course: GE23111 | Group: MECH 1.2
+  Time: THURSDAY 12:00-12:50 | Room: D211
+
+[HARD] Mandatory Lunch Break
+  Student group MCT 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-1553 | Course: MC23112 | Group: MCT 1.2
+  Time: THURSDAY 12:00-12:50 | Room: B423
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-879 | Course: MC23112 | Group: BT 1.1
+  Time: THURSDAY 12:00-12:50 | Room: A304
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-697 | Course: MA23111 | Group: CSE-CS 1.2
+  Time: TUESDAY 12:00-12:50 | Room: B409
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.3 has insufficient lunch break on MONDAY
+  Lesson: L-102 | Course: CY23131 | Group: ECE 1.3
+  Time: MONDAY 12:00-12:50 | Room: D204
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.2 has insufficient lunch break on THURSDAY
+  Lesson: L-272 | Course: EC23131 | Group: ECE 1.2
+  Time: THURSDAY 12:00-12:50 | Room: A102
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-313 | Course: MA23116 | Group: AIDS 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: B302
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-510 | Course: EE23133 | Group: IT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-570 | Course: GE23131 | Group: IT 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 210
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.3 has insufficient lunch break on MONDAY
+  Lesson: L-730 | Course: GE23131 | Group: CSE-CS 1.3
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 132
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1272 | Course: PH23131 | Group: MECH 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 225
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1493 | Course: MA23114 | Group: CSBS 1.1
+  Time: WEDNESDAY 12:00-12:50 | Room: D512
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on SATURDAY
+  Lesson: L-377 | Course: MC23112 | Group: AIDS 1.6
+  Time: SATURDAY 12:00-12:50 | Room: C308
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.3 has insufficient lunch break on THURSDAY
+  Lesson: L-437 | Course: PH23132 | Group: AIDS 1.3
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.10 has insufficient lunch break on WEDNESDAY
+  Lesson: L-1092 | Course: MC23111 | Group: CSE 1.10
+  Time: WEDNESDAY 12:00-12:50 | Room: C301
+
+[HARD] Mandatory Lunch Break
+  Student group CSE-CS 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-716 | Course: GE23131 | Group: CSE-CS 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 126
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-651 | Course: MA23112 | Group: R&A 1.1
+  Time: FRIDAY 12:00-12:50 | Room: B211
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-293 | Course: EC23131 | Group: ECE 1.6
+  Time: TUESDAY 12:00-12:50 | Room: B415
+
+[HARD] Mandatory Lunch Break
+  Student group EEE 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-78 | Course: CY23131 | Group: EEE 1.1
+  Time: THURSDAY 12:00-12:50 | Room: B107
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1014 | Course: PH23132 | Group: CSE 1.1
+  Time: TUESDAY 12:00-12:50 | Room: B426
+
+[HARD] Mandatory Lunch Break
+  Student group AERO 1.1 has insufficient lunch break on SATURDAY
+  Lesson: L-1564 | Course: GE23111 | Group: AERO 1.1
+  Time: SATURDAY 12:00-12:50 | Room: C201
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on MONDAY
+  Lesson: L-947 | Course: GE23131 | Group: CSE 1.4
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 210
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.4 has insufficient lunch break on MONDAY
+  Lesson: L-1122 | Course: EE23133 | Group: CSE 1.4
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.3 has insufficient lunch break on SATURDAY
+  Lesson: L-1308 | Course: PH23132 | Group: AIML 1.3
+  Time: SATURDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-663 | Course: GE23121 | Group: R&A 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 205
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on WEDNESDAY
+  Lesson: L-669 | Course: EE23132 | Group: R&A 1.1
+  Time: WEDNESDAY 11:50-13:20 (Lab) | Room: 141
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1303 | Course: PH23132 | Group: AIML 1.2
+  Time: TUESDAY 12:00-12:50 | Room: C101
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-1496 | Course: MA23114 | Group: CSBS 1.1
+  Time: FRIDAY 12:00-12:50 | Room: D402
+
+[HARD] Mandatory Lunch Break
+  Student group CIVIL 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-1 | Course: MC23112 | Group: CIVIL 1.1
+  Time: TUESDAY 12:00-12:50 | Room: A308
+
+[HARD] Mandatory Lunch Break
+  Student group BT 1.3 has insufficient lunch break on TUESDAY
+  Lesson: L-896 | Course: MA23112 | Group: BT 1.3
+  Time: TUESDAY 12:00-12:50 | Room: C103
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.8 has insufficient lunch break on WEDNESDAY
+  Lesson: L-160 | Course: MA23111 | Group: ECE 1.8
+  Time: WEDNESDAY 12:00-12:50 | Room: B405
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.1 has insufficient lunch break on MONDAY
+  Lesson: L-1281 | Course: EC23111 | Group: MECH 1.1
+  Time: MONDAY 12:00-12:50 | Room: A102
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1259 | Course: GE23121 | Group: MECH 1.1
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 204
+
+[HARD] Mandatory Lunch Break
+  Student group MECH 1.2 has insufficient lunch break on TUESDAY
+  Lesson: L-1253 | Course: GE23111 | Group: MECH 1.2
+  Time: TUESDAY 12:00-12:50 | Room: B212
+
+[HARD] Mandatory Lunch Break
+  Student group AIML 1.4 has insufficient lunch break on FRIDAY
+  Lesson: L-1400 | Course: MA23116 | Group: AIML 1.4
+  Time: FRIDAY 12:00-12:50 | Room: A203
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on FRIDAY
+  Lesson: L-335 | Course: MA23116 | Group: AIDS 1.6
+  Time: FRIDAY 12:00-12:50 | Room: A202
+
+[HARD] Mandatory Lunch Break
+  Student group AUTO 1.1 has insufficient lunch break on FRIDAY
+  Lesson: L-799 | Course: MA23112 | Group: AUTO 1.1
+  Time: FRIDAY 12:00-12:50 | Room: B425
+
+[HARD] Mandatory Lunch Break
+  Student group CSE 1.6 has insufficient lunch break on TUESDAY
+  Lesson: L-1036 | Course: PH23132 | Group: CSE 1.6
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 224
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.3 has insufficient lunch break on FRIDAY
+  Lesson: L-621 | Course: GE23122 | Group: IT 1.3
+  Time: FRIDAY 11:50-13:20 (Lab) | Room: 208
+
+[HARD] Mandatory Lunch Break
+  Student group CSBS 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-1515 | Course: GE23117 | Group: CSBS 1.1
+  Time: THURSDAY 12:00-12:50 | Room: B220
+
+[HARD] Mandatory Lunch Break
+  Student group IT 1.1 has insufficient lunch break on TUESDAY
+  Lesson: L-553 | Course: GE23131 | Group: IT 1.1
+  Time: TUESDAY 11:50-13:20 (Lab) | Room: 151
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on THURSDAY
+  Lesson: L-491 | Course: GE23131 | Group: AIDS 1.6
+  Time: THURSDAY 11:50-13:20 (Lab) | Room: 131
+
+[HARD] Mandatory Lunch Break
+  Student group AIDS 1.6 has insufficient lunch break on THURSDAY
+  Lesson: L-424 | Course: EE23133 | Group: AIDS 1.6
+  Time: THURSDAY 12:00-12:50 | Room: 124
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on MONDAY
+  Lesson: L-240 | Course: GE23131 | Group: ECE 1.5
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 213
+
+[HARD] Mandatory Lunch Break
+  Student group ECE 1.5 has insufficient lunch break on MONDAY
+  Lesson: L-290 | Course: EC23131 | Group: ECE 1.5
+  Time: MONDAY 11:50-13:20 (Lab) | Room: 209
+
+[HARD] Mandatory Lunch Break
+  Student group R&A 1.1 has insufficient lunch break on THURSDAY
+  Lesson: L-666 | Course: EE23132 | Group: R&A 1.1
+  Time: THURSDAY 12:00-12:50 | Room: A311
+
+VIOLATION STATISTICS:
+--------------------
+  Mandatory Lunch Break: 163 violations
+  Lab Must Be Batched: 31 violations
+  Room Capacity: 31 violations
+  Room Conflict: 18 violations
+  Lab in Lab Slot: 32 violations

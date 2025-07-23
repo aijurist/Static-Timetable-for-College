@@ -1,7 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,08:00,08:50,Economics for Engineers,MECH 3.1,B405
-MONDAY,16:00,16:50,Economics for Engineers,MECH 3.1,C202
-THURSDAY,15:00,15:50,Economics for Engineers,MECH 3.1,A310
-MONDAY,09:00,09:50,Automation in Manufacturing,MECH 4.1,A103
-TUESDAY,16:00,16:50,Automation in Manufacturing,MECH 4.1,B418
-TUESDAY,13:00,13:50,Automation in Manufacturing,MECH 4.1,C201
+TUESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,CSE 1.8,Machine Shop FF2 - EPL - 2
+TUESDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,CSE 1.8,Machine Shop FF2 - EPL - 2

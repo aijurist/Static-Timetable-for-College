@@ -1,7 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.2,TLGL2
-WEDNESDAY,17:30,19:10,Advanced Robotic Process Automation,CSE 4.2,KSL03
-MONDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.2,TLGL1
-FRIDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.4,TLGL2
-TUESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.4,KSL03
-TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.4,KSL03
+TUESDAY,14:00,14:50,Programming using C,CSE 1.11,A210
+MONDAY,12:00,12:50,Programming using C,CSE 1.11,A309
+WEDNESDAY,11:00,11:50,Programming using C,CSE 1.11,D610
+MONDAY,10:00,11:40,Programming using C,CSE 1.11,TLFL2
+FRIDAY,15:00,16:40,Programming using C,CSE 1.11,TLFL5
+TUESDAY,15:00,16:40,Programming using C,CSE 1.11,KSL03
+FRIDAY,11:50,13:20,Programming using C,CSE 1.11,JL1

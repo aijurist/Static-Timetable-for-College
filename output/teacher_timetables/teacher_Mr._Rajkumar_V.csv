@@ -1,5 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,11:00,11:50,Transforms and Statistics,AUTO 2.1,B423
-TUESDAY,14:00,14:50,Transforms and Statistics,AUTO 2.1,B405
-THURSDAY,09:00,09:50,Transforms and Statistics,AUTO 2.1,B424
-MONDAY,09:50,11:30,Transforms and Statistics,AUTO 2.1,Microprocessor Lab-1
+THURSDAY,09:00,09:50,Linear Algebra and Calculus,BME 1.1,C302
+TUESDAY,11:00,11:50,Linear Algebra and Calculus,BME 1.1,B401
+TUESDAY,10:00,10:50,Linear Algebra and Calculus,BME 1.1,D410
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,BME 1.1,D410

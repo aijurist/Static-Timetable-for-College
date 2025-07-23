@@ -1,6 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,16:00,16:50,Introduction to Python Programming,EEE 2.2,B302
-THURSDAY,09:50,11:30,Introduction to Python Programming,EEE 2.2,MCT CAD Lab
-SATURDAY,13:50,15:30,Introduction to Python Programming,EEE 2.2,MCT CAD Lab
-SATURDAY,11:50,13:30,Introduction to Python Programming,EEE 2.2,MCT CAD Lab
-THURSDAY,08:00,09:40,Introduction to Python Programming,EEE 2.2,MCT CAD Lab
+THURSDAY,14:00,14:50,Principles of Electrical Engineering,CSBS 1.2,B405
+MONDAY,09:00,09:50,Principles of Electrical Engineering,CSBS 1.2,B212
+MONDAY,13:20,15:00,Principles of Electrical Engineering,CSBS 1.2,Electrical Machines I Lab
+TUESDAY,13:20,15:00,Principles of Electrical Engineering,CSBS 1.2,Electrical Machines I Lab

@@ -1,31 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,17:00,17:50,Computer Vision and Applications,Mr. Srinivasan T,B302
-THURSDAY,15:00,15:50,Computer Vision and Applications,Mr. Srinivasan T,A311
-WEDNESDAY,11:50,13:30,Computer Vision and Applications,Mr. Srinivasan T,TLGL3
-SATURDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,TLFL4
-SATURDAY,14:00,14:50,Recommendation Systems (Professional Elective I),New Staff - 05,B221
-SATURDAY,13:00,13:50,Recommendation Systems (Professional Elective I),New Staff - 05,B425
-TUESDAY,08:00,09:40,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL3
-TUESDAY,09:50,11:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFR2
-SATURDAY,15:50,17:30,Build and Deploy Machine Learning Applications,AIML  NS4,KFR01
-TUESDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML  NS4,KFR01
-THURSDAY,16:00,16:50,Deep Learning,Mrs. Divya S,A309
-THURSDAY,12:00,12:50,Deep Learning,Mrs. Divya S,B211
-WEDNESDAY,09:00,09:50,Deep Learning,Mrs. Divya S,B210
-WEDNESDAY,09:50,11:30,Deep Learning,Mrs. Divya S,KFL01
-FRIDAY,11:50,13:30,Deep Learning,Mrs. Divya S,JR3
-THURSDAY,18:00,18:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B412
-FRIDAY,18:00,18:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C301
-TUESDAY,14:00,14:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B222
-SATURDAY,17:30,19:10,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLFR2
-FRIDAY,13:50,15:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,JR1
-WEDNESDAY,14:00,14:50,Computer Networks,Ms. Soundarya M,B426
-SATURDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B412
-WEDNESDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B402
-TUESDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,JL2
-FRIDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,JL3
-SATURDAY,17:30,19:10,Computer Networks,Ms. Soundarya M,TLFL2
-WEDNESDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,TLFR3
-FRIDAY,16:00,16:50,DataEngineering,Dr. Rajasekaran Annamalai,A308
-TUESDAY,13:00,13:50,DataEngineering,Dr. Rajasekaran Annamalai,A204
-FRIDAY,17:00,17:50,DataEngineering,Dr. Rajasekaran Annamalai,A202
+MONDAY,10:00,10:50,Heritage Of Tamils,Mrs. P. Ramadevi,B107
+THURSDAY,13:00,13:50,Programming using C,Dr. Bhuvaneswari R,D410
+WEDNESDAY,11:00,11:50,Programming using C,Dr. Bhuvaneswari R,A104/105
+THURSDAY,14:00,14:50,Programming using C,Dr. Bhuvaneswari R,D710
+MONDAY,15:00,16:40,Programming using C,Dr. Bhuvaneswari R,TLGL3
+FRIDAY,08:00,09:40,Programming using C,Dr. Bhuvaneswari R,TLFL4
+WEDNESDAY,13:20,15:00,Programming using C,Dr. Bhuvaneswari R,JR3
+TUESDAY,11:50,13:20,Programming using C,Dr. Bhuvaneswari R,TLGL4
+FRIDAY,15:00,15:50,Physics for Information Science,Mrs. Dr I Sankeeda,B325
+MONDAY,09:00,09:50,Physics for Information Science,Mrs. Dr I Sankeeda,A302
+WEDNESDAY,09:00,09:50,Physics for Information Science,Mrs. Dr I Sankeeda,B210
+FRIDAY,11:50,13:20,Physics for Information Science,Mrs. Dr I Sankeeda,Physics LAB - 1
+FRIDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Savier Mut Jabraj A,D510
+TUESDAY,09:00,09:50,Indian Constitution and Freedom Movement,Mr. Savier Mut Jabraj A,C301
+MONDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mr. Savier Mut Jabraj A,D703
+TUESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Mr. A.Nazar Ali,A302
+WEDNESDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Mr. A.Nazar Ali,C301
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. A.Nazar Ali,B425
+TUESDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Mr. A.Nazar Ali,Basic Electronics Lab-1
+THURSDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Mr. A.Nazar Ali,Basic Electronics Lab-1
+FRIDAY,10:00,10:50,Technical Communication -I,Ms. Malikunnisha Mohamed Noorullah,B425
+THURSDAY,11:00,11:50,Technical Communication -I,Ms. Malikunnisha Mohamed Noorullah,B404
+MONDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Dr. Ramesh G,Machine Shop FF1 - EPL - 1
+MONDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Dr. Ramesh G,Machine Shop FF2 - EPL - 2

@@ -1,26 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,08:00,08:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
-TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
-TUESDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D109
-TUESDAY,11:00,11:50,Heritage Of Tamils,Dr. Rajasree Baskaran,D109
-TUESDAY,12:00,12:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
-TUESDAY,14:00,14:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
-TUESDAY,15:00,15:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D109
-WEDNESDAY,08:00,09:40,Physics of Materials,Mr. Dr Ragavendran Venkatesan,Physics LAB - 1
-WEDNESDAY,10:00,10:50,Algebra and Calculus,Dr. Thilagavathi R,D109
-WEDNESDAY,12:00,12:50,Algebra and Calculus,Dr. Thilagavathi R,D109
-WEDNESDAY,13:00,13:50,Algebra and Calculus,Dr. Thilagavathi R,D109
-WEDNESDAY,14:00,14:50,Algebra and Calculus,Dr. Thilagavathi R,D109
-WEDNESDAY,15:00,15:50,Technical Communication -I,Dr. Vijayalakshmi M,D109
-WEDNESDAY,16:00,16:50,Technical Communication -I,Dr. Vijayalakshmi M,D109
+TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,B402
+SATURDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,D511
+THURSDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr.S.Mohandoss,A305
+THURSDAY,12:00,12:50,Heritage Of Tamils,Dr. Rajasree Baskaran,B325
+WEDNESDAY,14:00,14:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,D204
+SATURDAY,09:00,09:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,C103
+THURSDAY,14:00,14:50,Physics of Materials,Mr. Dr Ragavendran Venkatesan,B219
+TUESDAY,10:00,11:40,Physics of Materials,Mr. Dr Ragavendran Venkatesan,Physics LAB - 2
+TUESDAY,12:00,12:50,Algebra and Calculus,Dr. Thilagavathi R,D204
+FRIDAY,12:00,12:50,Algebra and Calculus,Dr. Thilagavathi R,D610
+WEDNESDAY,12:00,12:50,Algebra and Calculus,Dr. Thilagavathi R,A204
+FRIDAY,16:00,16:50,Algebra and Calculus,Dr. Thilagavathi R,A204
+THURSDAY,11:00,11:50,Technical Communication -I,Dr. Vijayalakshmi M,C103
+TUESDAY,14:00,14:50,Technical Communication -I,Dr. Vijayalakshmi M,C103
 THURSDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. Mahamood Ul Hasan N,Machine Shop FF1 - EPL - 1
-THURSDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Mahamood Ul Hasan N,Machine Shop FF1 - EPL - 1
-THURSDAY,10:00,10:50,Building Materials,Mrs. Yugasini S,D109
-THURSDAY,11:00,11:50,Building Materials,Mrs. Yugasini S,D109
-THURSDAY,12:00,12:50,Building Materials,Mrs. Yugasini S,D109
-THURSDAY,15:00,15:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,C101
-THURSDAY,16:00,16:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,D109
-FRIDAY,08:00,09:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
-FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
-FRIDAY,11:50,13:20,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
-FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Auto CAD Lab
+WEDNESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Mr. Mahamood Ul Hasan N,Machine Shop FF2 - EPL - 2
+SATURDAY,14:00,14:50,Building Materials,Mrs. Yugasini S,C302
+TUESDAY,15:00,15:50,Building Materials,Mrs. Yugasini S,D204
+WEDNESDAY,09:00,09:50,Building Materials,Mrs. Yugasini S,A103
+TUESDAY,13:00,13:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,C302
+WEDNESDAY,13:00,13:50,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,A202
+SATURDAY,11:50,13:20,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,JR3
+FRIDAY,10:00,11:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,MEMS Lab
+FRIDAY,13:20,15:00,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,Thermal Lab 2
+SATURDAY,10:00,11:40,Engineering Drawing for Civil Engineers,Mr. Mahamood Ul Hasan N,KSL03

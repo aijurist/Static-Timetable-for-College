@@ -1,6 +1,3 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,10:00,10:50,Metrology and Measurements,MECH 3.2,A302
-TUESDAY,08:00,08:50,Metrology and Measurements,MECH 3.2,B404
-THURSDAY,18:00,18:50,Metrology and Measurements,MECH 3.2,B106
-THURSDAY,13:50,15:30,Metrology and Measurements,MECH 3.2,Metrology & Measurement Lab
-WEDNESDAY,13:50,15:30,Metrology and Measurements,MECH 3.2,Metrology & Measurement Lab
+WEDNESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,CSE 1.13,Machine Shop FF1 - EPL - 1
+TUESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,CSE 1.13,Machine Shop FF1 - EPL - 1

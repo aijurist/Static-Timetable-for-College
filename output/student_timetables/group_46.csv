@@ -1,32 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,15:00,15:50,Fundamentals of Machine Learning,Mrs. Priya M,B411
-MONDAY,17:00,17:50,Fundamentals of Machine Learning,Mrs. Priya M,A303
-MONDAY,13:00,13:50,Fundamentals of Machine Learning,Mrs. Priya M,A211
-WEDNESDAY,09:50,11:30,Fundamentals of Machine Learning,Mrs. Priya M,TLFL3
-THURSDAY,13:50,15:30,Fundamentals of Machine Learning,Mrs. Priya M,TLGL2
-MONDAY,14:00,14:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,B210
-THURSDAY,10:00,10:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,B403
-TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,C301
-TUESDAY,17:30,19:10,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,KFR01
-WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,KFL02
-FRIDAY,14:00,14:50,Database Management Systems,Ms. R.Anitha,A108
-FRIDAY,11:00,11:50,Database Management Systems,Ms. R.Anitha,A309
-MONDAY,15:00,15:50,Database Management Systems,Ms. R.Anitha,B219
-FRIDAY,08:00,09:40,Database Management Systems,Ms. R.Anitha,TLFR3
-TUESDAY,15:50,17:30,Database Management Systems,Ms. R.Anitha,KFR01
-WEDNESDAY,09:50,11:30,Database Management Systems,Ms. R.Anitha,TLFL1
-TUESDAY,17:30,19:10,Database Management Systems,Ms. R.Anitha,KFL03
-MONDAY,18:00,18:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,A202
-MONDAY,16:00,16:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,B418
-TUESDAY,14:00,14:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,A109
-THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,C307
-FRIDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A108
-WEDNESDAY,14:00,14:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B416
-FRIDAY,10:00,10:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B321
-THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,B409
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,A302
-THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,C103
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,JR1
-WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,JR3
-FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,TLFR5
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,JL1
+TUESDAY,14:00,14:50,Heritage Of Tamils,Dr. Sri Hari. G,A311
+THURSDAY,14:00,14:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),B404
+THURSDAY,15:00,15:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),C307
+FRIDAY,14:00,14:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),D405
+THURSDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),TLFR4
+WEDNESDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),TLFR4
+MONDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),KFR03
+MONDAY,11:50,13:20,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-6),JR1
+FRIDAY,13:00,13:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D612
+TUESDAY,11:00,11:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,B404
+TUESDAY,13:00,13:50,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,D302
+MONDAY,13:20,15:00,Physics for Information Science,Mrs. Dr.Rubarani P Gangadharan,Physics LAB - 1
+WEDNESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,B107
+THURSDAY,13:00,13:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,D612
+THURSDAY,08:00,08:50,Indian Constitution and Freedom Movement,Dr. Vijayalakshmi M,B404
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D210
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,B416
+MONDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,D405
+MONDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+FRIDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Ragupathy P,Basic Electronics Lab-1
+MONDAY,15:00,15:50,Technical Communication -I,Mrs. Shanmugapriya Kumaravelu,B404
+FRIDAY,09:00,09:50,Technical Communication -I,Mrs. Shanmugapriya Kumaravelu,A202
+WEDNESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. C. Devanathan,Machine Shop FF1 - EPL - 1
+TUESDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Mr. C. Devanathan,Machine Shop FF1 - EPL - 1

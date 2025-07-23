@@ -1,8 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,16:00,16:50,Programming using C,ECE 1.6,D110
-FRIDAY,11:50,13:20,Programming using C,ECE 1.6,Food Chemistry Lab
-FRIDAY,13:20,15:00,Programming using C,ECE 1.6,Food Chemistry Lab
-FRIDAY,10:00,11:40,Programming using C,ECE 1.6,Medical Image Processing Lab
-WEDNESDAY,08:00,09:40,Programming using C,ECE 1.6,Isaac Asimov Laboratory
-TUESDAY,10:00,11:40,Programming using C,ECE 1.6,Isaac Asimov Laboratory
-TUESDAY,13:20,15:00,Programming using C,ECE 1.6,Isaac Asimov Laboratory
+THURSDAY,16:00,16:50,Programming using C,ECE 1.6,B410
+WEDNESDAY,14:00,14:50,Programming using C,ECE 1.6,A311
+FRIDAY,12:00,12:50,Programming using C,ECE 1.6,D709
+TUESDAY,10:00,11:40,Programming using C,ECE 1.6,TLFR5
+WEDNESDAY,15:00,16:40,Programming using C,ECE 1.6,TLGL3
+FRIDAY,10:00,11:40,Programming using C,ECE 1.6,KFR02
+WEDNESDAY,11:50,13:20,Programming using C,ECE 1.6,KSL03
+THURSDAY,14:00,14:50,Programming using C,CSE 1.13,B404
+THURSDAY,15:00,15:50,Programming using C,CSE 1.13,C307
+FRIDAY,14:00,14:50,Programming using C,CSE 1.13,D405
+THURSDAY,10:00,11:40,Programming using C,CSE 1.13,TLFR4
+WEDNESDAY,10:00,11:40,Programming using C,CSE 1.13,TLFR4
+MONDAY,10:00,11:40,Programming using C,CSE 1.13,KFR03
+MONDAY,11:50,13:20,Programming using C,CSE 1.13,JR1

@@ -1,32 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,15:00,15:50,Computer Architecture,New Staff - 03,B412
-WEDNESDAY,08:00,08:50,Computer Architecture,New Staff - 03,A204
-MONDAY,09:00,09:50,Computer Architecture,New Staff - 03,A303
-WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B418
-FRIDAY,18:00,18:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B219
-MONDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B212
-TUESDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFR1
-MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KFL03
-THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A303
-THURSDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B411
-TUESDAY,15:00,15:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A211
-WEDNESDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B213
-THURSDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,B213
-TUESDAY,14:00,14:50,Database Management Systems,Mrs. S.Vinothini,A304
-TUESDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,A205
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. S.Vinothini,TLFR2
-MONDAY,09:50,11:30,Database Management Systems,Mrs. S.Vinothini,TLFL4
-FRIDAY,15:50,17:30,Database Management Systems,Mrs. S.Vinothini,TLFL3
-TUESDAY,17:30,19:10,Database Management Systems,Mrs. S.Vinothini,KSL03
-THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,C103
-THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B302
-THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A110
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL2
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR1
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL5
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR1
-WEDNESDAY,10:00,10:50,Fundamentals of Data Science,New Staff - 07,B415
-WEDNESDAY,13:00,13:50,Fundamentals of Data Science,New Staff - 07,B419
-WEDNESDAY,11:00,11:50,Fundamentals of Data Science,New Staff - 07,A104/105
-FRIDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,JR2
-TUESDAY,15:50,17:30,Fundamentals of Data Science,New Staff - 07,TLFL5
+THURSDAY,16:00,16:50,Microbiology,Mr. Dr.D.Sridhar,D205
+SATURDAY,11:00,11:50,Microbiology,Mr. Dr.D.Sridhar,A304
+TUESDAY,15:00,16:40,Microbiology,Mr. Dr.D.Sridhar,Microbiology Lab
+SATURDAY,11:50,13:20,Microbiology,Mr. Dr.D.Sridhar,Microbiology Lab
+WEDNESDAY,13:20,15:00,Microbiology,Mr. Dr.D.Sridhar,Microbiology Lab
+SATURDAY,08:00,09:40,Microbiology,Mr. Dr.D.Sridhar,Microbiology Lab
+FRIDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. P T Dineshkumar,Machine Shop FF2 - EPL - 2
+WEDNESDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. P T Dineshkumar,Machine Shop FF1 - EPL - 1
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+TUESDAY,11:00,11:50,Engineering Graphics,Mr. P T Dineshkumar,D305
+THURSDAY,15:00,15:50,Chemistry for Technologists,Mrs. Dr.K.Seethalakshmi,A311
+WEDNESDAY,10:00,10:50,Chemistry for Technologists,Mrs. Dr.K.Seethalakshmi,D203
+THURSDAY,12:00,12:50,Chemistry for Technologists,Mrs. Dr.K.Seethalakshmi,A311
+SATURDAY,08:00,09:40,Chemistry for Technologists,Mrs. Dr.K.Seethalakshmi,Chemistry Lab
+THURSDAY,10:00,11:40,Chemistry for Technologists,Mrs. Dr.K.Seethalakshmi,Chemistry Lab
+FRIDAY,12:00,12:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D203
+FRIDAY,11:00,11:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D511
+THURSDAY,14:00,14:50,Environmental Science and Engineering,Mr. V.Inbaraj Vadivel,D511
+TUESDAY,09:00,09:50,Algebra and Calculus,Mrs. S.Vasanthi,B321
+FRIDAY,10:00,10:50,Algebra and Calculus,Mrs. S.Vasanthi,D305
+FRIDAY,08:00,08:50,Algebra and Calculus,Mrs. S.Vasanthi,D305
+WEDNESDAY,15:00,15:50,Algebra and Calculus,Mrs. S.Vasanthi,B321
+SATURDAY,10:00,10:50,Technical Communication -I,Dr. Sri Hari. G,A304
+SATURDAY,15:00,15:50,Technical Communication -I,Dr. Sri Hari. G,A311
+FRIDAY,15:00,15:50,Heritage Of Tamils,Mrs. Angel P,A311

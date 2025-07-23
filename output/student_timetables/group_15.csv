@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,11:00,11:50,Heritage Of Tamils,Mr. Vijay Muthuswamy,D109
-SATURDAY,16:00,16:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D110
-SATURDAY,10:00,10:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D111
-SATURDAY,12:00,12:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D111
-SATURDAY,14:00,14:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D111
-SATURDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Ms. J C Vinitha,Engineering Practices Lab (Electrical)
-WEDNESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. J C Vinitha,Engineering Practices Lab (Electrical)
-WEDNESDAY,12:00,12:50,Technical Communication -I,Ms. Rajalakshmi B,D204
-WEDNESDAY,13:00,13:50,Technical Communication -I,Ms. Rajalakshmi B,D204
-WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D205
-WEDNESDAY,14:00,14:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D205
-WEDNESDAY,10:00,10:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D209
-SATURDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,D203
-WEDNESDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,D203
-FRIDAY,08:00,08:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,D111
-FRIDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,D202
-FRIDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,D202
-FRIDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,D202
-FRIDAY,15:00,16:40,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,Basic Electronics Lab-1
-TUESDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,Basic Electronics Lab-1
-TUESDAY,13:00,13:50,Physics for Information Science,Mr. R Muralidharan,D203
-TUESDAY,12:00,12:50,Physics for Information Science,Mr. R Muralidharan,D205
-TUESDAY,10:00,10:50,Physics for Information Science,Mr. R Muralidharan,D209
-FRIDAY,10:00,11:40,Physics for Information Science,Mr. R Muralidharan,Physics LAB - 1
-TUESDAY,14:00,14:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),D209
-TUESDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Medical Image Processing Lab
-WEDNESDAY,15:00,16:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Diagnostic and Therapeutic Equipment Lab
-TUESDAY,15:00,16:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Electronics and Instrumentation
-SATURDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Auto CAD Lab
-FRIDAY,15:00,16:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Isaac Asimov Laboratory
-THURSDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),Isaac Asimov Laboratory
+THURSDAY,14:00,14:50,Heritage Of Tamils,Mr. Vijay Muthuswamy,D711
+THURSDAY,13:00,13:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,A203
+THURSDAY,15:00,15:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,A204
+THURSDAY,16:00,16:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D702
+WEDNESDAY,08:00,08:50,Mathematical Foundations for AI,Mr. Dr. K. Mageshwaran,D410
+FRIDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Ms. J C Vinitha,Engineering Practices Lab (Electrical)
+SATURDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. J C Vinitha,Engineering Practices Lab (Electronics)
+SATURDAY,14:00,14:50,Technical Communication -I,Ms. Rajalakshmi B,A203
+TUESDAY,10:00,10:50,Technical Communication -I,Ms. Rajalakshmi B,A203
+FRIDAY,12:00,12:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,B408
+THURSDAY,09:00,09:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D410
+SATURDAY,09:00,09:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D402
+SATURDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,B401
+TUESDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,A308
+THURSDAY,12:00,12:50,Indian Constitution and Freedom Movement,Mr. Vijay Muthuswamy,D711
+TUESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,D410
+WEDNESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,B213
+FRIDAY,10:00,10:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,B106
+TUESDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,Basic Electronics Lab-1
+FRIDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Ms. J C Vinitha,Basic Electronics Lab-1
+WEDNESDAY,09:00,09:50,Physics for Information Science,Mr. R Muralidharan,B401
+SATURDAY,10:00,10:50,Physics for Information Science,Mr. R Muralidharan,A203
+WEDNESDAY,11:00,11:50,Physics for Information Science,Mr. R Muralidharan,D710
+WEDNESDAY,11:50,13:20,Physics for Information Science,Mr. R Muralidharan,Physics LAB - 2
+FRIDAY,11:00,11:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),B402
+SATURDAY,11:00,11:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),B408
+TUESDAY,14:00,14:50,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),B424
+THURSDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),TLFL4
+WEDNESDAY,13:20,15:00,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),TLGL2
+FRIDAY,08:00,09:40,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),JL3
+TUESDAY,11:50,13:20,Programming using C,New Faculty Artificial Intelligence & Data Science (NS-NF2),KFL01

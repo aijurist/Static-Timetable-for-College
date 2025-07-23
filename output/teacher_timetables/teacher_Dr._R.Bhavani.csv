@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,10:00,10:50,Physics for Information Science,CSD 1.1,B322
+MONDAY,12:00,12:50,Physics for Information Science,CSD 1.1,D611
+MONDAY,11:00,11:50,Physics for Information Science,CSD 1.1,B402
+THURSDAY,13:20,15:00,Physics for Information Science,CSD 1.1,Physics LAB - 1
+THURSDAY,10:00,10:50,Physics for Information Science,AIML 1.1,D111
+WEDNESDAY,09:00,09:50,Physics for Information Science,AIML 1.1,A208
+FRIDAY,10:00,10:50,Physics for Information Science,AIML 1.1,A109
+TUESDAY,08:00,09:40,Physics for Information Science,AIML 1.1,Physics LAB - 1
+TUESDAY,11:00,11:50,Algebra and Calculus,AERO 1.1,A303
+WEDNESDAY,10:00,10:50,Algebra and Calculus,AERO 1.1,A102
+THURSDAY,09:00,09:50,Algebra and Calculus,AERO 1.1,A208
+TUESDAY,15:00,15:50,Algebra and Calculus,AERO 1.1,B322

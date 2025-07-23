@@ -1,27 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,14:00,14:50,Theory of Computation,Mrs. J.A.Adlin Layola,A205
-TUESDAY,14:00,14:50,Theory of Computation,Mrs. J.A.Adlin Layola,A302
-FRIDAY,10:00,10:50,Theory of Computation,Mrs. J.A.Adlin Layola,A202
-THURSDAY,11:00,11:50,Theory of Computation,Mrs. J.A.Adlin Layola,A203
-SATURDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. V Karthick,B426
-FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. V Karthick,A205
-FRIDAY,11:00,11:50,Fundamentals of Mobile Computing,Mr. V Karthick,B321
-WEDNESDAY,15:00,15:50,Web Programming,Mrs. J.A.Adlin Layola,B106
-THURSDAY,13:00,13:50,Web Programming,Mrs. J.A.Adlin Layola,B419
-THURSDAY,17:00,17:50,Web Programming,Mrs. J.A.Adlin Layola,B411
-WEDNESDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,JR1
-FRIDAY,08:00,09:40,Web Programming,Mrs. J.A.Adlin Layola,KFR02
-WEDNESDAY,17:30,19:10,Web Programming,Mrs. J.A.Adlin Layola,TLGL1
-SATURDAY,11:50,13:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR2
-THURSDAY,15:00,15:50,Computer Networks,New Staff - 09,B408
-THURSDAY,16:00,16:50,Computer Networks,New Staff - 09,B418
-SATURDAY,10:00,10:50,Computer Networks,New Staff - 09,B417
-SATURDAY,08:00,09:40,Computer Networks,New Staff - 09,JR3
-WEDNESDAY,17:30,19:10,Computer Networks,New Staff - 09,TLFR1
-TUESDAY,09:50,11:30,Computer Networks,New Staff - 09,TLGL2
-FRIDAY,08:00,09:40,Computer Networks,New Staff - 09,TLGL4
-TUESDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A109
-TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B401
-TUESDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B415
-TUESDAY,09:50,11:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLGL3
-SATURDAY,08:00,09:40,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,KFR03
+FRIDAY,10:00,10:50,Heritage Of Tamils,CSE-NF1,B408
+WEDNESDAY,11:00,11:50,Programming using C,CSE-NF5,B211
+MONDAY,14:00,14:50,Programming using C,CSE-NF5,B408
+TUESDAY,11:00,11:50,Programming using C,CSE-NF5,A103
+WEDNESDAY,13:20,15:00,Programming using C,CSE-NF5,JL1
+MONDAY,08:00,09:40,Programming using C,CSE-NF5,JL3
+FRIDAY,13:20,15:00,Programming using C,CSE-NF5,TLGL2
+WEDNESDAY,15:00,16:40,Programming using C,CSE-NF5,TLFR1
+FRIDAY,08:00,08:50,Physics for Information Science,Dr. G Ahilandeswari,B425
+MONDAY,10:00,10:50,Physics for Information Science,Dr. G Ahilandeswari,B222
+THURSDAY,14:00,14:50,Physics for Information Science,Dr. G Ahilandeswari,A103
+THURSDAY,08:00,09:40,Physics for Information Science,Dr. G Ahilandeswari,Physics LAB - 1
+THURSDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,B418
+WEDNESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,A204
+THURSDAY,10:00,10:50,Indian Constitution and Freedom Movement,Ms. Rajalakshmi B,D704
+TUESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,B211
+WEDNESDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,A305
+TUESDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,B425
+FRIDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+MONDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Mr. Srinivasan C,Basic Electronics Lab-1
+FRIDAY,11:00,11:50,Technical Communication -I,New Faculty English (NS-NFE-3),B418
+FRIDAY,15:00,15:50,Technical Communication -I,New Faculty English (NS-NFE-3),B418
+TUESDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,CSE-NF3,Machine Shop FF1 - EPL - 1
+TUESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,CSE-NF3,Machine Shop FF2 - EPL - 2

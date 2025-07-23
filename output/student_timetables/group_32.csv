@@ -1,32 +1,22 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,11:00,11:50,Computer Architecture,New Staff - 04,B405
-MONDAY,17:00,17:50,Computer Architecture,New Staff - 04,B220
-TUESDAY,12:00,12:50,Computer Architecture,New Staff - 04,C202
-MONDAY,18:00,18:50,Design and Analysis of Algorithms,Mrs. Santhiya M,C103
-WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Santhiya M,C308
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B422
-FRIDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Santhiya M,KFL02
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,KFR01
-WEDNESDAY,18:00,18:50,Fourier series and Number theory,New Faculty New  Staff - 32,A310
-TUESDAY,17:00,17:50,Fourier series and Number theory,New Faculty New  Staff - 32,A302
-FRIDAY,14:00,14:50,Fourier series and Number theory,New Faculty New  Staff - 32,A302
-THURSDAY,14:00,14:50,Fourier series and Number theory,New Faculty New  Staff - 32,A311
-MONDAY,13:00,13:50,Database Management Systems,Mrs. Sathiyavathi S,A209
-TUESDAY,18:00,18:50,Database Management Systems,Mrs. Sathiyavathi S,B415
-THURSDAY,09:00,09:50,Database Management Systems,Mrs. Sathiyavathi S,A302
-MONDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR2
-WEDNESDAY,15:50,17:30,Database Management Systems,Mrs. Sathiyavathi S,KSL03
-THURSDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,TLFL3
-FRIDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,TLFL1
-WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Staff - 04,C202
-FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,C201
-MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,B423
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,KFL03
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff - 04,KSL03
-WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR5
-WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,JL2
-TUESDAY,16:00,16:50,Fundamentals of Data Science,Ms. Sana,B423
-FRIDAY,13:00,13:50,Fundamentals of Data Science,Ms. Sana,B404
-THURSDAY,08:00,08:50,Fundamentals of Data Science,Ms. Sana,B322
-TUESDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,TLGL1
-MONDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,TLFL3
+TUESDAY,16:00,16:50,Heritage Of Tamils,Ms. Raghavi K K,B416
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+MONDAY,12:00,12:50,Engineering Graphics,Mr. M.S.Natarajan,D205
+THURSDAY,15:00,16:40,Engineering Practices - Civil & Mechanical,Mr. Dr. A. Rajkumar,Machine Shop FF1 - EPL - 1
+MONDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Dr. A. Rajkumar,Machine Shop FF1 - EPL - 1
+MONDAY,09:00,09:50,Physics for Chemical Engineering,Mr. Anumantha Kannan G,B325
+TUESDAY,14:00,14:50,Physics for Chemical Engineering,Mr. Anumantha Kannan G,B325
+THURSDAY,14:00,14:50,Physics for Chemical Engineering,Mr. Anumantha Kannan G,B401
+MONDAY,15:00,15:50,Technical Communication -I,Ms. Malikunnisha Mohamed Noorullah,A209
+MONDAY,16:00,16:50,Technical Communication -I,Ms. Malikunnisha Mohamed Noorullah,D302
+THURSDAY,09:00,09:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,A205
+MONDAY,13:00,13:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,A302
+MONDAY,14:00,14:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,C302
+THURSDAY,10:00,10:50,Algebra and Calculus,Mrs. V. Shakila,D512
+TUESDAY,10:00,10:50,Algebra and Calculus,Mrs. V. Shakila,B322
+THURSDAY,12:00,12:50,Algebra and Calculus,Mrs. V. Shakila,A209
+THURSDAY,11:00,11:50,Algebra and Calculus,Mrs. V. Shakila,A209

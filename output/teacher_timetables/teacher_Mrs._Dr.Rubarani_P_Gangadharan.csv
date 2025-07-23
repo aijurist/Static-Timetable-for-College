@@ -1,5 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:00,11:50,Physics for Information Science,AIDS 1.6,D204
-FRIDAY,14:00,14:50,Physics for Information Science,AIDS 1.6,D204
-FRIDAY,15:00,15:50,Physics for Information Science,AIDS 1.6,D205
-TUESDAY,10:00,11:40,Physics for Information Science,AIDS 1.6,Physics LAB - 1
+WEDNESDAY,08:00,08:50,Physics for Information Science,AIDS 1.6,D705
+THURSDAY,14:00,14:50,Physics for Information Science,AIDS 1.6,D612
+THURSDAY,15:00,15:50,Physics for Information Science,AIDS 1.6,D211
+FRIDAY,10:00,11:40,Physics for Information Science,AIDS 1.6,Physics LAB - 2
+FRIDAY,13:00,13:50,Physics for Information Science,CSE 1.13,D612
+TUESDAY,11:00,11:50,Physics for Information Science,CSE 1.13,B404
+TUESDAY,13:00,13:50,Physics for Information Science,CSE 1.13,D302
+MONDAY,13:20,15:00,Physics for Information Science,CSE 1.13,Physics LAB - 1

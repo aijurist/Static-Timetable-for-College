@@ -1,4 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:00,11:50,Power Electronics,EEE 3.1,C201
-TUESDAY,12:00,12:50,Power Electronics,EEE 3.1,B411
-FRIDAY,14:00,14:50,Power Electronics,EEE 3.1,B409
+TUESDAY,11:00,11:50,Basic Electrical and Electronics Engineering,CSE 1.9,A302
+WEDNESDAY,10:00,10:50,Basic Electrical and Electronics Engineering,CSE 1.9,C301
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,CSE 1.9,B425
+TUESDAY,14:00,14:50,Basic Electrical and Electronics Engineering,CSE 1.9,Basic Electronics Lab-1
+THURSDAY,12:00,12:50,Basic Electrical and Electronics Engineering,CSE 1.9,Basic Electronics Lab-1

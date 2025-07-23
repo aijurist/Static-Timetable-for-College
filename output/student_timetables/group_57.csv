@@ -1,31 +1,20 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,13:50,15:30,Bioinformatics Laboratory,Dr. Preethy K R,Avionics Lab
-WEDNESDAY,08:00,09:40,Bioinformatics Laboratory,Dr. Preethy K R,Engineering Practices Lab (Electronics)
-FRIDAY,15:50,17:30,Bioinformatics Laboratory,Dr. Preethy K R,Automotive Components Lab
-SATURDAY,13:50,15:30,Bioinformatics Laboratory,Dr. Preethy K R,Basic Electronics Lab-2
-FRIDAY,18:00,18:50,DOWNSTREAM PROCESSING,New Staff - 03,B418
-SATURDAY,13:00,13:50,DOWNSTREAM PROCESSING,New Staff - 03,B416
-FRIDAY,13:00,13:50,DOWNSTREAM PROCESSING,New Staff - 03,B106
-WEDNESDAY,15:00,15:50,Bioinformatics,New Staff - 05,C301
-WEDNESDAY,12:00,12:50,Bioinformatics,New Staff - 05,A309
-SATURDAY,12:00,12:50,Bioinformatics,New Staff - 05,B403
-FRIDAY,10:00,10:50,Animal Biotechnology,Mr. Dr. P. Rajasekar,C307
-WEDNESDAY,14:00,14:50,Animal Biotechnology,Mr. Dr. P. Rajasekar,B401
-WEDNESDAY,13:00,13:50,Animal Biotechnology,Mr. Dr. P. Rajasekar,A211
-WEDNESDAY,18:00,18:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr.D.Haripriya,A304
-FRIDAY,15:00,15:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr.D.Haripriya,A102
-WEDNESDAY,11:00,11:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr.D.Haripriya,B213
-SATURDAY,08:00,08:50,Comprehensive Course for Biotechnologists,Dr. Preethy K R,A202
-THURSDAY,15:00,15:50,Comprehensive Course for Biotechnologists,Dr. Preethy K R,C308
-TUESDAY,10:00,10:50,Comprehensive Course for Biotechnologists,Dr. Preethy K R,B402
-THURSDAY,15:50,17:30,Downstream processing lab,New Staff - 03,Downstream Processing Lab
-TUESDAY,15:50,17:30,Downstream processing lab,New Staff - 03,Downstream Processing Lab
-THURSDAY,17:30,19:10,Downstream processing lab,New Staff - 03,Downstream Processing Lab
-SATURDAY,15:50,17:30,Downstream processing lab,New Staff - 03,Downstream Processing Lab
-THURSDAY,14:00,14:50,Cancer Biology,Mrs. Dr.Johanna Rajkumar,B410
-THURSDAY,09:00,09:50,Cancer Biology,Mrs. Dr.Johanna Rajkumar,B221
-SATURDAY,18:00,18:50,Cancer Biology,Mrs. Dr.Johanna Rajkumar,A210
-SATURDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr Rekha Ravindran,Manufacturing Technology II
-TUESDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr Rekha Ravindran,Chemistry Lab
-THURSDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr Rekha Ravindran,Electronic Devices & Circuits Lab
-TUESDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,Mrs. Dr Rekha Ravindran,Microprocessor Lab-1
+SATURDAY,11:00,11:50,Heritage Of Tamils,Mr. Jebaraj Kabriel,B401
+THURSDAY,16:00,16:50,Technical Communication -I,New Faculty English (NS-NFE-1),B409
+FRIDAY,12:00,12:50,Technical Communication -I,New Faculty English (NS-NFE-1),C308
+THURSDAY,12:00,12:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,A310
+FRIDAY,08:00,08:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,B409
+TUESDAY,15:00,15:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D111
+SATURDAY,11:50,13:20,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab
+WEDNESDAY,13:20,15:00,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines II Lab
+THURSDAY,10:00,11:40,Computer Aided Drawing Lab,Mr. Dr.P.Chandramohan,MCT CAD Lab
+TUESDAY,08:00,09:40,Computer Aided Drawing Lab,Mr. Dr.P.Chandramohan,MCT CAD Lab
+WEDNESDAY,15:00,15:50,Algebra and Calculus,Dr. Ramalakshmi K,D111
+TUESDAY,11:00,11:50,Algebra and Calculus,Dr. Ramalakshmi K,D611
+WEDNESDAY,12:00,12:50,Algebra and Calculus,Dr. Ramalakshmi K,B409
+TUESDAY,12:00,12:50,Algebra and Calculus,Dr. Ramalakshmi K,B409
+FRIDAY,13:00,13:50,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electrical)
+SATURDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Dr. R Jeevani,Engineering Practices Lab (Electronics)
+FRIDAY,14:00,14:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,D111
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,C308
+WEDNESDAY,16:00,16:50,Environmental Science and Engineering,Dr. J Edward Jeyakumar,C308

@@ -1,3 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,15:50,17:30,Web Programming,CSE-CS 3.1,TLFR3
-MONDAY,11:50,13:30,Web Programming,CSE-CS 3.1,JL1
+TUESDAY,11:00,11:50,Programming using C,CSE-CS 1.2,B417
+FRIDAY,15:00,15:50,Programming using C,CSE-CS 1.2,D703
+MONDAY,08:00,08:50,Programming using C,CSE-CS 1.2,A205
+FRIDAY,08:00,09:40,Programming using C,CSE-CS 1.2,TLGL1
+TUESDAY,08:00,09:40,Programming using C,CSE-CS 1.2,TLFL3
+MONDAY,11:50,13:20,Programming using C,CSE-CS 1.2,JL1
+TUESDAY,11:50,13:20,Programming using C,CSE-CS 1.2,JL2

@@ -1,5 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:00,08:50,Technical Communication -I,ECE 1.6,D111
-MONDAY,09:00,09:50,Technical Communication -I,ECE 1.6,D202
-THURSDAY,13:00,13:50,Technical Communication -I,R&A 1.1,D204
-THURSDAY,14:00,14:50,Technical Communication -I,R&A 1.1,D205
+THURSDAY,10:00,10:50,Technical Communication -I,ECE 1.6,D405
+MONDAY,15:00,15:50,Technical Communication -I,ECE 1.6,D204
+SATURDAY,15:00,15:50,Technical Communication -I,R&A 1.1,B402
+SATURDAY,16:00,16:50,Technical Communication -I,R&A 1.1,B417
+TUESDAY,14:00,14:50,Indian Constitution and Freedom Movement,CSE 1.4,B210
+THURSDAY,08:00,08:50,Indian Constitution and Freedom Movement,CSE 1.4,B213
+THURSDAY,14:00,14:50,Indian Constitution and Freedom Movement,CSE 1.4,B213
+THURSDAY,16:00,16:50,Technical Communication -I,CSE 1.3,B426
+WEDNESDAY,16:00,16:50,Technical Communication -I,CSE 1.3,D402

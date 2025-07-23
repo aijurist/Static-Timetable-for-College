@@ -1,25 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,10:00,10:50,Fourier series and Number theory,ECE 2.1,B212
-SATURDAY,17:00,17:50,Fourier series and Number theory,ECE 2.1,B320
-TUESDAY,14:00,14:50,Fourier series and Number theory,ECE 2.1,C308
-SATURDAY,16:00,16:50,Fourier series and Number theory,ECE 2.1,B403
-WEDNESDAY,15:00,15:50,Fourier series and Number theory,ECE 2.2,A204
-THURSDAY,09:00,09:50,Fourier series and Number theory,ECE 2.2,A310
-THURSDAY,11:00,11:50,Fourier series and Number theory,ECE 2.2,B221
-THURSDAY,08:00,08:50,Fourier series and Number theory,ECE 2.2,B417
-TUESDAY,10:00,10:50,Fourier series and Number theory,ECE 2.3,B322
-TUESDAY,15:00,15:50,Fourier series and Number theory,ECE 2.3,B409
-SATURDAY,11:00,11:50,Fourier series and Number theory,ECE 2.3,C101
-SATURDAY,10:00,10:50,Fourier series and Number theory,ECE 2.3,B211
-WEDNESDAY,17:00,17:50,Fourier series and Number theory,ECE 2.4,A110
-WEDNESDAY,13:00,13:50,Fourier series and Number theory,ECE 2.4,B220
-WEDNESDAY,10:00,10:50,Fourier series and Number theory,ECE 2.4,A303
-TUESDAY,16:00,16:50,Fourier series and Number theory,ECE 2.4,B402
-SATURDAY,09:00,09:50,Fourier series and Number theory,ECE 2.5,C101
-TUESDAY,11:00,11:50,Fourier series and Number theory,ECE 2.5,B218
-WEDNESDAY,12:00,12:50,Fourier series and Number theory,ECE 2.5,B213
-FRIDAY,16:00,16:50,Fourier series and Number theory,ECE 2.5,A305
-TUESDAY,09:00,09:50,Fourier series and Number theory,ECE 2.6,B411
-WEDNESDAY,14:00,14:50,Fourier series and Number theory,ECE 2.6,A104/105
-FRIDAY,13:00,13:50,Fourier series and Number theory,ECE 2.6,B422
-SATURDAY,12:00,12:50,Fourier series and Number theory,ECE 2.6,B419
+WEDNESDAY,11:00,11:50,Algebra and Calculus,FT 1.1,B212
+TUESDAY,13:00,13:50,Algebra and Calculus,FT 1.1,D210
+WEDNESDAY,13:00,13:50,Algebra and Calculus,FT 1.1,B212
+WEDNESDAY,09:00,09:50,Algebra and Calculus,FT 1.1,D211

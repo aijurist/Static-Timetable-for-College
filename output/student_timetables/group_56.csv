@@ -1,31 +1,20 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Manufacturing Technology II
-WEDNESDAY,17:30,19:10,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Dynamics Lab
-THURSDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Automotive Components Lab
-TUESDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Aircraft Structures Lab
-TUESDAY,10:00,10:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,A103
-FRIDAY,15:00,15:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,A310
-SATURDAY,11:00,11:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,B419
-SATURDAY,15:00,15:50,Bioinformatics,Dr. Shanthi M,B417
-FRIDAY,08:00,08:50,Bioinformatics,Dr. Shanthi M,B302
-TUESDAY,17:00,17:50,Bioinformatics,Dr. Shanthi M,A303
-SATURDAY,08:00,08:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,B402
-THURSDAY,14:00,14:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,C301
-TUESDAY,14:00,14:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,A303
-WEDNESDAY,08:00,08:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,B222
-SATURDAY,09:00,09:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,C308
-FRIDAY,13:00,13:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,A310
-WEDNESDAY,13:00,13:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,C308
-WEDNESDAY,15:00,15:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,B418
-SATURDAY,10:00,10:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,B222
-TUESDAY,11:50,13:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
-SATURDAY,11:50,13:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
-THURSDAY,09:50,11:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
-WEDNESDAY,09:50,11:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
-FRIDAY,10:00,10:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,B320
-SATURDAY,16:00,16:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,B222
-SATURDAY,17:00,17:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,A311
-THURSDAY,08:00,09:40,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Power Electronics Lab
-FRIDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Aero CAD Lab
-FRIDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Microprocessor and Microcontrollers Lab
-WEDNESDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Food Chemistry Lab
+WEDNESDAY,12:00,12:50,Heritage Of Tamils,Mrs. Sharmila B,D305
+FRIDAY,08:00,08:50,Technical Communication -I,Mrs. Shanmugapriya Kumaravelu,D711
+THURSDAY,09:00,09:50,Technical Communication -I,Mrs. Shanmugapriya Kumaravelu,D305
+TUESDAY,15:00,15:50,Basic Electrical Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),D510
+SATURDAY,12:00,12:50,Basic Electrical Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),D305
+FRIDAY,15:00,15:50,Basic Electrical Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),A310
+SATURDAY,15:00,16:40,Basic Electrical Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),Electrical Machines I Lab
+WEDNESDAY,08:00,09:40,Basic Electrical Engineering,New Faculty Electrical & Electronics Engineering (NS-NF2),Electrical Machines II Lab
+THURSDAY,15:00,16:40,Computer Aided Drawing Lab,MCT-NF1,MCT CAD Lab
+FRIDAY,11:50,13:20,Computer Aided Drawing Lab,MCT-NF1,MCT CAD Lab
+WEDNESDAY,11:00,11:50,Algebra and Calculus,Mrs. Bharathi D,D305
+FRIDAY,09:00,09:50,Algebra and Calculus,Mrs. Bharathi D,B402
+FRIDAY,14:00,14:50,Algebra and Calculus,Mrs. Bharathi D,D411
+TUESDAY,13:00,13:50,Algebra and Calculus,Mrs. Bharathi D,A310
+FRIDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,Dr. Kumaran N,Engineering Practices Lab (Electrical)
+TUESDAY,08:00,09:40,Engineering Practices – Electrical and Electronics,Dr. Kumaran N,Engineering Practices Lab (Electronics)
+TUESDAY,11:00,11:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,B411
+SATURDAY,10:00,10:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,D205
+THURSDAY,13:00,13:50,Environmental Science and Engineering,Ms. Dr. Saraswathi Kothandan,D305

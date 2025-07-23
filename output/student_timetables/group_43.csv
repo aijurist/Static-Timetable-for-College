@@ -1,19 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,18:00,18:50,Essentials of Human Resources  Management,Mrs. Immaculate Amali J,B426
-THURSDAY,13:00,13:50,Essentials of Human Resources  Management,Mrs. Immaculate Amali J,A304
-FRIDAY,14:00,14:50,Principles of Financial Management,Mr. Sudhan Sk,A203
-WEDNESDAY,12:00,12:50,Principles of Financial Management,Mr. Sudhan Sk,B401
-MONDAY,15:00,15:50,Usability Design of Software  Applications,Mrs. Nisha R S,C302
-FRIDAY,15:00,15:50,Usability Design of Software  Applications,Mrs. Nisha R S,A108
-TUESDAY,13:00,13:50,Usability Design of Software  Applications,Mrs. Nisha R S,B222
-WEDNESDAY,13:50,15:30,Usability Design of Software  Applications,Mrs. Nisha R S,JL1
-MONDAY,09:50,11:30,Usability Design of Software  Applications,Mrs. Nisha R S,KFR02
-FRIDAY,09:00,09:50,IT Workshop,Mrs. K Poornimathi,A110
-MONDAY,16:00,16:50,IT Workshop,Mrs. K Poornimathi,B321
-FRIDAY,09:50,11:30,IT Workshop,Mrs. K Poornimathi,KFR03
-THURSDAY,13:50,15:30,IT Workshop,Mrs. K Poornimathi,JL1
-MONDAY,12:00,12:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,B325
-WEDNESDAY,09:00,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,A104/105
-TUESDAY,14:00,14:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,B404
-FRIDAY,11:50,13:30,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,JL3
-WEDNESDAY,09:50,11:30,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,KFR03
+WEDNESDAY,08:00,08:50,Heritage Of Tamils,Mrs. Gayathri K,A305
+WEDNESDAY,13:00,13:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),A305
+THURSDAY,09:00,09:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),D704
+THURSDAY,11:00,11:50,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),A109
+MONDAY,10:00,11:40,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),KFR02
+MONDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),KFL02
+THURSDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),JR2
+FRIDAY,13:20,15:00,Programming using C,New Faculty Computer Science & Engineering (NS-New Staff-9),KFL03
+THURSDAY,16:00,16:50,Physics for Information Science,Dr. Pugazhvadivu Ks,D511
+THURSDAY,15:00,15:50,Physics for Information Science,Dr. Pugazhvadivu Ks,B320
+MONDAY,09:00,09:50,Physics for Information Science,Dr. Pugazhvadivu Ks,A109
+TUESDAY,13:20,15:00,Physics for Information Science,Dr. Pugazhvadivu Ks,Physics LAB - 2
+FRIDAY,10:00,10:50,Indian Constitution and Freedom Movement,Dr. Sri Hari. G,B220
+TUESDAY,10:00,10:50,Indian Constitution and Freedom Movement,Dr. Sri Hari. G,B409
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Dr. Sri Hari. G,B218
+TUESDAY,08:00,08:50,Basic Electrical and Electronics Engineering,Dr. A.Sangari,D511
+WEDNESDAY,14:00,14:50,Basic Electrical and Electronics Engineering,Dr. A.Sangari,D311
+TUESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Dr. A.Sangari,B218
+MONDAY,11:50,13:20,Basic Electrical and Electronics Engineering,Dr. A.Sangari,Basic Electronics Lab-1
+WEDNESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Dr. A.Sangari,Basic Electronics Lab-1
+FRIDAY,08:00,08:50,Technical Communication -I,Mr. Dinakaran S,B220
+TUESDAY,11:00,11:50,Technical Communication -I,Mr. Dinakaran S,D704
+THURSDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Ct.Muthiah,Machine Shop FF3 - EPL - 3
+WEDNESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Ct.Muthiah,Machine Shop FF1 - EPL - 1

@@ -1,21 +1,24 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,13:00,13:50,Principles of Financial Management,Dr. Ramanathan V K,B401
-TUESDAY,16:00,16:50,Principles of Financial Management,Dr. Ramanathan V K,B425
-MONDAY,14:00,14:50,Design Thinking and Innovation,Ms. Janani U,B321
-FRIDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLFR5
-THURSDAY,15:50,17:30,Design Thinking and Innovation,Ms. Janani U,KFR03
-MONDAY,11:00,11:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,C307
-MONDAY,10:00,10:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,C201
-THURSDAY,18:00,18:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B417
-WEDNESDAY,08:00,09:40,Computer Network Technology,Mrs. S.Bakiyalakshmi,TLFL1
-MONDAY,08:00,09:40,Computer Network Technology,Mrs. S.Bakiyalakshmi,JL2
-THURSDAY,15:00,15:50,Artificial Intelligence,New Faculty New Staff -20,B321
-TUESDAY,17:00,17:50,Artificial Intelligence,New Faculty New Staff -20,A204
-TUESDAY,11:00,11:50,Artificial Intelligence,New Faculty New Staff -20,A310
-TUESDAY,13:50,15:30,Artificial Intelligence,New Faculty New Staff -20,TLFR1
-WEDNESDAY,11:50,13:30,Artificial Intelligence,New Faculty New Staff -20,TLFL5
-THURSDAY,13:00,13:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B211
-FRIDAY,08:00,08:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,C101
-WEDNESDAY,14:00,14:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B219
-THURSDAY,15:50,17:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,KFL01
-FRIDAY,09:50,11:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,JR1
+TUESDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr. K. Suresh Babu K,D309
+FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr. K. Suresh Babu K,A102
+FRIDAY,14:00,14:50,Environmental Science and Engineering,Mr. Dr. K. Suresh Babu K,A210
+FRIDAY,10:00,10:50,Chemistry For Electronics Engineering,Mrs. Dr. D. Udhayakumari,A305
+SATURDAY,10:00,10:50,Chemistry For Electronics Engineering,Mrs. Dr. D. Udhayakumari,D410
+WEDNESDAY,08:00,08:50,Chemistry For Electronics Engineering,Mrs. Dr. D. Udhayakumari,D309
+SATURDAY,13:20,15:00,Chemistry For Electronics Engineering,Mrs. Dr. D. Udhayakumari,Chemistry Lab
+WEDNESDAY,13:20,15:00,Chemistry For Electronics Engineering,Mrs. Dr. D. Udhayakumari,Chemistry Lab
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+SATURDAY,16:00,16:50,Engineering Graphics,Mr. Rajkumar.M,D309
+TUESDAY,08:00,08:50,Technical Communication -I,Ms. Rajalakshmi B,A305
+FRIDAY,13:00,13:50,Technical Communication -I,Ms. Rajalakshmi B,B416
+WEDNESDAY,09:00,09:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-2),D410
+WEDNESDAY,10:00,10:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-2),B408
+FRIDAY,11:00,11:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-2),D205
+TUESDAY,12:00,12:50,Linear Algebra and Calculus,New Faculty Mathematics (NS-NF-2),D711
+TUESDAY,13:20,15:00,Engineering Practices - Civil & Mechanical,Mr. Hariram S,Machine Shop FF1 - EPL - 1
+FRIDAY,08:00,09:40,Engineering Practices - Civil & Mechanical,Mr. Hariram S,Machine Shop FF1 - EPL - 1
+SATURDAY,12:00,12:50,Heritage Of Tamils,Mr. Jebaraj Kabriel,C102

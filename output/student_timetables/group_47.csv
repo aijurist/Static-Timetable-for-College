@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,13:00,13:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,B322
-FRIDAY,15:00,15:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,A204
-FRIDAY,17:00,17:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,B409
-TUESDAY,13:50,15:30,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,TLFL5
-THURSDAY,13:50,15:30,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,JR3
-WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Divya S,B403
-TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Divya S,B325
-WEDNESDAY,15:00,15:50,Design and Analysis of Algorithms,Mrs. Divya S,B325
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Divya S,KSL03
-MONDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Divya S,TLFL5
-FRIDAY,18:00,18:50,Database Management Systems,Ms. Saranya S,B418
-FRIDAY,13:00,13:50,Database Management Systems,Ms. Saranya S,B422
-TUESDAY,12:00,12:50,Database Management Systems,Ms. Saranya S,B401
-THURSDAY,13:50,15:30,Database Management Systems,Ms. Saranya S,TLFL4
-WEDNESDAY,15:50,17:30,Database Management Systems,Ms. Saranya S,TLFR2
-WEDNESDAY,17:30,19:10,Database Management Systems,Ms. Saranya S,JR2
-THURSDAY,11:50,13:30,Database Management Systems,Ms. Saranya S,TLGL4
-FRIDAY,14:00,14:50,Environmental Science and Engineering,Mr. M Sankar Kumar,B422
-THURSDAY,18:00,18:50,Environmental Science and Engineering,Mr. M Sankar Kumar,A210
-TUESDAY,18:00,18:50,Environmental Science and Engineering,Mr. M Sankar Kumar,A303
-FRIDAY,16:00,16:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,B410
-THURSDAY,16:00,16:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,C302
-THURSDAY,17:00,17:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,B408
-TUESDAY,17:00,17:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,A309
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,AIML  NS4,B212
-MONDAY,11:00,11:50,Object Oriented Programming Using JAVA,AIML  NS4,A205
-WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,AIML  NS4,A310
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML  NS4,TLFL5
-MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML  NS4,KFR03
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML  NS4,KFL02
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML  NS4,JR1
+THURSDAY,10:00,10:50,Physics for Information Science,Dr. R.Bhavani,D111
+WEDNESDAY,09:00,09:50,Physics for Information Science,Dr. R.Bhavani,A208
+FRIDAY,10:00,10:50,Physics for Information Science,Dr. R.Bhavani,A109
+TUESDAY,08:00,09:40,Physics for Information Science,Dr. R.Bhavani,Physics LAB - 1
+THURSDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electronics)
+FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Ms. Dr.S.V.Vinodhini,Engineering Practices Lab (Electrical)
+WEDNESDAY,13:00,13:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,D709
+TUESDAY,12:00,12:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,B107
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,A109
+WEDNESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,Basic Electronics Lab-1
+SATURDAY,13:20,15:00,Basic Electrical and Electronics Engineering,Dr. Kandaswamy K V,Basic Electronics Lab-1
+SATURDAY,09:00,09:50,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),B415
+WEDNESDAY,14:00,14:50,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),D703
+THURSDAY,08:00,08:50,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),A308
+TUESDAY,10:00,11:40,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),TLFL5
+THURSDAY,11:50,13:20,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),JR1
+SATURDAY,11:50,13:20,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),TLGL2
+THURSDAY,13:20,15:00,Programming using C,New Faculty Artificial Intelligence & Machine Learning (NS-AIML-NS7),TLGL1
+THURSDAY,15:00,15:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,D111
+TUESDAY,13:00,13:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,D709
+SATURDAY,11:00,11:50,Indian Constitution and Freedom Movement,Mr. Dinakaran S,A109
+SATURDAY,10:00,10:50,Heritage Of Tamils,Mrs. Angel P,B107
+WEDNESDAY,08:00,08:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,B415
+FRIDAY,09:00,09:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,B418
+TUESDAY,15:00,15:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D709
+TUESDAY,14:00,14:50,Mathematical Foundations for AI,Mr. A. Azhagarasu,D203
+WEDNESDAY,10:00,10:50,Technical Communication -I,Mrs. Gayathri K,D209
+FRIDAY,11:00,11:50,Technical Communication -I,Mrs. Gayathri K,D111

@@ -1,29 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,13:00,13:50,Technical Communication -I,Mr. Hastin Fernandez,D204
-THURSDAY,14:00,14:50,Technical Communication -I,Mr. Hastin Fernandez,D205
-THURSDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D209
-THURSDAY,08:00,08:50,Engineering Graphics,Mr. P.Vimalanathan,D210
-THURSDAY,15:00,15:50,Engineering Graphics,Mr. P.Vimalanathan,D210
-THURSDAY,09:00,09:50,Engineering Graphics,Mr. P.Vimalanathan,D211
-THURSDAY,10:00,10:50,Engineering Graphics,Mr. P.Vimalanathan,D211
-THURSDAY,16:00,16:50,Engineering Graphics,Mr. P.Vimalanathan,D210
-FRIDAY,14:00,14:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D205
-FRIDAY,09:00,09:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
-FRIDAY,11:00,11:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
-FRIDAY,12:00,12:50,Algebra and Calculus,Mrs. Dr. Priya Nair,D209
-FRIDAY,08:00,08:50,Heritage Of Tamils,New Faculty Robotics & Automation (NS-RA NS1),D209
-FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D209
-FRIDAY,15:00,15:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D302
-FRIDAY,16:00,16:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D209
-SATURDAY,12:00,12:50,Introduction To Mechanical Systems,HOD RA,D205
-SATURDAY,13:00,13:50,Introduction To Mechanical Systems,HOD RA,D205
-SATURDAY,16:00,16:50,Introduction To Mechanical Systems,HOD RA,D209
-TUESDAY,15:00,16:40,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electronics)
-WEDNESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electronics)
-SATURDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF1 - EPL - 1
-TUESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF1 - EPL - 1
-TUESDAY,12:00,12:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D210
-WEDNESDAY,16:00,16:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D210
-WEDNESDAY,09:00,09:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D211
-TUESDAY,10:00,11:40,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab
-TUESDAY,13:20,15:00,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab
+SATURDAY,15:00,15:50,Technical Communication -I,Mr. Hastin Fernandez,B402
+SATURDAY,16:00,16:50,Technical Communication -I,Mr. Hastin Fernandez,B417
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+FRIDAY,12:00,12:50,Engineering Graphics,Mr. P.Vimalanathan,D205
+WEDNESDAY,14:00,14:50,Algebra and Calculus,Mrs. Dr. Priya Nair,B402
+TUESDAY,10:00,10:50,Algebra and Calculus,Mrs. Dr. Priya Nair,B417
+WEDNESDAY,16:00,16:50,Algebra and Calculus,Mrs. Dr. Priya Nair,A109
+WEDNESDAY,09:00,09:50,Algebra and Calculus,Mrs. Dr. Priya Nair,B213
+TUESDAY,15:00,15:50,Heritage Of Tamils,New Faculty Robotics & Automation (NS-RA NS1),B402
+SATURDAY,10:00,10:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D709
+THURSDAY,12:00,12:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,C101
+TUESDAY,12:00,12:50,Environmental Science and Engineering,Mr. Manigandan Ramadoss,D202
+FRIDAY,15:00,15:50,Introduction To Mechanical Systems,HOD RA,C101
+SATURDAY,14:00,14:50,Introduction To Mechanical Systems,HOD RA,A109
+THURSDAY,15:00,15:50,Introduction To Mechanical Systems,HOD RA,D610
+WEDNESDAY,11:50,13:20,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electrical)
+FRIDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,Ms. K M Vijayalakshmi,Engineering Practices Lab (Electronics)
+WEDNESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF2 - EPL - 2
+SATURDAY,11:50,13:20,Engineering Practices - Civil & Mechanical,Mr. Eswaran A,Machine Shop FF1 - EPL - 1
+THURSDAY,16:00,16:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,C101
+TUESDAY,13:00,13:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D205
+TUESDAY,14:00,14:50,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,D405
+TUESDAY,08:00,09:40,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab
+THURSDAY,10:00,11:40,Basic Electrical Engineering,Mr. Dr. P. R. Sivaraman,Electrical Machines I Lab

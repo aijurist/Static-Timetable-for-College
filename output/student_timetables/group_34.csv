@@ -1,27 +1,25 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,16:00,16:50,Theory of Computation,Mrs. J.A.Adlin Layola,B219
-THURSDAY,15:00,15:50,Theory of Computation,Mrs. J.A.Adlin Layola,B222
-SATURDAY,15:00,15:50,Theory of Computation,Mrs. J.A.Adlin Layola,B419
-FRIDAY,16:00,16:50,Theory of Computation,Mrs. J.A.Adlin Layola,B412
-THURSDAY,16:00,16:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B401
-WEDNESDAY,18:00,18:50,Fundamentals of Mobile Computing,Mrs. Jananee V,A204
-THURSDAY,18:00,18:50,Fundamentals of Mobile Computing,Mrs. Jananee V,C202
-TUESDAY,14:00,14:50,Web Programming,New Staff - 09,A110
-SATURDAY,14:00,14:50,Web Programming,New Staff - 09,A310
-THURSDAY,17:00,17:50,Web Programming,New Staff - 09,C308
-WEDNESDAY,11:50,13:30,Web Programming,New Staff - 09,TLGL1
-WEDNESDAY,13:50,15:30,Web Programming,New Staff - 09,KFL01
-WEDNESDAY,15:50,17:30,Web Programming,New Staff - 09,TLFL5
-FRIDAY,13:50,15:30,Web Programming,New Staff - 09,TLFL3
-SATURDAY,13:00,13:50,Computer Networks,New Staff - 09,B210
-THURSDAY,14:00,14:50,Computer Networks,New Staff - 09,B321
-TUESDAY,12:00,12:50,Computer Networks,New Staff - 09,B418
-THURSDAY,11:50,13:30,Computer Networks,New Staff - 09,TLFL1
-TUESDAY,08:00,09:40,Computer Networks,New Staff - 09,TLFL1
-FRIDAY,11:50,13:30,Computer Networks,New Staff - 09,TLFR4
-FRIDAY,09:50,11:30,Computer Networks,New Staff - 09,TLFL2
-SATURDAY,17:00,17:50,Foundations of Artificial Intelligence,Ms. Divya M,A205
-TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Ms. Divya M,C103
-SATURDAY,18:00,18:50,Foundations of Artificial Intelligence,Ms. Divya M,B220
-FRIDAY,09:50,11:30,Foundations of Artificial Intelligence,Ms. Divya M,TLFR5
-WEDNESDAY,13:50,15:30,Foundations of Artificial Intelligence,Ms. Divya M,TLFR1
+TUESDAY,12:00,12:50,Heritage Of Tamils,Mrs. Shanmugapriya Kumaravelu,B210
+WEDNESDAY,13:00,13:50,Programming using C,Mrs. S.Ponmani,C201
+TUESDAY,13:00,13:50,Programming using C,Mrs. S.Ponmani,D310
+MONDAY,10:00,10:50,Programming using C,Mrs. S.Ponmani,C202
+TUESDAY,08:00,09:40,Programming using C,Mrs. S.Ponmani,TLGL1
+FRIDAY,10:00,11:40,Programming using C,Mrs. S.Ponmani,TLFL1
+THURSDAY,15:00,16:40,Programming using C,Mrs. S.Ponmani,TLFL4
+THURSDAY,11:50,13:20,Programming using C,Mrs. S.Ponmani,JL2
+FRIDAY,15:00,15:50,Physics for Information Science,Mr. M Sankar Kumar,A211
+TUESDAY,14:00,14:50,Physics for Information Science,Mr. M Sankar Kumar,B423
+WEDNESDAY,10:00,10:50,Physics for Information Science,Mr. M Sankar Kumar,A211
+WEDNESDAY,08:00,09:40,Physics for Information Science,Mr. M Sankar Kumar,Physics LAB - 1
+WEDNESDAY,11:00,11:50,Indian Constitution and Freedom Movement,Ms. Malathy G,C202
+MONDAY,15:00,15:50,Indian Constitution and Freedom Movement,Ms. Malathy G,C201
+FRIDAY,12:00,12:50,Indian Constitution and Freedom Movement,Ms. Malathy G,A305
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,Mr. Ron Carter Sb,D711
+WEDNESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,Mr. Ron Carter Sb,D411
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,Mr. Ron Carter Sb,B408
+MONDAY,08:00,09:40,Basic Electrical and Electronics Engineering,Mr. Ron Carter Sb,Basic Electronics Lab-1
+THURSDAY,10:00,11:40,Basic Electrical and Electronics Engineering,Mr. Ron Carter Sb,Basic Electronics Lab-1
+THURSDAY,14:00,14:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,B423
+MONDAY,12:00,12:50,Technical Communication -I,Mrs. Dr. B.Lakshmi,B212
+THURSDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Abraham Anthony D,Machine Shop FF2 - EPL - 2
+TUESDAY,10:00,11:40,Engineering Practices - Civil & Mechanical,Mr. Abraham Anthony D,Machine Shop FF1 - EPL - 1

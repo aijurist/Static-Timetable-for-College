@@ -1,3 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electrical)
-THURSDAY,10:00,11:40,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electrical)
+TUESDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electrical)
+SATURDAY,13:20,15:00,Engineering Practices – Electrical and Electronics,EEE 1.2,Engineering Practices Lab (Electronics)
+FRIDAY,16:00,16:50,Basic Electrical and Electronics Engineering,CSE 1.1,D711
+WEDNESDAY,15:00,15:50,Basic Electrical and Electronics Engineering,CSE 1.1,D411
+THURSDAY,09:00,09:50,Basic Electrical and Electronics Engineering,CSE 1.1,B408
+MONDAY,08:00,09:40,Basic Electrical and Electronics Engineering,CSE 1.1,Basic Electronics Lab-1
+THURSDAY,10:00,11:40,Basic Electrical and Electronics Engineering,CSE 1.1,Basic Electronics Lab-1
