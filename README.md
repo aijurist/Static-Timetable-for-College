@@ -423,9 +423,6 @@ When contributing to this project:
 3. Update documentation for new features
 4. Ensure all existing tests pass
 
-## License
-
-[Specify your license here]
 
 ## Acknowledgments
 
@@ -434,9 +431,6 @@ When contributing to this project:
 - Uses [Gson](https://github.com/google/gson) for JSON processing
 - Uses [Logback](http://logback.qos.ch/) for logging
 
-## Contact
-
-[Add your contact information or team details here]
 
 ---
 
