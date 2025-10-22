@@ -4,6 +4,7 @@ Thumbs.db
 
 # Logs
 *.log
+*.log.*
 log/
 
 # IDE & Editor directories
@@ -27,14 +28,38 @@ venv/
 .env
 
 # Generated / temporary data
-#output/
+# Uncomment the following line if you want to ignore all output files
+# output/
 
+# Keep output structure but ignore timestamped files
+output/timetable_solution_*.csv
+output/teacher_shortage_report_*.txt
+output/violation/*.txt
+
+# Temporary and generated files
+*.tmp
+*.bak
+*.swp
+filtered_course_data.csv
+
+# Database dumps
+*.sqlite3
+*.db
 
 # OS generated files
 ehthumbs.db
 Icon?
 
-# Backup / temp files
-*.bak
-*.tmp
-*.swp 
+# Test files that shouldn't be committed
+*_test.csv
+*_debug.csv
+debug_*.py
+update_*.py
+
+# Files with spaces (typically duplicates or temporary)
+*" "*.csv
+*" ("*.csv
+
+# Class files (if compiling without Maven)
+build/
+*.class
